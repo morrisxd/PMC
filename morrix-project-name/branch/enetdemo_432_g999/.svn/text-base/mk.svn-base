@@ -1,0 +1,5 @@
+filename=103011-swap_g999_to_enet
+ctags -R
+time make TEST=${filename}.c && rsync -avz --progress bin/${filename} /tftpboot/${filename}.exe
+echo rsync bin/$filename /tftpboot/${filename}.exe
+

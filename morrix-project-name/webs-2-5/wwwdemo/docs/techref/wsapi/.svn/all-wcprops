@@ -1,0 +1,383 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/30/trunk/webs-2-5/wwwdemo/docs/techref/wsapi
+END
+bopen.htm
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/30/trunk/webs-2-5/wwwdemo/docs/techref/wsapi/bopen.htm
+END
+websGetPort.htm
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/30/trunk/webs-2-5/wwwdemo/docs/techref/wsapi/websGetPort.htm
+END
+websGetRequestUserName.htm
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/30/trunk/webs-2-5/wwwdemo/docs/techref/wsapi/websGetRequestUserName.htm
+END
+websUrlParse.htm
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/30/trunk/webs-2-5/wwwdemo/docs/techref/wsapi/websUrlParse.htm
+END
+websDecode64.htm
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/30/trunk/webs-2-5/wwwdemo/docs/techref/wsapi/websDecode64.htm
+END
+websValid.htm
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/30/trunk/webs-2-5/wwwdemo/docs/techref/wsapi/websValid.htm
+END
+websGetRequestBytes.htm
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/30/trunk/webs-2-5/wwwdemo/docs/techref/wsapi/websGetRequestBytes.htm
+END
+websOpen.htm
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/30/trunk/webs-2-5/wwwdemo/docs/techref/wsapi/websOpen.htm
+END
+bfree.htm
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/30/trunk/webs-2-5/wwwdemo/docs/techref/wsapi/bfree.htm
+END
+websGetRequestFlags.htm
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/30/trunk/webs-2-5/wwwdemo/docs/techref/wsapi/websGetRequestFlags.htm
+END
+websGetRequestWritten.htm
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/30/trunk/webs-2-5/wwwdemo/docs/techref/wsapi/websGetRequestWritten.htm
+END
+websGetRequestPassword.htm
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/30/trunk/webs-2-5/wwwdemo/docs/techref/wsapi/websGetRequestPassword.htm
+END
+websSetRequestBytes.htm
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/30/trunk/webs-2-5/wwwdemo/docs/techref/wsapi/websSetRequestBytes.htm
+END
+websGetHost.htm
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/30/trunk/webs-2-5/wwwdemo/docs/techref/wsapi/websGetHost.htm
+END
+websSetRequestWritten.htm
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/30/trunk/webs-2-5/wwwdemo/docs/techref/wsapi/websSetRequestWritten.htm
+END
+websGetDefaultPage.htm
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/30/trunk/webs-2-5/wwwdemo/docs/techref/wsapi/websGetDefaultPage.htm
+END
+websSetRequestFlags.htm
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/30/trunk/webs-2-5/wwwdemo/docs/techref/wsapi/websSetRequestFlags.htm
+END
+websCloseListen.htm
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/30/trunk/webs-2-5/wwwdemo/docs/techref/wsapi/websCloseListen.htm
+END
+websVar.htm
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/30/trunk/webs-2-5/wwwdemo/docs/techref/wsapi/websVar.htm
+END
+websSetHost.htm
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/30/trunk/webs-2-5/wwwdemo/docs/techref/wsapi/websSetHost.htm
+END
+websWrite.htm
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/30/trunk/webs-2-5/wwwdemo/docs/techref/wsapi/websWrite.htm
+END
+websSetDefaultPage.htm
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/30/trunk/webs-2-5/wwwdemo/docs/techref/wsapi/websSetDefaultPage.htm
+END
+websWriteBlockData.htm
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/30/trunk/webs-2-5/wwwdemo/docs/techref/wsapi/websWriteBlockData.htm
+END
+websGetHostUrl.htm
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/30/trunk/webs-2-5/wwwdemo/docs/techref/wsapi/websGetHostUrl.htm
+END
+websSetEnv.htm
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/30/trunk/webs-2-5/wwwdemo/docs/techref/wsapi/websSetEnv.htm
+END
+websClose.htm
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/30/trunk/webs-2-5/wwwdemo/docs/techref/wsapi/websClose.htm
+END
+websEncode64.htm
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/30/trunk/webs-2-5/wwwdemo/docs/techref/wsapi/websEncode64.htm
+END
+websGetRequestLpath.htm
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/30/trunk/webs-2-5/wwwdemo/docs/techref/wsapi/websGetRequestLpath.htm
+END
+websGetDefaultDir.htm
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/30/trunk/webs-2-5/wwwdemo/docs/techref/wsapi/websGetDefaultDir.htm
+END
+websDone.htm
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/30/trunk/webs-2-5/wwwdemo/docs/techref/wsapi/websDone.htm
+END
+websGetRequestDir.htm
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/30/trunk/webs-2-5/wwwdemo/docs/techref/wsapi/websGetRequestDir.htm
+END
+websHeader.htm
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/30/trunk/webs-2-5/wwwdemo/docs/techref/wsapi/websHeader.htm
+END
+websGetVar.htm
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/30/trunk/webs-2-5/wwwdemo/docs/techref/wsapi/websGetVar.htm
+END
+websError.htm
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/30/trunk/webs-2-5/wwwdemo/docs/techref/wsapi/websError.htm
+END
+websSetRequestLpath.htm
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/30/trunk/webs-2-5/wwwdemo/docs/techref/wsapi/websSetRequestLpath.htm
+END
+websSetDefaultDir.htm
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/30/trunk/webs-2-5/wwwdemo/docs/techref/wsapi/websSetDefaultDir.htm
+END
+websRedirect.htm
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/30/trunk/webs-2-5/wwwdemo/docs/techref/wsapi/websRedirect.htm
+END
+websSetVar.htm
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/30/trunk/webs-2-5/wwwdemo/docs/techref/wsapi/websSetVar.htm
+END
+websGetRequestPath.htm
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/30/trunk/webs-2-5/wwwdemo/docs/techref/wsapi/websGetRequestPath.htm
+END
+websUrlHandlerDefine.htm
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/30/trunk/webs-2-5/wwwdemo/docs/techref/wsapi/websUrlHandlerDefine.htm
+END
+websGetRequestIpaddr.htm
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/30/trunk/webs-2-5/wwwdemo/docs/techref/wsapi/websGetRequestIpaddr.htm
+END
+websFormDefine.htm
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/30/trunk/webs-2-5/wwwdemo/docs/techref/wsapi/websFormDefine.htm
+END
+getPassword.htm
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/30/trunk/webs-2-5/wwwdemo/docs/techref/wsapi/getPassword.htm
+END
+websSetRequestPath.htm
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/30/trunk/webs-2-5/wwwdemo/docs/techref/wsapi/websSetRequestPath.htm
+END
+websUrlHandlerDelete.htm
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/30/trunk/webs-2-5/wwwdemo/docs/techref/wsapi/websUrlHandlerDelete.htm
+END
+websGetRequestDocFd.htm
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/30/trunk/webs-2-5/wwwdemo/docs/techref/wsapi/websGetRequestDocFd.htm
+END
+websTestVar.htm
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/30/trunk/webs-2-5/wwwdemo/docs/techref/wsapi/websTestVar.htm
+END
+websGetRequestType.htm
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/30/trunk/webs-2-5/wwwdemo/docs/techref/wsapi/websGetRequestType.htm
+END
+websGetDefaultHome.htm
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/30/trunk/webs-2-5/wwwdemo/docs/techref/wsapi/websGetDefaultHome.htm
+END
+websAspDefine.htm
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/30/trunk/webs-2-5/wwwdemo/docs/techref/wsapi/websAspDefine.htm
+END
+websFooter.htm
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/30/trunk/webs-2-5/wwwdemo/docs/techref/wsapi/websFooter.htm
+END
+websGetPassword.htm
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/30/trunk/webs-2-5/wwwdemo/docs/techref/wsapi/websGetPassword.htm
+END
+websSetRequestDocFd.htm
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/30/trunk/webs-2-5/wwwdemo/docs/techref/wsapi/websSetRequestDocFd.htm
+END
+websUrlType.htm
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/30/trunk/webs-2-5/wwwdemo/docs/techref/wsapi/websUrlType.htm
+END
+websSecurityHandler.htm
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/30/trunk/webs-2-5/wwwdemo/docs/techref/wsapi/websSecurityHandler.htm
+END
+websWriteBlock.htm
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/30/trunk/webs-2-5/wwwdemo/docs/techref/wsapi/websWriteBlock.htm
+END
+addUser.htm
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/30/trunk/webs-2-5/wwwdemo/docs/techref/wsapi/addUser.htm
+END
+balloc.htm
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/30/trunk/webs-2-5/wwwdemo/docs/techref/wsapi/balloc.htm
+END
+websSetPassword.htm
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/30/trunk/webs-2-5/wwwdemo/docs/techref/wsapi/websSetPassword.htm
+END
+websSetIpaddr.htm
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/30/trunk/webs-2-5/wwwdemo/docs/techref/wsapi/websSetIpaddr.htm
+END
+websExpand.htm
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/30/trunk/webs-2-5/wwwdemo/docs/techref/wsapi/websExpand.htm
+END
+websOpenListen.htm
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/30/trunk/webs-2-5/wwwdemo/docs/techref/wsapi/websOpenListen.htm
+END
+deleteUser.htm
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/30/trunk/webs-2-5/wwwdemo/docs/techref/wsapi/deleteUser.htm
+END

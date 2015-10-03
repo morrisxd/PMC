@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/wwwdemo/um
+END
+savecfg.asp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/wwwdemo/um/savecfg.asp
+END
+loadcfg.asp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/wwwdemo/um/loadcfg.asp
+END
+delgroup.asp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/wwwdemo/um/delgroup.asp
+END
+deluser.asp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/wwwdemo/um/deluser.asp
+END
+dellimit.asp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/wwwdemo/um/dellimit.asp
+END
+addgroup.asp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/wwwdemo/um/addgroup.asp
+END
+dspuser.asp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/wwwdemo/um/dspuser.asp
+END
+um.htm
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/wwwdemo/um/um.htm
+END
+adduser.asp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/wwwdemo/um/adduser.asp
+END
+addlimit.asp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/wwwdemo/um/addlimit.asp
+END

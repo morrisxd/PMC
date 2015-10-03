@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/252/trunk/ericsson/spp/ufe_source_code_perfect/phy/wpx_ufe/api
+END
+wufe_identity.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/252/trunk/ericsson/spp/ufe_source_code_perfect/phy/wpx_ufe/api/wufe_identity.h
+END
+wufe_api.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/252/trunk/ericsson/spp/ufe_source_code_perfect/phy/wpx_ufe/api/wufe_api.h
+END
+wufe_errors.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/252/trunk/ericsson/spp/ufe_source_code_perfect/phy/wpx_ufe/api/wufe_errors.h
+END
+wufe_sbi.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/252/trunk/ericsson/spp/ufe_source_code_perfect/phy/wpx_ufe/api/wufe_sbi.h
+END
+wufe_ufe.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/252/trunk/ericsson/spp/ufe_source_code_perfect/phy/wpx_ufe/api/wufe_ufe.h
+END
+wufe_phy.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/252/trunk/ericsson/spp/ufe_source_code_perfect/phy/wpx_ufe/api/wufe_phy.h
+END
+wufe_clk_rec.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/252/trunk/ericsson/spp/ufe_source_code_perfect/phy/wpx_ufe/api/wufe_clk_rec.h
+END
+wufe_user_config.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/252/trunk/ericsson/spp/ufe_source_code_perfect/phy/wpx_ufe/api/wufe_user_config.h
+END
+wufe_events.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/252/trunk/ericsson/spp/ufe_source_code_perfect/phy/wpx_ufe/api/wufe_events.h
+END
+wufe_types.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/252/trunk/ericsson/spp/ufe_source_code_perfect/phy/wpx_ufe/api/wufe_types.h
+END
+wufe_system.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/252/trunk/ericsson/spp/ufe_source_code_perfect/phy/wpx_ufe/api/wufe_system.h
+END
+wufe_line.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/252/trunk/ericsson/spp/ufe_source_code_perfect/phy/wpx_ufe/api/wufe_line.h
+END
+wufe_prototypes.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/252/trunk/ericsson/spp/ufe_source_code_perfect/phy/wpx_ufe/api/wufe_prototypes.h
+END

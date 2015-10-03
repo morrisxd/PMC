@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/321/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/examples/linx-2.4.1/net/linx/riocm
+END
+.rio_tx.o.cmd
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/321/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/examples/linx-2.4.1/net/linx/riocm/.rio_tx.o.cmd
+END
+modules.order
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/321/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/examples/linx-2.4.1/net/linx/riocm/modules.order
+END
+rio_rx.c
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/321/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/examples/linx-2.4.1/net/linx/riocm/rio_rx.c
+END
+.rio_conn.o.cmd
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/321/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/examples/linx-2.4.1/net/linx/riocm/.rio_conn.o.cmd
+END
+rio_tx.c
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/321/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/examples/linx-2.4.1/net/linx/riocm/rio_tx.c
+END
+rio_conn.c
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/321/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/examples/linx-2.4.1/net/linx/riocm/rio_conn.c
+END
+riocm.txt
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/321/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/examples/linx-2.4.1/net/linx/riocm/riocm.txt
+END
+rio_lock.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/321/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/examples/linx-2.4.1/net/linx/riocm/rio_lock.h
+END
+.linx_rio_cm.ko.cmd
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/321/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/examples/linx-2.4.1/net/linx/riocm/.linx_rio_cm.ko.cmd
+END
+Module.symvers
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/321/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/examples/linx-2.4.1/net/linx/riocm/Module.symvers
+END
+.linx_rio_cm.mod.o.cmd
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/321/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/examples/linx-2.4.1/net/linx/riocm/.linx_rio_cm.mod.o.cmd
+END
+linx_rio_cm.mod.c
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/321/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/examples/linx-2.4.1/net/linx/riocm/linx_rio_cm.mod.c
+END
+.rio_kutils.o.cmd
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/321/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/examples/linx-2.4.1/net/linx/riocm/.rio_kutils.o.cmd
+END
+rio_proto.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/321/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/examples/linx-2.4.1/net/linx/riocm/rio_proto.h
+END
+rio_kutils.c
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/321/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/examples/linx-2.4.1/net/linx/riocm/rio_kutils.c
+END
+linx_rio_cm.ko
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/321/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/examples/linx-2.4.1/net/linx/riocm/linx_rio_cm.ko
+END
+rio_kutils.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/321/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/examples/linx-2.4.1/net/linx/riocm/rio_kutils.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/321/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/examples/linx-2.4.1/net/linx/riocm/Makefile
+END
+.linx_rio_cm.o.cmd
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/321/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/examples/linx-2.4.1/net/linx/riocm/.linx_rio_cm.o.cmd
+END
+.rio_rx.o.cmd
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/321/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/examples/linx-2.4.1/net/linx/riocm/.rio_rx.o.cmd
+END
+rio.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/321/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/examples/linx-2.4.1/net/linx/riocm/rio.h
+END

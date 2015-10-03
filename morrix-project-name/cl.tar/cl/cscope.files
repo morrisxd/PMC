@@ -1,0 +1,7 @@
+./symtab.c
+./typedef.c
+./cl.y
+./cl2.y
+./globals.h
+./symtab.h
+./c.l

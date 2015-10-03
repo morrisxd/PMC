@@ -1,0 +1,191 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/252/trunk/ericsson/spp/ufe_source_code_perfect/phy/wpx_ufe/fpga/ufe4
+END
+wufei_hw_fm.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/252/trunk/ericsson/spp/ufe_source_code_perfect/phy/wpx_ufe/fpga/ufe4/wufei_hw_fm.h
+END
+wufei_hw_core_int.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/252/trunk/ericsson/spp/ufe_source_code_perfect/phy/wpx_ufe/fpga/ufe4/wufei_hw_core_int.h
+END
+wufei_hw_liu_int.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/252/trunk/ericsson/spp/ufe_source_code_perfect/phy/wpx_ufe/fpga/ufe4/wufei_hw_liu_int.h
+END
+wufei_hw_events.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/252/trunk/ericsson/spp/ufe_source_code_perfect/phy/wpx_ufe/fpga/ufe4/wufei_hw_events.h
+END
+wufei_hw_machine.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/252/trunk/ericsson/spp/ufe_source_code_perfect/phy/wpx_ufe/fpga/ufe4/wufei_hw_machine.h
+END
+wufei_user_config.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/252/trunk/ericsson/spp/ufe_source_code_perfect/phy/wpx_ufe/fpga/ufe4/wufei_user_config.h
+END
+wufei_hw_fm_int.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/252/trunk/ericsson/spp/ufe_source_code_perfect/phy/wpx_ufe/fpga/ufe4/wufei_hw_fm_int.h
+END
+wufei_hw_sbi.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/252/trunk/ericsson/spp/ufe_source_code_perfect/phy/wpx_ufe/fpga/ufe4/wufei_hw_sbi.h
+END
+wufei_hw_emphy.c
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/252/trunk/ericsson/spp/ufe_source_code_perfect/phy/wpx_ufe/fpga/ufe4/wufei_hw_emphy.c
+END
+wufei_hw_events_int.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/252/trunk/ericsson/spp/ufe_source_code_perfect/phy/wpx_ufe/fpga/ufe4/wufei_hw_events_int.h
+END
+wufei_hw_machine_int.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/252/trunk/ericsson/spp/ufe_source_code_perfect/phy/wpx_ufe/fpga/ufe4/wufei_hw_machine_int.h
+END
+wufei_hw_tdm.c
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/252/trunk/ericsson/spp/ufe_source_code_perfect/phy/wpx_ufe/fpga/ufe4/wufei_hw_tdm.c
+END
+wufei_hw_emphy.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/252/trunk/ericsson/spp/ufe_source_code_perfect/phy/wpx_ufe/fpga/ufe4/wufei_hw_emphy.h
+END
+wufei_hw_clk_translator.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/252/trunk/ericsson/spp/ufe_source_code_perfect/phy/wpx_ufe/fpga/ufe4/wufei_hw_clk_translator.h
+END
+wufei_hw_tdm.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/252/trunk/ericsson/spp/ufe_source_code_perfect/phy/wpx_ufe/fpga/ufe4/wufei_hw_tdm.h
+END
+wufei_hw_sbi_int.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/252/trunk/ericsson/spp/ufe_source_code_perfect/phy/wpx_ufe/fpga/ufe4/wufei_hw_sbi_int.h
+END
+wufei_hw_cad.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/252/trunk/ericsson/spp/ufe_source_code_perfect/phy/wpx_ufe/fpga/ufe4/wufei_hw_cad.h
+END
+wufei_hw_clk_translator_int.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/252/trunk/ericsson/spp/ufe_source_code_perfect/phy/wpx_ufe/fpga/ufe4/wufei_hw_clk_translator_int.h
+END
+wufei_hw_emphy_int.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/252/trunk/ericsson/spp/ufe_source_code_perfect/phy/wpx_ufe/fpga/ufe4/wufei_hw_emphy_int.h
+END
+wufei_hw_clk_rec.c
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/252/trunk/ericsson/spp/ufe_source_code_perfect/phy/wpx_ufe/fpga/ufe4/wufei_hw_clk_rec.c
+END
+wufei_hw_tdm_int.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/252/trunk/ericsson/spp/ufe_source_code_perfect/phy/wpx_ufe/fpga/ufe4/wufei_hw_tdm_int.h
+END
+wufei_hw_clk_rec.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/252/trunk/ericsson/spp/ufe_source_code_perfect/phy/wpx_ufe/fpga/ufe4/wufei_hw_clk_rec.h
+END
+wufei_hw_config.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/252/trunk/ericsson/spp/ufe_source_code_perfect/phy/wpx_ufe/fpga/ufe4/wufei_hw_config.h
+END
+wufei_hw_clk_rec_int.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/252/trunk/ericsson/spp/ufe_source_code_perfect/phy/wpx_ufe/fpga/ufe4/wufei_hw_clk_rec_int.h
+END
+wufei_hw_globals.c
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/252/trunk/ericsson/spp/ufe_source_code_perfect/phy/wpx_ufe/fpga/ufe4/wufei_hw_globals.c
+END
+wufei_hw_globals.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/252/trunk/ericsson/spp/ufe_source_code_perfect/phy/wpx_ufe/fpga/ufe4/wufei_hw_globals.h
+END
+wufei_hw_gen_regs.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/252/trunk/ericsson/spp/ufe_source_code_perfect/phy/wpx_ufe/fpga/ufe4/wufei_hw_gen_regs.h
+END
+wufei_hw_globals_int.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/252/trunk/ericsson/spp/ufe_source_code_perfect/phy/wpx_ufe/fpga/ufe4/wufei_hw_globals_int.h
+END
+wufei_hw_fm.c
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/252/trunk/ericsson/spp/ufe_source_code_perfect/phy/wpx_ufe/fpga/ufe4/wufei_hw_fm.c
+END
+wufei_hw_machine.c
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/252/trunk/ericsson/spp/ufe_source_code_perfect/phy/wpx_ufe/fpga/ufe4/wufei_hw_machine.c
+END
+wufei_hw_events.c
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/252/trunk/ericsson/spp/ufe_source_code_perfect/phy/wpx_ufe/fpga/ufe4/wufei_hw_events.c
+END

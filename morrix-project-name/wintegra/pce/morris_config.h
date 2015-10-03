@@ -1,0 +1,9 @@
+#ifndef __MORRIS_CONFIG_H__
+#define __MORRIS_CONFIG_H__
+
+#define DEBUG_PRINT	(1)
+#define DEFAULT_WPID	(0)
+// WP_PCE_RESULT_FILTER_SET_CHANGE
+#define MORRIS_UPDATE_VLAN	(1)
+#endif
+

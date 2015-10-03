@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/matrixssl-3-2-1-open/sampleCerts
+END
+certSrv2048.pem
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/matrixssl-3-2-1-open/sampleCerts/certSrv2048.pem
+END
+privkeySrv2048.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/matrixssl-3-2-1-open/sampleCerts/privkeySrv2048.h
+END
+CAcertSrv2048.pem
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/matrixssl-3-2-1-open/sampleCerts/CAcertSrv2048.pem
+END
+privkeySrv512.pem
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/matrixssl-3-2-1-open/sampleCerts/privkeySrv512.pem
+END
+certSrv2048.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/matrixssl-3-2-1-open/sampleCerts/certSrv2048.h
+END
+certSrv512.pem
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/matrixssl-3-2-1-open/sampleCerts/certSrv512.pem
+END
+CAcertSrv2048.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/matrixssl-3-2-1-open/sampleCerts/CAcertSrv2048.h
+END
+privkeySrv512.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/matrixssl-3-2-1-open/sampleCerts/privkeySrv512.h
+END
+privkeySrv.pem
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/matrixssl-3-2-1-open/sampleCerts/privkeySrv.pem
+END
+CAcertSrv512.pem
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/matrixssl-3-2-1-open/sampleCerts/CAcertSrv512.pem
+END
+certSrv512.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/matrixssl-3-2-1-open/sampleCerts/certSrv512.h
+END
+certSrv.pem
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/matrixssl-3-2-1-open/sampleCerts/certSrv.pem
+END
+privkeySrv.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/matrixssl-3-2-1-open/sampleCerts/privkeySrv.h
+END
+CAcertSrv512.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/matrixssl-3-2-1-open/sampleCerts/CAcertSrv512.h
+END
+CAcertSrv.pem
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/matrixssl-3-2-1-open/sampleCerts/CAcertSrv.pem
+END
+certSrv.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/matrixssl-3-2-1-open/sampleCerts/certSrv.h
+END
+CAcertSrv.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/matrixssl-3-2-1-open/sampleCerts/CAcertSrv.h
+END
+privkeySrv2048.pem
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/matrixssl-3-2-1-open/sampleCerts/privkeySrv2048.pem
+END

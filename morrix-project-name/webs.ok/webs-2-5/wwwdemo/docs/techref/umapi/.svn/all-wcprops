@@ -1,0 +1,245 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/wwwdemo/docs/techref/umapi
+END
+umDeleteAccessLimit.htm
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/wwwdemo/docs/techref/umapi/umDeleteAccessLimit.htm
+END
+umSetGroupEnabled.htm
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/wwwdemo/docs/techref/umapi/umSetGroupEnabled.htm
+END
+umSetAccessLimitSecure.htm
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/wwwdemo/docs/techref/umapi/umSetAccessLimitSecure.htm
+END
+umGetFirstUser.htm
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/wwwdemo/docs/techref/umapi/umGetFirstUser.htm
+END
+umAddUser.htm
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/wwwdemo/docs/techref/umapi/umAddUser.htm
+END
+umGetNextGroup.htm
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/wwwdemo/docs/techref/umapi/umGetNextGroup.htm
+END
+umGetUserGroup.htm
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/wwwdemo/docs/techref/umapi/umGetUserGroup.htm
+END
+umGroupExists.htm
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/wwwdemo/docs/techref/umapi/umGroupExists.htm
+END
+umGetAccessMethodForURL.htm
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/wwwdemo/docs/techref/umapi/umGetAccessMethodForURL.htm
+END
+umGetNextAccessLimit.htm
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/wwwdemo/docs/techref/umapi/umGetNextAccessLimit.htm
+END
+umAccessLimitExists.htm
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/wwwdemo/docs/techref/umapi/umAccessLimitExists.htm
+END
+umGetAccessLimit.htm
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/wwwdemo/docs/techref/umapi/umGetAccessLimit.htm
+END
+umGetUserPassword.htm
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/wwwdemo/docs/techref/umapi/umGetUserPassword.htm
+END
+umDeleteUser.htm
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/wwwdemo/docs/techref/umapi/umDeleteUser.htm
+END
+umGetFirstGroup.htm
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/wwwdemo/docs/techref/umapi/umGetFirstGroup.htm
+END
+umSEtUserEnabled.htm
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/wwwdemo/docs/techref/umapi/umSEtUserEnabled.htm
+END
+umUserCanAccessURL.htm
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/wwwdemo/docs/techref/umapi/umUserCanAccessURL.htm
+END
+umSetUserGroup.htm
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/wwwdemo/docs/techref/umapi/umSetUserGroup.htm
+END
+umGetFirstAccessLimit.htm
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/wwwdemo/docs/techref/umapi/umGetFirstAccessLimit.htm
+END
+umGetNextUser.htm
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/wwwdemo/docs/techref/umapi/umGetNextUser.htm
+END
+umGetAccessLimitGroup.htm
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/wwwdemo/docs/techref/umapi/umGetAccessLimitGroup.htm
+END
+umSetUserPassword.htm
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/wwwdemo/docs/techref/umapi/umSetUserPassword.htm
+END
+umGetGroupAccessMethod.htm
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/wwwdemo/docs/techref/umapi/umGetGroupAccessMethod.htm
+END
+umRestore.htm
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/wwwdemo/docs/techref/umapi/umRestore.htm
+END
+umCommit.htm
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/wwwdemo/docs/techref/umapi/umCommit.htm
+END
+umSetAccessLimitGroup.htm
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/wwwdemo/docs/techref/umapi/umSetAccessLimitGroup.htm
+END
+umGetUserEnabled.htm
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/wwwdemo/docs/techref/umapi/umGetUserEnabled.htm
+END
+umSetGroupAccessMethod.htm
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/wwwdemo/docs/techref/umapi/umSetGroupAccessMethod.htm
+END
+umGetAccessLimitMethod.htm
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/wwwdemo/docs/techref/umapi/umGetAccessLimitMethod.htm
+END
+umOpen.htm
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/wwwdemo/docs/techref/umapi/umOpen.htm
+END
+umGetGroupPrivilege.htm
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/wwwdemo/docs/techref/umapi/umGetGroupPrivilege.htm
+END
+umAddGroup.htm
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/wwwdemo/docs/techref/umapi/umAddGroup.htm
+END
+umClose.htm
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/wwwdemo/docs/techref/umapi/umClose.htm
+END
+umGetGroupEnabled.htm
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/wwwdemo/docs/techref/umapi/umGetGroupEnabled.htm
+END
+umGetAccessLimitSecure.htm
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/wwwdemo/docs/techref/umapi/umGetAccessLimitSecure.htm
+END
+umAddAccessLimit.htm
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/wwwdemo/docs/techref/umapi/umAddAccessLimit.htm
+END
+umSetAccessLimitMethod.htm
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/wwwdemo/docs/techref/umapi/umSetAccessLimitMethod.htm
+END
+umUserExists.htm
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/wwwdemo/docs/techref/umapi/umUserExists.htm
+END
+umDeleteGroup.htm
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/wwwdemo/docs/techref/umapi/umDeleteGroup.htm
+END
+umSetGroupPrivilege.htm
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/wwwdemo/docs/techref/umapi/umSetGroupPrivilege.htm
+END

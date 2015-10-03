@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/320/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/platform/winsim_winpath3/include
+END
+wpl_mem_access.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/320/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/platform/winsim_winpath3/include/wpl_mem_access.h
+END
+wpl_interrupts.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/320/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/platform/winsim_winpath3/include/wpl_interrupts.h
+END
+wpl_types.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/320/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/platform/winsim_winpath3/include/wpl_types.h
+END
+wpl_board.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/320/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/platform/winsim_winpath3/include/wpl_board.h
+END
+sockint.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/320/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/platform/winsim_winpath3/include/sockint.h
+END
+wpl_alloc.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/320/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/platform/winsim_winpath3/include/wpl_alloc.h
+END
+wpl_locks.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/320/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/platform/winsim_winpath3/include/wpl_locks.h
+END
+wpli_platform.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/320/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/platform/winsim_winpath3/include/wpli_platform.h
+END

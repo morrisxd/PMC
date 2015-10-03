@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/189/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/wddi/sources/core
+END
+wpi_channel.c
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/189/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/wddi/sources/core/wpi_channel.c
+END
+wpi_lookup.c
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/189/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/wddi/sources/core/wpi_lookup.c
+END
+wpi_hash_table.c
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/189/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/wddi/sources/core/wpi_hash_table.c
+END
+wpi_device.c
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/189/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/wddi/sources/core/wpi_device.c
+END

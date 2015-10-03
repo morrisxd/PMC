@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/9/trunk/pbcvs/pbcvs_original/pbcvs/cvs-1.11.5/cvs-1.11.5/windows-NT
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/8/trunk/pbcvs/pbcvs_original/pbcvs/cvs-1.11.5/cvs-1.11.5/windows-NT/Makefile.am
+END
+rcmd.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/8/trunk/pbcvs/pbcvs_original/pbcvs/cvs-1.11.5/cvs-1.11.5/windows-NT/rcmd.h
+END
+pwd.c
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/8/trunk/pbcvs/pbcvs_original/pbcvs/cvs-1.11.5/cvs-1.11.5/windows-NT/pwd.c
+END
+stripslash.c
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/8/trunk/pbcvs/pbcvs_original/pbcvs/cvs-1.11.5/cvs-1.11.5/windows-NT/stripslash.c
+END
+.cvsignore
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/8/trunk/pbcvs/pbcvs_original/pbcvs/cvs-1.11.5/cvs-1.11.5/windows-NT/.cvsignore
+END
+ndir.c
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/8/trunk/pbcvs/pbcvs_original/pbcvs/cvs-1.11.5/cvs-1.11.5/windows-NT/ndir.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/8/trunk/pbcvs/pbcvs_original/pbcvs/cvs-1.11.5/cvs-1.11.5/windows-NT/Makefile
+END
+pwd.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/8/trunk/pbcvs/pbcvs_original/pbcvs/cvs-1.11.5/cvs-1.11.5/windows-NT/pwd.h
+END
+waitpid.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/8/trunk/pbcvs/pbcvs_original/pbcvs/cvs-1.11.5/cvs-1.11.5/windows-NT/waitpid.c
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/8/trunk/pbcvs/pbcvs_original/pbcvs/cvs-1.11.5/cvs-1.11.5/windows-NT/Makefile.in
+END
+ndir.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/8/trunk/pbcvs/pbcvs_original/pbcvs/cvs-1.11.5/cvs-1.11.5/windows-NT/ndir.h
+END
+win32.c
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/8/trunk/pbcvs/pbcvs_original/pbcvs/cvs-1.11.5/cvs-1.11.5/windows-NT/win32.c
+END
+run.c
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/8/trunk/pbcvs/pbcvs_original/pbcvs/cvs-1.11.5/cvs-1.11.5/windows-NT/run.c
+END
+ChangeLog
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/8/trunk/pbcvs/pbcvs_original/pbcvs/cvs-1.11.5/cvs-1.11.5/windows-NT/ChangeLog
+END
+mkdir.c
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/8/trunk/pbcvs/pbcvs_original/pbcvs/cvs-1.11.5/cvs-1.11.5/windows-NT/mkdir.c
+END
+sockerror.c
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/8/trunk/pbcvs/pbcvs_original/pbcvs/cvs-1.11.5/cvs-1.11.5/windows-NT/sockerror.c
+END
+config.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/8/trunk/pbcvs/pbcvs_original/pbcvs/cvs-1.11.5/cvs-1.11.5/windows-NT/config.h
+END
+filesubr.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/8/trunk/pbcvs/pbcvs_original/pbcvs/cvs-1.11.5/cvs-1.11.5/windows-NT/filesubr.c
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/8/trunk/pbcvs/pbcvs_original/pbcvs/cvs-1.11.5/cvs-1.11.5/windows-NT/README
+END
+startserver.c
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/8/trunk/pbcvs/pbcvs_original/pbcvs/cvs-1.11.5/cvs-1.11.5/windows-NT/startserver.c
+END
+rcmd.c
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/8/trunk/pbcvs/pbcvs_original/pbcvs/cvs-1.11.5/cvs-1.11.5/windows-NT/rcmd.c
+END

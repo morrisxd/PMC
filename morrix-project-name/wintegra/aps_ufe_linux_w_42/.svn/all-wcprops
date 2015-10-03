@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/587/trunk/wintegra/aps_ufe_linux_w_42
+END
+readme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/587/trunk/wintegra/aps_ufe_linux_w_42/readme.txt
+END
+flexmux_util.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/264/trunk/wintegra/aps_ufe_linux_w_42/flexmux_util.h
+END
+makefile
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/311/trunk/wintegra/aps_ufe_linux_w_42/makefile
+END
+aps_ufe_util.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/264/trunk/wintegra/aps_ufe_linux_w_42/aps_ufe_util.c
+END
+aps_ufe_stats.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/264/trunk/wintegra/aps_ufe_linux_w_42/aps_ufe_stats.c
+END
+ufe_utility.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/311/trunk/wintegra/aps_ufe_linux_w_42/ufe_utility.c
+END
+aps_ufe.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/311/trunk/wintegra/aps_ufe_linux_w_42/aps_ufe.c
+END
+e
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/264/trunk/wintegra/aps_ufe_linux_w_42/e
+END
+flexmux_util.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/264/trunk/wintegra/aps_ufe_linux_w_42/flexmux_util.c
+END
+mk
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/264/trunk/wintegra/aps_ufe_linux_w_42/mk
+END
+aps_ufe.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/264/trunk/wintegra/aps_ufe_linux_w_42/aps_ufe.h
+END
+ufe_utility.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/264/trunk/wintegra/aps_ufe_linux_w_42/ufe_utility.h
+END

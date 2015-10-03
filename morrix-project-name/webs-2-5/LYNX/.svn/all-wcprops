@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/30/trunk/webs-2-5/LYNX
+END
+certSrv.pem
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/30/trunk/webs-2-5/LYNX/certSrv.pem
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/30/trunk/webs-2-5/LYNX/Makefile
+END
+privkeySrv.pem
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/30/trunk/webs-2-5/LYNX/privkeySrv.pem
+END
+main.c
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/30/trunk/webs-2-5/LYNX/main.c
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/matrixssl-3-2-1-open/crypto/symmetric
+END
+des3.c
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/matrixssl-3-2-1-open/crypto/symmetric/des3.c
+END
+symmetric.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/matrixssl-3-2-1-open/crypto/symmetric/symmetric.h
+END
+aes.c
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/matrixssl-3-2-1-open/crypto/symmetric/aes.c
+END
+arc4.c
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/matrixssl-3-2-1-open/crypto/symmetric/arc4.c
+END

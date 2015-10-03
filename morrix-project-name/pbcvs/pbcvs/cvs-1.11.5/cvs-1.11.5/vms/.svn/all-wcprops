@@ -1,0 +1,221 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/7/trunk/pbcvs/pbcvs/cvs-1.11.5/cvs-1.11.5/vms
+END
+getwd.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/7/trunk/pbcvs/pbcvs/cvs-1.11.5/cvs-1.11.5/vms/getwd.c
+END
+config.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/7/trunk/pbcvs/pbcvs/cvs-1.11.5/cvs-1.11.5/vms/config.h
+END
+stat.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/7/trunk/pbcvs/pbcvs/cvs-1.11.5/cvs-1.11.5/vms/stat.c
+END
+filesubr.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/7/trunk/pbcvs/pbcvs/cvs-1.11.5/cvs-1.11.5/vms/filesubr.c
+END
+rmdir.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/7/trunk/pbcvs/pbcvs/cvs-1.11.5/cvs-1.11.5/vms/rmdir.c
+END
+build_vms.com
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/7/trunk/pbcvs/pbcvs/cvs-1.11.5/cvs-1.11.5/vms/build_vms.com
+END
+dir.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/7/trunk/pbcvs/pbcvs/cvs-1.11.5/cvs-1.11.5/vms/dir.h
+END
+pathnames.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/7/trunk/pbcvs/pbcvs/cvs-1.11.5/cvs-1.11.5/vms/pathnames.h
+END
+rcmd.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/7/trunk/pbcvs/pbcvs/cvs-1.11.5/cvs-1.11.5/vms/rcmd.c
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/7/trunk/pbcvs/pbcvs/cvs-1.11.5/cvs-1.11.5/vms/Makefile.am
+END
+pwd.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/7/trunk/pbcvs/pbcvs/cvs-1.11.5/cvs-1.11.5/vms/pwd.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/7/trunk/pbcvs/pbcvs/cvs-1.11.5/cvs-1.11.5/vms/Makefile
+END
+ndir.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/7/trunk/pbcvs/pbcvs/cvs-1.11.5/cvs-1.11.5/vms/ndir.c
+END
+vmsmunch_private.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/7/trunk/pbcvs/pbcvs/cvs-1.11.5/cvs-1.11.5/vms/vmsmunch_private.h
+END
+pwd.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/7/trunk/pbcvs/pbcvs/cvs-1.11.5/cvs-1.11.5/vms/pwd.h
+END
+vmsmunch.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/7/trunk/pbcvs/pbcvs/cvs-1.11.5/cvs-1.11.5/vms/vmsmunch.c
+END
+ndir.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/7/trunk/pbcvs/pbcvs/cvs-1.11.5/cvs-1.11.5/vms/ndir.h
+END
+waitpid.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/7/trunk/pbcvs/pbcvs/cvs-1.11.5/cvs-1.11.5/vms/waitpid.c
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/7/trunk/pbcvs/pbcvs/cvs-1.11.5/cvs-1.11.5/vms/Makefile.in
+END
+pc.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/7/trunk/pbcvs/pbcvs/cvs-1.11.5/cvs-1.11.5/vms/pc.c
+END
+vmsmunch.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/7/trunk/pbcvs/pbcvs/cvs-1.11.5/cvs-1.11.5/vms/vmsmunch.h
+END
+getpass.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/7/trunk/pbcvs/pbcvs/cvs-1.11.5/cvs-1.11.5/vms/getpass.c
+END
+vms.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/7/trunk/pbcvs/pbcvs/cvs-1.11.5/cvs-1.11.5/vms/vms.h
+END
+vms-types.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/7/trunk/pbcvs/pbcvs/cvs-1.11.5/cvs-1.11.5/vms/vms-types.h
+END
+utime.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/7/trunk/pbcvs/pbcvs/cvs-1.11.5/cvs-1.11.5/vms/utime.c
+END
+startserver.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/7/trunk/pbcvs/pbcvs/cvs-1.11.5/cvs-1.11.5/vms/startserver.c
+END
+readlink.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/7/trunk/pbcvs/pbcvs/cvs-1.11.5/cvs-1.11.5/vms/readlink.c
+END
+filutils.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/7/trunk/pbcvs/pbcvs/cvs-1.11.5/cvs-1.11.5/vms/filutils.c
+END
+misc.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/7/trunk/pbcvs/pbcvs/cvs-1.11.5/cvs-1.11.5/vms/misc.c
+END
+pipe.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/7/trunk/pbcvs/pbcvs/cvs-1.11.5/cvs-1.11.5/vms/pipe.c
+END
+filutils.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/7/trunk/pbcvs/pbcvs/cvs-1.11.5/cvs-1.11.5/vms/filutils.h
+END
+unlink.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/7/trunk/pbcvs/pbcvs/cvs-1.11.5/cvs-1.11.5/vms/unlink.c
+END
+misc.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/7/trunk/pbcvs/pbcvs/cvs-1.11.5/cvs-1.11.5/vms/misc.h
+END
+pipe.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/7/trunk/pbcvs/pbcvs/cvs-1.11.5/cvs-1.11.5/vms/pipe.h
+END
+piped_child.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/7/trunk/pbcvs/pbcvs/cvs-1.11.5/cvs-1.11.5/vms/piped_child.c
+END
+ChangeLog
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/7/trunk/pbcvs/pbcvs/cvs-1.11.5/cvs-1.11.5/vms/ChangeLog
+END

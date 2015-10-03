@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/30/trunk/webs-2-5/VXWORKS
+END
+certSrv.pem
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/30/trunk/webs-2-5/VXWORKS/certSrv.pem
+END
+vxcgitst.c
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/30/trunk/webs-2-5/VXWORKS/vxcgitst.c
+END
+setpath.bat
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/30/trunk/webs-2-5/VXWORKS/setpath.bat
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/30/trunk/webs-2-5/VXWORKS/Makefile
+END
+Makefile.ppc
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/30/trunk/webs-2-5/VXWORKS/Makefile.ppc
+END
+privkeySrv.pem
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/30/trunk/webs-2-5/VXWORKS/privkeySrv.pem
+END
+ppcpath.bat
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/30/trunk/webs-2-5/VXWORKS/ppcpath.bat
+END
+main.c
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/30/trunk/webs-2-5/VXWORKS/main.c
+END

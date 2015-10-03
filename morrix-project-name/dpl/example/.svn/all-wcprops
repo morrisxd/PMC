@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/74/trunk/dpl/example
+END
+example.dpl
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/73/trunk/dpl/example/example.dpl
+END
+example_rx.obj
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/74/trunk/dpl/example/example_rx.obj
+END
+makefile
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/74/trunk/dpl/example/makefile
+END
+example_tx.obj
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/74/trunk/dpl/example/example_tx.obj
+END
+example.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/73/trunk/dpl/example/example.h
+END
+example_rx.dpl
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/73/trunk/dpl/example/example_rx.dpl
+END
+example.obj
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/74/trunk/dpl/example/example.obj
+END
+example_tx.dpl
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/73/trunk/dpl/example/example_tx.dpl
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/73/trunk/dpl/example/.project
+END
+.cproject
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/73/trunk/dpl/example/.cproject
+END

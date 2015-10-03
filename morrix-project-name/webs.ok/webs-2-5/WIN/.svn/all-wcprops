@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/WIN
+END
+privkeySrv.pem
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/WIN/privkeySrv.pem
+END
+main.c
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/WIN/main.c
+END
+certSrv.pem
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/WIN/certSrv.pem
+END
+webs.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/WIN/webs.vcxproj
+END
+webs.sln
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/WIN/webs.sln
+END
+websSSL.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/WIN/websSSL.vcxproj
+END
+websSSL.sln
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/WIN/websSSL.sln
+END

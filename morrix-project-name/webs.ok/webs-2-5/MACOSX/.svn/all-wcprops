@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/MACOSX
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/MACOSX/Makefile
+END
+privkeySrv.pem
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/MACOSX/privkeySrv.pem
+END
+main.c
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/MACOSX/main.c
+END
+certSrv.pem
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/MACOSX/certSrv.pem
+END

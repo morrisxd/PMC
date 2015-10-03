@@ -1,0 +1,275 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/9/trunk/pbcvs/pbcvs_original/pbcvs/cvs-1.11.5/cvs-1.11.5/lib
+END
+system.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/8/trunk/pbcvs/pbcvs_original/pbcvs/cvs-1.11.5/cvs-1.11.5/lib/system.h
+END
+md5.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/8/trunk/pbcvs/pbcvs_original/pbcvs/cvs-1.11.5/cvs-1.11.5/lib/md5.h
+END
+xtime.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/8/trunk/pbcvs/pbcvs_original/pbcvs/cvs-1.11.5/cvs-1.11.5/lib/xtime.h
+END
+ftruncate.c
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/8/trunk/pbcvs/pbcvs_original/pbcvs/cvs-1.11.5/cvs-1.11.5/lib/ftruncate.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/8/trunk/pbcvs/pbcvs_original/pbcvs/cvs-1.11.5/cvs-1.11.5/lib/Makefile
+END
+getline.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/8/trunk/pbcvs/pbcvs_original/pbcvs/cvs-1.11.5/cvs-1.11.5/lib/getline.h
+END
+.cvsignore
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/8/trunk/pbcvs/pbcvs_original/pbcvs/cvs-1.11.5/cvs-1.11.5/lib/.cvsignore
+END
+stripslash.c
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/8/trunk/pbcvs/pbcvs_original/pbcvs/cvs-1.11.5/cvs-1.11.5/lib/stripslash.c
+END
+savecwd.c
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/8/trunk/pbcvs/pbcvs_original/pbcvs/cvs-1.11.5/cvs-1.11.5/lib/savecwd.c
+END
+yesno.c
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/8/trunk/pbcvs/pbcvs_original/pbcvs/cvs-1.11.5/cvs-1.11.5/lib/yesno.c
+END
+sighandle.c
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/8/trunk/pbcvs/pbcvs_original/pbcvs/cvs-1.11.5/cvs-1.11.5/lib/sighandle.c
+END
+strstr.c
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/8/trunk/pbcvs/pbcvs_original/pbcvs/cvs-1.11.5/cvs-1.11.5/lib/strstr.c
+END
+savecwd.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/8/trunk/pbcvs/pbcvs_original/pbcvs/cvs-1.11.5/cvs-1.11.5/lib/savecwd.h
+END
+xgetwd.c
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/8/trunk/pbcvs/pbcvs_original/pbcvs/cvs-1.11.5/cvs-1.11.5/lib/xgetwd.c
+END
+getdate.y
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/8/trunk/pbcvs/pbcvs_original/pbcvs/cvs-1.11.5/cvs-1.11.5/lib/getdate.y
+END
+ChangeLog
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/8/trunk/pbcvs/pbcvs_original/pbcvs/cvs-1.11.5/cvs-1.11.5/lib/ChangeLog
+END
+mkdir.c
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/8/trunk/pbcvs/pbcvs_original/pbcvs/cvs-1.11.5/cvs-1.11.5/lib/mkdir.c
+END
+rename.c
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/8/trunk/pbcvs/pbcvs_original/pbcvs/cvs-1.11.5/cvs-1.11.5/lib/rename.c
+END
+regex.c
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/8/trunk/pbcvs/pbcvs_original/pbcvs/cvs-1.11.5/cvs-1.11.5/lib/regex.c
+END
+regex.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/8/trunk/pbcvs/pbcvs_original/pbcvs/cvs-1.11.5/cvs-1.11.5/lib/regex.h
+END
+valloc.c
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/8/trunk/pbcvs/pbcvs_original/pbcvs/cvs-1.11.5/cvs-1.11.5/lib/valloc.c
+END
+fnmatch.c
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/8/trunk/pbcvs/pbcvs_original/pbcvs/cvs-1.11.5/cvs-1.11.5/lib/fnmatch.c
+END
+ChangeLog.fsf
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/8/trunk/pbcvs/pbcvs_original/pbcvs/cvs-1.11.5/cvs-1.11.5/lib/ChangeLog.fsf
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/8/trunk/pbcvs/pbcvs_original/pbcvs/cvs-1.11.5/cvs-1.11.5/lib/Makefile.am
+END
+fnmatch.h.in
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/8/trunk/pbcvs/pbcvs_original/pbcvs/cvs-1.11.5/cvs-1.11.5/lib/fnmatch.h.in
+END
+fncase.c
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/8/trunk/pbcvs/pbcvs_original/pbcvs/cvs-1.11.5/cvs-1.11.5/lib/fncase.c
+END
+waitpid.c
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/8/trunk/pbcvs/pbcvs_original/pbcvs/cvs-1.11.5/cvs-1.11.5/lib/waitpid.c
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/8/trunk/pbcvs/pbcvs_original/pbcvs/cvs-1.11.5/cvs-1.11.5/lib/Makefile.in
+END
+getopt.c
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/8/trunk/pbcvs/pbcvs_original/pbcvs/cvs-1.11.5/cvs-1.11.5/lib/getopt.c
+END
+memmove.c
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/8/trunk/pbcvs/pbcvs_original/pbcvs/cvs-1.11.5/cvs-1.11.5/lib/memmove.c
+END
+getopt.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/8/trunk/pbcvs/pbcvs_original/pbcvs/cvs-1.11.5/cvs-1.11.5/lib/getopt.h
+END
+wait.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/8/trunk/pbcvs/pbcvs_original/pbcvs/cvs-1.11.5/cvs-1.11.5/lib/wait.h
+END
+dup2.c
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/8/trunk/pbcvs/pbcvs_original/pbcvs/cvs-1.11.5/cvs-1.11.5/lib/dup2.c
+END
+xselect.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/8/trunk/pbcvs/pbcvs_original/pbcvs/cvs-1.11.5/cvs-1.11.5/lib/xselect.h
+END
+getpagesize.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/8/trunk/pbcvs/pbcvs_original/pbcvs/cvs-1.11.5/cvs-1.11.5/lib/getpagesize.h
+END
+strtoul.c
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/8/trunk/pbcvs/pbcvs_original/pbcvs/cvs-1.11.5/cvs-1.11.5/lib/strtoul.c
+END
+getdate.c
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/8/trunk/pbcvs/pbcvs_original/pbcvs/cvs-1.11.5/cvs-1.11.5/lib/getdate.c
+END
+gethostname.c
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/8/trunk/pbcvs/pbcvs_original/pbcvs/cvs-1.11.5/cvs-1.11.5/lib/gethostname.c
+END
+build_lib.com
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/8/trunk/pbcvs/pbcvs_original/pbcvs/cvs-1.11.5/cvs-1.11.5/lib/build_lib.com
+END
+strerror.c
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/8/trunk/pbcvs/pbcvs_original/pbcvs/cvs-1.11.5/cvs-1.11.5/lib/strerror.c
+END
+getopt1.c
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/8/trunk/pbcvs/pbcvs_original/pbcvs/cvs-1.11.5/cvs-1.11.5/lib/getopt1.c
+END
+xgssapi.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/8/trunk/pbcvs/pbcvs_original/pbcvs/cvs-1.11.5/cvs-1.11.5/lib/xgssapi.h
+END
+md5.c
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/8/trunk/pbcvs/pbcvs_original/pbcvs/cvs-1.11.5/cvs-1.11.5/lib/md5.c
+END
+argmatch.c
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/8/trunk/pbcvs/pbcvs_original/pbcvs/cvs-1.11.5/cvs-1.11.5/lib/argmatch.c
+END
+getline.c
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/8/trunk/pbcvs/pbcvs_original/pbcvs/cvs-1.11.5/cvs-1.11.5/lib/getline.c
+END

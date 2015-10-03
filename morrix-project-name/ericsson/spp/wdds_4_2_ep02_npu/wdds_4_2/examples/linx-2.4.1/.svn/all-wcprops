@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/447/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/examples/linx-2.4.1
+END
+ChangeLog
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/321/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/examples/linx-2.4.1/ChangeLog
+END
+RELEASE_NOTES
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/321/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/examples/linx-2.4.1/RELEASE_NOTES
+END
+COPYING
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/321/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/examples/linx-2.4.1/COPYING
+END
+config.mk
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/321/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/examples/linx-2.4.1/config.mk
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/321/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/examples/linx-2.4.1/README
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/321/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/examples/linx-2.4.1/Makefile
+END
+common.mk
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/321/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/examples/linx-2.4.1/common.mk
+END
+MANIFEST
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/321/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/examples/linx-2.4.1/MANIFEST
+END

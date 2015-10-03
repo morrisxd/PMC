@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/321/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/examples/linx-2.4.1/patch/wireshark
+END
+wireshark-1.0.6-linxdisc-dissector-001.patch
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/!svn/ver/321/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/examples/linx-2.4.1/patch/wireshark/wireshark-1.0.6-linxdisc-dissector-001.patch
+END
+wireshark-1.0.6-linx-internal-dissector-002.patch
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/!svn/ver/321/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/examples/linx-2.4.1/patch/wireshark/wireshark-1.0.6-linx-internal-dissector-002.patch
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/321/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/examples/linx-2.4.1/patch/wireshark/README
+END

@@ -1,0 +1,17054 @@
+cscope 15 C:\gproj\morrix-project-name\asb\EnetDemo_migrate_for_asb"               0000122678
+	@AlexR_3.0_Statistics.c
+
+24 #ifde‡
+__˝lu•lus
+
+
+28 
+	~<°dlib.h
+>
+
+29 
+	~<°dio.h
+>
+
+30 
+	~<°rög.h
+>
+
+32 #ifde‡
+__löux__
+
+
+33 
+	~<uni°d.h
+>
+
+37 
+	~"wp_wddi.h
+"
+
+39 
+wp3_u¨t_¥ötf
+(c⁄° *
+fmt
+, ...);
+
+41 #ifde‡
+__˝lu•lus
+
+
+48 
+WPE_Di•œyE√tDevi˚Sèt
+(
+WP_h™dÀ
+ 
+dev_íë
+);
+
+52 
+WPE_Di•œyFlowAggSèts
+(
+WP_h™dÀ
+ 
+agg
+);
+
+53 
+WPE_Di•œyIWP‹tSèts
+(
+WP_h™dÀ
+ 
+iw_p‹t_h™dÀ
+);
+
+54 
+WPE_Di•œyIWSy°emSèts
+(
+WP_h™dÀ
+ 
+p‹t_h™dÀ
+);
+
+57 
+	uSètFõld
+ {
+
+58 
+WP_U64
+ 
+	mfõld
+;
+
+60 
+WP_U32
+ 
+	mhigh
+;
+
+61 
+WP_U32
+ 
+	mlow
+;
+
+62 } 
+	m∑π
+;
+
+63 } 
+	tWPE_SètFõld
+;
+
+66 
+	$WPE_Aµ_¥öt_U64
+ (
+WP_CHAR
+ *
+«me
+, 
+WP_U64
+ *
+±r
+)
+
+68 
+	`wp3_u¨t_¥ötf
+ (" %-36s: 0x%08x%08x\n", 
+«me
+,
+
+69 (
+WP_U32
+Ë(*
+±r
+ >> 32), (WP_U32) (*ptr & 0xffffffff));
+
+70 
+	}
+}
+
+73 
+	$WPE_Tîmö©eOnEº‹L
+(
+WP_h™dÀ
+ 
+h™dÀ
+, 
+WP_CHAR
+ *
+s
+)
+
+75 i‡(
+	`WP_ERROR_P
+(
+h™dÀ
+)) {
+
+76 
+	`wp3_u¨t_¥ötf
+("Te° Ab‹à%†%†0x%x\n", 
+s
+, 
+WP_îr‹_«me
+[
+	`WP_ERROR
+(
+h™dÀ
+)], handle);
+
+77 
+	`wp3_u¨t_¥ötf
+("Test Failed\n");
+
+79 
+	`WP_DrivîRñó£
+();
+
+80 
+	`exô
+(1);
+
+82 
+	}
+}
+
+200 
+	$WPE_Aµ_¥öt_°©s_íë
+ (
+WP_°©s_íë
+ *
+v¨_±r
+)
+
+202 
+	`wp3_u¨t_¥ötf
+ (" WP_stats_enet\n");
+
+211 
+	`WPE_Aµ_¥öt_U64
+ ("rx_∑ckës", &
+v¨_±r
+->
+rx_∑ckës
+);
+
+212 
+	`WPE_Aµ_¥öt_U64
+ ("rx_mu…iˇ°", &
+v¨_±r
+->
+rx_mu…iˇ°
+);
+
+213 
+	`WPE_Aµ_¥öt_U64
+ ("rx_brﬂdˇ°", &
+v¨_±r
+->
+rx_brﬂdˇ°
+);
+
+214 
+	`WPE_Aµ_¥öt_U64
+ ("rx_îr_fcs", &
+v¨_±r
+->
+rx_îr_fcs
+);
+
+217 
+	`WPE_Aµ_¥öt_U64
+ ("rx_mac_unknown", &
+v¨_±r
+->
+rx_mac_unknown
+);
+
+218 
+	`WPE_Aµ_¥öt_U64
+ ("rx_îr_Æignmít", &
+v¨_±r
+->
+rx_îr_Æignmít
+);
+
+219 
+	`WPE_Aµ_¥öt_U64
+ ("rx_îr_Àngth", &
+v¨_±r
+->
+rx_îr_Àngth
+);
+
+220 
+	`WPE_Aµ_¥öt_U64
+ ("rx_îr_code", &
+v¨_±r
+->
+rx_îr_code
+);
+
+221 
+	`WPE_Aµ_¥öt_U64
+ ("rx_Ál£_ˇºõr", &
+v¨_±r
+->
+rx_Ál£_ˇºõr
+);
+
+222 
+	`WPE_Aµ_¥öt_U64
+ ("rx_undîsize", &
+v¨_±r
+->
+rx_undîsize
+);
+
+223 
+	`WPE_Aµ_¥öt_U64
+ ("rx_ovîsize", &
+v¨_±r
+->
+rx_ovîsize
+);
+
+225 
+	`WPE_Aµ_¥öt_U64
+ ("rx_jabbî", &
+v¨_±r
+->
+rx_jabbî
+);
+
+226 
+	`WPE_Aµ_¥öt_U64
+ ("rx_dr›≥d", &
+v¨_±r
+->
+rx_dr›≥d
+);
+
+228 
+	`WPE_Aµ_¥öt_U64
+ ("tx_∑ckës", &
+v¨_±r
+->
+tx_∑ckës
+);
+
+229 
+	`WPE_Aµ_¥öt_U64
+ ("tx_mu…iˇ°", &
+v¨_±r
+->
+tx_mu…iˇ°
+);
+
+230 
+	`WPE_Aµ_¥öt_U64
+ ("tx_brﬂdˇ°", &
+v¨_±r
+->
+tx_brﬂdˇ°
+);
+
+240 
+	`WPE_Aµ_¥öt_U64
+ ("tx_dr›≥d", &
+v¨_±r
+->
+tx_dr›≥d
+);
+
+241 
+	`WPE_Aµ_¥öt_U64
+ ("tx_jabbî", &
+v¨_±r
+->
+tx_jabbî
+);
+
+242 
+	`WPE_Aµ_¥öt_U64
+ ("tx_îr_fcs", &
+v¨_±r
+->
+tx_îr_fcs
+);
+
+244 
+	`WPE_Aµ_¥öt_U64
+ ("tx_ovîsize", &
+v¨_±r
+->
+tx_ovîsize
+);
+
+245 
+	`WPE_Aµ_¥öt_U64
+ ("tx_undîsize", &
+v¨_±r
+->
+tx_undîsize
+);
+
+247 
+	`WPE_Aµ_¥öt_U64
+ ("rx_ho°_‰ames", &
+v¨_±r
+->
+rx_ho°_‰ames
+);
+
+248 
+	`WPE_Aµ_¥öt_U64
+ ("rx_iw_‰ames", &
+v¨_±r
+->
+rx_iw_‰ames
+);
+
+249 
+	`WPE_Aµ_¥öt_U64
+ ("rx_îr_ho°_fuŒ",&
+v¨_±r
+->
+rx_îr_ho°_fuŒ
+);
+
+250 
+	`WPE_Aµ_¥öt_U64
+ ("rx_îr_fbp_undîrun",&
+v¨_±r
+->
+rx_îr_fbp_undîrun
+);
+
+251 
+	`WPE_Aµ_¥öt_U64
+ ("rx_îr_n⁄vÆid_mac",&
+v¨_±r
+->
+rx_îr_n⁄vÆid_mac
+);
+
+252 
+	`WPE_Aµ_¥öt_U64
+ ("rx_îr_mru", &
+v¨_±r
+->
+rx_îr_mru
+);
+
+253 
+	`WPE_Aµ_¥öt_U64
+ ("rx_îr_sdu",&
+v¨_±r
+->
+rx_îr_sdu
+);
+
+254 
+	`WPE_Aµ_¥öt_U64
+ ("tx_îr_undîrun", &
+v¨_±r
+->
+tx_îr_undîrun
+);
+
+255 
+	`WPE_Aµ_¥öt_U64
+ ("rx_îr_ovîrun", &
+v¨_±r
+->
+rx_îr_ovîrun
+);
+
+258 
+	`WPE_Aµ_¥öt_U64
+ ("rx_∑ckës", &
+v¨_±r
+->
+rx_∑ckës
+);
+
+259 
+	`WPE_Aµ_¥öt_U64
+ ("tx_∑ckës", &
+v¨_±r
+->
+tx_∑ckës
+);
+
+260 
+	`WPE_Aµ_¥öt_U64
+ ("tx_byãs", &
+v¨_±r
+->
+tx_byãs
+);
+
+262 
+	}
+}
+
+265 
+	$WPE_Di•œyE√tDevi˚Sèt
+(
+WP_h™dÀ
+ 
+dev_íë
+)
+
+267 
+WP_°©s_íë
+ 
+°©s_íë
+;
+
+268 
+WP_°©us
+ 
+°©us
+;
+
+270 
+	`mem£t
+(&
+°©s_íë
+,0,(
+WP_°©s_íë
+));
+
+272 i‡–(
+°©us
+ = 
+	`WP_Devi˚Sèti°ics
+(
+dev_íë
+, &
+°©s_íë
+)) ) {
+
+273 
+	`wp3_u¨t_¥ötf
+("GëSèti°ic†îr‹ E√à: %d\n",
+dev_íë
+);
+
+276 
+	`WPE_Aµ_¥öt_°©s_íë
+(&
+°©s_íë
+);
+
+278 
+	}
+}
+
+538 
+	$WPE_Di•œyFlowAggSèts
+(
+WP_h™dÀ
+ 
+agg
+)
+
+541 
+WP_iw_Êow_°©s
+ 
+iw_Êow_°©s
+;
+
+543 
+	`mem£t
+(&
+iw_Êow_°©s
+,0,(iw_flow_stats));
+
+545 
+	`WP_IwFlowSèti°ics
+(
+agg
+, 
+WP_IW_FLOW_STAT
+, &
+iw_Êow_°©s
+);
+
+547 
+	`wp3_u¨t_¥ötf
+ ("\nAggªg©i⁄ flow sèti°ic†o‡Êow (%dË(%x)\n", (
+agg
+ & 0x00000fff),agg);
+
+548 
+	`wp3_u¨t_¥ötf
+ ("==========================================================\n");
+
+550 
+	`wp3_u¨t_¥ötf
+ ("Forward Packet: %08x%08x\n",
+
+551 ((
+WPE_SètFõld
+*)&
+iw_Êow_°©s
+.
+f‹w¨d_∑ckë
+)->
+∑π
+.
+high
+,
+
+552 ((
+WPE_SètFõld
+*)&
+iw_Êow_°©s
+.
+f‹w¨d_∑ckë
+)->
+∑π
+.
+low
+);
+
+553 
+	`wp3_u¨t_¥ötf
+( "FBP Drop Packets: %08x%08x\n",
+
+554 ((
+WPE_SètFõld
+*)&
+iw_Êow_°©s
+.
+fbp_dr›_∑ckës
+)->
+∑π
+.
+high
+,
+
+555 ((
+WPE_SètFõld
+*)&
+iw_Êow_°©s
+.
+fbp_dr›_∑ckës
+)->
+∑π
+.
+low
+);
+
+556 
+	`wp3_u¨t_¥ötf
+( "MTU Drop Packets: %08x%08x\n",
+
+557 ((
+WPE_SètFõld
+*)&
+iw_Êow_°©s
+.
+mtu_dr›_∑ckës
+)->
+∑π
+.
+high
+,
+
+558 ((
+WPE_SètFõld
+*)&
+iw_Êow_°©s
+.
+mtu_dr›_∑ckës
+)->
+∑π
+.
+low
+);
+
+559 
+	`wp3_u¨t_¥ötf
+( "TTL Drop Packets: %08x%08x\n",
+
+560 ((
+WPE_SètFõld
+*)&
+iw_Êow_°©s
+.
+âl_dr›_∑ckës
+)->
+∑π
+.
+high
+,
+
+561 ((
+WPE_SètFõld
+*)&
+iw_Êow_°©s
+.
+âl_dr›_∑ckës
+)->
+∑π
+.
+low
+);
+
+562 
+	`wp3_u¨t_¥ötf
+( "TX Queue Drop Packets: %08x%08x\n",
+
+563 ((
+WPE_SètFõld
+*)&
+iw_Êow_°©s
+.
+tx_queue_dr›_∑ckës
+)->
+∑π
+.
+high
+,
+
+564 ((
+WPE_SètFõld
+*)&
+iw_Êow_°©s
+.
+tx_queue_dr›_∑ckës
+)->
+∑π
+.
+low
+);
+
+565 
+	`wp3_u¨t_¥ötf
+( "MPLS Drop: %08x%08x\n",
+
+566 ((
+WPE_SètFõld
+*)&
+iw_Êow_°©s
+.
+m∂s_dr›
+)->
+∑π
+.
+high
+,
+
+567 ((
+WPE_SètFõld
+*)&
+iw_Êow_°©s
+.
+m∂s_dr›
+)->
+∑π
+.
+low
+);
+
+568 
+	`wp3_u¨t_¥ötf
+( "Denied Packets: %08x%08x\n",
+
+569 ((
+WPE_SètFõld
+*)&
+iw_Êow_°©s
+.
+díõd_∑ckës
+)->
+∑π
+.
+high
+,
+
+570 ((
+WPE_SètFõld
+*)&
+iw_Êow_°©s
+.
+díõd_∑ckës
+)->
+∑π
+.
+low
+);
+
+571 
+	`wp3_u¨t_¥ötf
+( "Group Filtered Packets: %08x%08x\n",
+
+572 ((
+WPE_SètFõld
+*)&
+iw_Êow_°©s
+.
+group_fûãªd_∑ckës
+)->
+∑π
+.
+high
+,
+
+573 ((
+WPE_SètFõld
+*)&
+iw_Êow_°©s
+.
+group_fûãªd_∑ckës
+)->
+∑π
+.
+low
+);
+
+574 
+	`wp3_u¨t_¥ötf
+( "Forwarded Bytes: %08x%08x\n",
+
+575 ((
+WPE_SètFõld
+*)&
+iw_Êow_°©s
+.
+f‹w¨ded_byãs
+)->
+∑π
+.
+high
+,
+
+576 ((
+WPE_SètFõld
+*)&
+iw_Êow_°©s
+.
+f‹w¨ded_byãs
+)->
+∑π
+.
+low
+);
+
+577 
+	`wp3_u¨t_¥ötf
+( "Gtp Bad Headers: %08x%08x\n",
+
+578 ((
+WPE_SètFõld
+*)&
+iw_Êow_°©s
+.
+gç_bad_hódîs
+)->
+∑π
+.
+high
+,
+
+579 ((
+WPE_SètFõld
+*)&
+iw_Êow_°©s
+.
+gç_bad_hódîs
+)->
+∑π
+.
+low
+);
+
+580 
+	`wp3_u¨t_¥ötf
+( "Bad Policer Packets: %08x%08x\n",
+
+581 ((
+WPE_SètFõld
+*)&
+iw_Êow_°©s
+.
+pﬁi˚r_n⁄_c⁄f‹mög_∑ckës
+)->
+∑π
+.
+high
+,
+
+582 ((
+WPE_SètFõld
+*)&
+iw_Êow_°©s
+.
+pﬁi˚r_n⁄_c⁄f‹mög_∑ckës
+)->
+∑π
+.
+low
+);
+
+583 
+	`wp3_u¨t_¥ötf
+ ("Forward Packet: %08x%08x\n",
+
+584 ((
+WPE_SètFõld
+*)&
+iw_Êow_°©s
+.
+f‹w¨d_∑ckë
+)->
+∑π
+.
+high
+,
+
+585 ((
+WPE_SètFõld
+*)&
+iw_Êow_°©s
+.
+f‹w¨d_∑ckë
+)->
+∑π
+.
+low
+);
+
+587 
+	`wp3_u¨t_¥ötf
+( "TX Queue Drop Packets: %08x%08x\n",
+
+588 ((
+WPE_SètFõld
+*)&
+iw_Êow_°©s
+.
+tx_queue_dr›_∑ckës
+)->
+∑π
+.
+high
+,
+
+589 ((
+WPE_SètFõld
+*)&
+iw_Êow_°©s
+.
+tx_queue_dr›_∑ckës
+)->
+∑π
+.
+low
+);
+
+590 
+	`wp3_u¨t_¥ötf
+("\n");
+
+591 
+	}
+}
+
+595 
+	$WPE_Di•œyIWP‹tSèts
+(
+WP_h™dÀ
+ 
+iw_p‹t_h™dÀ
+)
+
+597 
+WP_bp‹t_°©s
+ 
+bp‹t_°©s
+;
+
+598 
+WP_h™dÀ
+ 
+°©us
+;
+
+600 
+	`wp3_u¨t_¥ötf
+ ("\nIW Port Statistics of Port \n");
+
+601 
+	`wp3_u¨t_¥ötf
+ ("==========================================================\n");
+
+603 
+	`mem£t
+(&
+bp‹t_°©s
+, 0, (
+WP_bp‹t_°©s
+));
+
+605 
+°©us
+ = 
+	`WP_IwP‹tSèti°ics
+(
+iw_p‹t_h™dÀ
+,&
+bp‹t_°©s
+);
+
+606 
+	`WPE_Tîmö©eOnEº‹L
+(
+°©us
+, "WP_IwPortStatistics()");
+
+608 
+	`wp3_u¨t_¥ötf
+("\n");
+
+610 
+	`wp3_u¨t_¥ötf
+ ("rx_valid_packets : %08x%08x\n",
+
+611 ((
+WPE_SètFõld
+*)&
+bp‹t_°©s
+.
+rx_vÆid_∑ckës
+)->
+∑π
+.
+high
+,
+
+612 ((
+WPE_SètFõld
+*)&
+bp‹t_°©s
+.
+rx_vÆid_∑ckës
+)->
+∑π
+.
+low
+);
+
+613 
+	`wp3_u¨t_¥ötf
+ ("discard_vlan_acceptable_filter : %08x%08x\n",
+
+614 ((
+WPE_SètFõld
+*)&
+bp‹t_°©s
+.
+disˇrd_vœn_ac˚±abÀ_fûãr
+)->
+∑π
+.
+high
+,
+
+615 ((
+WPE_SètFõld
+*)&
+bp‹t_°©s
+.
+disˇrd_vœn_ac˚±abÀ_fûãr
+)->
+∑π
+.
+low
+);
+
+616 
+	`wp3_u¨t_¥ötf
+ ("discard_ingress_filter : %08x%08x\n",
+
+617 ((
+WPE_SètFõld
+*)&
+bp‹t_°©s
+.
+disˇrd_ögªss_fûãr
+)->
+∑π
+.
+high
+,
+
+618 ((
+WPE_SètFõld
+*)&
+bp‹t_°©s
+.
+disˇrd_ögªss_fûãr
+)->
+∑π
+.
+low
+);
+
+619 
+	`wp3_u¨t_¥ötf
+ ("discard_bridge_classifier : %08x%08x\n",
+
+620 ((
+WPE_SètFõld
+*)&
+bp‹t_°©s
+.
+disˇrd_bridge_˛assifõr
+)->
+∑π
+.
+high
+,
+
+621 ((
+WPE_SètFõld
+*)&
+bp‹t_°©s
+.
+disˇrd_bridge_˛assifõr
+)->
+∑π
+.
+low
+);
+
+622 
+	`wp3_u¨t_¥ötf
+ ("discard_unk_macsa : %08x%08x\n",
+
+623 ((
+WPE_SètFõld
+*)&
+bp‹t_°©s
+.
+disˇrd_unk_macß
+)->
+∑π
+.
+high
+,
+
+624 ((
+WPE_SètFõld
+*)&
+bp‹t_°©s
+.
+disˇrd_unk_macß
+)->
+∑π
+.
+low
+);
+
+625 
+	`wp3_u¨t_¥ötf
+ ("deny_mac_sa : %08x%08x\n",
+
+626 ((
+WPE_SètFõld
+*)&
+bp‹t_°©s
+.
+díy_mac_ß
+)->
+∑π
+.
+high
+,
+
+627 ((
+WPE_SètFõld
+*)&
+bp‹t_°©s
+.
+díy_mac_ß
+)->
+∑π
+.
+low
+);
+
+628 
+	`wp3_u¨t_¥ötf
+ ("deny_mac_da : %08x%08x\n",
+
+629 ((
+WPE_SètFõld
+*)&
+bp‹t_°©s
+.
+díy_mac_da
+)->
+∑π
+.
+high
+,
+
+630 ((
+WPE_SètFõld
+*)&
+bp‹t_°©s
+.
+díy_mac_da
+)->
+∑π
+.
+low
+);
+
+631 
+	`wp3_u¨t_¥ötf
+ ("rx_bc_valid_packets : %08x%08x\n",
+
+632 ((
+WPE_SètFõld
+*)&
+bp‹t_°©s
+.
+rx_bc_vÆid_∑ckës
+)->
+∑π
+.
+high
+,
+
+633 ((
+WPE_SètFõld
+*)&
+bp‹t_°©s
+.
+rx_bc_vÆid_∑ckës
+)->
+∑π
+.
+low
+);
+
+634 
+	`wp3_u¨t_¥ötf
+ ("rx_mc_valid_packets : %08x%08x\n",
+
+635 ((
+WPE_SètFõld
+*)&
+bp‹t_°©s
+.
+rx_mc_vÆid_∑ckës
+)->
+∑π
+.
+high
+,
+
+636 ((
+WPE_SètFõld
+*)&
+bp‹t_°©s
+.
+rx_mc_vÆid_∑ckës
+)->
+∑π
+.
+low
+);
+
+637 
+	`wp3_u¨t_¥ötf
+ ("forwarded_uc_packets : %08x%08x\n",
+
+638 ((
+WPE_SètFõld
+*)&
+bp‹t_°©s
+.
+f‹w¨ded_uc_∑ckës
+)->
+∑π
+.
+high
+,
+
+639 ((
+WPE_SètFõld
+*)&
+bp‹t_°©s
+.
+f‹w¨ded_uc_∑ckës
+)->
+∑π
+.
+low
+);
+
+640 
+	`wp3_u¨t_¥ötf
+ ("forwarded_bc_packets : %08x%08x\n",
+
+641 ((
+WPE_SètFõld
+*)&
+bp‹t_°©s
+.
+f‹w¨ded_bc_∑ckës
+)->
+∑π
+.
+high
+,
+
+642 ((
+WPE_SètFõld
+*)&
+bp‹t_°©s
+.
+f‹w¨ded_bc_∑ckës
+)->
+∑π
+.
+low
+);
+
+643 
+	`wp3_u¨t_¥ötf
+ ("forwarded_mc_packets : %08x%08x\n",
+
+644 ((
+WPE_SètFõld
+*)&
+bp‹t_°©s
+.
+f‹w¨ded_mc_∑ckës
+)->
+∑π
+.
+high
+,
+
+645 ((
+WPE_SètFõld
+*)&
+bp‹t_°©s
+.
+f‹w¨ded_mc_∑ckës
+)->
+∑π
+.
+low
+);
+
+646 
+	`wp3_u¨t_¥ötf
+ ("protocol_error : %08x%08x\n",
+
+647 ((
+WPE_SètFõld
+*)&
+bp‹t_°©s
+.
+¥Ÿocﬁ_îr‹
+)->
+∑π
+.
+high
+,
+
+648 ((
+WPE_SètFõld
+*)&
+bp‹t_°©s
+.
+¥Ÿocﬁ_îr‹
+)->
+∑π
+.
+low
+);
+
+650 
+	`wp3_u¨t_¥ötf
+("\n");
+
+653 
+	}
+}
+
+656 
+	$WPE_Di•œyIWSy°emSèts
+(
+WP_h™dÀ
+ 
+p‹t_h™dÀ
+)
+
+658 
+WP_iw_globÆ_°©s
+ 
+iw_°©s
+;
+
+660 
+	`mem£t
+(&
+iw_°©s
+, 0, (
+WP_iw_globÆ_°©s
+));
+
+661 
+	`WP_IwSèti°ics
+(
+p‹t_h™dÀ
+, &
+iw_°©s
+);
+
+663 
+	`wp3_u¨t_¥ötf
+ ("\nIW Port Statistics of Port \n");
+
+664 
+	`wp3_u¨t_¥ötf
+ ("==========================================================\n");
+
+667 
+	`wp3_u¨t_¥ötf
+ ("\nDeniedÖackets: %08x%08x\n",
+
+668 ((
+WPE_SètFõld
+*)&
+iw_°©s
+.
+díõd_∑ckës
+)->
+∑π
+.
+high
+,
+
+669 ((
+WPE_SètFõld
+*)&
+iw_°©s
+.
+díõd_∑ckës
+)->
+∑π
+.
+low
+);
+
+670 
+	`wp3_u¨t_¥ötf
+ ("IW BG FBP underrun: %08x%08x\n",
+
+671 ((
+WPE_SètFõld
+*)&
+iw_°©s
+.
+iwbg_fbp_undîrun
+)->
+∑π
+.
+high
+,
+
+672 ((
+WPE_SètFõld
+*)&
+iw_°©s
+.
+iwbg_fbp_undîrun
+)->
+∑π
+.
+low
+);
+
+673 
+	`wp3_u¨t_¥ötf
+("\n");
+
+674 
+	}
+}
+
+	@EnetDemo.c
+
+57 #ifde‡
+__˝lu•lus
+
+
+61 
+	~<°dlib.h
+>
+
+62 
+	~<°dio.h
+>
+
+63 
+	~<°rög.h
+>
+
+65 
+	~"≠i/wp_wddi.h
+"
+
+66 
+	~"≠i/wp_ho°_io.h
+"
+
+68 
+	~"wpx_≠p_d©a.h
+"
+
+69 
+	~"wpx_bﬂrd_if.h
+"
+
+70 
+	~"wpx_bﬂrd_d©a.h
+"
+
+71 
+	~"w∂_∂©f‹m.h
+"
+
+72 
+	~"wp_bus.h
+"
+
+73 
+	~"w∂_locks.h
+"
+
+75 
+WP_U32
+ 
+thªadSt›
+ = 1;
+
+76 
+wp3_u¨t_¥ötf
+(c⁄° *
+fmt
+, ...);
+
+77 
+wp3_gëch¨
+();
+
+79 
+WPE_Di•œyE√tDevi˚Sèt
+(
+WP_h™dÀ
+ 
+dev_íë
+);
+
+80 
+WPE_Di•œyFlowAggSèts
+(
+WP_h™dÀ
+ 
+agg
+);
+
+81 
+WPE_Di•œyIWP‹tSèts
+(
+WP_h™dÀ
+ 
+iw_p‹t_h™dÀ
+);
+
+82 
+WPE_Di•œyIWSy°emSèts
+(
+WP_h™dÀ
+ 
+p‹t_h™dÀ
+);
+
+84 #ifde‡
+__˝lu•lus
+
+
+92 
+	#WP_MAX_IW_PROGRAMMABLE_FILTERS
+ 1
+
+	)
+
+93 
+	#WP_MAX_IW_CLASSFICATION_RULES
+ 1
+
+	)
+
+94 
+	#WP_IW_DHCP_DFC_FILTER_MASK
+ 0x80000000
+
+	)
+
+95 
+	#RM_MAX_MULTICAST_MEMBER_QUANTITY
+ 2400
+
+96 
+	#WT_MAX_IW_FLOWS
+ 8192
+
+	)
+
+97 
+	#WT_MAX_BPORTS
+ 2048
+
+	)
+
+98 
+	#RM_MAX_MULTICAST_CHANNEL_QUANTITY
+ 1024
+
+	)
+
+99 
+	#WT_MAX_IW_MC_GROUPS
+ (2*
+RM_MAX_MULTICAST_CHANNEL_QUANTITY
+)
+
+	)
+
+100 
+	#WT_MAX_IW_MC_MEMBERS
+ (2*
+RM_MAX_MULTICAST_MEMBER_QUANTITY
+)
+
+	)
+
+103 #unde‡
+LOCK_AT_START
+
+
+104 
+	#USE_SIMPLE_DEVICE
+ (0)
+
+	)
+
+105 
+	#WPL_THREAD_LOCK_KEY
+ \
+
+106 
+	`WPL_LOCK_KEY_CREATE
+(
+WPL_HW_LOCK
+, 
+WPL_PRIVATE_LOCK
+, 7, 0)
+
+	)
+
+107 
+	#DELAY_COUNT
+ (100000*10)
+
+108 
+	#ENABLE_TRANSFER
+ (0)
+
+	)
+
+109 
+	#MAX_MACS
+ 4
+
+	)
+
+110 
+	#N_QNODES
+ 3
+
+	)
+
+111 
+	#N_POOLS
+ 4
+
+	)
+
+112 
+	#MAXT_SIZE
+ 255
+
+	)
+
+115 
+	#MTU_SIZE
+ 1536
+
+	)
+
+116 
+	#SDU_SIZE
+ 2048
+
+117 #ñ£
+
+	)
+
+118 
+	#MTU_SIZE
+ 6536
+
+	)
+
+119 
+	#SDU_SIZE
+ 7048
+
+121 
+
+	)
+
+122 
+	#PACKET_SIZE
+ 2500
+
+	)
+
+125 
+	#USE_SW_CHANNELS
+ 0
+
+	)
+
+127 
+	#NUM_OF_L1_GROUP
+ 1
+
+	)
+
+128 
+	#NUM_OF_L2_GROUP
+ 4
+
+	)
+
+130 
+	#NUM_OF_HIER_ENET_FAS_PER_L2
+ 8
+
+131 
+	#NUM_OF_HIER_ENET_FAS
+ (
+NUM_OF_HIER_ENET_FAS_PER_L2
+*
+NUM_OF_L2_GROUP
+)
+
+	)
+
+132 
+	#NUM_OF_FAST_ENET_FAS
+ 1
+
+	)
+
+133 
+	#MAX_VLAN_IDS
+ 
+NUM_OF_HIER_ENET_FAS
+
+
+	)
+
+134 
+	#NUM_OF_IW_BPORTS
+ (1+1+1+1Ë
+
+	)
+
+135 
+	#MAX_IW_FLOWS
+ (
+MAX_VLAN_IDS
+*
+NUM_OF_IW_BPORTS
+Ë
+
+	)
+
+138 #i‡
+PQBLOCK
+
+
+139 
+	#NUM_OF_CHANNELS_IN_PQ_BLOCK
+ 4
+
+	)
+
+141 
+	#NUM_OF_CHANNELS_IN_PQ_BLOCK
+ 1
+
+	)
+
+145 
+	#NUM_OF_ALL_L2HOST_CHANNELS
+ 2
+
+146 
+	#NUM_OF_FAST_ENET_TX_CHANNELS
+ 
+NUM_OF_FAST_ENET_FAS
+
+
+	)
+
+147 
+	#NUM_OF_FAST_ENET_RX_CHANNELS
+ 1
+
+148 
+	#NUM_OF_HIER_ENET_TX_CHANNELS
+ 
+NUM_OF_HIER_ENET_FAS
+
+
+	)
+
+149 
+	#NUM_OF_HIER_ENET_RX_CHANNELS
+ 1
+
+150 
+	#NUM_OF_ALL_HIER_ENET_CHANNELS
+ (
+NUM_OF_HIER_ENET_TX_CHANNELS
+ + 
+NUM_OF_HIER_ENET_RX_CHANNELS
+)
+
+	)
+
+151 
+	#NUM_OF_ALL_CHANNELS
+ (2+
+NUM_OF_FAST_ENET_TX_CHANNELS
++
+NUM_OF_FAST_ENET_RX_CHANNELS
++
+NUM_OF_ALL_HIER_ENET_CHANNELS
+)
+
+152 
+
+	)
+
+154 
+	#LEARNING_QUEUE_SIZE
+ 100
+
+	)
+
+157 
+	#NUM_OF_RULES_PER_FILTER
+ 2
+
+	)
+
+158 
+	#NUM_OF_EMC_FILTERS
+ 1
+
+	)
+
+159 
+	#WP_IW_RULE_MAX_LENGTH
+ 300
+
+	)
+
+162 
+	#MFC
+ 0
+
+	)
+
+165 
+	#BRIDGE_PORT_ENET_TAG
+ 12
+
+	)
+
+166 
+	#BRIDGE_PORT_HOST_TAG
+ 13
+
+	)
+
+167 
+	#BRIDGE_PORT_HIER_ENET_TAG
+ 14
+
+	)
+
+168 
+	#BRIDGE_PORT_MC_TAG
+ 15
+
+	)
+
+170 
+	#VLAN_TAG_1
+ 1
+
+	)
+
+171 
+	#VLAN_TAG_2
+ 2
+
+	)
+
+174 
+	#NUM_OF_MC_GROUPS
+ 1
+
+175 
+	#NUM_OF_MC_MEMBERS_PER_GROUP
+ 
+NUM_OF_HIER_ENET_FAS
+
+
+	)
+
+177 
+	#XPRIO_BACKGROUND_APPL
+ 50
+
+	)
+
+178 
+	#T_PREEMPT
+ 0x00000000
+
+	)
+
+179 
+	#T_TSLICE
+ 0x00000002
+
+	)
+
+183 
+	mPIC_INTR0
+, 
+	mPIC_INTR1
+, 
+	mPIC_INTR2
+, 
+	mPIC_INTR3
+,
+
+184 
+	mPIC_INTR4
+, 
+	mPIC_INTR5
+, 
+	mPIC_INTR6
+, 
+	mPIC_INTR7
+,
+
+185 
+	mPIC_INTR8
+, 
+	mPIC_INTR9
+, 
+	mPIC_INTR10
+, 
+	mPIC_INTR11
+,
+
+186 
+	mPIC_INTR12
+, 
+	mPIC_INTR13
+, 
+	mPIC_INTR14
+, 
+	mPIC_INTR15
+,
+
+187 
+	mPIC_INTR16
+, 
+	mPIC_INTR17
+, 
+	mPIC_INTR18
+, 
+	mPIC_INTR19
+,
+
+188 
+	mPIC_INTR20
+, 
+	mPIC_INTR21
+, 
+	mPIC_INTR22
+, 
+	mPIC_INTR23
+,
+
+189 
+	mPIC_INTR24
+, 
+	mPIC_INTR25
+, 
+	mPIC_INTR26
+, 
+	mPIC_INTR27
+,
+
+190 
+	mPIC_INTR28
+, 
+	mPIC_INTR29
+, 
+	mPIC_INTR30
+, 
+	mPIC_INTR31
+,
+
+191 
+	mPIC_INTR32
+, 
+	mPIC_INTR33
+, 
+	mPIC_INTR34
+, 
+	mPIC_INTR35
+,
+
+192 
+	mPIC_INTR36
+, 
+	mPIC_INTR37
+, 
+	mPIC_INTR38
+, 
+	mPIC_INTR39
+,
+
+193 
+	mPIC_INTR40
+, 
+	mPIC_INTR41
+, 
+	mPIC_INTR42
+, 
+	mPIC_INTR43
+,
+
+194 
+	mPIC_INTR44
+, 
+	mPIC_INTR45
+, 
+	mPIC_INTR46
+, 
+	mPIC_INTR47
+,
+
+195 
+	mPIC_INTR48
+, 
+	mPIC_INTR49
+, 
+	mPIC_INTR50
+, 
+	mPIC_INTR51
+,
+
+196 
+	mPIC_INTR52
+, 
+	mPIC_INTR53
+, 
+	mPIC_INTR54
+, 
+	mPIC_INTR55
+,
+
+197 
+	mPIC_INTR56
+, 
+	mPIC_INTR57
+, 
+	mPIC_INTR58
+, 
+	mPIC_INTR59
+,
+
+198 
+	mPIC_INTR60
+, 
+	mPIC_INTR61
+, 
+	mPIC_INTR62
+, 
+	mPIC_INTR63
+,
+
+199 
+	mPIC_INTR64
+, 
+	mPIC_INTR65
+, 
+	mPIC_INTR66
+, 
+	mPIC_INTR67
+,
+
+200 
+	mPIC_INTR68
+, 
+	mPIC_INTR69
+, 
+	mPIC_INTR70
+, 
+	mPIC_INTR71
+,
+
+201 
+	mPIC_INTR72
+, 
+	mPIC_INTR73
+, 
+	mPIC_INTR74
+, 
+	mPIC_INTR75
+,
+
+202 
+	mPIC_INTR76
+, 
+	mPIC_INTR77
+, 
+	mPIC_INTR78
+, 
+	mPIC_INTR79
+,
+
+203 
+	mPIC_INTR80
+, 
+	mPIC_INTR81
+, 
+	mPIC_INTR82
+, 
+	mPIC_INTR83
+,
+
+204 
+	mPIC_INTR84
+, 
+	mPIC_INTR85
+, 
+	mPIC_INTR86
+, 
+	mPIC_INTR87
+,
+
+205 
+	mPIC_INTR88
+, 
+	mPIC_INTR89
+, 
+	mPIC_INTR90
+, 
+	mPIC_INTR91
+,
+
+206 
+	mPIC_INTR92
+, 
+	mPIC_INTR93
+, 
+	mPIC_INTR94
+, 
+	mPIC_INTR95
+,
+
+207 
+	mPIC_INTR96
+, 
+	mPIC_INTR97
+, 
+	mPIC_INTR98
+, 
+	mPIC_INTR99
+,
+
+208 
+	mPIC_INTR100
+, 
+	mPIC_INTR101
+, 
+	mPIC_INTR102
+, 
+	mPIC_INTR103
+,
+
+209 
+	mPIC_INTR104
+, 
+	mPIC_INTR105
+, 
+	mPIC_INTR106
+, 
+	mPIC_INTR107
+,
+
+210 
+	mPIC_INTR108
+, 
+	mPIC_INTR109
+, 
+	mPIC_INTR110
+, 
+	mPIC_INTR111
+,
+
+211 
+	mPIC_INTR112
+, 
+	mPIC_INTR113
+, 
+	mPIC_INTR114
+, 
+	mPIC_INTR115
+,
+
+212 
+	mPIC_INTR116
+, 
+	mPIC_INTR117
+, 
+	mPIC_INTR118
+, 
+	mPIC_INTR119
+,
+
+213 
+	mPIC_INTR120
+, 
+	mPIC_INTR121
+, 
+	mPIC_INTR122
+, 
+	mPIC_INTR123
+,
+
+214 
+	mPIC_INTR124
+, 
+	mPIC_INTR125
+, 
+	mPIC_INTR126
+, 
+	mPIC_INTR127
+,
+
+215 
+	mPIC_INTR128
+, 
+	mPIC_INTR129
+, 
+	mPIC_INTR130
+, 
+	mPIC_INTR131
+,
+
+216 
+	mPIC_INTR132
+, 
+	mPIC_INTR133
+, 
+	mPIC_INTR134
+, 
+	mPIC_INTR135
+,
+
+217 
+	mPIC_INTR136
+, 
+	mPIC_INTR137
+, 
+	mPIC_INTR138
+, 
+	mPIC_INTR139
+,
+
+218 
+	mPIC_INTR140
+, 
+	mPIC_INTR141
+, 
+	mPIC_INTR142
+, 
+	mPIC_INTR143
+,
+
+219 
+	mPIC_INTR144
+, 
+	mPIC_INTR145
+, 
+	mPIC_INTR146
+, 
+	mPIC_INTR147
+,
+
+220 
+	mPIC_INTR148
+, 
+	mPIC_INTR149
+, 
+	mPIC_INTR150
+, 
+	mPIC_INTR151
+,
+
+221 
+	mPIC_INTR152
+, 
+	mPIC_INTR153
+, 
+	mPIC_INTR154
+, 
+	mPIC_INTR155
+,
+
+222 
+	mPIC_INTR156
+, 
+	mPIC_INTR157
+, 
+	mPIC_INTR158
+, 
+	mPIC_INTR159
+
+
+223 } 
+	tpic_öå_num_ty≥
+;
+
+229 
+WP_íë_fûãrs
+ 
+	gmy_rx_fûãrs
+ = {
+
+231  
+WP_ENET_FILTER_PROCESS
+,
+
+232  
+WP_ENET_FILTER_PROCESS
+,
+
+233  
+WP_ENET_FILTER_PROCESS
+
+
+236 
+WP_devi˚_íë_ex
+ 
+	gmy_íë_dev_ext_∑øms_c⁄fig
+ = {
+
+238  
+WP_ENET_FULLDUPLEX
+,
+
+239  
+WP_DISABLE
+,
+
+240  
+WP_ENET_FLOW_ENABLE
+,
+
+241  
+WP_ENET_FLOW_ENABLE
+,
+
+242  
+WP_ENET_ADDR_ACCEPTALL
+,
+
+243  
+WP_ENET_STAT_ENABLE
+,
+
+244  
+WP_ENET_STAT_ENABLE
+,
+
+245  
+WP_ENET_STAT_ENABLE
+,
+
+246  
+WP_DISABLE
+,
+
+247  &
+my_rx_fûãrs
+,
+
+251 
+WP_devi˚_íë
+ 
+	gmy_íë_dev_c⁄fig
+ = {
+
+254  
+SDU_SIZE
+,
+
+255  
+WP_UNUSED
+,
+
+261  
+WP_ENET_NORMAL
+,
+
+263  
+NULL
+
+
+265 &
+my_íë_dev_ext_∑øms_c⁄fig
+
+
+276 
+WP_h™dÀ
+ 
+	giw_sys
+;
+
+277 
+WP_h™dÀ
+ 
+	giw_qnode
+, 
+	gqnode_ho°
+, 
+	gqnode_mc
+;
+
+278 
+WP_h™dÀ
+ 
+	gadjun˘_buf„r_poﬁ
+, 
+	gpoﬁ_ho°
+, 
+	gpoﬁ_rög_ho°
+;
+
+279 
+WP_h™dÀ
+ 
+	gagg_èg_cou¡î
+ = 0;
+
+280 
+WP_h™dÀ
+ 
+	gp‹t_ho°
+, 
+	gdev_ho°
+, 
+	gbp‹t_ho°
+, 
+	gagg_ho°
+, 
+	grx_ho°_ch™√l
+,
+
+281 
+	gtx_ho°_ch™√l
+;
+
+282 
+WP_h™dÀ
+ 
+	gp‹t_íë
+, 
+	gdev_íë
+, 
+	gbp‹t_íë
+, 
+	gagg_íë_ch™ge_mac
+,
+
+283 
+	gagg_íë
+[
+NUM_OF_FAST_ENET_FAS
+], 
+	grx_gbe_ch™√l
+,
+
+284 
+	gtx_gbe_ch™√l
+[
+NUM_OF_FAST_ENET_TX_CHANNELS
+];
+
+285 
+WP_h™dÀ
+ 
+	gp‹t_hõr_íë
+, 
+	gdev_hõr_íë
+, 
+	grx_gbe_hõr_ch™√l
+;
+
+287 
+WP_h™dÀ
+
+
+288 
+	gagg_hõr_íë
+[
+NUM_OF_L1_GROUP
+][
+NUM_OF_L2_GROUP
+]
+
+289 [
+NUM_OF_HIER_ENET_FAS_PER_L2
+], 
+	gbp‹t_hõr_íë
+;
+
+290 
+WP_h™dÀ
+
+
+291 
+	gtx_gbe_hõr_ch™√l
+[
+NUM_OF_L1_GROUP
+][
+NUM_OF_L2_GROUP
+]
+
+292 [
+NUM_OF_HIER_ENET_FAS_PER_L2
+];
+
+293 
+WP_h™dÀ
+ 
+	gmc_group_h™dÀ
+[
+NUM_OF_MC_GROUPS
+],
+
+294 
+	gmc_agg_h™dÀ
+[
+NUM_OF_MC_GROUPS
+], 
+	gmc_dummy_bp‹t
+;
+
+295 
+WP_h™dÀ
+ 
+	gmc_membî_h™dÀ
+[
+NUM_OF_MC_GROUPS
+ * 
+NUM_OF_MC_MEMBERS_PER_GROUP
+];
+
+296 
+WP_h™dÀ
+ 
+	gÊow_agg_dediˇãd
+[3];
+
+297 
+WP_h™dÀ
+ 
+	gemc_fûãr_h™dÀ
+[
+NUM_OF_EMC_FILTERS
+], 
+	gmfc_fûãr_h™dÀ
+;
+
+298 
+WP_h™dÀ
+ 
+	gÊow_ruÀ_h™dÀ
+[
+NUM_OF_EMC_FILTERS
+ +
+
+299 1][
+NUM_OF_RULES_PER_FILTER
+];
+
+300 
+WP_h™dÀ
+ 
+	gl1_group_hõr
+[
+NUM_OF_L1_GROUP
+];
+
+301 
+WP_h™dÀ
+ 
+	gl2_group_hõr
+[
+NUM_OF_L1_GROUP
+][
+NUM_OF_L2_GROUP
+];
+
+302 
+WP_h™dÀ
+ 
+	gl2_sh≠ög_block
+, 
+	gl1_sh≠ög_block
+;
+
+303 
+WP_U8
+ 
+	gíë_d°_mac
+[6] = {
+
+308 
+WP_U8
+ 
+	gíë_bidúe˘_d°_mac
+[6] = {
+
+314 
+WP_U8
+ 
+	gíë_ch™ge_d°_mac
+[6] = {
+
+318 
+WP_U8
+ 
+	ghõr_íë_d°_mac
+[6] = {
+
+322 
+WP_U8
+ 
+	ghõr_íë_ch™ge_d°_mac
+[6] = {
+
+326 
+WP_U8
+ 
+	ghõr_íë_mˇ°_d°_mac
+[6] = {
+
+330 
+WP_U8
+ 
+	gho°_d°_mac
+[6] = {
+
+338 
+WPE_SysInô
+ ();
+
+339 
+WPE_InôHWC¨ds
+ ();
+
+340 
+WPE_Cª©eIWQnode
+ ();
+
+341 
+WPE_Cª©eHo°Qnode
+ ();
+
+342 
+WPE_Cª©eMu…iCa°Qnode
+ ();
+
+343 
+WPE_Cª©eBuf„rPoﬁs
+ ();
+
+344 
+WPE_Cª©eIWBridgeSy°em
+ ();
+
+345 
+WPE_E«bÀSy°em
+ ();
+
+348 
+WPE_Cª©eHo°P‹tDevi˚
+ ();
+
+349 
+WPE_Cª©eHo°IwRxCh™√l
+ ();
+
+350 
+WPE_Cª©eHo°IwTxCh™√l
+ ();
+
+351 
+WPE_Cª©eIwBp‹tHo°
+ ();
+
+352 
+WPE_Cª©eHo°TîmFlowAgg
+ ();
+
+355 
+WPE_Cª©eFa°E√tP‹tDevi˚
+ ();
+
+356 
+WPE_Cª©eFa°E√tIwBp‹t
+ ();
+
+357 
+WPE_Cª©eFa°E√tFlowAgg
+ ();
+
+358 
+WPE_Cª©eFa°E√tRxTxCh™√l
+ ();
+
+359 
+WPE_Cª©eFa°E√tRxTxBödög
+ ();
+
+362 
+WPE_Cª©eHõrE√tP‹tDevi˚
+ ();
+
+363 
+WPE_Cª©eHõrE√tIwBp‹t
+ ();
+
+364 
+WPE_Cª©eHõrE√tFlowAgg
+ ();
+
+365 
+WPE_Cª©eHõrHWE√tRxTxCh™√l
+ ();
+
+366 
+WPE_Cª©eHõrE√tRxTxBödög
+ ();
+
+369 
+WPE_Cª©eL1FMUGroups
+ ();
+
+370 
+WPE_Cª©eL2FMUGroups
+ ();
+
+374 
+WPE_Mu…iCa°FlowCª©e
+ ();
+
+375 
+WPE_Mu…iCa°GroupCª©e
+ ();
+
+376 
+WPE_Mu…iCa°MembîsFûl
+ ();
+
+377 
+WPE_Mu…iCa°FlowAggCª©e
+ ();
+
+378 
+WPE_Cª©eDummyBp‹tMu…iCa°
+ ();
+
+381 
+WPE_SëSèticF‹w¨dRuÀs
+ ();
+
+382 
+WPE_Ló∫ögIST
+ (
+WP_èg
+ 
+èg
+, 
+WP_U32
+ 
+d©a
+, WP_U32 
+öfo
+);
+
+383 
+WPE_MemebîSëFûl
+ ();
+
+384 
+WPE_ShowF‹w¨dögRuÀs
+ ();
+
+385 
+WPE_Di•œyF‹w¨dögRuÀ
+ (
+WP_U32
+ * 
+l2_f‹w¨d_ruÀ
+);
+
+388 
+WPE_Cª©eDediˇãdFlowAgg
+ ();
+
+389 
+WPE_AddBasicFûãrs
+ ();
+
+390 
+WPE_AddBasicRuÀs
+ ();
+
+393 
+WPE_Cª©eSchedulögUnô
+ ();
+
+394 
+WPE_Pﬁi˚rInô
+ ();
+
+397 
+WPE_CLI
+ ();
+
+398 
+WPE_CLI_öput
+ (
+I≈utBuf
+[32]);
+
+399 
+WPE_ShowAvaûabÀBu£sMem‹y
+ ();
+
+400 
+WPE_Regi°îLogCbFunc
+ ();
+
+401 
+ãrmö©e_⁄_îr‹_E√tDemo
+ (
+WP_h™dÀ
+ 
+h™dÀ
+, 
+WP_CHAR
+ * 
+s
+);
+
+404 
+WPE_Re˚ive_Ho°D©a
+ (
+WP_h™dÀ
+ 
+rx_ch™√l
+, 
+WP_d©a_ty≥
+ 
+d©a_ty≥
+);
+
+405 
+WPE_Síd_Ho°D©a
+ (
+WP_h™dÀ
+ 
+tx_ch™√l
+, 
+WP_d©a_ty≥
+ 
+d©a_ty≥
+,
+
+406 
+WP_U8
+ 
+d°_mac
+[]);
+
+407 
+WPE_Re˚ive_Ho°D©a_IRQ
+ (
+WP_èg
+ 
+èg
+, 
+WP_U32
+ 
+evít
+, WP_U32 
+öfo
+);
+
+408 
+WPE_IWSídRe˚ive
+ (
+WP_U32
+ 
+∑ckës
+, 
+WP_U8
+ 
+d°_mac
+[]);
+
+409 
+WPE_L2SídRe˚iveE√t
+ (
+WP_U32
+ 
+∑ckës
+, 
+WP_U8
+ 
+d°_mac
+[]);
+
+410 
+WPE_L2SídRe˚iveUPI
+ (
+WP_U32
+ 
+∑ckës
+, 
+WP_U8
+ 
+d°_mac
+[]);
+
+411 
+WPE_Re˚ive_Ho°D©a_IRQ_X
+ (
+WP_èg
+ 
+èg
+, 
+WP_U32
+ 
+evít
+, WP_U32 
+öfo
+);
+
+412 
+WP_èg
+ 
+	gg_èg
+;
+
+413 
+WP_U32
+ 
+	gg_evít
+;
+
+414 
+WP_U32
+ 
+	gg_öfo
+;
+
+415 
+WP_U32
+ 
+	gg_Êag
+ = 0;
+
+416 
+≠p_ovîrun_ˇŒback
+ (
+WP_U32
+ 
+wpid
+, WP_U32 
+queue_id
+, WP_U32 
+ovîrun_cou¡
+);
+
+417 
+pmc_maö
+ ();
+
+419 
+xt_°¨t
+ (
+èsk_id
+,
+
+420 
+mode
+,
+
+421 (*
+°¨t_addªss
+) (),
+
+422 
+èsk_¨gs
+[4]);
+
+423 
+	`xt_¸óã
+ (
+«me
+[4],
+
+424 
+¥i‹ôy
+,
+
+425 
+sup_°ack
+,
+
+426 
+u§_°ack
+,
+
+427 
+Êags
+,
+
+428 *
+èsk_id
+);
+
+430 
+	`xtm_wka·î
+ (
+timeout
+);
+
+432 
+	$≠p_ovîrun_ˇŒback
+ (
+WP_U32
+ 
+wpid
+, WP_U32 
+queue_id
+, WP_U32 
+ovîrun_cou¡
+)
+
+434 
+	`wp3_u¨t_¥ötf
+ ("Overrun happenes: wpid(%2d), queue_id(%2d), overrun_cnt(%6d)",
+
+435 
+wpid
+, 
+queue_id
+, 
+ovîrun_cou¡
+);
+
+438 
+	}
+}
+
+440 
+WP_U32
+ 
+	giii
+ = 0;
+
+441 
+u¶ìp
+(
+WP_U32
+ 
+≥riod
+);
+
+442 
+WP_U32
+ 
+	gg_ˇŒback
+ = 0;
+
+444 
+WP_U32
+ 
+	geﬂm_lock
+;
+
+445 
+	#WPL_THREAD_LOCK_KEY
+ 
+	`WPL_LOCK_KEY_CREATE
+(
+WPL_HW_LOCK
+, 
+WPL_PRIVATE_LOCK
+, 7, 0)
+
+	)
+
+447 
+WP_U32
+ 
+	göãrÁ˚_mode
+ = 0;
+
+449 
+Ló∫ögPﬁl
+();
+
+451 
+	tu_öt32
+;
+
+453 
+WT_lxFwd_SimuœãI¡îru±s_ISR
+(
+u_öt32
+ 
+dev_num
+);
+
+455 
+	~"def.c
+"
+
+457 
+íabÀ_öãºu±s_as_asb
+();
+
+458 
+	$WT_lxFwd_SimuœãI¡îru±s_ISR
+(
+u_öt32
+ 
+dev_num
+)
+
+460 
+u_öt32
+ 
+iii
+ = 0;
+
+461 
+iii
+ = 
+dev_num
+;
+
+463 
+	`bﬂrd_dißbÀ_öås
+();
+
+464 
+	`WPI_SimuœãI¡îru±s
+();
+
+465 
+	`bﬂrd_íabÀ_öås
+();
+
+466 
+	}
+}
+
+468 
+	$íabÀ_öãºu±s_as_asb
+()
+
+470 ()
+	`bﬂrd_£t_öå_h™dÀr
+(60, 
+WT_lxFwd_SimuœãI¡îru±s_ISR
+, 0);
+
+471 ()
+	`bﬂrd_£t_öå_h™dÀr
+(61, 
+WT_lxFwd_SimuœãI¡îru±s_ISR
+, 0);
+
+472 ()
+	`bﬂrd_£t_öå_h™dÀr
+(62, 
+WT_lxFwd_SimuœãI¡îru±s_ISR
+, 0);
+
+473 ()
+	`bﬂrd_£t_öå_h™dÀr
+(63, 
+WT_lxFwd_SimuœãI¡îru±s_ISR
+, 0);
+
+476 ()
+	`bﬂrd_mask_öå
+(54);
+
+477 ()
+	`bﬂrd_mask_öå
+(55);
+
+478 ()
+	`bﬂrd_mask_öå
+(56);
+
+479 ()
+	`bﬂrd_mask_öå
+(57);
+
+482 ()
+	`bﬂrd_mask_öå
+(8);
+
+483 ()
+	`bﬂrd_mask_öå
+(9);
+
+484 ()
+	`bﬂrd_mask_öå
+(10);
+
+485 ()
+	`bﬂrd_mask_öå
+(11);
+
+486 ()
+	`bﬂrd_mask_öå
+(12);
+
+488 ()
+	`bﬂrd_unmask_öå
+(60);
+
+489 ()
+	`bﬂrd_unmask_öå
+(61);
+
+490 ()
+	`bﬂrd_unmask_öå
+(62);
+
+491 ()
+	`bﬂrd_unmask_öå
+(63);
+
+494 
+	}
+}
+
+499 
+	$WPE_CLI_öput
+ (
+I≈utBuf
+[32])
+
+501 
+	}
+}
+
+507 
+	$pmc_maö
+ ()
+
+509 
+ªt
+;
+
+510 
+èsk_id
+;
+
+511 
+WP_THREAD_ID
+ 
+À¨nög_thªad_id
+;
+
+512 
+WP_h™dÀ
+ 
+°©us
+;
+
+513 
+WP_U32
+ 
+i
+;
+
+514 
+ch
+ = 0;
+
+516 
+	`WPE_Regi°îLogCbFunc
+ ();
+
+520 
+°©us
+ = 
+	`WP_DrivîInô
+ ();
+
+521 
+	`ãrmö©e_⁄_îr‹_E√tDemo
+ (
+°©us
+, "WP_DriverInit()");
+
+523 
+	`WPE_SysInô
+ ();
+
+525 
+	`WPE_Cª©eIWBridgeSy°em
+ ();
+
+526 
+	`WPE_InôHWC¨ds
+ ();
+
+528 
+	`WPE_InôHWC¨ds
+ ();
+
+529 
+	`WPE_Cª©eIWBridgeSy°em
+ ();
+
+532 
+	`WPE_Cª©eBuf„rPoﬁs
+ ();
+
+537 
+	`WPE_Cª©eFa°E√tP‹tDevi˚
+ ();
+
+539 
+	`WPE_Cª©eHõrE√tP‹tDevi˚
+ ();
+
+541 
+	`WPE_Cª©eHo°P‹tDevi˚
+ ();
+
+543 
+°©us
+ = 
+	`WP_SysCommô
+ ();
+
+544 
+	`ãrmö©e_⁄_îr‹_E√tDemo
+ (
+°©us
+, "WP_SysCommit");
+
+552 
+	`WPE_Cª©eL1FMUGroups
+ ();
+
+554 
+	`WPE_Cª©eL2FMUGroups
+ ();
+
+556 
+	`WPE_Cª©eHo°IwRxCh™√l
+ ();
+
+558 
+	`WPE_Cª©eHo°TîmFlowAgg
+ ();
+
+560 
+	`WPE_Cª©eIwBp‹tHo°
+ ();
+
+562 
+	`WPE_Cª©eHo°IwTxCh™√l
+ ();
+
+564 
+	`WPE_Cª©eFa°E√tIwBp‹t
+ ();
+
+566 
+	`WPE_Cª©eFa°E√tRxTxCh™√l
+ ();
+
+568 
+	`WPE_Cª©eFa°E√tRxTxBödög
+ ();
+
+570 
+	`WPE_Cª©eFa°E√tFlowAgg
+ ();
+
+572 
+	`WPE_Cª©eHõrE√tIwBp‹t
+ ();
+
+574 
+	`WPE_Cª©eHõrHWE√tRxTxCh™√l
+ ();
+
+576 
+	`WPE_Cª©eHõrE√tRxTxBödög
+ ();
+
+578 
+	`WPE_Cª©eHõrE√tFlowAgg
+ ();
+
+583 
+°©us
+ =
+
+584 
+	`WP_C⁄åﬁRegi°î
+ (
+WP_FORWARD_RULE_FIND_ALL
+,
+
+585 &
+WPE_Di•œyF‹w¨dögRuÀ
+);
+
+586 
+	`ãrmö©e_⁄_îr‹_E√tDemo
+ (
+°©us
+,
+
+601 
+°©us
+ = 
+	`WP_C⁄åﬁRegi°î
+(
+WP_EVENT_RX_INDICATE
+,
+
+602 &
+WPE_Re˚ive_Ho°D©a_IRQ_X
+);
+
+603 
+	`ãrmö©e_⁄_îr‹_E√tDemo
+(
+°©us
+, "WP_ControlRegister WP_EVENT_RX_INDICATE ");
+
+606 
+°©us
+ = 
+	`WP_C⁄åﬁRegi°î
+(
+WP_EVENT_QUEUE_OVERRUN
+,
+
+607 &
+≠p_ovîrun_ˇŒback
+);
+
+608 
+	`ãrmö©e_⁄_îr‹_E√tDemo
+(
+°©us
+, "WP_ControlRegister WP_EVENT_QUEUE_OVERRUN");
+
+621 
+	`WPE_SëSèticF‹w¨dRuÀs
+ ();
+
+627 
+°©us
+ = 
+	`WP_IwSy°emBuûd
+ (
+iw_sys
+);
+
+628 
+	`ãrmö©e_⁄_îr‹_E√tDemo
+ (
+°©us
+, "WP_IwSystemBuild");
+
+629 
+	`íabÀ_öãºu±s_as_asb
+ ();
+
+631 
+	`WPE_E«bÀSy°em
+ ();
+
+636 
+	`wp3_u¨t_¥ötf
+ ("beforeÜock init\n");
+
+638 
+	`WPL_LockKeyInô
+ (
+WPL_THREAD_LOCK_KEY
+, &
+eﬂm_lock
+);
+
+639 
+	`wp3_u¨t_¥ötf
+ ("afterÜock init\n");
+
+641 #ifde‡
+LOCK_AT_START
+
+
+642 
+	`WPL_Lock
+(
+WPL_THREAD_LOCK_KEY
+, &
+eﬂm_lock
+);
+
+646 
+À¨nög_thªad_id
+ = 0;
+
+647 
+	`wp3_u¨t_¥ötf
+ ("pressányÅoÅo startÇewÅhread\n");
+
+648 
+ch
+ = 
+	`gëch¨
+ ();
+
+650 
+°©us
+ = 
+	`WPL_ThªadInô
+(&
+À¨nög_thªad_id
+, 
+Ló∫ögPﬁl
+, 0);
+
+651 
+	`ãrmö©e_⁄_îr‹_E√tDemo
+ (
+°©us
+ , "WPL_ThreadInit()Üearning");
+
+652 
+	`wp3_u¨t_¥ötf
+ ("after Threadinit\n");
+
+654 
+ªt
+ = 
+	`xt_¸óã
+("Ló∫ögPﬁl", 
+XPRIO_BACKGROUND_APPL
+, 4096, 0L, 0L, &
+èsk_id
+);
+
+655 if(
+ªt
+ != 0 )
+
+657 
+	`wp3_u¨t_¥ötf
+ ("error in createÅask_id\n");
+
+661 
+ªt
+ = 
+	`xt_°¨t
+(
+èsk_id
+, 
+T_PREEMPT
+|
+T_TSLICE
+, 
+Ló∫ögPﬁl
+, 
+NULL
+);
+
+662 if(
+ªt
+!=0)
+
+664 
+	`wp3_u¨t_¥ötf
+ ("error in startÅask LearningPoll\n");
+
+670 
+i
+ = 0;
+
+673 
+i
+ = 0; i < 10; i++)
+
+677 
+	`WPE_Síd_Ho°D©a
+(
+tx_ho°_ch™√l
+, 
+WP_DATA_IW
+,
+
+678  
+íë_d°_mac
+);
+
+685 
+	`WPE_CLI
+ ();
+
+687 
+	`wp3_u¨t_¥ötf
+ ("Test Passed \n");
+
+691 
+	}
+}
+
+696 
+	$WPE_SysInô
+ ()
+
+698 
+WP_h™dÀ
+ 
+°©us
+;
+
+699 
+WP_U32
+ 
+dps_ProgømImage
+[];
+
+700 
+WP_U16
+ 
+dps_PC_TabÀ_Inô
+[];
+
+703 
+WP_öt_queue_èbÀ
+ 
+öt_queue_èbÀs
+ = {
+
+713 
+WP_öt_queue_èbÀ
+ 
+öt_queue_èbÀs
+ = {{{100, 1}, {100, 1}, {100, 1}, {100, 1}},{0, 0}};
+
+718 
+WP_iw_globÆ
+ 
+max_iw
+ = {
+
+720  
+MAX_IW_FLOWS
+,
+
+728  
+NULL
+,
+
+742  
+WP_IW_POLICER_ENABLE
+,
+
+743  
+WP_IW_STATISTICS_BUNDLE_STAT_ENABLE
+,
+
+744  
+WP_IW_L2_HEADER_EXTENSION_DISABLE
+,
+
+745  
+WP_IW_ENHANCED_FLOW_STAT_ENABLE
+,
+
+746  
+WP_IW_FLOW_STAT_ENABLE
+,
+
+747  
+WP_IW_FR_TX_FLOW_STAT_DISABLE
+,
+
+748  
+WP_IW_MFC_ALLOC_ENABLE
+,
+
+749  
+WP_IW_LEARNING_ENABLE
+,
+
+750  
+WP_IW_PORT_FILTERING_ENABLE
+,
+
+751  
+WP_IW_LPM_ALLOC_DISABLE
+,
+
+752  
+WP_DISABLE
+,
+
+760  
+NUM_OF_IW_BPORTS
+,
+
+761  
+NUM_OF_MC_GROUPS
+,
+
+764  
+NULL
+,
+
+765  
+NUM_OF_MC_GROUPS
+ * 
+NUM_OF_MC_MEMBERS_PER_GROUP
+,
+
+783 
+WP_c⁄ãxt
+ 
+c⁄ãxt
+ = {
+
+784 
+N_QNODES
+,
+
+789 
+WP_BUS_PARAM
+, 
+APP_BANK_PARAM
+},
+
+791 
+WP_BUS_PACKET
+, 
+APP_BANK_PACKET
+},
+
+793 
+WP_BUS_INTERNAL
+, 
+APP_BANK_INTERNAL
+},
+
+795 
+WP_BUS_HOST
+, 
+APP_BANK_HOST
+},
+
+797 
+WP_BUS_HOST
+, 
+APP_BANK_HOST
+},
+
+799 
+WP_BUS_HOST
+, 
+APP_BANK_HOST
+},
+
+801 
+WP_BUS_NONE
+, 0},
+
+803 
+WP_BUS_NONE
+, 0},
+
+805 
+WP_BUS_INTERNAL
+, 
+APP_BANK_INTERNAL
+},
+
+807 
+WP_BUS_INTERNAL
+, 
+APP_BANK_INTERNAL
+},
+
+809 
+WP_BUS_PARAM
+, 
+APP_BANK_PARAM
+},
+
+811 
+WP_BUS_HOST
+, 
+APP_BANK_HOST
+},
+
+813 
+WP_BUS_PARAM
+, 
+APP_BANK_PARAM
+},
+
+815 
+WP_BUS_PARAM
+, 
+APP_BANK_PARAM
+},
+
+817 
+WP_BUS_PARAM
+, 
+APP_BANK_PARAM
+},
+
+819 
+WP_BUS_PARAM
+, 
+APP_BANK_PARAM
+},
+
+821 
+WP_BUS_PACKET
+, 
+APP_BANK_PACKET
+},
+
+823 
+WP_BUS_PACKET
+, 
+APP_BANK_PACKET
+},
+
+825 
+WP_BUS_PARAM
+, 
+APP_BANK_PARAM
+},
+
+827 
+WP_BUS_INTERNAL
+, 
+APP_BANK_INTERNAL
+},
+
+829 
+WP_BUS_PARAM
+, 
+APP_BANK_PARAM
+},
+
+831 
+WP_BUS_PACKET
+, 
+APP_BANK_PACKET
+},
+
+833 
+WP_BUS_PARAM
+, 
+APP_BANK_PARAM
+},
+
+835 
+WP_BUS_PARAM
+, 
+APP_BANK_PARAM
+},
+
+837 
+WP_BUS_INTERNAL
+, 
+APP_BANK_INTERNAL
+},
+
+839 
+WP_BUS_PACKET
+, 
+APP_BANK_PACKET
+},
+
+841 
+WP_BUS_PACKET
+, 
+APP_BANK_PACKET
+},
+
+843 
+WP_BUS_NONE
+, 0},
+
+845 
+WP_BUS_INTERNAL
+, 
+APP_BANK_INTERNAL
+},
+
+847 
+WP_BUS_NONE
+, 0},
+
+849 
+WP_BUS_NONE
+, 0},
+
+851 
+WP_BUS_NONE
+, 0},
+
+854 
+WP_BUS_PACKET
+, 
+APP_BANK_PACKET
+},
+
+856 
+WP_BUS_NONE
+, 0},
+
+858 
+WP_BUS_NONE
+, 0},
+
+860 
+WP_BUS_PACKET
+, 
+APP_BANK_PACKET
+},
+
+862 
+WP_BUS_NONE
+, 0},
+
+864 
+WP_BUS_NONE
+, 0},
+
+866 
+WP_BUS_NONE
+, 0},
+
+868 
+WP_BUS_NONE
+, 0},
+
+870 
+WP_BUS_NONE
+, 0},
+
+872 
+WP_BUS_NONE
+, 0},
+
+874 
+WP_BUS_NONE
+, 0},
+
+876 
+WP_BUS_NONE
+, 0},},
+
+878 
+dps_ProgømImage
+, dps_ProgramImage},
+
+880 
+dps_PC_TabÀ_Inô
+, dps_PC_Table_Init},
+
+881 &
+öt_queue_èbÀs
+,
+
+882 
+N_POOLS
+,
+
+883 
+NULL
+,
+
+884 &
+max_iw
+,
+
+887 
+WP_©m_globÆ
+ 
+©m_d©a
+ =
+
+895 
+WP_BUS_NONE
+,
+
+896 
+WP_BUS_NONE
+,
+
+904 
+WP_iw_globÆ
+ 
+max_iw
+ =
+
+906  
+WT_MAX_IW_FLOWS
+,
+
+913  
+NULL
+,
+
+917 { 
+WP_IW_POLICER_DISABLE
+,
+
+918  
+WP_IW_STATISTICS_BUNDLE_STAT_ENABLE
+,
+
+919  
+WP_IW_L2_HEADER_EXTENSION_ENABLE
+,
+
+920  
+WP_IW_ENHANCED_FLOW_STAT_DISABLE
+,
+
+921  
+WP_IW_FLOW_STAT_ENABLE
+,
+
+922  
+WP_IW_FR_TX_FLOW_STAT_DISABLE
+,
+
+923  
+WP_IW_MFC_ALLOC_DISABLE
+,
+
+924  
+WP_IW_LEARNING_ENABLE
+,
+
+925  
+WP_IW_PORT_FILTERING_ENABLE
+,
+
+927  
+WP_IW_ENHANCED_MC_MEMBER_STAT_ENABLE
+,
+
+931  
+WP_IW_MODES_IWGP_BACKGROUND_ENABLE
+
+
+935  
+WT_MAX_BPORTS
+,
+
+936  
+WT_MAX_IW_MC_GROUPS
+,
+
+939  
+NULL
+,
+
+940  
+WT_MAX_IW_MC_MEMBERS
+,
+
+941  
+WP_MAX_IW_PROGRAMMABLE_FILTERS
+,
+
+966 
+WP_c⁄ãxt
+ 
+wpsys_c⁄ãxt
+ =
+
+972  {
+WP_BUS_PARAM
+, 
+APP_BANK_PARAM
+},
+
+973  {
+WP_BUS_PACKET
+, 
+APP_BANK_PACKET
+},
+
+974  {
+WP_BUS_INTERNAL
+, 
+APP_BANK_INTERNAL
+},
+
+975  {
+WP_BUS_HOST
+, 
+APP_BANK_HOST
+},
+
+976  {
+WP_BUS_HOST
+, 
+APP_BANK_HOST
+},
+
+977  {
+WP_BUS_PARAM
+, 
+APP_BANK_PARAM
+},
+
+978  {
+WP_BUS_NONE
+, 0},
+
+979  {
+WP_BUS_NONE
+, 0},
+
+980  {
+WP_BUS_PARAM
+, 
+APP_BANK_PARAM
+},
+
+981  {
+WP_BUS_PARAM
+, 
+APP_BANK_PARAM
+},
+
+982  {
+WP_BUS_PARAM
+, 
+APP_BANK_PARAM
+},
+
+983  {
+WP_BUS_HOST
+, 
+APP_BANK_HOST
+},
+
+984  {
+WP_BUS_PARAM
+, 
+APP_BANK_PARAM
+},
+
+985  {
+WP_BUS_PARAM
+, 
+APP_BANK_PARAM
+},
+
+986  {
+WP_BUS_HOST
+, 
+APP_BANK_HOST
+},
+
+987  {
+WP_BUS_PARAM
+, 
+APP_BANK_PARAM
+},
+
+988  {
+WP_BUS_PARAM
+,
+APP_BANK_PARAM
+},
+
+989  {
+WP_BUS_HOST
+,
+APP_BANK_HOST
+},
+
+990  {
+WP_BUS_PARAM
+,
+APP_BANK_PARAM
+},
+
+991  {
+WP_BUS_PARAM
+, 
+APP_BANK_PARAM
+},
+
+992  {
+WP_BUS_HOST
+, 
+APP_BANK_HOST
+},
+
+993  {
+WP_BUS_PARAM
+, 
+APP_BANK_PARAM
+},
+
+994  {
+WP_BUS_PARAM
+, 
+APP_BANK_PARAM
+},
+
+995  {
+WP_BUS_PARAM
+, 
+APP_BANK_PARAM
+},
+
+996  {
+WP_BUS_PARAM
+, 
+APP_BANK_PARAM
+},
+
+997  {
+WP_BUS_HOST
+, 
+APP_BANK_HOST
+},
+
+998  {
+WP_BUS_HOST
+, 
+APP_BANK_HOST
+},
+
+999  {
+WP_BUS_NONE
+, 0},
+
+1000  {
+WP_BUS_NONE
+, 0},
+
+1001  {
+WP_BUS_NONE
+, 0},
+
+1002  {
+WP_BUS_NONE
+, 0},
+
+1003  {
+WP_BUS_NONE
+, 0},
+
+1004  {
+WP_BUS_NONE
+,0},
+
+1005  {
+WP_BUS_HOST
+, 
+APP_BANK_HOST
+},
+
+1006  {
+WP_BUS_NONE
+,0},
+
+1007  {
+WP_BUS_PARAM
+,
+APP_BANK_PARAM
+},
+
+1008  {
+WP_BUS_NONE
+,0},
+
+1009  {
+WP_BUS_NONE
+,0},
+
+1010  {
+WP_BUS_NONE
+,0},
+
+1011  {
+WP_BUS_NONE
+,0},
+
+1012  {
+WP_BUS_PARAM
+,
+APP_BANK_PARAM
+},
+
+1013  {
+WP_BUS_PARAM
+,
+APP_BANK_PARAM
+},
+
+1014  {
+WP_BUS_PARAM
+,
+APP_BANK_PARAM
+},
+
+1015  {
+WP_BUS_PARAM
+,
+APP_BANK_PARAM
+},
+
+1016  {
+WP_BUS_NONE
+,0},
+
+1017  {
+WP_BUS_PARAM
+, 
+APP_BANK_PARAM
+},
+
+1018  {
+WP_BUS_NONE
+, 0},
+
+1019  {
+WP_BUS_PARAM
+, 
+APP_BANK_PARAM
+},
+
+1020  {
+WP_BUS_PARAM
+, 
+APP_BANK_PARAM
+},
+
+1021  {
+WP_BUS_NONE
+, 0},
+
+1022  {
+WP_BUS_PARAM
+, 
+APP_BANK_PARAM
+},
+
+1023  {
+WP_BUS_PARAM
+, 
+APP_BANK_PARAM
+},
+
+1024  {
+WP_BUS_PARAM
+, 
+APP_BANK_PARAM
+},
+
+1025  {
+WP_BUS_PARAM
+, 
+APP_BANK_PARAM
+},
+
+1026  {
+WP_BUS_PARAM
+, 
+APP_BANK_PARAM
+},
+
+1027  {
+WP_BUS_NONE
+, 0},
+
+1028  {
+WP_BUS_NONE
+, 0},
+
+1029  {
+WP_BUS_NONE
+, 0},
+
+1033 
+dps_ProgømImage
+, dps_ProgramImage
+
+1036 
+dps_PC_TabÀ_Inô
+, dps_PC_Table_Init
+
+1038 &
+öt_queue_èbÀs
+,
+
+1041 &
+©m_d©a
+,
+
+1042 &
+max_iw
+,
+
+1048 
+°©us
+ = 
+	`WP_SysInô
+ (
+	`WP_WINPATH
+ (0), &
+c⁄ãxt
+);
+
+1050 
+°©us
+ = 
+	`WP_SysInô
+ (
+	`WP_WINPATH
+ (0), &
+wpsys_c⁄ãxt
+);
+
+1054 
+	`ãrmö©e_⁄_îr‹_E√tDemo
+ (
+°©us
+, "WP_SysInit");
+
+1055 
+	}
+}
+
+1057 
+	$WPE_InôHWC¨ds
+ ()
+
+1059 
+WP_h™dÀ
+ 
+°©us
+;
+
+1062 
+°©us
+ = 
+	`WPX_BﬂrdC⁄figuª
+ (0, 
+WPX_CONFIGURE_2UPI_1XGI_10SGMII
+);
+
+1063 
+	`ãrmö©e_⁄_îr‹_E√tDemo
+ (
+°©us
+, "WPX_CONFIGURE_2UPI_1XGI_10SGMII()");
+
+1065 
+°©us
+ = 
+	`WPX_BﬂrdC⁄figuª
+(0, 
+WPX_CONFIGURE_6SGMII1000_3GMII_2S3MII_1SGMII2500
+);
+
+1066 
+	`ãrmö©e_⁄_îr‹_E√tDemo
+(
+°©us
+, "WPX_BoardConfigure()");
+
+1070 
+°©us
+ = 
+	`WPX_BﬂrdSîdesInô
+ (0, 
+WP_PORT_ENET7
+, 
+WPX_SERDES_NORMAL
+);
+
+1073 
+°©us
+ = 
+	`WPX_BﬂrdSîdesInô
+ (0, 
+WP_PORT_ENET2
+, 
+WPX_SERDES_NORMAL
+);
+
+1076 
+	`ãrmö©e_⁄_îr‹_E√tDemo
+ (
+°©us
+, "WPX_BoardSerdesInit 7()");
+
+1078 
+°©us
+ = 
+	`WPX_BﬂrdSîdesInô
+ (0, 
+WP_PORT_ENET8
+, 
+WPX_SERDES_NORMAL
+);
+
+1080 
+°©us
+ = 
+	`WPX_BﬂrdSîdesInô
+ (0, 
+WP_PORT_ENET1
+, 
+WPX_SERDES_NORMAL
+);
+
+1082 
+	`ãrmö©e_⁄_îr‹_E√tDemo
+ (
+°©us
+, "WPX_BoardSerdesInit 8()");
+
+1083 
+	}
+}
+
+1089 
+	$WPE_Cª©eIWQnode
+ ()
+
+1103 
+WP_poﬁ_buf„r_d©a
+ 
+adjun˘_buf„r_c⁄fig
+ = {
+
+1118  
+WP_BUS_HOST
+,
+
+1119  
+APP_BANK_HOST
+
+
+1121 
+WP_BUS_PARAM
+,
+
+1122 
+APP_BANK_PARAM
+
+
+1127 
+WP_qnode_iwq
+ 
+qn_iw_c⁄fig
+ = {
+
+1130  
+MAXT_SIZE
+ * (
+NUM_OF_HIER_ENET_TX_CHANNELS
+ + 1 +
+
+1131 1Ë+ (
+NUM_OF_HIER_ENET_RX_CHANNELS
+ + 1 + 1),
+
+1137 
+	#IW_ADJUNCT_POOL_BUFFER_SIZE
+ 2000
+
+	)
+
+1138 
+	#APP_IW_BUFFER_SIZE
+ 2048
+
+	)
+
+1140 
+WP_poﬁ_buf„r_d©a
+ 
+buf„r_d©a_2048
+[1] =
+
+1143  
+IW_ADJUNCT_POOL_BUFFER_SIZE
+,
+
+1145  (
+APP_IW_BUFFER_SIZE
+),
+
+1147  
+WP_BUS_PARAM
+,
+
+1148  
+APP_BANK_PARAM
+
+
+1153 
+adjun˘_buf„r_c⁄fig
+.
+off£t
+ = 64;
+
+1155 
+adjun˘_buf„r_poﬁ
+ =
+
+1157 
+	`WP_PoﬁCª©e
+ (
+	`WP_WINPATH
+ (0), 
+WP_poﬁ_iwbuf„r
+,
+
+1158 &
+adjun˘_buf„r_c⁄fig
+);
+
+1160 
+	`WP_PoﬁCª©e
+ (
+	`WP_WINPATH
+ (0), 
+WP_poﬁ_iwbuf„r
+,
+
+1161 &
+buf„r_d©a_2048
+[0]);
+
+1164 
+	`ãrmö©e_⁄_îr‹_E√tDemo
+ (
+adjun˘_buf„r_poﬁ
+, "WP_PoolCreate()");
+
+1165 
+	`wp3_u¨t_¥ötf
+ ("#################################################\n");
+
+1166 
+	`wp3_u¨t_¥ötf
+ ("#################################################\n");
+
+1167 
+	`wp3_u¨t_¥ötf
+ ("#################################################\n");
+
+1168 
+	`wp3_u¨t_¥ötf
+ ("#################################################\n");
+
+1169 
+	`wp3_u¨t_¥ötf
+ ("#################################################\n");
+
+1170 
+	`wp3_u¨t_¥ötf
+ ("#################################################\n");
+
+1171 
+	`wp3_u¨t_¥ötf
+ ("#################################################\n");
+
+1172 
+	`wp3_u¨t_¥ötf
+ ("#################################################\n");
+
+1173 
+	`wp3_u¨t_¥ötf
+ ("#################################################\n");
+
+1174 
+	`wp3_u¨t_¥ötf
+ ("*************************************************\n");
+
+1175 
+	`wp3_u¨t_¥ötf
+ ("buûdtimes: d©e(%sÈime(%s)\n", 
+__DATE__
+, 
+__TIME__
+);
+
+1176 
+qn_iw_c⁄fig
+.
+adjun˘_poﬁ
+ = 
+adjun˘_buf„r_poﬁ
+;
+
+1177 
+iw_qnode
+ =
+
+1179 
+	`WP_QNodeCª©e
+ (0,
+
+1180 
+WP_QNODE_IWQ
+ |
+
+1182 
+WP_QNODE_OPT_DEDICATED_RX_HWQ
+ |
+
+1184 
+WP_QNODE_OPT_FMU
+, &
+qn_iw_c⁄fig
+);
+
+1186 
+	`WP_QNodeCª©e
+ (0, 
+WP_QNODE_IWQ_JUMBO
+ , &
+qn_iw_c⁄fig
+);
+
+1189 #ifde‡
+WP_HW_WINPATH2
+
+
+1190 #îr‹ 
+fuck
+!!!
+
+1193 #ifde‡
+WP_HW_WINPATH3
+
+
+1198 
+	`ãrmö©e_⁄_îr‹_E√tDemo
+ (
+iw_qnode
+, "WP_QNodeCreate()");
+
+1199 
+	}
+}
+
+1202 
+	$WPE_Cª©eHo°Qnode
+ ()
+
+1204 
+WP_h™dÀ
+ 
+poﬁ_ho°
+, 
+poﬁ_rög_ho°
+;
+
+1205 
+WP_poﬁ_buf„r_d©a
+ 
+buf„rs_ho°_c⁄fig
+ = {
+
+1206 10 * 
+NUM_OF_ALL_L2HOST_CHANNELS
+,
+
+1210  
+WP_BUS_HOST
+,
+
+1211  
+APP_BANK_HOST
+
+
+1213 
+WP_poﬁ_rög_d©a
+ 
+rög_ho°_c⁄fig
+ = {
+
+1215  
+NUM_OF_ALL_L2HOST_CHANNELS
+,
+
+1219  
+WP_BUS_HOST
+,
+
+1220  
+APP_BANK_HOST
+
+
+1222 
+WP_qnode_ho°q
+ 
+qn_ho°_c⁄fig
+ = {
+
+1226  
+WP_IRQT1
+,
+
+1230 
+poﬁ_ho°
+ =
+
+1231 
+	`WP_PoﬁCª©e
+ (
+	`WP_WINPATH
+ (0), 
+WP_poﬁ_buf„r
+, &
+buf„rs_ho°_c⁄fig
+);
+
+1232 
+	`ãrmö©e_⁄_îr‹_E√tDemo
+ (
+poﬁ_ho°
+, "WP_PoolCreate()Öool_host");
+
+1235 
+poﬁ_rög_ho°
+ =
+
+1236 
+	`WP_PoﬁCª©e
+ (
+	`WP_WINPATH
+ (0), 
+WP_poﬁ_rög
+, &
+rög_ho°_c⁄fig
+);
+
+1237 
+	`ãrmö©e_⁄_îr‹_E√tDemo
+ (
+poﬁ_rög_ho°
+, "WP_PoolCreate()Öool_ring_host");
+
+1238 
+qn_ho°_c⁄fig
+.
+poﬁ_buf„r
+ = 
+poﬁ_ho°
+;
+
+1239 
+qn_ho°_c⁄fig
+.
+poﬁ_rög
+ = 
+poﬁ_rög_ho°
+;
+
+1241 
+qnode_ho°
+ = 
+	`WP_QNodeCª©e
+ (0, 
+WP_QNODE_HOSTQ
+, &
+qn_ho°_c⁄fig
+);
+
+1242 
+	`ãrmö©e_⁄_îr‹_E√tDemo
+ (
+qnode_ho°
+, "WP_QNodeCreate() qnode_host");
+
+1244 
+	}
+}
+
+1246 
+	$WPE_Cª©eMu…iCa°Qnode
+ ()
+
+1249 
+WP_qnode_iw_mcq
+ 
+iw_mc_qn_c⁄fig
+ = {
+
+1253 2 * 
+NUM_OF_MC_GROUPS
+ * 
+NUM_OF_MC_MEMBERS_PER_GROUP
+,
+
+1258 
+qnode_mc
+ = 
+	`WP_QNodeCª©e
+ (
+	`WP_WINPATH
+ (0), 
+WP_QNODE_IW_MCQ
+,
+
+1259 &
+iw_mc_qn_c⁄fig
+);
+
+1260 
+	`ãrmö©e_⁄_îr‹_E√tDemo
+ (
+qnode_mc
+, "WP_QNodeCreate MCQ()");
+
+1262 
+	}
+}
+
+1265 
+	$WPE_Cª©eBuf„rPoﬁs
+ ()
+
+1267 
+	`WPE_Cª©eIWQnode
+ ();
+
+1268 
+	`WPE_Cª©eHo°Qnode
+ ();
+
+1269 
+	`WPE_Cª©eMu…iCa°Qnode
+ ();
+
+1270 
+	}
+}
+
+1272 
+	$WPE_Cª©eIWBridgeSy°em
+ ()
+
+1274 
+WP_dfc_sys_öfo
+ 
+dfc_sys_öfo
+ = {
+
+1276  
+WP_IW_2K_HASH_ENTRIES
+,
+
+1277  
+WP_IW_PORT_FILTERING_INPUT
+,
+
+1278  
+WP_IW_DENY_EQUAL_IP_DISABLE
+
+
+1280 
+WP_iw_sys_bridgög
+ 
+iw_sys_bridge
+ = {
+
+1283  
+MAX_IW_FLOWS
+,
+
+1284  
+WP_IW_CLASSIFIER_BASED_BRIDGING
+,
+
+1288  
+WP_IW_DYNAMIC_CLASS
+,
+
+1289  (
+NUM_OF_EMC_FILTERS
+ + 1Ë* 
+NUM_OF_RULES_PER_FILTER
+,
+
+1291  
+NULL
+
+
+1293  
+WP_IW_BRIDGE_LEARNING_ENABLE
+,
+
+1297  
+WP_IW_IRQT1
+,
+
+1298  
+LEARNING_QUEUE_SIZE
+,
+
+1299  
+WP_LEARNING_INTENABLE
+,
+
+1302  
+WP_IW_32K_HASH_ENTRIES
+,
+
+1303  
+WP_IW_32K_HASH_ENTRIES
+,
+
+1305  
+NUM_OF_IW_BPORTS
+,
+
+1306  &
+dfc_sys_öfo
+,
+
+1307  
+WP_IW_SVL_DISABLED
+,
+
+1308  
+WP_IW_SYS_BRIDGE_STAG_VLAN_ETYPE_DISABLE
+,
+
+1312 
+iw_sys
+ =
+
+1313 
+	`WP_IwSy°emCª©e
+ (
+	`WP_WINPATH
+ (0),
+
+1314 
+WP_IW_VLAN_AWARE_BRIDGING_MODE
+, &
+iw_sys_bridge
+);
+
+1315 
+	`ãrmö©e_⁄_îr‹_E√tDemo
+ (
+iw_sys
+, " WP_IwSystemCreate - Bridging");
+
+1316 
+	}
+}
+
+1319 
+	$WPE_E«bÀSy°em
+ ()
+
+1321 
+WP_h™dÀ
+ 
+°©us
+;
+
+1322 
+WP_U32
+ 
+i
+, 
+j
+, 
+k
+;
+
+1324 
+°©us
+ = 
+	`WP_SysPsuE«bÀ
+ (
+	`WP_WINPATH
+ (0));
+
+1325 
+	`ãrmö©e_⁄_îr‹_E√tDemo
+ (
+°©us
+, "WP_SysPsuEnable()");
+
+1328 
+i
+ = 0; i < 
+NUM_OF_FAST_ENET_TX_CHANNELS
+; i++)
+
+1330 
+°©us
+ = 
+	`WP_Ch™√lE«bÀ
+ (
+tx_gbe_ch™√l
+[
+i
+]);
+
+1331 
+	`ãrmö©e_⁄_îr‹_E√tDemo
+ (
+°©us
+, "WP_ChannelEnable()Åx_gbe");
+
+1333 
+°©us
+ = 
+	`WP_Ch™√lE«bÀ
+ (
+rx_gbe_ch™√l
+);
+
+1334 
+	`ãrmö©e_⁄_îr‹_E√tDemo
+ (
+°©us
+, "WP_ChannelEnable()Ñx_gbe");
+
+1337 
+i
+ = 0; i < 
+NUM_OF_L1_GROUP
+; i++)
+
+1339 
+j
+ = 0; j < 
+NUM_OF_L2_GROUP
+; j++)
+
+1341 
+k
+ = 0; k < 
+NUM_OF_HIER_ENET_FAS_PER_L2
+; k++)
+
+1343 
+°©us
+ = 
+	`WP_Ch™√lE«bÀ
+ (
+tx_gbe_hõr_ch™√l
+[
+i
+][
+j
+][
+k
+]);
+
+1344 
+	`ãrmö©e_⁄_îr‹_E√tDemo
+ (
+°©us
+, "WP_ChannelEnable()Åx_gbe");
+
+1348 
+°©us
+ = 
+	`WP_Ch™√lE«bÀ
+ (
+rx_gbe_hõr_ch™√l
+);
+
+1349 
+	`ãrmö©e_⁄_îr‹_E√tDemo
+ (
+°©us
+, "WP_ChannelEnable()Ñx_gbe");
+
+1352 
+°©us
+ = 
+	`WP_P‹tE«bÀ
+ (
+p‹t_íë
+, 
+WP_DIRECTION_DUPLEX
+);
+
+1353 
+	`ãrmö©e_⁄_îr‹_E√tDemo
+ (
+°©us
+, "WP_PortEnable Enet");
+
+1356 
+°©us
+ = 
+	`WP_Devi˚E«bÀ
+ (
+dev_íë
+, 
+WP_DIRECTION_DUPLEX
+);
+
+1357 
+	`ãrmö©e_⁄_îr‹_E√tDemo
+ (
+°©us
+, "WP_DeviceEnable Enet");
+
+1358 
+°©us
+ = 
+	`WP_P‹tE«bÀ
+ (
+p‹t_hõr_íë
+, 
+WP_DIRECTION_DUPLEX
+);
+
+1359 
+	`ãrmö©e_⁄_îr‹_E√tDemo
+ (
+°©us
+, "WP_PortEnable Enet");
+
+1360 
+°©us
+ = 
+	`WP_Devi˚E«bÀ
+ (
+dev_hõr_íë
+, 
+WP_DIRECTION_DUPLEX
+);
+
+1361 
+	`ãrmö©e_⁄_îr‹_E√tDemo
+ (
+°©us
+, "WP_DeviceEnable Enet");
+
+1362 
+	}
+}
+
+1364 
+	$WPE_Cª©eHo°P‹tDevi˚
+ ()
+
+1366 
+p‹t_ho°
+ = 
+	`WP_P‹tCª©e
+ (
+	`WP_WINPATH
+ (0), 
+WP_PORT_IW_HOST
+, 
+NULL
+);
+
+1367 
+	`ãrmö©e_⁄_îr‹_E√tDemo
+ (
+p‹t_ho°
+, "WP_PortCreate() HOST");
+
+1368 
+dev_ho°
+ = 
+	`WP_Devi˚Cª©e
+ (
+p‹t_ho°
+, 0, 
+WP_DEVICE_IW_HOST
+, 
+NULL
+);
+
+1369 
+	`ãrmö©e_⁄_îr‹_E√tDemo
+ (
+dev_ho°
+, "WP_DeviceCreate() Host");
+
+1370 
+	}
+}
+
+1372 
+	$WPE_Cª©eHo°IwRxCh™√l
+ ()
+
+1376 
+WP_tx_bödög
+ 
+tx_ho°_bödög_c⁄fig
+ = {
+
+1380  
+WP_IW_DYN_CH_INSERT_DISABLE
+,
+
+1381  
+MAXT_SIZE
+
+
+1383 
+WP_ch_iw_rx
+ 
+iw_ho°_ch_c⁄fig
+ = {
+
+1387  
+WP_IW_TX_BINDING
+,
+
+1388  &
+tx_ho°_bödög_c⁄fig
+
+
+1390 
+rx_ho°_ch™√l
+ =
+
+1391 
+	`WP_Ch™√lCª©e
+ (0, 
+dev_ho°
+, 
+iw_qnode
+, 
+WP_CH_RX
+,
+
+1392 
+WP_IW_HOST
+, &
+iw_ho°_ch_c⁄fig
+);
+
+1393 
+	`ãrmö©e_⁄_îr‹_E√tDemo
+ (
+rx_ho°_ch™√l
+,
+
+1395 
+	}
+}
+
+1397 
+	$WPE_Cª©eHo°IwTxCh™√l
+ ()
+
+1399 
+WP_ch_iw_tx
+ 
+ch_iw_tx_c⁄fig
+ = {
+
+1403  
+WP_IW_CH_GROUP_ID_NULL
+,
+
+1407 
+ch_iw_tx_c⁄fig
+.
+iw_sy°em
+ = 
+iw_sys
+;
+
+1408 
+ch_iw_tx_c⁄fig
+.
+öput_p‹t
+ = 
+bp‹t_ho°
+;
+
+1409 
+tx_ho°_ch™√l
+ =
+
+1410 
+	`WP_Ch™√lCª©e
+ (0, 
+dev_ho°
+, 
+iw_qnode
+, 
+WP_CH_TX
+,
+
+1411 
+WP_IW_HOST
+, &
+ch_iw_tx_c⁄fig
+);
+
+1412 
+	`ãrmö©e_⁄_îr‹_E√tDemo
+ (
+tx_ho°_ch™√l
+,
+
+1414 
+	}
+}
+
+1419 
+	$WPE_Cª©eHo°TîmFlowAgg
+ ()
+
+1421 
+WP_iw_agg_bridgög
+ 
+agg_ho°_c⁄fig
+ = {
+
+1423  
+agg_èg_cou¡î
+++,
+
+1426  
+WP_IW_RFCS_DISABLE
+,
+
+1427  
+WP_IW_L2H_INSERT_DISABLE
+,
+
+1428  
+WP_IW_VLAN_TAG_DISABLE
+,
+
+1430  
+WP_IW_IRQT1
+,
+
+1431  
+WP_IW_ERRPKT_DISCARD
+,
+
+1432  
+WP_IW_INT_ENABLE
+,
+
+1434  
+WP_IW_STAT_ENABLE
+,
+
+1435  
+WP_IW_TIME_STAMP_DISABLE
+,
+
+1436  
+WP_IW_OV_POOL_DISABLE
+,
+
+1438  
+WP_IW_REPLACE_VTAG_DISABLE
+,
+
+1441  
+MTU_SIZE
+,
+
+1451  
+WP_IW_POLICER_DISABLE
+,
+
+1452  
+NULL
+,
+
+1453  
+WP_IW_CONGESTION_DISABLE
+,
+
+1454  
+NULL
+,
+
+1455  
+WP_IW_AGG_PRIMARY
+,
+
+1458 
+WP_IW_EXTERN_VLAN_NONE
+, 0},
+
+1462  
+WP_IW_NOT_RESERVED
+,
+
+1463  
+WP_IW_OVERRIDE_INPORT
+,
+
+1464  
+WP_IW_OVERRIDE_INPORT
+,
+
+1465  
+WP_IW_MAC_REPLACE_DISABLED
+,
+
+1472  
+WP_DISABLE
+,
+
+1476 
+WP_IW_VPMT_ACCESSING_EGRESS_EXTERNAL
+,
+
+1481  
+WP_DISABLE
+,
+
+1485 
+agg_ho°_c⁄fig
+.
+txfunc
+ = 
+rx_ho°_ch™√l
+;
+
+1487 
+agg_ho°_c⁄fig
+.
+txfunc
+ = 
+tx_gbe_ch™√l
+[0];
+
+1489 
+agg_ho°
+ =
+
+1490 
+	`WP_IwFlowAggªg©i⁄Cª©e
+ (
+	`WP_WINPATH
+ (0),
+
+1491 
+WP_IW_TRANS_BRIDGING_MODE
+,
+
+1492 &
+agg_ho°_c⁄fig
+);
+
+1493 
+	`ãrmö©e_⁄_îr‹_E√tDemo
+ (
+agg_ho°
+, "WPE_CreateHostTermIwFlowAgg() Host");
+
+1494 
+	}
+}
+
+1497 
+	$WPE_Cª©eIwBp‹tHo°
+ ()
+
+1499 
+WP_h™dÀ
+ 
+°©us
+;
+
+1500 
+WP_iw_agg_bridgög
+ 
+agg_ho°_c⁄fig
+ = {
+
+1503 
+WP_bridge_p‹t
+ 
+iwho°_bp‹t_c⁄fig
+ = {
+
+1505  
+BRIDGE_PORT_HOST_TAG
+,
+
+1506  
+WP_IW_DIRECT_MAP_DISABLE
+,
+
+1508  
+WP_IW_HOST_TERM_MODE
+,
+
+1509  
+WP_IW_LEARNING_DISABLE
+,
+
+1510  
+WP_IW_INGRESS_FILTER_ENABLE
+,
+
+1515 
+WP_IW_ACCEPT_TAGGED_UNTAGGED
+,
+
+1516  
+VLAN_TAG_1
+,
+
+1518 
+WP_IW_VLAN_TUNNEL_1Q_IN_1Q_DISABLE
+,
+
+1520 
+WP_IW_VLAN_PRIORITY_ENFORCE_DISABLED
+},
+
+1522  
+WP_IW_BRIDGEALL_GROUP_FILTER
+,
+
+1524 
+WP_IW_GROUP_FILTER_DISABLE
+,
+
+1526 
+WP_IW_UNK_MACSA_FILTER_DISABLE
+,
+
+1527  
+WP_IW_UNK_MC_HT
+,
+
+1528  
+WP_IW_BC_HT_DISABLE
+,
+
+1531  
+WP_IW_PORT_STAT_ENABLE
+,
+
+1532  
+WP_IW_UNK_UC_SR_ENABLE
+,
+
+1534 
+WP_IW_BPORT_CLASSIFICATION_ENABLED
+,
+
+1536 
+WP_IW_ADV_UNK_LOOKUP_DISABLED
+,
+
+1537  
+WP_IW_CFI_HT_DISABLE
+,
+
+1538  
+WP_IW_RES_MC_HT_DISABLE
+,
+
+1539  
+WP_DISABLE
+,
+
+1543  
+NULL
+,
+
+1547 
+iwho°_bp‹t_c⁄fig
+.
+Êow_agg
+ = 
+agg_ho°
+;
+
+1549 
+iwho°_bp‹t_c⁄fig
+.
+Êow_agg
+ = 
+agg_íë
+[0];
+
+1551 
+bp‹t_ho°
+ = 
+	`WP_IwP‹tCª©e
+ (
+iw_sys
+, &
+iwho°_bp‹t_c⁄fig
+);
+
+1552 
+	`ãrmö©e_⁄_îr‹_E√tDemo
+ (
+bp‹t_ho°
+, " WPE_CreateIwBportHost ");
+
+1555 
+agg_ho°_c⁄fig
+.
+öput_bp‹t
+ = 
+bp‹t_ho°
+;
+
+1556 
+°©us
+ =
+
+1557 
+	`WP_IwFlowAggªg©i⁄Modify
+ (
+agg_ho°
+,
+
+1558 
+WP_IW_FLOW_AGG_B_MOD_BPORT
+,
+
+1559 &
+agg_ho°_c⁄fig
+);
+
+1560 
+	`ãrmö©e_⁄_îr‹_E√tDemo
+ (
+°©us
+, "WP_IwFlowAggregationModify");
+
+1561 
+	}
+}
+
+1563 
+	$WPE_Cª©eFa°E√tP‹tDevi˚
+ ()
+
+1565 
+WP_h™dÀ
+ 
+°©us
+;
+
+1567 
+WP_p‹t_íë
+ 
+íë_p‹t_c⁄fig
+ = {
+
+1574  
+WP_UNUSED
+
+
+1576  
+WP_FLOWMODE_FAST
+,
+
+1578  
+WP_ENET_SGMII_1000
+,
+
+1580  
+WP_ENET_1000_BASE_X
+,
+
+1586 
+WP_íë_fûãrs
+ 
+rx_fûãrs
+ = {
+
+1588  
+WP_ENET_FILTER_PROCESS
+,
+
+1589  
+WP_ENET_FILTER_PROCESS
+,
+
+1590  
+WP_ENET_FILTER_PROCESS
+
+
+1592 
+WP_devi˚_íë_ex
+ 
+íë_dev_ext_∑øms_c⁄fig
+ = {
+
+1594  
+WP_ENET_FULLDUPLEX
+,
+
+1595  
+WP_DISABLE
+,
+
+1596  
+WP_ENET_FLOW_ENABLE
+,
+
+1597  
+WP_ENET_FLOW_ENABLE
+,
+
+1598  
+WP_ENET_ADDR_ACCEPTALL
+,
+
+1599  
+WP_ENET_STAT_ENABLE
+,
+
+1600  
+WP_ENET_STAT_ENABLE
+,
+
+1601  
+WP_ENET_STAT_ENABLE
+,
+
+1602  
+WP_DISABLE
+,
+
+1603  &
+rx_fûãrs
+,
+
+1608 
+WP_devi˚_íë
+ 
+íë_dev_c⁄fig
+ = {
+
+1611  
+SDU_SIZE
+,
+
+1612  
+WP_UNUSED
+,
+
+1618  
+WP_ENET_NORMAL
+,
+
+1620  
+NULL
+
+
+1622 &
+íë_dev_ext_∑øms_c⁄fig
+
+
+1627 
+°©us
+ = 0;
+
+1628 
+íë_dev_ext_∑øms_c⁄fig
+.
+du∂exmode
+ = 
+WP_ENET_FULLDUPLEX
+;
+
+1630 
+íë_p‹t_c⁄fig
+.
+pkt_limôs
+.
+max_tx_ch™√ls
+ =
+
+1631 
+NUM_OF_FAST_ENET_TX_CHANNELS
+;
+
+1632 
+íë_p‹t_c⁄fig
+.
+pkt_limôs
+.
+max_rx_ch™√ls
+ =
+
+1633 
+NUM_OF_FAST_ENET_RX_CHANNELS
+;
+
+1634 
+íë_p‹t_c⁄fig
+.
+Êowmode
+ = 
+WP_FLOWMODE_FAST
+;
+
+1635 
+p‹t_íë
+ =
+
+1637 
+	`WP_P‹tCª©e
+ (
+	`WP_WINPATH
+ (0), 
+WP_PORT_ENET7
+, &
+íë_p‹t_c⁄fig
+);
+
+1639 
+	`WP_P‹tCª©e
+ (
+	`WP_WINPATH
+ (0), 
+WP_PORT_ENET2
+, &
+íë_p‹t_c⁄fig
+);
+
+1641 
+	`ãrmö©e_⁄_îr‹_E√tDemo
+ (
+p‹t_íë
+, "WP_PortCreate() Fast ENET");
+
+1642 
+íë_dev_c⁄fig
+.
+max_tx_ch™√ls
+ = 
+NUM_OF_FAST_ENET_TX_CHANNELS
+;
+
+1649 
+íë_dev_c⁄fig
+.
+lo›backmode
+ = 
+WP_ENET_LOOPBACK
+;
+
+1651 
+íë_dev_c⁄fig
+.
+lo›backmode
+ = 
+WP_ENET_NORMAL
+;
+
+1655 
+dev_íë
+ =
+
+1656 
+	`WP_Devi˚Cª©e
+ (
+p‹t_íë
+, 
+	`WP_PHY
+ (0), 
+WP_DEVICE_ENET
+,
+
+1657 &
+íë_dev_c⁄fig
+);
+
+1658 
+	`ãrmö©e_⁄_îr‹_E√tDemo
+ (
+dev_íë
+, "WP_DeviceCreate() Fast Enet");
+
+1664 
+íë_dev_c⁄fig
+.
+exãnded_∑øms
+ = &
+íë_dev_ext_∑øms_c⁄fig
+;
+
+1665 
+°©us
+ = 
+	`WP_Devi˚Modify
+ (
+dev_íë
+, 
+WP_DEV_MOD_ENET_DUPLEXMODE
+, &
+íë_dev_c⁄fig
+);
+
+1667 
+	`ãrmö©e_⁄_îr‹_E√tDemo
+ (
+°©us
+, "WP_DeviceModify () Fast Enet");
+
+1668 
+	`wp3_u¨t_¥ötf
+ ("DeviceModify() ok\n");
+
+1670 
+	}
+}
+
+1673 
+	$WPE_Cª©eHõrE√tP‹tDevi˚
+ ()
+
+1675 
+WP_p‹t_íë
+ 
+íë_p‹t_c⁄fig
+ = {
+
+1684  
+WP_UNUSED
+
+
+1686  
+WP_FLOWMODE_FAST
+,
+
+1689 
+WP_ENET_SGMII_AN
+,
+
+1691  
+WP_ENET_1000_BASE_X
+,
+
+1697 
+WP_íë_fûãrs
+ 
+rx_fûãrs
+ = {
+
+1699  
+WP_ENET_FILTER_PROCESS
+,
+
+1700  
+WP_ENET_FILTER_PROCESS
+,
+
+1701  
+WP_ENET_FILTER_PROCESS
+
+
+1703 
+WP_devi˚_íë_ex
+ 
+íë_dev_ext_∑øms_c⁄fig
+ = {
+
+1705  
+WP_ENET_FULLDUPLEX
+,
+
+1706  
+WP_DISABLE
+,
+
+1707  
+WP_ENET_FLOW_ENABLE
+,
+
+1708  
+WP_ENET_FLOW_ENABLE
+,
+
+1709  
+WP_ENET_ADDR_ACCEPTALL
+,
+
+1710  
+WP_ENET_STAT_ENABLE
+,
+
+1711  
+WP_ENET_STAT_ENABLE
+,
+
+1712  
+WP_ENET_STAT_ENABLE
+,
+
+1713  
+WP_DISABLE
+,
+
+1714  &
+rx_fûãrs
+,
+
+1719 
+WP_devi˚_íë
+ 
+hõr_íë_dev_c⁄fig
+ = {
+
+1722  
+SDU_SIZE
+,
+
+1723  
+WP_UNUSED
+,
+
+1730  
+WP_ENET_NORMAL
+,
+
+1731  
+NULL
+
+
+1734 
+íë_p‹t_c⁄fig
+.
+pkt_limôs
+.
+max_tx_ch™√ls
+ = 
+NUM_OF_HIER_ENET_TX_CHANNELS
+;
+
+1735 
+íë_p‹t_c⁄fig
+.
+pkt_limôs
+.
+max_rx_ch™√ls
+ = 
+NUM_OF_HIER_ENET_RX_CHANNELS
+;
+
+1736 
+íë_p‹t_c⁄fig
+.
+Êowmode
+ = 
+WP_ENET_FMU_HIERARCHICAL_SHAPING_MODE
+;
+
+1737 
+p‹t_hõr_íë
+ =
+
+1739 
+	`WP_P‹tCª©e
+ (
+	`WP_WINPATH
+ (0), 
+WP_PORT_ENET8
+, &
+íë_p‹t_c⁄fig
+);
+
+1741 
+	`WP_P‹tCª©e
+ (
+	`WP_WINPATH
+ (0), 
+WP_PORT_ENET1
+, &
+íë_p‹t_c⁄fig
+);
+
+1743 
+	`ãrmö©e_⁄_îr‹_E√tDemo
+ (
+p‹t_hõr_íë
+,
+
+1745 
+hõr_íë_dev_c⁄fig
+.
+max_tx_ch™√ls
+ = 
+NUM_OF_HIER_ENET_TX_CHANNELS
+;
+
+1746 
+dev_hõr_íë
+ =
+
+1747 
+	`WP_Devi˚Cª©e
+ (
+p‹t_hõr_íë
+, 
+	`WP_PHY
+ (0),
+
+1748 
+WP_DEVICE_ENET
+, &
+hõr_íë_dev_c⁄fig
+);
+
+1749 
+	`ãrmö©e_⁄_îr‹_E√tDemo
+ (
+dev_hõr_íë
+,
+
+1751 
+	}
+}
+
+1753 
+	$WPE_Cª©eFa°E√tIwBp‹t
+ ()
+
+1755 
+WP_bridge_p‹t
+ 
+íë_bp‹t_c⁄fig
+ = {
+
+1758  
+WP_IW_DIRECT_MAP_DISABLE
+,
+
+1760  
+WP_IW_HOST_TERM_MODE
+,
+
+1761  
+WP_IW_LEARNING_DISABLE
+,
+
+1762  
+WP_IW_INGRESS_FILTER_ENABLE
+,
+
+1766  
+WP_IW_ACCEPT_TAGGED_UNTAGGED
+,
+
+1767  
+VLAN_TAG_1
+,
+
+1768  
+WP_IW_VLAN_TUNNEL_1Q_IN_1Q_DISABLE
+,
+
+1769  
+WP_IW_VLAN_PRIORITY_ENFORCE_DISABLED
+},
+
+1771  
+WP_IW_BRIDGEALL_GROUP_FILTER
+,
+
+1772  
+WP_IW_GROUP_FILTER_DISABLE
+,
+
+1773  
+WP_IW_UNK_MACSA_FILTER_DISABLE
+,
+
+1774  
+WP_IW_UNK_MC_HT
+,
+
+1775  
+WP_IW_BC_HT_DISABLE
+,
+
+1778  
+WP_IW_PORT_STAT_ENABLE
+,
+
+1779  
+WP_IW_UNK_UC_SR_ENABLE
+,
+
+1780  
+WP_IW_BPORT_CLASSIFICATION_ENABLED
+,
+
+1781  
+WP_IW_ADV_UNK_LOOKUP_DISABLED
+,
+
+1782  
+WP_IW_CFI_HT_DISABLE
+,
+
+1783  
+WP_IW_RES_MC_HT_DISABLE
+,
+
+1784  
+WP_DISABLE
+,
+
+1788  
+NULL
+,
+
+1792 
+íë_bp‹t_c⁄fig
+.
+èg
+ = 
+BRIDGE_PORT_ENET_TAG
+;
+
+1793 
+íë_bp‹t_c⁄fig
+.
+öput_fûãrs_mask
+ = 0x00000000;
+
+1795 
+íë_bp‹t_c⁄fig
+.
+Êow_agg
+ = 
+agg_ho°
+;
+
+1797 
+íë_bp‹t_c⁄fig
+.
+Êow_agg
+ = 
+agg_íë
+[0];
+
+1799 
+bp‹t_íë
+ = 
+	`WP_IwP‹tCª©e
+ (
+iw_sys
+, &
+íë_bp‹t_c⁄fig
+);
+
+1800 
+	`ãrmö©e_⁄_îr‹_E√tDemo
+ (
+bp‹t_íë
+, " WPE_CreateIwBportEnet Fast");
+
+1801 
+	}
+}
+
+1804 
+	$WPE_Cª©eHõrE√tIwBp‹t
+ ()
+
+1806 
+WP_bridge_p‹t
+ 
+íë_bp‹t_c⁄fig
+ = {
+
+1809  
+WP_IW_DIRECT_MAP_DISABLE
+,
+
+1811  
+WP_IW_HOST_TERM_MODE
+,
+
+1812  
+WP_IW_LEARNING_DISABLE
+,
+
+1813  
+WP_IW_INGRESS_FILTER_ENABLE
+,
+
+1817  
+WP_IW_ACCEPT_TAGGED_UNTAGGED
+,
+
+1818  
+VLAN_TAG_1
+,
+
+1819  
+WP_IW_VLAN_TUNNEL_1Q_IN_1Q_DISABLE
+,
+
+1820  
+WP_IW_VLAN_PRIORITY_ENFORCE_DISABLED
+},
+
+1822  
+WP_IW_BRIDGEALL_GROUP_FILTER
+,
+
+1823  
+WP_IW_GROUP_FILTER_DISABLE
+,
+
+1824  
+WP_IW_UNK_MACSA_FILTER_DISABLE
+,
+
+1825  
+WP_IW_UNK_MC_HT
+,
+
+1826  
+WP_IW_BC_HT_DISABLE
+,
+
+1829  
+WP_IW_PORT_STAT_ENABLE
+,
+
+1830  
+WP_IW_UNK_UC_SR_ENABLE
+,
+
+1831  
+WP_IW_BPORT_CLASSIFICATION_ENABLED
+,
+
+1832  
+WP_IW_ADV_UNK_LOOKUP_DISABLED
+,
+
+1833  
+WP_IW_CFI_HT_DISABLE
+,
+
+1834  
+WP_IW_RES_MC_HT_DISABLE
+,
+
+1835  
+WP_DISABLE
+,
+
+1839  
+NULL
+,
+
+1844 
+íë_bp‹t_c⁄fig
+.
+èg
+ = 
+BRIDGE_PORT_HIER_ENET_TAG
+;
+
+1845 
+íë_bp‹t_c⁄fig
+.
+öput_fûãrs_mask
+ = 0x00000000;
+
+1846 
+íë_bp‹t_c⁄fig
+.
+Êow_agg
+ = 
+agg_ho°
+;
+
+1847 
+bp‹t_hõr_íë
+ = 
+	`WP_IwP‹tCª©e
+ (
+iw_sys
+, &
+íë_bp‹t_c⁄fig
+);
+
+1848 
+	`ãrmö©e_⁄_îr‹_E√tDemo
+ (
+bp‹t_hõr_íë
+,
+
+1850 
+	}
+}
+
+1853 
+	$WPE_Cª©eFa°E√tFlowAgg
+ ()
+
+1855 
+WP_h™dÀ
+ 
+°©us
+;
+
+1856 
+WP_U32
+ 
+i
+;
+
+1857 
+WP_bridge_p‹t
+ 
+bp‹t_íë_c⁄fig
+ = {0};
+
+1860 
+WP_pﬁi˚r_¶b_c⁄fig
+ 
+¶b_c⁄fig
+ = {
+
+1865 
+WP_pﬁi˚r_v1
+ 
+pﬁi˚r_c⁄fig
+ = {
+
+1867  &
+¶b_c⁄fig
+,
+
+1870  
+WP_IW_DISCARD_NONCONFORMING_PKT
+,
+
+1873  
+WP_IW_SINGLE_LEAKY_BUCKET
+,
+
+1875 
+WP_IW_PLC_FRM_LEN_CORRECT_DISABLE
+,
+
+1880 
+WP_iw_agg_bridgög
+ 
+agg_íë_c⁄fig
+ = {
+
+1882  
+agg_èg_cou¡î
+++,
+
+1885  
+WP_IW_RFCS_DISABLE
+,
+
+1886  
+WP_IW_L2H_INSERT_DISABLE
+,
+
+1887  
+WP_IW_VLAN_TAG_ENABLE
+,
+
+1889  
+WP_IW_IRQT1
+,
+
+1890  
+WP_IW_ERRPKT_DISCARD
+,
+
+1891  
+WP_IW_INT_DISABLE
+,
+
+1892  
+WP_IW_STAT_ENABLE
+,
+
+1893  
+WP_IW_TIME_STAMP_DISABLE
+,
+
+1894  
+WP_IW_OV_POOL_DISABLE
+,
+
+1896  
+WP_IW_REPLACE_VTAG_DISABLE
+,
+
+1899  
+MTU_SIZE
+,
+
+1909  
+WP_IW_POLICER_DISABLE
+,
+
+1910  
+NULL
+,
+
+1911  
+WP_IW_CONGESTION_DISABLE
+,
+
+1912  
+NULL
+,
+
+1913  
+WP_IW_AGG_PRIMARY
+,
+
+1916 
+WP_IW_EXTERN_VLAN_NONE
+, 0},
+
+1920  
+WP_IW_NOT_RESERVED
+,
+
+1921  
+WP_IW_OVERRIDE_INPORT
+,
+
+1922  
+WP_IW_OVERRIDE_INPORT
+,
+
+1923  
+WP_IW_MAC_REPLACE_DISABLED
+,
+
+1930  
+WP_DISABLE
+,
+
+1933  
+WP_IW_VPMT_ACCESSING_EGRESS_EXTERNAL
+,
+
+1938  
+WP_DISABLE
+,
+
+1941 
+i
+ = 0; i < 
+NUM_OF_FAST_ENET_FAS
+ ; i++)
+
+1944 
+agg_íë_c⁄fig
+.
+txfunc
+ = 
+tx_gbe_ch™√l
+[
+i
+];
+
+1946 
+agg_íë_c⁄fig
+.
+iw_p‹t
+ = 
+bp‹t_íë
+;
+
+1948 
+agg_íë_c⁄fig
+.
+iw_p‹t
+ = 
+bp‹t_hõr_íë
+;
+
+1950 
+agg_íë_c⁄fig
+.
+l2_hódî_ö£π_mode
+ = 
+WP_IW_L2H_INSERT_ENABLE
+;
+
+1951 
+agg_íë_c⁄fig
+.
+mac_ª∂a˚_mode
+ = 
+WP_IW_REPLACE_DST_MAC
+;
+
+1952 
+	`mem˝y
+ (
+agg_íë_c⁄fig
+.
+√w_d°_mac
+, 
+hõr_íë_d°_mac
+, 6);
+
+1956 
+agg_íë
+[
+i
+] =
+
+1957 
+	`WP_IwFlowAggªg©i⁄Cª©e
+ (
+	`WP_WINPATH
+ (0),
+
+1958 
+WP_IW_VLAN_AWARE_BRIDGING_MODE
+,
+
+1959 &
+agg_íë_c⁄fig
+);
+
+1960 
+	`ãrmö©e_⁄_îr‹_E√tDemo
+ (
+agg_íë
+[
+i
+],
+
+1965 
+agg_íë_c⁄fig
+.
+txfunc
+ = 
+tx_gbe_ch™√l
+[0];
+
+1966 
+agg_íë_c⁄fig
+.
+iw_p‹t
+ = 
+bp‹t_íë
+;
+
+1967 
+agg_íë_c⁄fig
+.
+mac_ª∂a˚_mode
+ = 
+WP_IW_REPLACE_DST_MAC
+;
+
+1968 
+agg_íë_c⁄fig
+.
+l2_hódî_ö£π_mode
+ = 
+WP_IW_L2H_INSERT_ENABLE
+;
+
+1969 
+	`mem˝y
+ (
+agg_íë_c⁄fig
+.
+√w_d°_mac
+, 
+ho°_d°_mac
+, 6);
+
+1970 
+agg_íë_ch™ge_mac
+ =
+
+1971 
+	`WP_IwFlowAggªg©i⁄Cª©e
+ (
+	`WP_WINPATH
+ (0),
+
+1972 
+WP_IW_VLAN_AWARE_BRIDGING_MODE
+,
+
+1973 &
+agg_íë_c⁄fig
+);
+
+1974 
+	`ãrmö©e_⁄_îr‹_E√tDemo
+ (
+agg_íë_ch™ge_mac
+,
+
+1978 
+bp‹t_íë_c⁄fig
+.
+Êow_agg
+ = 
+agg_íë_ch™ge_mac
+;
+
+1979 
+°©us
+ = 
+	`WP_IwP‹tModify
+(
+bp‹t_íë
+, 
+WP_IW_PORT_MODIFY_FLOW_AGG
+, &
+bp‹t_íë_c⁄fig
+ );
+
+1980 
+	`ãrmö©e_⁄_îr‹_E√tDemo
+ (
+°©us
+,
+
+1982 
+	}
+}
+
+1984 
+	$WPE_Cª©eHõrE√tFlowAgg
+ ()
+
+1986 
+WP_U32
+ 
+i
+, 
+j
+, 
+k
+;
+
+1989 
+WP_pﬁi˚r_¶b_c⁄fig
+ 
+¶b_c⁄fig
+ = {
+
+1994 
+WP_pﬁi˚r_v1
+ 
+pﬁi˚r_c⁄fig
+ = {
+
+1996  &
+¶b_c⁄fig
+,
+
+1999  
+WP_IW_DISCARD_NONCONFORMING_PKT
+,
+
+2002  
+WP_IW_SINGLE_LEAKY_BUCKET
+,
+
+2004 
+WP_IW_PLC_FRM_LEN_CORRECT_DISABLE
+,
+
+2009 
+WP_iw_agg_bridgög
+ 
+agg_íë_c⁄fig
+ = {
+
+2011  
+agg_èg_cou¡î
+++,
+
+2014  
+WP_IW_RFCS_DISABLE
+,
+
+2015  
+WP_IW_L2H_INSERT_DISABLE
+,
+
+2016  
+WP_IW_VLAN_TAG_ENABLE
+,
+
+2018  
+WP_IW_IRQT1
+,
+
+2019  
+WP_IW_ERRPKT_DISCARD
+,
+
+2020  
+WP_IW_INT_DISABLE
+,
+
+2021  
+WP_IW_STAT_ENABLE
+,
+
+2022  
+WP_IW_TIME_STAMP_DISABLE
+,
+
+2023  
+WP_IW_OV_POOL_DISABLE
+,
+
+2025  
+WP_IW_REPLACE_VTAG_DISABLE
+,
+
+2028  
+MTU_SIZE
+,
+
+2038  
+WP_IW_POLICER_DISABLE
+,
+
+2039  
+NULL
+,
+
+2040  
+WP_IW_CONGESTION_DISABLE
+,
+
+2041  
+NULL
+,
+
+2042  
+WP_IW_AGG_PRIMARY
+,
+
+2045 
+WP_IW_EXTERN_VLAN_NONE
+, 0},
+
+2049  
+WP_IW_NOT_RESERVED
+,
+
+2050  
+WP_IW_OVERRIDE_INPORT
+,
+
+2051  
+WP_IW_OVERRIDE_INPORT
+,
+
+2052  
+WP_IW_MAC_REPLACE_DISABLED
+,
+
+2059  
+WP_DISABLE
+,
+
+2063 
+WP_IW_VPMT_ACCESSING_EGRESS_EXTERNAL
+,
+
+2068  
+WP_DISABLE
+,
+
+2071 
+i
+ = 0; i < 
+NUM_OF_L1_GROUP
+ ; i++)
+
+2073 
+j
+ = 0; j < 
+NUM_OF_L2_GROUP
+ ; j++)
+
+2075 
+k
+ = 0; k < 
+NUM_OF_HIER_ENET_FAS_PER_L2
+ ;
+
+2076 
+k
+++)
+
+2079 
+agg_íë_c⁄fig
+.
+txfunc
+ = 
+tx_gbe_hõr_ch™√l
+[
+i
+][
+j
+][
+k
+];
+
+2081 
+agg_íë_c⁄fig
+.
+txfunc
+ = 
+tx_gbe_hõr_ch™√l
+[0][0][0];
+
+2083 
+agg_íë_c⁄fig
+.
+iw_p‹t
+ = 
+bp‹t_hõr_íë
+;
+
+2087 
+agg_hõr_íë
+[
+i
+][
+j
+][
+k
+] = 
+	`WP_IwFlowAggªg©i⁄Cª©e
+ (
+	`WP_WINPATH
+ (0), 
+WP_IW_VLAN_AWARE_BRIDGING_MODE
+, &
+agg_íë_c⁄fig
+);
+
+2088 
+	`ãrmö©e_⁄_îr‹_E√tDemo
+ (
+agg_hõr_íë
+[
+i
+][
+j
+]
+
+2089 [
+k
+],
+
+2094 
+	}
+}
+
+2095 
+	$WPE_Cª©eFa°E√tRxTxBödög
+ ()
+
+2097 
+WP_h™dÀ
+ 
+°©us
+;
+
+2098 
+WP_U32
+ 
+i
+;
+
+2099 
+WP_rx_bödög_bridgög
+ 
+rx_bödög_íë_c⁄fig
+ = {
+
+2103  
+MTU_SIZE
+,
+
+2105  
+bp‹t_íë
+
+
+2107 
+WP_tx_bödög
+ 
+tx_bödög_íë_c⁄fig
+ = {
+
+2111  
+WP_IW_DYN_CH_INSERT_ENABLE
+,
+
+2112  
+MAXT_SIZE
+
+
+2116 
+°©us
+ =
+
+2117 
+	`WP_IwRxBödögCª©e
+ (
+rx_gbe_ch™√l
+, 
+iw_sys
+, 
+iw_qnode
+,
+
+2118 &
+rx_bödög_íë_c⁄fig
+);
+
+2119 
+	`ãrmö©e_⁄_îr‹_E√tDemo
+ (
+°©us
+,
+
+2121 
+i
+ = 0; i < 
+NUM_OF_FAST_ENET_TX_CHANNELS
+; i++)
+
+2124 
+°©us
+ =
+
+2125 
+	`WP_IwTxBödögCª©e
+ (
+tx_gbe_ch™√l
+[
+i
+],
+
+2126 
+WP_IW_TX_BINDING
+, &
+tx_bödög_íë_c⁄fig
+);
+
+2127 
+	`ãrmö©e_⁄_îr‹_E√tDemo
+ (
+°©us
+, "WP_IwTxBindingCreate Fast");
+
+2129 
+	}
+}
+
+2130 
+	$WPE_Cª©eHõrE√tRxTxBödög
+ ()
+
+2132 
+WP_h™dÀ
+ 
+°©us
+;
+
+2133 
+WP_U32
+ 
+i
+, 
+j
+, 
+k
+;
+
+2134 
+WP_rx_bödög_bridgög
+ 
+rx_bödög_íë_c⁄fig
+ = {
+
+2138  
+MTU_SIZE
+,
+
+2140  
+bp‹t_hõr_íë
+
+
+2142 
+WP_tx_bödög
+ 
+tx_bödög_íë_c⁄fig
+ = {
+
+2146  
+WP_IW_DYN_CH_INSERT_ENABLE
+,
+
+2147  
+MAXT_SIZE
+
+
+2151 
+rx_bödög_íë_c⁄fig
+.
+öput_p‹t
+ = 
+bp‹t_hõr_íë
+;
+
+2152 
+°©us
+ =
+
+2153 
+	`WP_IwRxBödögCª©e
+ (
+rx_gbe_hõr_ch™√l
+, 
+iw_sys
+,
+
+2154 
+iw_qnode
+, &
+rx_bödög_íë_c⁄fig
+);
+
+2155 
+	`ãrmö©e_⁄_îr‹_E√tDemo
+ (
+°©us
+,
+
+2157 
+i
+ = 0; i < 
+NUM_OF_L1_GROUP
+; i++)
+
+2159 
+j
+ = 0; j < 
+NUM_OF_L2_GROUP
+; j++)
+
+2161 
+k
+ = 0; k < 
+NUM_OF_HIER_ENET_FAS_PER_L2
+; k++)
+
+2163 
+°©us
+ = 
+	`WP_IwTxBödögCª©e
+ (
+tx_gbe_hõr_ch™√l
+[
+i
+][
+j
+][
+k
+], 
+WP_IW_TX_BINDING
+, &
+tx_bödög_íë_c⁄fig
+);
+
+2164 
+	`ãrmö©e_⁄_îr‹_E√tDemo
+ (
+°©us
+, "WP_IwTxBindingCreate Hier");
+
+2168 
+	}
+}
+
+2172 
+	$WPE_Cª©eFa°E√tRxTxCh™√l
+ ()
+
+2174 
+WP_U32
+ 
+i
+;
+
+2175 
+WP_ch_íë
+ 
+íë_ch_c⁄fig
+ = {
+
+2177  
+WP_PKTCH_INT_ENABLE
+,
+
+2178  
+WP_PKTCH_IWM_ENABLE
+,
+
+2179  
+WP_PKTCH_TEST_DISABLE
+,
+
+2182  
+WP_FMU_SHAPING_TYPE_STRICT
+,
+
+2183  
+NULL
+,
+
+2184  
+SDU_SIZE
+,
+
+2185  
+WP_CW_ID_A
+,
+
+2190 
+rx_gbe_ch™√l
+ =
+
+2191 
+	`WP_Ch™√lCª©e
+ (0x22, 
+dev_íë
+, 
+iw_qnode
+, 
+WP_CH_RX
+,
+
+2192 
+WP_ENET
+, &
+íë_ch_c⁄fig
+);
+
+2193 
+	`ãrmö©e_⁄_îr‹_E√tDemo
+ (
+rx_gbe_ch™√l
+, "WP_Channel_Create() Fast RX");
+
+2195 
+i
+ = 0; i < 
+NUM_OF_FAST_ENET_TX_CHANNELS
+ ; i++)
+
+2198 
+íë_ch_c⁄fig
+.
+tx_tq
+ = 
+i
+;
+
+2199 
+tx_gbe_ch™√l
+[
+i
+] =
+
+2200 
+	`WP_Ch™√lCª©e
+ (0x11, 
+dev_íë
+, 
+iw_qnode
+,
+
+2201 
+WP_CH_TX
+, 
+WP_ENET
+, &
+íë_ch_c⁄fig
+);
+
+2202 
+	`ãrmö©e_⁄_îr‹_E√tDemo
+ (
+tx_gbe_ch™√l
+[
+i
+],
+
+2205 
+	}
+}
+
+2206 
+	$WPE_Cª©eHõrHWE√tRxTxCh™√l
+ ()
+
+2208 
+WP_U32
+ 
+i
+, 
+j
+, 
+k
+;
+
+2210 #i‡
+USE_SIMPLE_DEVICE
+
+
+2211 
+WP_ch_íë
+ 
+sim∂e_íë_ch_c⁄fig
+ = {
+
+2213  
+WP_PKTCH_INT_ENABLE
+,
+
+2214  
+WP_PKTCH_IWM_ENABLE
+,
+
+2215  
+WP_PKTCH_TEST_DISABLE
+,
+
+2218  
+WP_FMU_SHAPING_TYPE_STRICT
+,
+
+2219  
+NULL
+,
+
+2220  
+SDU_SIZE
+,
+
+2221  
+WP_CW_ID_A
+,
+
+2227 
+WP_fmu_sh≠ög_cú_eú
+ 
+cú_eú_sh≠ög_∑øm
+ = {
+
+2244 
+WP_ch_íë
+ 
+hõr_íë_ch_c⁄fig
+ = {
+
+2246  
+WP_PKTCH_INT_ENABLE
+,
+
+2247  
+WP_PKTCH_IWM_ENABLE
+,
+
+2248  
+WP_PKTCH_TEST_DISABLE
+,
+
+2251  
+WP_FMU_SHAPING_TYPE_CIR_EIR
+,
+
+2252  &
+cú_eú_sh≠ög_∑øm
+,
+
+2253  
+SDU_SIZE
+,
+
+2254  
+WP_CW_ID_A
+,
+
+2258 
+rx_gbe_hõr_ch™√l
+ =
+
+2259 
+	`WP_Ch™√lCª©e
+ (0x22, 
+dev_hõr_íë
+, 
+iw_qnode
+, 
+WP_CH_RX
+,
+
+2260 
+WP_ENET
+, &
+hõr_íë_ch_c⁄fig
+);
+
+2261 
+	`ãrmö©e_⁄_îr‹_E√tDemo
+ (
+rx_gbe_hõr_ch™√l
+,
+
+2264 
+i
+ = 0; i < 
+NUM_OF_L1_GROUP
+ ; i++)
+
+2266 
+j
+ = 0; j < 
+NUM_OF_L2_GROUP
+ ; j++)
+
+2268 
+k
+ = 0; k < 
+NUM_OF_HIER_ENET_FAS_PER_L2
+ ; k++)
+
+2270 
+	`wp3_u¨t_¥ötf
+ ("¸óãÅx_gbe_hõr_ch™√l, i[%d]j[%d]k[%d]\n",
+i
+,
+j
+,
+k
+);
+
+2271 
+hõr_íë_ch_c⁄fig
+.
+tx_tq
+ = 
+k
+;
+
+2272 
+tx_gbe_hõr_ch™√l
+[
+i
+][
+j
+][
+k
+] = 
+	`WP_Ch™√lCª©e
+ (0x11+k,
+
+2273 #i‡
+USE_SIMPLE_DEVICE
+
+
+2274 
+dev_hõr_íë
+,
+
+2276 
+l2_group_hõr
+[
+i
+][
+j
+],
+
+2278 
+iw_qnode
+,
+
+2279 
+WP_CH_TX
+, 
+WP_ENET
+,
+
+2280 #i‡
+USE_SIMPLE_DEVICE
+
+
+2281 &
+sim∂e_íë_ch_c⁄fig
+);
+
+2283 &
+hõr_íë_ch_c⁄fig
+);
+
+2285 
+	`ãrmö©e_⁄_îr‹_E√tDemo
+ (
+tx_gbe_hõr_ch™√l
+[
+i
+][
+j
+][
+k
+],
+
+2290 
+	}
+}
+
+2294 
+	$WPE_Cª©eL1FMUGroups
+ ()
+
+2296 
+WP_U32
+ 
+íåy
+;
+
+2297 
+WP_h™dÀ
+ 
+°©us
+;
+
+2300 
+WP_fmu_sh≠ög_cú_eú
+ 
+my_l1_group_sh≠ög_∑øms
+ = {
+
+2310 
+WP_fmu_sh≠ög_wfq
+ 
+l1_group_sh≠ög_∑øms
+ = {
+
+2318 
+WP_sh≠ög_group_ty≥_∑ckë
+ 
+íë_group_l1_c⁄fig
+ = {
+
+2320  
+WP_L1_GROUP
+,
+
+2322  
+WP_FMU_SHAPING_TYPE_WFQ
+,
+
+2323  &
+l1_group_sh≠ög_∑øms
+,
+
+2325  
+WP_FMU_SHAPING_TYPE_CIR_EIR
+,
+
+2326  &
+my_l1_group_sh≠ög_∑øms
+,
+
+2328  
+WP_NUM_FIFOS_8
+,
+
+2334 
+l1_group_sh≠ög_∑øms
+.
+weight
+ = 100000;
+
+2335 
+my_l1_group_sh≠ög_∑øms
+.
+cú
+ = 1000000;
+
+2337 
+íåy
+ = 0;É¡ry < 
+NUM_OF_L1_GROUP
+ ;Éntry++)
+
+2340 
+íë_group_l1_c⁄fig
+.
+block_Àvñ
+ = 
+íåy
+;
+
+2341 
+l1_group_hõr
+[
+íåy
+] =
+
+2342 
+	`WP_Sh≠ögGroupCª©e
+ (
+dev_hõr_íë
+,
+
+2343 
+WP_SHAPING_GROUP_TYPE_PACKET
+,
+
+2344 &
+íë_group_l1_c⁄fig
+);
+
+2345 
+	`ãrmö©e_⁄_îr‹_E√tDemo
+ (
+l1_group_hõr
+[
+íåy
+],
+
+2347 
+°©us
+ = 
+	`WP_Sh≠ögGroupE«bÀ
+ (
+l1_group_hõr
+[
+íåy
+]);
+
+2348 
+	`ãrmö©e_⁄_îr‹_E√tDemo
+ (
+°©us
+, "WP_ShapingGroupEnableÜ1_hier");
+
+2350 
+	}
+}
+
+2351 
+	$WPE_Cª©eL2FMUGroups
+ ()
+
+2353 
+WP_U32
+ 
+i
+, 
+íåy
+;
+
+2354 
+WP_h™dÀ
+ 
+°©us
+;
+
+2355 
+WP_h™dÀ
+ 
+block_h™dÀ
+;
+
+2357 
+WP_fmu_sh≠ög_cú_eú
+ 
+l2_group_sh≠ög_∑øms
+ = {
+
+2365 
+WP_sh≠ög_group_ty≥_íë
+ 
+íë_group_l2_c⁄fig
+ = {
+
+2367  
+WP_L2_GROUP
+,
+
+2368 #i‡
+USE_SOCKET
+
+
+2369 #îr‹ 
+USE_SOCKET_SHOULD_NOT_BE_DEFINED
+
+
+2370  
+WP_FMU_SHAPING_TYPE_STRICT
+,
+
+2371  
+NULL
+,
+
+2373  
+WP_FMU_SHAPING_TYPE_CIR_EIR
+,
+
+2374  &
+l2_group_sh≠ög_∑øms
+,
+
+2376  
+WP_NUM_FIFOS_8
+,
+
+2380  
+WP_MODE_HW
+,
+
+2383 
+block_h™dÀ
+ = 0;
+
+2385 
+block_h™dÀ
+ = 
+	`WP_Sh≠ögBlockCª©e
+(
+	`WP_SYSHANDLE
+(
+	`WP_WINPATH
+(0)),
+
+2386 
+WP_L2_GROUP
+,
+
+2388 
+WP_NUM_FIFOS_8
+);
+
+2390 
+	`ãrmö©e_⁄_îr‹_E√tDemo
+ (
+block_h™dÀ
+, "WP_ShapingBlockCreateÉrror");
+
+2391 
+íë_group_l2_c⁄fig
+.
+block_h™dÀ
+ = block_handle;
+
+2394 
+i
+ = 0;
+
+2397 
+i
+ = 0; i < 
+NUM_OF_L1_GROUP
+ ; i++)
+
+2400 
+íåy
+ = 0;É¡ry < 
+NUM_OF_L2_GROUP
+ ;Éntry++)
+
+2402 
+	`wp3_u¨t_¥ötf
+ ("now iài†i(%d),É¡ry(%d)\n", 
+i
+, 
+íåy
+);
+
+2403 #i‡
+USE_SW_CHANNELS
+
+
+2404 
+íë_group_l2_c⁄fig
+.
+group_mode
+ = 
+WP_MODE_SW
+;
+
+2406 
+íë_group_l2_c⁄fig
+.
+group_mode
+ = 
+WP_MODE_HW
+;
+
+2408 
+íë_group_l2_c⁄fig
+.
+block_Àvñ
+ = 
+íåy
+;
+
+2409 
+l2_group_hõr
+[
+i
+][
+íåy
+] =
+
+2411 
+	`WP_Sh≠ögGroupCª©e
+ (
+l1_group_hõr
+[
+i
+],
+
+2413 
+	`WP_Sh≠ögGroupCª©e
+ (
+dev_hõr_íë
+,
+
+2415 
+WP_SHAPING_GROUP_TYPE_PACKET
+,
+
+2416 &
+íë_group_l2_c⁄fig
+);
+
+2417 
+	`ãrmö©e_⁄_îr‹_E√tDemo
+ (
+l2_group_hõr
+[
+i
+][
+íåy
+],
+
+2419 
+°©us
+ = 
+	`WP_Sh≠ögGroupE«bÀ
+ (
+l2_group_hõr
+[
+i
+][
+íåy
+]);
+
+2420 
+	`ãrmö©e_⁄_îr‹_E√tDemo
+ (
+°©us
+, "WP_ShapingGroupEnableÜ2_hier");
+
+2423 
+	}
+}
+
+2428 
+	$WPE_Pﬁi˚rInô
+ ()
+
+2430 
+WP_moduÀ_pﬁi˚r
+ 
+pﬁi˚r_moduÀ_cfg
+;
+
+2431 
+WP_pﬁi˚r_limôs_v1
+ 
+v1_pﬁi˚r_limôs
+;
+
+2432 
+WP_pﬁi˚r_limôs_©m
+ 
+©m_pﬁi˚r_limôs
+;
+
+2433 
+WP_°©us
+ 
+°©us
+;
+
+2435 
+	`mem£t
+ (&
+©m_pﬁi˚r_limôs
+, 0,  (
+WP_pﬁi˚r_limôs_©m
+));
+
+2436 
+	`mem£t
+ (&
+v1_pﬁi˚r_limôs
+, 0,  (
+WP_pﬁi˚r_limôs_v1
+));
+
+2437 
+	`mem£t
+ (&
+pﬁi˚r_moduÀ_cfg
+, 0,  (
+WP_moduÀ_pﬁi˚r
+));
+
+2438 
+v1_pﬁi˚r_limôs
+.
+max_pﬁi˚rs
+ = 1;
+
+2439 
+pﬁi˚r_moduÀ_cfg
+.
+v2_pﬁi˚r_limôs
+ = 0;
+
+2440 
+pﬁi˚r_moduÀ_cfg
+.
+v1_pﬁi˚r_limôs
+ = &v1_policer_limits;
+
+2441 
+pﬁi˚r_moduÀ_cfg
+.
+©m_pﬁi˚r_limôs
+ = &atm_policer_limits;
+
+2442 
+pﬁi˚r_moduÀ_cfg
+.
+mode
+ = 0;
+
+2443 
+°©us
+ =
+
+2444 
+	`WP_ModuÀInô
+ (
+	`WP_SYSHANDLE
+ (0), 
+WP_WDDI_MODULE_POLICER
+,
+
+2445 &
+pﬁi˚r_moduÀ_cfg
+);
+
+2446 
+	`ãrmö©e_⁄_îr‹_E√tDemo
+ (
+°©us
+, "WP_ModuleInit Policer");
+
+2447 
+	}
+}
+
+2448 
+	$WPE_Cª©eSchedulögUnô
+ ()
+
+2450 
+WP_°©us
+ 
+°©us
+;
+
+2451 
+WP_ˇÀnd¨_whìl
+ 
+ˇÀnd¨
+[2] = {
+
+2455  
+WP_CW_PSU
+,
+
+2456  
+WP_CW_ID_A
+,
+
+2461 }, 
+WP_CALENDAR_WHEEL_TERM
+
+
+2463 
+WP_„©uª_psu
+ 
+„©uª_psu_c⁄fig
+ = {
+
+2467  
+SDU_SIZE
+
+
+2469 
+°©us
+ = 
+	`WP_SysScheduÀrCª©e
+ (
+	`WP_WINPATH
+ (0), 
+ˇÀnd¨
+);
+
+2470 
+	`ãrmö©e_⁄_îr‹_E√tDemo
+ (
+°©us
+, "WP_SysSchedulerCreate()");
+
+2471 
+	`wp3_u¨t_¥ötf
+ ("PSU_MODE On\n");
+
+2472 
+°©us
+ =
+
+2473 
+	`WP_FótuªInô
+ (
+	`WP_WINPATH
+ (0), 
+WP_FEATURE_PSU
+, &
+„©uª_psu_c⁄fig
+);
+
+2474 
+	`ãrmö©e_⁄_îr‹_E√tDemo
+ (
+°©us
+, "WP_FeatureInit-PSU");
+
+2475 
+	}
+}
+
+2477 
+	$WPE_Cª©eDediˇãdFlowAgg
+ ()
+
+2479 
+WP_U32
+ 
+i
+;
+
+2480 
+WP_iw_agg_bridgög
+ 
+dediˇãd_agg_hõr_íë_c⁄fig
+ = {
+
+2482  
+agg_èg_cou¡î
+++,
+
+2485  
+WP_IW_RFCS_DISABLE
+,
+
+2486  
+WP_IW_L2H_INSERT_ENABLE
+,
+
+2487  
+WP_IW_VLAN_TAG_ENABLE
+,
+
+2489  
+WP_IW_IRQT1
+,
+
+2490  
+WP_IW_ERRPKT_DISCARD
+,
+
+2491  
+WP_IW_INT_DISABLE
+,
+
+2492  
+WP_IW_STAT_ENABLE
+,
+
+2493  
+WP_IW_TIME_STAMP_DISABLE
+,
+
+2494  
+WP_IW_OV_POOL_DISABLE
+,
+
+2496  
+WP_IW_REPLACE_VTAG_DISABLE
+,
+
+2499  
+MTU_SIZE
+,
+
+2509  
+WP_IW_POLICER_DISABLE
+,
+
+2510  
+NULL
+,
+
+2511  
+WP_IW_CONGESTION_DISABLE
+,
+
+2512  
+NULL
+,
+
+2513  
+WP_IW_AGG_PRIMARY
+,
+
+2516 
+WP_IW_EXTERN_VLAN_NONE
+, 0},
+
+2520  
+WP_IW_NOT_RESERVED
+,
+
+2521  
+WP_IW_OVERRIDE_INPORT
+,
+
+2522  
+WP_IW_OVERRIDE_INPORT
+,
+
+2523  
+WP_IW_MAC_REPLACE_DISABLED
+,
+
+2530  
+WP_DISABLE
+,
+
+2534 
+WP_IW_VPMT_ACCESSING_EGRESS_EXTERNAL
+,
+
+2539  
+WP_DISABLE
+,
+
+2542 
+i
+ = 0;
+
+2543 
+dediˇãd_agg_hõr_íë_c⁄fig
+.
+txfunc
+ = 
+rx_ho°_ch™√l
+;
+
+2544 
+dediˇãd_agg_hõr_íë_c⁄fig
+.
+iw_p‹t
+ = 
+bp‹t_ho°
+;
+
+2545 
+dediˇãd_agg_hõr_íë_c⁄fig
+.
+ª£rved_agg_mode
+ =
+
+2546 
+WP_IW_PPPOE_DISCOVERY_TERMINATION
+;
+
+2547 
+Êow_agg_dediˇãd
+[
+i
+] =
+
+2548 
+	`WP_IwFlowAggªg©i⁄Cª©e
+ (0,
+
+2549 
+WP_IW_VLAN_AWARE_BRIDGING_MODE
+,
+
+2550 &
+dediˇãd_agg_hõr_íë_c⁄fig
+);
+
+2551 
+	`ãrmö©e_⁄_îr‹_E√tDemo
+ (
+Êow_agg_dediˇãd
+[
+i
+],
+
+2553 
+i
+++;
+
+2554 
+dediˇãd_agg_hõr_íë_c⁄fig
+.
+txfunc
+ = 
+rx_ho°_ch™√l
+;
+
+2555 
+dediˇãd_agg_hõr_íë_c⁄fig
+.
+iw_p‹t
+ = 
+bp‹t_ho°
+;
+
+2556 
+dediˇãd_agg_hõr_íë_c⁄fig
+.
+ª£rved_agg_mode
+ =
+
+2557 
+WP_IW_ARP_TERMINATION
+;
+
+2558 
+Êow_agg_dediˇãd
+[
+i
+] =
+
+2559 
+	`WP_IwFlowAggªg©i⁄Cª©e
+ (0,
+
+2560 
+WP_IW_VLAN_AWARE_BRIDGING_MODE
+,
+
+2561 &
+dediˇãd_agg_hõr_íë_c⁄fig
+);
+
+2562 
+	`ãrmö©e_⁄_îr‹_E√tDemo
+ (
+Êow_agg_dediˇãd
+[
+i
+],
+
+2564 
+i
+++;
+
+2565 
+dediˇãd_agg_hõr_íë_c⁄fig
+.
+txfunc
+ = 
+rx_ho°_ch™√l
+;
+
+2566 
+dediˇãd_agg_hõr_íë_c⁄fig
+.
+iw_p‹t
+ = 
+bp‹t_ho°
+;
+
+2567 
+dediˇãd_agg_hõr_íë_c⁄fig
+.
+ª£rved_agg_mode
+ =
+
+2568 
+WP_IW_IGMP_TERMINATION
+;
+
+2569 
+Êow_agg_dediˇãd
+[
+i
+] =
+
+2570 
+	`WP_IwFlowAggªg©i⁄Cª©e
+ (0,
+
+2571 
+WP_IW_VLAN_AWARE_BRIDGING_MODE
+,
+
+2572 &
+dediˇãd_agg_hõr_íë_c⁄fig
+);
+
+2573 
+	`ãrmö©e_⁄_îr‹_E√tDemo
+ (
+Êow_agg_dediˇãd
+[
+i
+],
+
+2575 
+	}
+}
+
+2577 
+	$WPE_SëSèticF‹w¨dRuÀs
+ ()
+
+2579 
+WP_U32
+ 
+i
+, 
+j
+, 
+k
+;
+
+2580 
+WP_h™dÀ
+ 
+°©us
+;
+
+2581 
+WP_l2_f‹w¨d
+ 
+f‹w¨d_ruÀ_c⁄fig
+ = {
+
+2589  
+WP_TRUE
+,
+
+2590  
+WP_IW_AGING_DISABLE
+,
+
+2591  
+WP_FLOW_BRIDGE_PROCESS_PASS
+,
+
+2592  
+WP_MAC_SA_PASS
+,
+
+2593  
+WP_IW_UNK_MAC_MODE_DISABLED
+
+
+2597 
+	`mem˝y
+ (
+f‹w¨d_ruÀ_c⁄fig
+.
+mac
+, 
+íë_d°_mac
+, 6);
+
+2598 
+f‹w¨d_ruÀ_c⁄fig
+.
+bp‹t_èg
+ = 
+BRIDGE_PORT_ENET_TAG
+;
+
+2599 
+f‹w¨d_ruÀ_c⁄fig
+.
+vœn_id
+ = 
+VLAN_TAG_1
+;
+
+2600 
+f‹w¨d_ruÀ_c⁄fig
+.
+aggªg©i⁄
+ = 
+agg_íë
+[0];
+
+2601 
+°©us
+ = 
+	`WP_IwMacAddªssIn£π
+ (
+iw_sys
+, &
+f‹w¨d_ruÀ_c⁄fig
+);
+
+2602 
+	`ãrmö©e_⁄_îr‹_E√tDemo
+ (
+°©us
+, "WP_IwMacAddressInsert()Åo Enet");
+
+2605 
+	`mem˝y
+ (
+f‹w¨d_ruÀ_c⁄fig
+.
+mac
+, 
+íë_ch™ge_d°_mac
+, 6);
+
+2606 
+f‹w¨d_ruÀ_c⁄fig
+.
+bp‹t_èg
+ = 
+BRIDGE_PORT_ENET_TAG
+;
+
+2607 
+f‹w¨d_ruÀ_c⁄fig
+.
+vœn_id
+ = 
+VLAN_TAG_1
+;
+
+2609 
+f‹w¨d_ruÀ_c⁄fig
+.
+aggªg©i⁄
+ = 
+agg_íë_ch™ge_mac
+;
+
+2611 
+f‹w¨d_ruÀ_c⁄fig
+.
+aggªg©i⁄
+ = 
+agg_íë
+[0];
+
+2613 
+°©us
+ = 
+	`WP_IwMacAddªssIn£π
+ (
+iw_sys
+, &
+f‹w¨d_ruÀ_c⁄fig
+);
+
+2614 
+	`ãrmö©e_⁄_îr‹_E√tDemo
+ (
+°©us
+,
+
+2618 
+	`mem˝y
+ (
+f‹w¨d_ruÀ_c⁄fig
+.
+mac
+, 
+hõr_íë_d°_mac
+, 6);
+
+2619 
+f‹w¨d_ruÀ_c⁄fig
+.
+bp‹t_èg
+ = 
+BRIDGE_PORT_HIER_ENET_TAG
+;
+
+2620 
+f‹w¨d_ruÀ_c⁄fig
+.
+vœn_id
+ = 
+VLAN_TAG_1
+;
+
+2621 
+i
+ = 0; i < 
+NUM_OF_L1_GROUP
+ ; i++)
+
+2623 
+j
+ = 0; j < 
+NUM_OF_L2_GROUP
+ ; j++)
+
+2625 
+k
+ = 0; k < 
+NUM_OF_HIER_ENET_FAS_PER_L2
+ ; k++)
+
+2627 
+f‹w¨d_ruÀ_c⁄fig
+.
+aggªg©i⁄
+ = 
+agg_hõr_íë
+[
+i
+][
+j
+][
+k
+];
+
+2628 
+°©us
+ = 
+	`WP_IwMacAddªssIn£π
+(
+iw_sys
+,&
+f‹w¨d_ruÀ_c⁄fig
+);
+
+2629 
+	`ãrmö©e_⁄_îr‹_E√tDemo
+ (
+°©us
+,
+
+2631 
+f‹w¨d_ruÀ_c⁄fig
+.
+mac
+[5] ++;
+
+2639 
+	`mem˝y
+ (
+f‹w¨d_ruÀ_c⁄fig
+.
+mac
+, 
+hõr_íë_mˇ°_d°_mac
+, 6);
+
+2640 
+f‹w¨d_ruÀ_c⁄fig
+.
+bp‹t_èg
+ = 
+BRIDGE_PORT_MC_TAG
+;
+
+2641 
+f‹w¨d_ruÀ_c⁄fig
+.
+vœn_id
+ = 
+VLAN_TAG_1
+;
+
+2645 
+i
+ = 0; i < 
+NUM_OF_MC_GROUPS
+; i++)
+
+2648 
+f‹w¨d_ruÀ_c⁄fig
+.
+aggªg©i⁄
+ = 
+mc_agg_h™dÀ
+[
+i
+];
+
+2649 
+°©us
+ = 
+	`WP_IwMacAddªssIn£π
+ (
+iw_sys
+, &
+f‹w¨d_ruÀ_c⁄fig
+);
+
+2650 
+	`ãrmö©e_⁄_îr‹_E√tDemo
+ (
+°©us
+,
+
+2652 
+f‹w¨d_ruÀ_c⁄fig
+.
+vœn_id
+++;
+
+2656 
+	}
+}
+
+2663 
+	$WPE_Ló∫ögIST
+ (
+WP_èg
+ 
+èg
+, 
+WP_U32
+ 
+d©a
+, WP_U32 
+öfo
+)
+
+2665 
+WP_°©us
+ 
+°©us
+;
+
+2666 
+WP_U32
+ 
+ªtu∫_size
+, 
+i
+;
+
+2667 
+WP_l2_f‹w¨d
+ 
+À¨nög_queue
+[
+LEARNING_QUEUE_SIZE
+];
+
+2681 
+°©us
+ =
+
+2682 
+	`WP_IwLó∫ögQueueSîvi˚
+ (
+iw_sys
+, 
+À¨nög_queue
+,
+
+2683 
+LEARNING_QUEUE_SIZE
+, &
+ªtu∫_size
+);
+
+2684 
+	`ãrmö©e_⁄_îr‹_E√tDemo
+ (
+°©us
+, "WPE_LearningEvent()");
+
+2687 
+i
+ = 0; i < 
+ªtu∫_size
+; i++)
+
+2692 
+À¨nög_queue
+[
+i
+].
+°©ic_mac_mode
+ = 
+WP_TRUE
+;
+
+2693 
+À¨nög_queue
+[
+i
+].
+agög_bô_mode
+ = 
+WP_IW_AGING_DISABLE
+;
+
+2701 
+°©us
+ = 
+	`WP_IwMacAddªssIn£π
+ (
+iw_sys
+, &
+À¨nög_queue
+[
+i
+]);
+
+2702 
+	`ãrmö©e_⁄_îr‹_E√tDemo
+ (
+°©us
+, "WPE_LearningEvent()");
+
+2704 
+	}
+}
+
+2713 
+	$WPE_MemebîSëFûl
+ ()
+
+2715 
+WP_°©us
+ 
+°©us
+;
+
+2716 
+WP_Êow_À¨nög_ruÀ_vœn
+ 
+bridge_cfg
+;
+
+2717 
+WP_U32
+ 
+i
+, 
+j
+, 
+k
+;
+
+2720 
+i
+ = 0; i < 
+MAX_VLAN_IDS
+; i++)
+
+2723 
+bridge_cfg
+.
+Êow_agg
+ = 
+agg_ho°
+;
+
+2724 
+bridge_cfg
+.
+vœn_id
+ = 
+VLAN_TAG_1
+ + 
+i
+;
+
+2725 
+°©us
+ = 
+	`WP_IwFlowAdd
+ (
+iw_sys
+, 
+WP_FLOW_BRIDGEPATH
+, &
+bridge_cfg
+);
+
+2726 
+	`ãrmö©e_⁄_îr‹_E√tDemo
+ (
+°©us
+,
+
+2731 
+i
+ = 0; i < 
+MAX_VLAN_IDS
+; i++)
+
+2734 
+bridge_cfg
+.
+Êow_agg
+ = 
+agg_íë
+[0];
+
+2735 
+bridge_cfg
+.
+vœn_id
+ = 
+VLAN_TAG_1
+ + 
+i
+;
+
+2736 
+°©us
+ = 
+	`WP_IwFlowAdd
+ (
+iw_sys
+, 
+WP_FLOW_BRIDGEPATH
+, &
+bridge_cfg
+);
+
+2737 
+	`ãrmö©e_⁄_îr‹_E√tDemo
+ (
+°©us
+,
+
+2742 
+i
+ = 0; i < 
+NUM_OF_L1_GROUP
+; i++)
+
+2745 
+j
+ = 0; j < 
+NUM_OF_L2_GROUP
+; j++)
+
+2748 
+k
+ = 0; k < 
+NUM_OF_HIER_ENET_FAS_PER_L2
+; k++)
+
+2751 
+bridge_cfg
+.
+Êow_agg
+ = 
+agg_hõr_íë
+[
+i
+][
+j
+][
+k
+];
+
+2752 
+bridge_cfg
+.
+vœn_id
+ = 
+VLAN_TAG_1
+ + (
+i
+Ë% 
+MAX_VLAN_IDS
+;
+
+2753 
+°©us
+ =
+
+2754 
+	`WP_IwFlowAdd
+ (
+iw_sys
+, 
+WP_FLOW_BRIDGEPATH
+, &
+bridge_cfg
+);
+
+2755 
+	`ãrmö©e_⁄_îr‹_E√tDemo
+ (
+°©us
+,
+
+2760 
+	}
+}
+
+2889 
+	$WPE_AddBasicFûãrs
+ ()
+
+2891 
+WP_˛assifiˇti⁄_fûãr
+ 
+fûãr_∑øm
+;
+
+2893 
+	`mem£t
+ (&
+fûãr_∑øm
+, 0,  (
+wp_˛assifiˇti⁄_fûãr
+));
+
+2903 
+fûãr_∑øm
+.
+fûãr_ty≥
+ = 
+WP_CLASS_FILTER_EMC
+;
+
+2904 
+fûãr_∑øm
+.
+no_m©ch_a˘i⁄
+ = 
+WP_CLASS_FILTER_NO_MATCH_CONTINUE
+;
+
+2905 
+fûãr_∑øm
+.
+fõlds_mask
+ = 
+WP_FIELD_IDS_ARRAY
+;
+
+2906 
+fûãr_∑øm
+.
+fõld_ids_¨øy
+[0] = 
+WP_FIELD_ID_IP_SA_PROGRAMMABLE_PREFIX
+;
+
+2907 
+fûãr_∑øm
+.
+fõld_ids_¨øy
+[1] = 
+WP_FIELD_ID_LAST
+;
+
+2908 
+fûãr_∑øm
+.
+ù_addªss_c⁄fig
+.
+ù_ß_¥efix_size
+ = 24;
+
+2909 
+emc_fûãr_h™dÀ
+[0] = 
+	`WP_IwCœssFûãrAdd
+ (
+iw_sys
+, &
+fûãr_∑øm
+);
+
+2910 
+	`ãrmö©e_⁄_îr‹_E√tDemo
+ (
+emc_fûãr_h™dÀ
+[0], "WP_IwClassFilterAdd");
+
+2913 #i‡
+MFC
+
+
+2914 
+fûãr_∑øm
+.
+fûãr_ty≥
+ = 
+WP_CLASS_FILTER_MFC
+;
+
+2915 
+fûãr_∑øm
+.
+no_m©ch_a˘i⁄
+ = 
+WP_CLASS_FILTER_NO_MATCH_ACCEPT
+;
+
+2916 
+fûãr_∑øm
+.
+fõlds_mask
+ = 
+WP_FIELD_IDS_ARRAY
+;
+
+2917 
+fûãr_∑øm
+.
+fõld_ids_¨øy
+[0] = 
+WP_FIELD_ID_IP_SA_PROGRAMMABLE_PREFIX
+;
+
+2918 
+fûãr_∑øm
+.
+fõld_ids_¨øy
+[1] = 
+WP_FIELD_ID_LAST
+;
+
+2919 
+fûãr_∑øm
+.
+ù_addªss_c⁄fig
+.
+ù_ß_¥efix_size
+ = 24;
+
+2920 
+mfc_fûãr_h™dÀ
+ = 
+	`WP_IwCœssFûãrAdd
+ (
+iw_sys
+, &
+fûãr_∑øm
+);
+
+2921 
+	`ãrmö©e_⁄_îr‹_E√tDemo
+ (
+mfc_fûãr_h™dÀ
+, "WP_IwClassFilterAdd");
+
+2924 
+	}
+}
+
+2925 
+	$WPE_AddBasicRuÀs
+ ()
+
+2927 
+WP_Êow_˛ass_ruÀ
+ 
+˛ass_cfg
+;
+
+2928 
+WP_CHAR
+ 
+dfc_ruÀ
+[
+WP_IW_RULE_MAX_LENGTH
+];
+
+2929 
+WP_dfc_Êow_öfo
+ 
+dfc_Êow_öfo
+;
+
+2934 
+	`mem£t
+ (&
+˛ass_cfg
+, 0,  (
+WP_Êow_˛ass_ruÀ
+));
+
+2935 
+	`mem£t
+ (&
+dfc_Êow_öfo
+, 0,  (
+WP_dfc_Êow_öfo
+));
+
+2936 
+	`mem£t
+ (&
+dfc_ruÀ
+, 0, 
+WP_IW_RULE_MAX_LENGTH
+);
+
+2937 
+	`•rötf
+ (
+dfc_ruÀ
+, "10.0/0.0;0.2/0.0;");
+
+2940 
+dfc_Êow_öfo
+.
+fûãr_h™dÀ
+ = 
+emc_fûãr_h™dÀ
+[0];
+
+2941 
+dfc_Êow_öfo
+.
+ouçut_p‹t
+ = 0;
+
+2942 
+dfc_Êow_öfo
+.
+öput_p‹t
+ = 0;
+
+2943 
+˛ass_cfg
+.
+˛assifõr_°rög
+ = &
+dfc_ruÀ
+[0];
+
+2944 
+˛ass_cfg
+.
+dfc_öfo
+ = &
+dfc_Êow_öfo
+;
+
+2945 
+˛ass_cfg
+.
+m©ch_a˘i⁄
+ = 
+WP_FLOW_CLASS_MODE_DENY
+;
+
+2946 
+˛ass_cfg
+.
+a˘i⁄_öfo
+.
+f‹w¨dög_a˘i⁄
+.
+Êow_aggªg©i⁄
+ = 0;
+
+2947 
+˛ass_cfg
+.
+wªd_íåy
+ = 0;
+
+2948 
+Êow_ruÀ_h™dÀ
+[0][0] =
+
+2949 
+	`WP_IwFlowAdd
+ (
+iw_sys
+, 
+WP_FLOW_CLASS_RULE
+, &
+˛ass_cfg
+);
+
+2950 
+	`ãrmö©e_⁄_îr‹_E√tDemo
+ (
+Êow_ruÀ_h™dÀ
+[0][0],
+
+2959 #i‡
+MFC
+
+
+2963 
+	`mem£t
+ (&
+˛ass_cfg
+, 0,  (
+WP_Êow_˛ass_ruÀ
+));
+
+2964 
+	`mem£t
+ (&
+dfc_Êow_öfo
+, 0,  (
+WP_dfc_Êow_öfo
+));
+
+2965 
+	`mem£t
+ (&
+dfc_ruÀ
+, 0, 
+WP_IW_RULE_MAX_LENGTH
+);
+
+2966 
+	`•rötf
+ (
+dfc_ruÀ
+, "10.0/0.0;0.2/0.0;");
+
+2969 
+dfc_Êow_öfo
+.
+fûãr_h™dÀ
+ = 
+mfc_fûãr_h™dÀ
+;
+
+2970 
+dfc_Êow_öfo
+.
+ouçut_p‹t
+ = 0;
+
+2971 
+dfc_Êow_öfo
+.
+öput_p‹t
+ = 0;
+
+2972 
+˛ass_cfg
+.
+˛assifõr_°rög
+ = &
+dfc_ruÀ
+[0];
+
+2973 
+˛ass_cfg
+.
+dfc_öfo
+ = &
+dfc_Êow_öfo
+;
+
+2974 
+˛ass_cfg
+.
+m©ch_a˘i⁄
+ = 
+WP_FLOW_CLASS_MODE_DENY
+;
+
+2975 
+˛ass_cfg
+.
+a˘i⁄_öfo
+.
+f‹w¨dög_a˘i⁄
+.
+Êow_aggªg©i⁄
+ = 0;
+
+2976 
+˛ass_cfg
+.
+wªd_íåy
+ = 0;
+
+2977 
+Êow_ruÀ_h™dÀ
+[1][0] =
+
+2978 
+	`WP_IwFlowAdd
+ (
+iw_sys
+, 
+WP_FLOW_CLASS_RULE
+, &
+˛ass_cfg
+);
+
+2979 
+	`ãrmö©e_⁄_îr‹_E√tDemo
+ (
+Êow_ruÀ_h™dÀ
+[1][0],
+
+2985 
+	`mem£t
+ (&
+˛ass_cfg
+, 0,  (
+WP_Êow_˛ass_ruÀ
+));
+
+2986 
+	`mem£t
+ (&
+dfc_Êow_öfo
+, 0,  (
+WP_dfc_Êow_öfo
+));
+
+2987 
+	`mem£t
+ (&
+dfc_ruÀ
+, 0, 
+WP_IW_RULE_MAX_LENGTH
+);
+
+2988 
+	`•rötf
+ (
+dfc_ruÀ
+, "0.0/255.255;0.0/255.255;");
+
+2991 
+dfc_Êow_öfo
+.
+fûãr_h™dÀ
+ = 
+mfc_fûãr_h™dÀ
+;
+
+2992 
+dfc_Êow_öfo
+.
+ouçut_p‹t
+ = 0;
+
+2993 
+dfc_Êow_öfo
+.
+öput_p‹t
+ = 0;
+
+2994 
+˛ass_cfg
+.
+˛assifõr_°rög
+ = &
+dfc_ruÀ
+[0];
+
+2995 
+˛ass_cfg
+.
+dfc_öfo
+ = &
+dfc_Êow_öfo
+;
+
+2996 
+˛ass_cfg
+.
+m©ch_a˘i⁄
+ = 
+WP_FLOW_CLASS_MODE_FLOW_AGG
+;
+
+2997 
+˛ass_cfg
+.
+a˘i⁄_öfo
+.
+f‹w¨dög_a˘i⁄
+.
+Êow_aggªg©i⁄
+ = 
+agg_ho°
+;
+
+2998 
+˛ass_cfg
+.
+wªd_íåy
+ = 0;
+
+2999 
+Êow_ruÀ_h™dÀ
+[1][1] =
+
+3000 
+	`WP_IwFlowAdd
+ (
+iw_sys
+, 
+WP_FLOW_CLASS_RULE
+, &
+˛ass_cfg
+);
+
+3001 
+	`ãrmö©e_⁄_îr‹_E√tDemo
+ (
+Êow_ruÀ_h™dÀ
+[1][1],
+
+3005 
+	}
+}
+
+3007 
+WP_U32
+ 
+	gp_gŸ
+ = 0;
+
+3008 
+WP_U32
+ 
+	gp_gën£nd
+ = 0;
+
+3010 
+	$WPE_Re˚ive_Ho°D©a_IRQ
+ (
+WP_èg
+ 
+èg
+, 
+WP_U32
+ 
+evít
+, WP_U32 
+öfo
+)
+
+3012 
+	`WPL_Lock
+ (
+WPL_THREAD_LOCK_KEY
+, &
+eﬂm_lock
+);
+
+3014 
+g_èg
+ = 
+èg
+;
+
+3015 
+g_evít
+ = 
+evít
+;
+
+3016 
+g_öfo
+ = 
+öfo
+;
+
+3017 
+g_Êag
+ = 1;
+
+3018 
+g_ˇŒback
+ ++;
+
+3019 i‡(0 =(
+iii
+ % 5000))
+
+3021 
+	`wp3_u¨t_¥ötf
+ ("iii(%6d), cÆlback(%6d)\r", 
+iii
+, 
+g_ˇŒback
+);
+
+3023 
+	`WPL_U∆ock
+(
+WPL_THREAD_LOCK_KEY
+, &
+eﬂm_lock
+);
+
+3024 
+	}
+}
+
+3028 
+	$WPE_Re˚ive_Ho°D©a_IRQ_X
+ (
+WP_èg
+ 
+èg
+, 
+WP_U32
+ 
+evít
+, WP_U32 
+öfo
+)
+
+3030 
+WP_d©a_unô
+ 
+d©a_unô
+;
+
+3031 
+WP_d©a_£gmít
+ 
+£gmít
+;
+
+3032 
+WP_h™dÀ
+ 
+°©us
+;
+
+3034 
+WP_U32
+ 
+i
+;
+
+3035 
+	`mem£t
+ (&
+d©a_unô
+, 0,  (
+WP_d©a_unô
+));
+
+3036 
+	`mem£t
+ (&
+£gmít
+, 0,  (
+WP_d©a_£gmít
+));
+
+3037 
+d©a_unô
+.
+ty≥
+ = 
+WP_DATA_IW
+;
+
+3038 
+d©a_unô
+.
+£gmít
+ = &segment;
+
+3039 
+d©a_unô
+.
+n_£gmíts
+ = 1;
+
+3040 
+°©us
+ = 
+	`WP_Ho°Re˚ive
+ (
+rx_ho°_ch™√l
+, &
+d©a_unô
+);
+
+3041 i‡(
+°©us
+ !
+WP_OK
+)
+
+3044 i‡((
+	`WP_ERROR
+ (
+°©us
+Ë=
+WP_ERR_HST_NO_DATA_TO_GET
+))
+
+3051 
+	`ãrmö©e_⁄_îr‹_E√tDemo
+ (
+°©us
+, "WP_HostReceive Error()");
+
+3053 
+p_gŸ
+ ++;
+
+3054 
+	#DISPLAY_MATRIX
+ (50)
+
+	)
+
+3056 i‡(0 =(
+p_gŸ
+ % 
+DISPLAY_MATRIX
+))
+
+3058 
+	`wp3_u¨t_¥ötf
+ ("Re˚ivêPackë (%10d)\r", 
+p_gŸ
+);
+
+3063 
+i
+ = 0;
+
+3066 
+i
+=0;i<
+d©a_unô
+.
+d©a_size
+;i++)
+
+3068 if(
+i
+%16 =0Ë
+	`wp3_u¨t_¥ötf
+("\n");
+
+3069 
+	`wp3_u¨t_¥ötf
+("0x%02x ", 
+d©a_unô
+.
+£gmít
+->
+d©a
+[
+i
+]);
+
+3072 
+	`wp3_u¨t_¥ötf
+("\¿D©®Sizê%d \n",
+d©a_unô
+.
+d©a_size
+);
+
+3077 
+°©us
+ = 
+	`WP_PoﬁFªe
+ (
+£gmít
+.
+poﬁ_h™dÀ
+, segmít.
+d©a
+);
+
+3078 
+	`ãrmö©e_⁄_îr‹_E√tDemo
+ (
+°©us
+, "WP_PoolFree ()");
+
+3080 #i‡
+ENABLE_TRANSFER
+
+
+3085 
+	`WPE_Síd_Ho°D©a
+(
+tx_ho°_ch™√l
+, 
+WP_DATA_IW
+, 
+íë_ch™ge_d°_mac
+);
+
+3092 
+	}
+}
+
+3094 
+	$WPE_IWSídRe˚ive
+ (
+WP_U32
+ 
+∑ckës
+, 
+WP_U8
+ 
+d°_mac
+[])
+
+3096 
+WP_U32
+ 
+j
+;
+
+3099 
+j
+ = 0; j < 
+∑ckës
+; j++)
+
+3102 
+	`WPE_Síd_Ho°D©a
+ (
+tx_ho°_ch™√l
+, 
+WP_DATA_IW
+, 
+d°_mac
+);
+
+3104 
+	`WP_Dñay
+ (1000);
+
+3110 
+j
+ = 0; j < 
+∑ckës
+; j++)
+
+3113 
+	`WPE_Re˚ive_Ho°D©a
+ (
+rx_ho°_ch™√l
+, 
+WP_DATA_IW
+);
+
+3115 
+	}
+}
+
+3116 
+	$WPE_L2SídRe˚iveE√t
+ (
+WP_U32
+ 
+∑ckës
+, 
+WP_U8
+ 
+d°_mac
+[])
+
+3118 
+WP_U32
+ 
+j
+;
+
+3120 
+j
+ = 0; j < 
+∑ckës
+; j++)
+
+3123 
+	`WPE_Síd_Ho°D©a
+ (
+tx_gbe_ch™√l
+[0], 
+WP_DATA_ENET
+, 
+d°_mac
+);
+
+3125 
+	`WP_Dñay
+ (100000);
+
+3131 
+j
+ = 0; j < 
+∑ckës
+; j++)
+
+3134 
+	`WPE_Re˚ive_Ho°D©a
+ (
+rx_gbe_ch™√l
+, 
+WP_DATA_ENET
+);
+
+3136 
+	}
+}
+
+3137 
+	$WPE_Re˚ive_Ho°D©a
+ (
+WP_h™dÀ
+ 
+rx_ch™√l
+, 
+WP_d©a_ty≥
+ 
+d©a_ty≥
+)
+
+3139 
+WP_d©a_unô
+ 
+d©a_unô
+;
+
+3140 
+WP_d©a_£gmít
+ 
+£gmít
+;
+
+3141 
+WP_h™dÀ
+ 
+°©us
+;
+
+3144 
+	`mem£t
+ (&
+d©a_unô
+, 0,  (
+WP_d©a_unô
+));
+
+3145 
+	`mem£t
+ (&
+£gmít
+, 0,  (
+WP_d©a_£gmít
+));
+
+3146 
+d©a_unô
+.
+ty≥
+ = 
+d©a_ty≥
+;
+
+3147 
+d©a_unô
+.
+£gmít
+ = &segment;
+
+3148 
+d©a_unô
+.
+n_£gmíts
+ = 1;
+
+3149 
+°©us
+ = 
+	`WP_Ho°Re˚ive
+ (
+rx_ch™√l
+, &
+d©a_unô
+);
+
+3150 i‡(
+°©us
+ !
+WP_OK
+)
+
+3153 i‡((
+	`WP_ERROR
+ (
+°©us
+Ë=
+WP_ERR_HST_NO_DATA_TO_GET
+))
+
+3160 
+	`ãrmö©e_⁄_îr‹_E√tDemo
+ (
+°©us
+, "WP_HostReceive Error()");
+
+3162 
+	`wp3_u¨t_¥ötf
+ ("Receive Packet\n");
+
+3170 
+°©us
+ = 
+	`WP_PoﬁFªe
+ (
+£gmít
+.
+poﬁ_h™dÀ
+, segmít.
+d©a
+);
+
+3171 
+	`ãrmö©e_⁄_îr‹_E√tDemo
+ (
+°©us
+, "WP_PoolFree ()");
+
+3173 
+	}
+}
+
+3175 
+	$WPE_Síd_Ho°D©a
+ (
+WP_h™dÀ
+ 
+tx_ch™√l
+, 
+WP_d©a_ty≥
+ 
+d©a_ty≥
+,
+
+3176 
+WP_U8
+ 
+d°_mac
+[])
+
+3178 
+WP_h™dÀ
+ 
+°©us
+;
+
+3179 
+WP_d©a_unô
+ 
+d©a_unô
+;
+
+3180 
+WP_d©a_£gmít
+ 
+£gmít
+;
+
+3181 
+WP_U32
+ 
+i
+;
+
+3182 
+WP_U8
+ 
+hexa_buf„r
+[
+PACKET_SIZE
+] =
+
+3195 
+	`mem˝y
+ (
+hexa_buf„r
+, 
+d°_mac
+, 6);
+
+3196 
+	`mem£t
+ (&
+d©a_unô
+, 0,  (
+WP_d©a_unô
+));
+
+3197 
+	`mem£t
+ (&
+£gmít
+, 0,  (
+WP_d©a_£gmít
+));
+
+3198 i‡(
+d©a_ty≥
+ =
+WP_DATA_IW
+)
+
+3201 
+£gmít
+.
+d©a
+ = 
+	`WP_PoﬁAŒoc
+ (
+adjun˘_buf„r_poﬁ
+);
+
+3202 i‡(
+£gmít
+.
+d©a
+ == 0)
+
+3205 
+	`wp3_u¨t_¥ötf
+ ("WPE_SendHostData:ádjanctÖool isÉmpty\t");
+
+3208 
+£gmít
+.
+poﬁ_h™dÀ
+ = 
+adjun˘_buf„r_poﬁ
+;
+
+3222 
+£gmít
+.
+d©a_size
+ = 
+PACKET_SIZE
+;
+
+3223 
+	`WP_MEM_BYTES_FILL
+ (
+£gmít
+.
+d©a
+, '0', segmít.
+d©a_size
+);
+
+3224 
+	`WP_MEM_BYTES_SET
+ (&
+£gmít
+.
+d©a
+[0], 
+hexa_buf„r
+, 
+PACKET_SIZE
+);
+
+3225 
+d©a_unô
+.
+ty≥
+ = 
+d©a_ty≥
+;
+
+3226 
+d©a_unô
+.
+£gmít
+ = &segment;
+
+3227 
+d©a_unô
+.
+n_£gmíts
+ = 1;
+
+3228 
+d©a_unô
+.
+n_a˘ive
+ = 1;
+
+3229 
+d©a_unô
+.
+d©a_size
+ = 
+£gmít
+.data_size;
+
+3230 
+d©a_unô
+.
+d©a_ªtu∫
+ = 0;
+
+3231 
+d©a_unô
+.
+c⁄åﬁ
+ = 
+	`WP_HT_CONTROL
+ (0)
+
+3232 | 
+	`WP_HT_IW_B_MODE_FIELD
+ (
+WP_HT_IW_B_NORMAL_MODE
+);
+
+3233 
+d©a_unô
+.
+°©us
+ = 0;
+
+3235 
+i
+ = 0;
+
+3239 
+	`wp3_u¨t_¥ötf
+ ("WP_HostSend \n");
+
+3240 
+i
+ = 0; i < 
+PACKET_SIZE
+; i++)
+
+3242 i‡(
+i
+ % 16 == 0)
+
+3243 
+	`wp3_u¨t_¥ötf
+ ("\n");
+
+3244 
+	`wp3_u¨t_¥ötf
+ ("0x%02x ", 
+d©a_unô
+.
+£gmít
+->
+d©a
+[
+i
+]);
+
+3246 
+	`wp3_u¨t_¥ötf
+ ("\¿D©®Sizê%d \n", 
+d©a_unô
+.
+d©a_size
+);
+
+3251 
+°©us
+ = 
+	`WP_Ho°Síd
+ (
+tx_ch™√l
+, &
+d©a_unô
+);
+
+3252 i‡(
+WP_ERR_WMM_FIFO_PUT
+ =
+	`WP_ERROR
+ (
+°©us
+))
+
+3255 
+	`wp3_u¨t_¥ötf
+ ("WP_HostSend FIFO Put failed\n");
+
+3258 i‡(
+WP_ERR_WMM_FIFO_GET
+ =
+	`WP_ERROR
+ (
+°©us
+))
+
+3261 
+°©us
+ = 
+	`WP_PoﬁFªe
+ (
+adjun˘_buf„r_poﬁ
+, 
+£gmít
+.
+d©a
+);
+
+3262 
+	`ãrmö©e_⁄_îr‹_E√tDemo
+ (
+°©us
+, "WP_PoolFree (iw_qnode,segment.data)()");
+
+3266 
+	`ãrmö©e_⁄_îr‹_E√tDemo
+ (
+°©us
+, "WP_HostSend ()");
+
+3268 
+	}
+}
+
+3273 
+	$WPE_ShowF‹w¨dögRuÀs
+ ()
+
+3275 
+WP_l2_f‹w¨d
+ 
+f‹w¨d_ruÀ
+;
+
+3276 
+WP_h™dÀ
+ 
+°©us
+;
+
+3278 
+	`wp3_u¨t_¥ötf
+ ("\n\nForwarding Rule Entries:\n");
+
+3279 
+	`wp3_u¨t_¥ötf
+ ("------------------------------------\n");
+
+3280 
+wp3_u¨t_¥ötf
+
+
+3282 
+°©us
+ = 
+	`WP_IwF‹w¨dögRuÀFödAŒ
+ (
+iw_sys
+, &
+f‹w¨d_ruÀ
+, 0);
+
+3283 
+	`ãrmö©e_⁄_îr‹_E√tDemo
+ (
+°©us
+, "WP_IwForwardingRuleFindAll()");
+
+3284 
+	}
+}
+
+3286 
+	$WPE_Di•œyF‹w¨dögRuÀ
+ (
+WP_U32
+ * 
+l2_f‹w¨d_ruÀ
+)
+
+3288 
+WP_U32
+ 
+j
+;
+
+3289 
+WP_l2_f‹w¨d
+ *
+f‹w¨d_ruÀ_±r
+;
+
+3291 
+f‹w¨d_ruÀ_±r
+ = (
+WP_l2_f‹w¨d
+ *Ë
+l2_f‹w¨d_ruÀ
+;
+
+3292 
+j
+ = 0; j < 6; j++)
+
+3293 
+	`wp3_u¨t_¥ötf
+ ("%.2x", 
+f‹w¨d_ruÀ_±r
+->
+mac
+[
+j
+]);
+
+3294 
+	`wp3_u¨t_¥ötf
+ ("\t");
+
+3295 
+	`wp3_u¨t_¥ötf
+ ("0x%x\t", 
+f‹w¨d_ruÀ_±r
+->
+vœn_id
+);
+
+3296 
+	`wp3_u¨t_¥ötf
+ ("0x%x\t", 
+f‹w¨d_ruÀ_±r
+->
+bp‹t_èg
+);
+
+3297 
+	`wp3_u¨t_¥ötf
+ ("0x%x\t", 
+f‹w¨d_ruÀ_±r
+->
+aggªg©i⁄
+);
+
+3298 i‡(
+f‹w¨d_ruÀ_±r
+->
+agög_bô_mode
+ =
+WP_IW_AGING_ENABLE
+)
+
+3299 
+	`wp3_u¨t_¥ötf
+ ("On\t");
+
+3302 
+	`wp3_u¨t_¥ötf
+ ("Off\t");
+
+3303 i‡(
+f‹w¨d_ruÀ_±r
+->
+°©ic_mac_mode
+ == 0x1)
+
+3304 
+	`wp3_u¨t_¥ötf
+ ("On\t");
+
+3307 
+	`wp3_u¨t_¥ötf
+ ("Off\t");
+
+3308 i‡(
+f‹w¨d_ruÀ_±r
+->
+díy_mac_ß_mode
+ =
+WP_MAC_SA_DENY
+)
+
+3309 
+	`wp3_u¨t_¥ötf
+ ("On\t");
+
+3312 
+	`wp3_u¨t_¥ötf
+ ("Off\t");
+
+3313 
+f‹w¨d_ruÀ_±r
+->
+¥o˚ss_mode
+)
+
+3316 
+WP_FLOW_BRIDGE_PROCESS_PASS
+:
+
+3317 
+	`wp3_u¨t_¥ötf
+ ("PASS\t");
+
+3319 
+WP_FLOW_BRIDGE_PROCESS_DENY
+:
+
+3320 
+	`wp3_u¨t_¥ötf
+ ("DENY\t");
+
+3322 
+WP_FLOW_BRIDGE_PROCESS_SVL_UC_PASS
+:
+
+3323 
+	`wp3_u¨t_¥ötf
+ ("SVL\t");
+
+3325 
+WP_FLOW_BRIDGE_PROCESS_RES_MC_TERM
+:
+
+3326 
+	`wp3_u¨t_¥ötf
+ ("RES MC\t");
+
+3328 
+WP_FLOW_BRIDGE_PROCESS_DIRECT_TERM
+:
+
+3329 
+	`wp3_u¨t_¥ötf
+ ("DIRECT\t");
+
+3332 
+	`wp3_u¨t_¥ötf
+ ("(%d)\t", 
+f‹w¨d_ruÀ_±r
+->
+¥o˚ss_mode
+);
+
+3335 i‡(
+f‹w¨d_ruÀ_±r
+->
+unknown_mac_mode
+ =
+WP_IW_UNK_MAC_MC
+)
+
+3336 
+	`wp3_u¨t_¥ötf
+ ("UnkMC");
+
+3338 i‡(
+f‹w¨d_ruÀ_±r
+->
+unknown_mac_mode
+ =
+WP_IW_UNK_MAC_UC
+)
+
+3339 
+	`wp3_u¨t_¥ötf
+ ("UnkUC");
+
+3342 
+	`wp3_u¨t_¥ötf
+ ("Off");
+
+3343 
+	`wp3_u¨t_¥ötf
+ ("\n");
+
+3345 
+	}
+}
+
+3346 
+	$WPE_ShowAvaûabÀBu£sMem‹y
+ ()
+
+3348 
+WP_U32
+ 
+byãs
+;
+
+3349 
+WP_h™dÀ
+ 
+°©us
+;
+
+3351 
+°©us
+ =
+
+3352 
+	`WP_Mem‹yAvaûabÀ
+ (
+	`WP_WINPATH
+ (0), 
+WP_BUS_PACKET
+,
+
+3353 
+APP_BANK_PACKET
+, &
+byãs
+);
+
+3354 
+	`wp3_u¨t_¥ötf
+ ("Packë bu†byã†À· = %d\n", 
+byãs
+);
+
+3355 
+°©us
+ =
+
+3356 
+	`WP_Mem‹yAvaûabÀ
+ (
+	`WP_WINPATH
+ (0), 
+WP_BUS_PARAM
+,
+
+3357 
+APP_BANK_PARAM
+, &
+byãs
+);
+
+3358 
+	`wp3_u¨t_¥ötf
+ ("P¨am bu†byã†À· = %d\n", 
+byãs
+);
+
+3359 
+°©us
+ =
+
+3360 
+	`WP_Mem‹yAvaûabÀ
+ (
+	`WP_WINPATH
+ (0), 
+WP_BUS_INTERNAL
+,
+
+3361 
+APP_BANK_INTERNAL
+, &
+byãs
+);
+
+3362 
+	`wp3_u¨t_¥ötf
+ ("I¡î«»bu†byã†À· = %d\n", 
+byãs
+);
+
+3363 
+°©us
+ =
+
+3364 
+	`WP_Mem‹yAvaûabÀ
+ (
+	`WP_WINPATH
+ (0), 
+WP_BUS_HOST
+,
+
+3365 
+APP_BANK_HOST
+, &
+byãs
+);
+
+3366 
+	`wp3_u¨t_¥ötf
+ ("Ho° bu†byã†À· = %d\n", 
+byãs
+);
+
+3367 
+	}
+}
+
+3372 
+	$WPE_CLI
+ ()
+
+3374 
+I≈utBuf
+[256];
+
+3375 
+i
+ = 0;
+
+3377 
+I≈utBuf
+[0] = '\0';
+
+3378 (
+I≈utBuf
+[0] != 'q') && (InputBuf[0] != 'k'))
+
+3381 
+	`wp3_u¨t_¥ötf
+ ("\n\n\n");
+
+3382 
+wp3_u¨t_¥ötf
+
+
+3384 
+wp3_u¨t_¥ötf
+
+
+3386 
+wp3_u¨t_¥ötf
+
+
+3389 
+wp3_u¨t_¥ötf
+
+
+3391 
+wp3_u¨t_¥ötf
+
+
+3393 
+wp3_u¨t_¥ötf
+
+
+3395 
+wp3_u¨t_¥ötf
+
+
+3399 
+	`gës
+ (
+I≈utBuf
+);
+
+3402 
+I≈utBuf
+[0] = 
+	`wp3_gëch¨
+();
+
+3404 !('a' <
+I≈utBuf
+[0] && 'z' >= InputBuf[0]) && !('0' <= InputBuf[0] && '9' >= InputBuf[0]));
+
+3406 
+I≈utBuf
+[0])
+
+3410 
+wp3_u¨t_¥ötf
+
+
+3412 
+	`WPE_Di•œyIWSy°emSèts
+ (
+p‹t_íë
+);
+
+3413 
+wp3_u¨t_¥ötf
+
+
+3415 
+	`WPE_Di•œyE√tDevi˚Sèt
+ (
+dev_íë
+);
+
+3418 
+wp3_u¨t_¥ötf
+
+
+3420 
+	`WPE_Di•œyIWP‹tSèts
+ (
+bp‹t_íë
+);
+
+3423 
+wp3_u¨t_¥ötf
+
+
+3425 
+	`wp3_u¨t_¥ötf
+ ("agg_enet_change_mac statics\n");
+
+3426 
+	`WPE_Di•œyFlowAggSèts
+ (
+agg_íë_ch™ge_mac
+);
+
+3427 
+	`wp3_u¨t_¥ötf
+ ("agg_hier_enet statics\n");
+
+3428 
+	`WPE_Di•œyFlowAggSèts
+ (
+agg_hõr_íë
+[0][0][0]);
+
+3432 
+wp3_u¨t_¥ötf
+
+
+3434 
+	`WPE_Di•œyIWSy°emSèts
+ (
+p‹t_hõr_íë
+);
+
+3435 
+wp3_u¨t_¥ötf
+
+
+3437 
+	`WPE_Di•œyE√tDevi˚Sèt
+ (
+dev_hõr_íë
+);
+
+3440 
+wp3_u¨t_¥ötf
+
+
+3442 
+	`WPE_Di•œyIWP‹tSèts
+ (
+bp‹t_hõr_íë
+);
+
+3445 
+wp3_u¨t_¥ötf
+
+
+3447 
+	`WPE_Di•œyFlowAggSèts
+ (
+agg_íë
+[0]);
+
+3450 
+wp3_u¨t_¥ötf
+
+
+3452 
+	`WPE_Di•œyIWP‹tSèts
+ (
+bp‹t_ho°
+);
+
+3455 
+wp3_u¨t_¥ötf
+
+
+3457 
+	`WPE_Di•œyFlowAggSèts
+ (
+agg_ho°
+);
+
+3460 i‡(1 =
+thªadSt›
+)
+
+3462 
+	`wp3_u¨t_¥ötf
+("disableÅhreadÇow\n");
+
+3463 
+thªadSt›
+ = 0;
+
+3465 
+	`wp3_u¨t_¥ötf
+ ("enableÅhreadÇow\n");
+
+3466 
+thªadSt›
+ = 1;
+
+3470 
+wp3_u¨t_¥ötf
+
+
+3472 
+	`WP_Di•œy
+ (0, 
+WP_DISPLAY_DEVICE
+, 
+WP_DISPLAY_DEFAULT
+, 0);
+
+3476 
+WP_U32
+ 
+dïth
+ = 0;
+
+3477 
+	`WP_Ch™√lQDïth
+(
+tx_gbe_ch™√l
+[0], &
+dïth
+);
+
+3478 
+	`wp3_u¨t_¥ötf
+ ("QDïth (%x)\n", 
+dïth
+);
+
+3482 
+wp3_u¨t_¥ötf
+
+
+3484 
+	`WPE_ShowF‹w¨dögRuÀs
+ ();
+
+3487 
+wp3_u¨t_¥ötf
+
+
+3489 
+	`WPE_ShowAvaûabÀBu£sMem‹y
+ ();
+
+3493 
+i
+ = 0; i < 10; i++)
+
+3497 
+	`WPE_Síd_Ho°D©a
+(
+tx_ho°_ch™√l
+, 
+WP_DATA_IW
+, 
+íë_ch™ge_d°_mac
+);
+
+3503 
+wp3_u¨t_¥ötf
+
+
+3505 
+	`WP_DrivîRñó£
+ ();
+
+3508 
+	`WPX_ReboŸ
+ ();
+
+3511 
+wp3_u¨t_¥ötf
+
+
+3515 
+	`wp3_u¨t_¥ötf
+ ("Wr⁄g Key(%x).\n\n", 
+I≈utBuf
+[0]);
+
+3519 
+	}
+}
+
+3520 
+	$WPE_LogEºCb
+ (c⁄° 
+WP_CHAR
+ * 
+fûe
+, c⁄° WP_CHAR * 
+fun˘i⁄
+,
+
+3521 
+WP_S32
+ 
+löe
+, 
+WP_U32
+ 
+îr‹_id
+)
+
+3523 
+	`wp3_u¨t_¥ötf
+ ("ERR %s:%s:%d - %s\n", 
+fûe
+, 
+fun˘i⁄
+, 
+löe
+,
+
+3524 
+WP_îr‹_«me
+[
+îr‹_id
+]);
+
+3525 
+	}
+}
+
+3528 
+	$WPE_LogFun˘i⁄Cb
+ (
+WP_CHAR
+ * 
+pi_fûe
+, WP_CHAR * 
+pi_func
+,
+
+3529 
+WP_U32
+ 
+i_löe
+)
+
+3531 
+	`wp3_u¨t_¥ötf
+ ("CALL %s:%s:%d\n", 
+pi_fûe
+, 
+pi_func
+, 
+i_löe
+);
+
+3532 
+	}
+}
+
+3535 
+	$WPE_LogCb
+ (
+WP_S32
+ 
+i_lvl
+, c⁄° 
+WP_CHAR
+ * 
+pi_°rög
+)
+
+3537 
+	`wp3_u¨t_¥ötf
+ ("LOG [%d]: %s", 
+i_lvl
+, 
+pi_°rög
+);
+
+3538 
+	}
+}
+
+3544 
+	$WPE_Regi°îLogCbFunc
+ ()
+
+3546 
+WP_h™dÀ
+ 
+°©us
+;
+
+3548 
+°©us
+ =
+
+3549 
+	`WP_C⁄åﬁRegi°î
+ (
+WP_DEBUG_CALLBACK_FILE_LINE_ERROR
+, 
+WPE_LogEºCb
+);
+
+3550 
+	`ãrmö©e_⁄_îr‹_E√tDemo
+ (
+°©us
+, "WP_ControlRegister() ErrorIndicateEvent");
+
+3557 
+	}
+}
+
+3561 
+	$ãrmö©e_⁄_îr‹_E√tDemo
+ (
+WP_h™dÀ
+ 
+h™dÀ
+, 
+WP_CHAR
+ * 
+s
+)
+
+3563 i‡(
+	`WP_ERROR_P
+ (
+h™dÀ
+))
+
+3567 
+	`wp3_u¨t_¥ötf
+ (" %s\n", 
+s
+);
+
+3569 
+	`wp3_u¨t_¥ötf
+(" %s\n", 
+WP_îr‹_«me
+[
+	`WP_ERROR
+(
+h™dÀ
+)]);
+
+3571 
+	`WP_DrivîRñó£
+ ();
+
+3572 
+	`exô
+ (1);
+
+3579 #ifde‡
+DEBUG_PRINT
+
+
+3580 
+	`wp3_u¨t_¥ötf
+ ("H™dÀ/Sètu†ªtu∫ed from %†i†0x%x \n", 
+s
+, 
+h™dÀ
+);
+
+3584 
+	}
+}
+
+3587 
+WPI_HwWö√tSgmiiAnPro˚ed
+(
+WP_U32
+ 
+wpid
+, WP_U32 
+evít_bôs
+);
+
+3589 
+	$Ló∫ögPﬁl
+()
+
+3591 
+WP_U8
+ 
+iii
+ = 0;
+
+3592 
+WP_U8
+ 
+jjj
+ = 5;
+
+3593 
+WP_h™dÀ
+ 
+°©us
+ = 0;
+
+3594 
+WP_U8
+ 
+max_ch_tx
+ = 0;
+
+3595 
+WP_U8
+ 
+max_ch_rx
+ = 0;
+
+3596 
+WP_U32
+ 
+swôch_cou¡î
+ = 0;
+
+3598 
+WP_p‹t_íë
+ 
+my_íë_p‹t_c⁄fig
+ = {
+
+3604  
+WP_UNUSED
+
+
+3606  
+WP_FLOWMODE_FAST
+,
+
+3607  
+WP_ENET_1000_BASE_X
+,
+
+3612 
+	`wp3_u¨t_¥ötf
+ ("task LearningPoll begin \r\n");
+
+3613 
+max_ch_tx
+ = 
+NUM_OF_FAST_ENET_TX_CHANNELS
+;
+
+3614 
+max_ch_rx
+ = 
+NUM_OF_FAST_ENET_RX_CHANNELS
+;
+
+3615 
+my_íë_p‹t_c⁄fig
+.
+pkt_limôs
+.
+max_tx_ch™√ls
+ = 
+max_ch_tx
+;
+
+3616 
+my_íë_p‹t_c⁄fig
+.
+pkt_limôs
+.
+max_rx_ch™√ls
+ = 
+max_ch_rx
+;
+
+3617 
+my_íë_p‹t_c⁄fig
+.
+Êowmode
+ = 
+WP_FLOWMODE_FAST
+;
+
+3620 
+	`WPL_I¡C⁄√˘
+(0, 
+WPL_SgmiiAn
+, 
+NULL
+,
+
+3621 
+WPI_HwWö√tSgmiiAnPro˚ed
+);
+
+3624 
+	`bﬂrd_£t_öå_h™dÀr
+–
+PIC_INTR53
+,
+
+3625 ((*)(
+dev_num
+))
+WPI_HwWö√tSgmiiAnPro˚ed
+,
+
+3631 
+swôch_cou¡î
+ ++;
+
+3632 i‡(
+WP_ENET_1000_BASE_X
+ =
+öãrÁ˚_mode
+)
+
+3634 
+öãrÁ˚_mode
+ = 
+WP_ENET_SGMII_AN
+;
+
+3636 
+öãrÁ˚_mode
+ = 
+WP_ENET_1000_BASE_X
+;
+
+3638 
+my_íë_p‹t_c⁄fig
+.
+öãrÁ˚_mode
+ = interface_mode;
+
+3647 
+iii
+ = 0; iiò< 
+jjj
+; iii ++)
+
+3650 
+	`xtm_wka·î
+(1000);
+
+3653 i‡(1 =
+thªadSt›
+)
+
+3658 
+	`wp3_u¨t_¥ötf
+ ("ch™gêtÿ(%s)cou¡(%10d)\n", (
+WP_ENET_1000_BASE_X
+==
+öãrÁ˚_mode
+)?"WP_ENET_1000_BASE_X\t":"WP_ENET_SGMII_AN\t", 
+swôch_cou¡î
+);
+
+3660 i‡(
+WP_ENET_SGMII_AN
+ =
+öãrÁ˚_mode
+)
+
+3663 
+	`WPL_I¡E«bÀ
+ (0, 
+WPL_SgmiiAn
+);
+
+3665 
+	`bﬂrd_unmask_öå
+(
+PIC_INTR53
+);
+
+3666 
+	`WPL_Dñay
+(
+DELAY_COUNT
+);
+
+3668 
+	`wp3_u¨t_¥ötf
+ ("enable SgmiiAn interrupt\n");
+
+3671 
+	`WPL_I¡DißbÀ
+ (0, 
+WPL_SgmiiAn
+);
+
+3673 
+	`bﬂrd_mask_öå
+(
+PIC_INTR53
+);
+
+3674 
+	`WPL_Dñay
+(
+DELAY_COUNT
+);
+
+3676 
+	`wp3_u¨t_¥ötf
+ ("disable SgmiiAn interrupt\n");
+
+3680 
+	`wp3_u¨t_¥ötf
+ ("pollingágain(%d),ÉnterÅo showÅhe MENU\n",
+
+3681 
+iii
+++);
+
+3682 
+°©us
+ = 
+	`WP_Devi˚DißbÀ
+(
+dev_íë
+,
+WP_DIRECTION_DUPLEX
+);
+
+3683 
+	`ãrmö©e_⁄_îr‹_E√tDemo
+ (
+°©us
+, "WP_DeviceDisable");
+
+3684 
+°©us
+ = 
+	`WP_P‹tDißbÀ
+(
+p‹t_íë
+, 
+WP_DIRECTION_DUPLEX
+);
+
+3685 
+	`ãrmö©e_⁄_îr‹_E√tDemo
+ (
+°©us
+, "WP_PortDisable");
+
+3687 
+°©us
+ = 
+	`WP_P‹tModify
+(
+p‹t_íë
+, 
+WP_PORT_MOD_ENET_INTERFACE_MODE
+, &
+my_íë_p‹t_c⁄fig
+);
+
+3688 
+	`ãrmö©e_⁄_îr‹_E√tDemo
+ (
+°©us
+, "WP_PortModify");
+
+3690 
+°©us
+ = 
+	`WP_P‹tE«bÀ
+(
+p‹t_íë
+, 
+WP_DIRECTION_DUPLEX
+);
+
+3691 
+	`ãrmö©e_⁄_îr‹_E√tDemo
+ (
+°©us
+, "WP_PortEnable Enet");
+
+3692 
+°©us
+ = 
+	`WP_Devi˚E«bÀ
+(
+dev_íë
+, 
+WP_DIRECTION_DUPLEX
+);
+
+3693 
+	`ãrmö©e_⁄_îr‹_E√tDemo
+ (
+°©us
+, "WP_DeviceEnable Enet");
+
+3697 
+	}
+}
+
+	@WP_LxFwd_Eth_EthernetMgt.c
+
+38 #ifde‡
+__˝lu•lus
+
+
+42 
+	~<ty≥s/basic_ty≥s.h
+>
+
+43 
+	~<≠i/wp_wddi.h
+>
+
+44 
+	~<îr‹/îr‹.h
+>
+
+45 
+	~<debug/åa˚.h
+>
+
+46 
+	~<debug/di•©ch.h
+>
+
+47 
+	~<x≠i/x≠i.h
+>
+
+48 
+	~<B•Exp‹t/pic.h
+>
+
+49 
+	~<B•Exp‹t/bﬂrd.h
+>
+
+50 
+	~<°dlib.h
+>
+
+51 
+	~<as£π/AßmAs£π.h
+>
+
+52 
+	~<Wö∑th_Sèπup/comm⁄.h
+>
+
+54 
+	~<WP_LxFwd_ôfwøp_ETH/WP_LxFwd_ETH.h
+>
+
+55 
+	~<ö˛ude/WP_LxFwd_Eth_I¡î«l.h
+>
+
+56 
+	~<WP_LxFwd_ôfwøp_RM/WP_LxFwd_Rm.h
+>
+
+58 #ifde‡
+__˝lu•lus
+
+
+62 
+T_boﬁ
+ 
+SgmiiAn_Sèã
+ = 
+FALSE
+;
+
+64 
+T_boﬁ
+ 
+	gg_ëh_dbg_Êag
+ = 
+FALSE
+ ;
+
+66 
+	#WPETH_ASSERT_RET
+(
+a
+,
+s
+,
+b
+,
+c
+) \
+
+68 i‡(!(
+a
+)) \
+
+70 
+	`îr_¥ötf
+(
+ERR_COM_INV_PARAM
+, \
+
+71 ((
+g_ëh_dbg_Êag
+)?
+ERR_CLASS_NOTIFY_ONLY
+:
+ERR_CLASS_NON_RECOV
+), \
+
+73 
+__FILE__
+, \
+
+74 
+__LINE__
+, \
+
+75 
+s
+,
+b
+); \
+
+76  
+c
+ ; \
+
+78 } 0)
+
+	)
+
+80 
+	#WPETH_ASSERT
+(
+a
+,
+s
+,
+b
+) \
+
+82 i‡(!(
+a
+)) \
+
+84 
+	`îr_¥ötf
+(
+ERR_COM_INV_PARAM
+, \
+
+85 ((
+g_ëh_dbg_Êag
+)?
+ERR_CLASS_NOTIFY_ONLY
+:
+ERR_CLASS_NON_RECOV
+), \
+
+87 
+__FILE__
+, \
+
+88 
+__LINE__
+, \
+
+89 
+s
+,
+b
+); \
+
+92 } 0)
+
+	)
+
+94 
+WT_ETHERNETMGT_INTERFACE_MODE
+ 
+	gëhî√tmgt_öãrÁ˚
+[
+WP_ENET_INTERFACE_TYPE_LAST
+]=
+
+96 
+WT_ETHERNETMGT_MII
+,
+
+97 
+WT_ETHERNETMGT_RMII
+,
+
+98 
+WT_ETHERNETMGT_GMII
+,
+
+99 
+WT_ETHERNETMGT_TBI
+,
+
+100 
+WT_ETHERNETMGT_SMII
+,
+
+101 
+WT_ETHERNETMGT_SS_SMII
+,
+
+102 
+WT_ETHERNETMGT_RGMII_10_100
+,
+
+103 
+WT_ETHERNETMGT_RGMII_1000
+,
+
+104 
+WT_ETHERNETMGT_RTBI
+,
+
+105 
+WT_ETHERNETMGT_TBI_AN
+,
+
+106 
+WT_ETHERNETMGT_SGMII_10
+,
+
+107 
+WT_ETHERNETMGT_SGMII_100
+,
+
+108 
+WT_ETHERNETMGT_SGMII_1000
+,
+
+109 
+WT_ETHERNETMGT_SGMII_2500
+,
+
+110 
+WT_ETHERNETMGT_SGMII_AN
+,
+
+111 
+WT_ETHERNETMGT_1000_BASE_X
+,
+
+112 
+WT_ETHERNETMGT_1000_BASE_X_AN
+,
+
+113 
+WT_ETHERNETMGT_XAUI
+
+
+116 
+WP_ENET_INTERFACE_TYPE
+ 
+	gíë_öãrÁ˚
+[
+WT_ETHERNETMGT_INTERFACE_MODE_LAST
+]=
+
+118 
+WP_ENET_MII
+,
+
+119 
+WP_ENET_RMII
+,
+
+120 
+WP_ENET_GMII
+,
+
+121 
+WP_ENET_TBI
+,
+
+122 
+WP_ENET_SMII
+,
+
+123 
+WP_ENET_SS_SMII
+,
+
+124 
+WP_ENET_RGMII_10_100
+,
+
+125 
+WP_ENET_RGMII_1000
+,
+
+126 
+WP_ENET_RTBI
+,
+
+127 
+WP_ENET_TBI_AN
+,
+
+128 
+WP_ENET_SGMII_10
+,
+
+129 
+WP_ENET_SGMII_100
+,
+
+130 
+WP_ENET_SGMII_1000
+,
+
+131 
+WP_ENET_SGMII_2500
+,
+
+132 
+WP_ENET_SGMII_AN
+,
+
+133 
+WP_ENET_1000_BASE_X
+,
+
+134 
+WP_ENET_1000_BASE_X_AN
+,
+
+135 
+WP_ENET_XAUI
+
+
+138 
+	$WT_lxFwd_SëDevi˚FlowC⁄åﬁ
+(
+p‹t_devi˚_numbî
+ 
+devi˚Idx
+,
+WP_ENET_FLOW_CONTROL
+ 
+isE«bÀ
+)
+
+140 
+WP_°©us
+ 
+°©us
+;
+
+141 
+WP_U32
+ 
+tmp_cmd
+;
+
+142 
+WP_devi˚_íë
+* 
+íë_devi˚_∑øms
+;
+
+143 
+WP_h™dÀ
+ 
+devH™dÀ
+;
+
+144 
+WT_Devi˚_Info
+* 
+p_devi˚_öfo
+ = 0;
+
+146 
+p_devi˚_öfo
+ = 
+	`WT_lxFwd_GëDevi˚Info
+(
+devi˚Idx
+);
+
+147 
+	`as£π_r
+(
+p_devi˚_öfo
+ !
+NULL
+);
+
+149 
+	`WPETH_PRINTF
+("devi˚_öfo[%d].dev_«me=%s, isE«bÀ_i=%d.\r\n", 
+devi˚Idx
+, 
+p_devi˚_öfo
+->
+dev_«me
+,
+isE«bÀ
+);
+
+151 
+	`WT_lxFwd_GëDevE√t
+(
+devi˚Idx
+,&
+íë_devi˚_∑øms
+);
+
+153 
+íë_devi˚_∑øms
+->
+exãnded_∑øms
+->
+rx_Êowc⁄åﬁ
+ = 
+isE«bÀ
+;
+
+154 
+íë_devi˚_∑øms
+->
+exãnded_∑øms
+->
+tx_Êowc⁄åﬁ
+ = 
+isE«bÀ
+;
+
+156 
+tmp_cmd
+ = 
+WP_DEV_MOD_ENET_RX_FLOWCONTROL
+ | 
+WP_DEV_MOD_ENET_TX_FLOWCONTROL
+;
+
+158 
+devH™dÀ
+ = 
+	`WT_lxFwd_GëDevH™dÀ
+(
+devi˚Idx
+, 
+WT_ENET
+);
+
+159 
+	`as£π_r
+ ( 
+devH™dÀ
+ );
+
+161 
+°©us
+ = 
+	`WP_Devi˚DißbÀ
+(
+devH™dÀ
+, 
+WP_DIRECTION_DUPLEX
+);
+
+162 
+	`ãrmö©e_⁄_îr‹
+(
+devH™dÀ
+, "WP_Devi˚DißbÀ", 
+__LINE__
+);
+
+164 
+°©us
+ = 
+	`WP_Devi˚Modify
+(
+devH™dÀ
+,
+
+165 
+tmp_cmd
+,
+
+166 
+íë_devi˚_∑øms
+);
+
+167 
+	`ãrmö©e_⁄_îr‹
+(
+devH™dÀ
+, "WP_Devi˚Modify", 
+__LINE__
+);
+
+169 
+°©us
+ = 
+	`WP_Devi˚E«bÀ
+(
+devH™dÀ
+, 
+WP_DIRECTION_DUPLEX
+);
+
+170 
+	`ãrmö©e_⁄_îr‹
+(
+devH™dÀ
+, "WP_Devi˚E«bÀ", 
+__LINE__
+);
+
+171 
+	}
+}
+
+173 
+	$WT_lxFwd_SëNniFlowC⁄åﬁ
+(
+WT_ETHERNETMGT_PORT_DEVICE_NUMBER
+ 
+devNum_i
+, 
+WT_ETHERNETMGT_FLOW_CONTROL
+ 
+isE«bÀ_i
+)
+
+175 
+p‹t_devi˚_numbî
+ 
+devi˚Idx
+;
+
+176 
+WP_ENET_FLOW_CONTROL
+ 
+isE«bÀ
+;
+
+178 
+	`WPETH_PRINTF
+("E¡î %s.\r\n", 
+__FUNCTION__
+);
+
+180 
+	`WPETH_ASSERT
+(((
+devNum_i
+==
+WT_ETHERNETMGT_PORT_DEVICE_NTIO
+)||
+
+181 (
+devNum_i
+==
+WT_ETHERNETMGT_PORT_DEVICE_NTIO_B
+)||
+
+182 (
+devNum_i
+==
+WT_ETHERNETMGT_PORT_DEVICE_SUBTENDING
+)),
+
+183 "WT_lxFwd_SëNniFlowC⁄åﬁ d€†nŸ suµ‹àPORT_DEVICE_NUMBER %d\r\n",
+devNum_i
+);
+
+185 
+devi˚Idx
+ = (
+p‹t_devi˚_numbî
+)
+devNum_i
+ ;
+
+187 
+isE«bÀ
+ = (
+isE«bÀ_i
+ =
+WT_ETHERNETMGT_FLOW_DISABLE
+ ? 
+WP_ENET_FLOW_DISABLE
+ : 
+WP_ENET_FLOW_ENABLE
+);
+
+189 
+	`WT_lxFwd_SëDevi˚FlowC⁄åﬁ
+(
+devi˚Idx
+,
+isE«bÀ
+);
+
+191 
+	`WPETH_PRINTF
+("Exô %s: Suc˚ss.\r\n", 
+__FUNCTION__
+);
+
+192 
+	}
+}
+
+194 
+	$WT_lxFwd_SëUniFlowC⁄åﬁ
+(
+u_öt16
+ 
+¶Ÿ
+, u_öt16 
+p‹t
+, 
+WT_ETHERNETMGT_FLOW_CONTROL
+ 
+isE«bÀ_i
+)
+
+196 
+u_öt16
+ 
+devi˚Idx
+;
+
+197 
+WP_ENET_FLOW_CONTROL
+ 
+isE«bÀ
+;
+
+199 
+	`WPETH_PRINTF
+("E¡î %s. slŸ=0x%x,Ö‹t=0x%x\r\n", 
+__FUNCTION__
+,
+¶Ÿ
+,
+p‹t
+);
+
+201 
+devi˚Idx
+ = 
+	`WT_lxFwd_GëDevi˚IndexF‹Lt
+(
+¶Ÿ
+, 
+p‹t
+);
+
+203 
+isE«bÀ
+ = (
+isE«bÀ_i
+ =
+WT_ETHERNETMGT_FLOW_DISABLE
+ ? 
+WP_ENET_FLOW_DISABLE
+ : 
+WP_ENET_FLOW_ENABLE
+);
+
+205 
+	`WT_lxFwd_SëDevi˚FlowC⁄åﬁ
+(
+devi˚Idx
+,
+isE«bÀ
+);
+
+207 
+	`WPETH_PRINTF
+("Exô %s: Suc˚ss.\r\n", 
+__FUNCTION__
+);
+
+208 
+	}
+}
+
+210 
+	$WT_lxFwd_GëDevi˚FlowC⁄åﬁ
+(
+p‹t_devi˚_numbî
+ 
+devi˚Idx
+,
+WT_ETHERNETMGT_FLOW_CONTROL
+* 
+isE«bÀ_o
+)
+
+212 
+WP_ENET_FLOW_CONTROL
+ 
+isE«bÀ
+;
+
+213 
+WP_devi˚_íë_ex
+* 
+íë_ex_∑øms
+;
+
+214 
+WT_Devi˚_Info
+* 
+p_devi˚_öfo
+ = 0;
+
+216 
+p_devi˚_öfo
+ = 
+	`WT_lxFwd_GëDevi˚Info
+(
+devi˚Idx
+);
+
+217 
+	`as£π_r
+(
+p_devi˚_öfo
+ !
+NULL
+);
+
+219 
+	`WT_lxFwd_GëDevE√tEx
+(
+devi˚Idx
+,&
+íë_ex_∑øms
+);
+
+221 
+	`as£π_r
+(
+íë_ex_∑øms
+->
+rx_Êowc⁄åﬁ
+ ==
+
+222 
+íë_ex_∑øms
+->
+tx_Êowc⁄åﬁ
+);
+
+223 
+isE«bÀ
+ = 
+íë_ex_∑øms
+->
+rx_Êowc⁄åﬁ
+;
+
+224 *
+isE«bÀ_o
+ = (
+isE«bÀ
+ =
+WP_ENET_FLOW_DISABLE
+ ? 
+WT_ETHERNETMGT_FLOW_DISABLE
+ : 
+WT_ETHERNETMGT_FLOW_ENABLE
+);
+
+226 
+	`WPETH_PRINTF
+("devi˚_öfo[%d].dev_«me=%s, isE«bÀ_i=%d.\r\n", 
+devi˚Idx
+, 
+p_devi˚_öfo
+->
+dev_«me
+,*
+isE«bÀ_o
+);
+
+227 
+	}
+}
+
+229 
+	$WT_lxFwd_GëNniFlowC⁄åﬁ
+(
+WT_ETHERNETMGT_PORT_DEVICE_NUMBER
+ 
+devNum_i
+, 
+WT_ETHERNETMGT_FLOW_CONTROL
+* 
+isE«bÀ_o
+)
+
+231 
+p‹t_devi˚_numbî
+ 
+devi˚Idx
+;
+
+233 
+	`WPETH_PRINTF
+("E¡î %s.\r\n", 
+__FUNCTION__
+);
+
+235 
+	`WPETH_ASSERT
+(((
+devNum_i
+==
+WT_ETHERNETMGT_PORT_DEVICE_NTIO
+)||
+
+236 (
+devNum_i
+==
+WT_ETHERNETMGT_PORT_DEVICE_NTIO_B
+)||
+
+237 (
+devNum_i
+==
+WT_ETHERNETMGT_PORT_DEVICE_SUBTENDING
+)),
+
+238 "WT_lxFwd_GëNniFlowC⁄åﬁ d€†nŸ suµ‹àPORT_DEVICE_NUMBER %d\r\n",
+devNum_i
+);
+
+240 
+devi˚Idx
+ = (
+p‹t_devi˚_numbî
+)
+devNum_i
+ ;
+
+242 
+	`WT_lxFwd_GëDevi˚FlowC⁄åﬁ
+(
+devi˚Idx
+,
+isE«bÀ_o
+);
+
+244 
+	`WPETH_PRINTF
+("Exô %s: Suc˚ss.\r\n", 
+__FUNCTION__
+);
+
+245 
+	}
+}
+
+247 
+	$WT_lxFwd_GëUniFlowC⁄åﬁ
+(
+u_öt16
+ 
+¶Ÿ
+, u_öt16 
+p‹t
+, 
+WT_ETHERNETMGT_FLOW_CONTROL
+* 
+isE«bÀ_o
+)
+
+249 
+u_öt16
+ 
+devi˚Idx
+;
+
+251 
+	`WPETH_PRINTF
+("E¡î %s. slŸ=0x%x ,Ö‹à0x%x \r\n", 
+__FUNCTION__
+,
+¶Ÿ
+,
+p‹t
+);
+
+253 
+devi˚Idx
+ = 
+	`WT_lxFwd_GëDevi˚IndexF‹Lt
+(
+¶Ÿ
+, 
+p‹t
+);
+
+255 
+	`WT_lxFwd_GëDevi˚FlowC⁄åﬁ
+(
+devi˚Idx
+,
+isE«bÀ_o
+);
+
+257 
+	`WPETH_PRINTF
+("Exô %s: Suc˚ss.\r\n", 
+__FUNCTION__
+);
+
+258 
+	}
+}
+
+260 
+	$WT_lxFwd_GëDevi˚Pau£Cou¡î
+(
+p‹t_devi˚_numbî
+ 
+devi˚Idx
+,
+u_öt64
+* 
+rxPau£_o
+, u_öt64* 
+txPau£_o
+)
+
+262 
+WP_°©s_íë
+ 
+devi˚Sètics
+ = {0};
+
+263 
+WP_°©us
+ 
+°©us
+;
+
+264 
+WP_h™dÀ
+ 
+devH™dÀ
+;
+
+265 
+WT_Devi˚_Info
+* 
+p_devi˚_öfo
+ = 0;
+
+267 
+p_devi˚_öfo
+ = 
+	`WT_lxFwd_GëDevi˚Info
+(
+devi˚Idx
+);
+
+268 
+	`as£π_r
+(
+p_devi˚_öfo
+ !
+NULL
+);
+
+270 
+	`WPETH_PRINTF
+("devi˚_öfo[%d].dev_«me=%†\r\n", 
+devi˚Idx
+, 
+p_devi˚_öfo
+->
+dev_«me
+);
+
+272 
+devH™dÀ
+ = 
+	`WT_lxFwd_GëDevH™dÀ
+(
+devi˚Idx
+, 
+WT_ENET
+);
+
+273 
+	`as£π_r
+ ( 
+devH™dÀ
+ );
+
+275 
+°©us
+ = 
+	`WP_Devi˚Sèti°ics
+(
+devH™dÀ
+, &
+devi˚Sètics
+);
+
+276 
+	`as£π_r
+(!
+	`WP_ERROR_P
+(
+°©us
+));
+
+278 *
+rxPau£_o
+ = 
+devi˚Sètics
+.
+rx_mac_∑u£
+;
+
+279 *
+txPau£_o
+ = 
+devi˚Sètics
+.
+tx_mac_∑u£
+;
+
+281 
+	`WPETH_PRINTF
+("rxPau£ = %d,ÅxPau£ = %d \r\n",*
+rxPau£_o
+, *
+txPau£_o
+);
+
+282 
+	}
+}
+
+284 
+	$WT_lxFwd_GëNniPau£Cou¡î
+(
+WT_ETHERNETMGT_PORT_DEVICE_NUMBER
+ 
+devNum_i
+, 
+u_öt64
+* 
+rxPau£_o
+, u_öt64* 
+txPau£_o
+)
+
+286 
+p‹t_devi˚_numbî
+ 
+devi˚Idx
+;
+
+288 
+	`WPETH_PRINTF
+("E¡î %s.\r\n", 
+__FUNCTION__
+);
+
+290 
+	`WPETH_ASSERT
+(((
+devNum_i
+==
+WT_ETHERNETMGT_PORT_DEVICE_NTIO
+)||(devNum_i==
+WT_ETHERNETMGT_PORT_DEVICE_NTIO_B
+)||
+
+291 (
+devNum_i
+==
+WT_ETHERNETMGT_PORT_DEVICE_SUBTENDING
+)),
+
+292 "WT_lxFwd_GëNniPau£Cou¡î d€†nŸ suµ‹àPORT_DEVICE_NUMBER %d\r\n",
+devNum_i
+);
+
+294 
+devi˚Idx
+ = (
+p‹t_devi˚_numbî
+)
+devNum_i
+ ;
+
+296 
+	`WT_lxFwd_GëDevi˚Pau£Cou¡î
+(
+devi˚Idx
+,
+rxPau£_o
+,
+txPau£_o
+);
+
+298 
+	`WPETH_PRINTF
+("Exô %s: Suc˚ss.\r\n", 
+__FUNCTION__
+);
+
+299 
+	}
+}
+
+301 
+	$WT_lxFwd_GëUniPau£Cou¡î
+(
+u_öt16
+ 
+¶Ÿ
+, u_öt16 
+p‹t
+, 
+u_öt64
+* 
+rxPau£_o
+, u_öt64* 
+txPau£_o
+)
+
+303 
+u_öt16
+ 
+devi˚Idx
+;
+
+305 
+	`WPETH_PRINTF
+("E¡î %s. slŸ=0x%x ,Ö‹à0x%x \r\n", 
+__FUNCTION__
+,
+¶Ÿ
+,
+p‹t
+);
+
+307 
+devi˚Idx
+ = 
+	`WT_lxFwd_GëDevi˚IndexF‹Lt
+(
+¶Ÿ
+, 
+p‹t
+);
+
+309 
+	`WT_lxFwd_GëDevi˚Pau£Cou¡î
+(
+devi˚Idx
+,
+rxPau£_o
+,
+txPau£_o
+);
+
+311 
+	`WPETH_PRINTF
+("Exô %s: Suc˚ss.\r\n", 
+__FUNCTION__
+);
+
+312 
+	}
+}
+
+314 
+WT_ETHERNETMGT_LINK_STATUS
+ 
+	$WT_lxFwd_GëLökSètus
+(
+WT_ETHERNETMGT_PORT_DEVICE_NUMBER
+ 
+devNum_i
+)
+
+316 
+u_öt32
+ 
+addr
+ = 0;
+
+317 
+u_öt32
+ 
+t°©
+ = 0;
+
+318 
+p‹t_devi˚_numbî
+ 
+devi˚Idx
+;
+
+319 
+WT_öãrÁ˚
+ *
+wö√t
+ = 
+NULL
+;
+
+320 
+WINNET_NUMBER
+ 
+wö_numbî
+;
+
+321 
+WINNET_GROUP
+ 
+wö_group
+;
+
+323 
+	`WPETH_PRINTF
+("E¡î %s.\r\n", 
+__FUNCTION__
+);
+
+325 
+devi˚Idx
+ = (
+p‹t_devi˚_numbî
+)
+devNum_i
+ ;
+
+327 
+wö√t
+ = 
+	`WT_lxFwd_GëWö√t
+(
+	`WT_lxFwd_GëP‹tIdx
+(
+devi˚Idx
+));
+
+328 
+	`as£π_r
+(
+wö√t
+ !
+NULL
+);
+
+329 
+wö_numbî
+ = 
+wö√t
+->
+wö_öfo
+.win_number;
+
+330 
+wö_group
+ = 
+wö√t
+->
+wö_öfo
+.win_group;
+
+332 if((
+wö_numbî
+==
+WINNET_NOT_USE
+)||(
+wö_group
+==
+GROUP_NOT_USE
+))
+
+334  
+WT_ETHERNETMGT_LINK_DOWN
+;
+
+337 
+	`WPETH_PRINTF
+("available_wnets[%d].port_name=%s win_number=%d,win_group=%d\r\n",
+
+338 
+	`WT_lxFwd_GëP‹tIdx
+(
+devi˚Idx
+), 
+wö√t
+->
+p‹t_«me
+,
+wö_numbî
+,
+wö_group
+);
+
+340 
+addr
+ = 
+	`WINNET_TSTAT_OFFSET
+(
+wö_numbî
+, 
+wö_group
+);
+
+342 
+	`WT_lxFwd_Wp3RegRód
+(
+addr
+, &
+t°©
+);
+
+344 
+	`WPETH_PRINTF
+("Exô %s.\r\n", 
+__FUNCTION__
+);
+
+346 if((
+t°©
+ & 
+	`WPI_WINNET_TSTAT_LINK_STATUS_F
+(1)) != 0)
+
+348 
+	`WPETH_PRINTF
+("link up \r\n");
+
+349  
+WT_ETHERNETMGT_LINK_UP
+;
+
+352 { 
+	`WPETH_PRINTF
+("link down \r\n");
+
+353  
+WT_ETHERNETMGT_LINK_DOWN
+;
+
+355 
+	}
+}
+
+357 
+	$WT_lxFwd_Mac1Rx
+(
+WT_ETHERNETMGT_PORT_DEVICE_NUMBER
+ 
+devNum_i
+, 
+T_boﬁ
+ 
+isE«bÀd_i
+)
+
+359 
+p‹t_devi˚_numbî
+ 
+devi˚Idx
+;
+
+360 
+u_öt32
+ 
+mac1Addr
+ = 0;
+
+361 
+u_öt32
+ 
+mac1
+ = 0;
+
+362 
+WINNET_NUMBER
+ 
+wö_numbî
+;
+
+363 
+WINNET_GROUP
+ 
+wö_group
+;
+
+364 
+WINNET_INTERFACE_NUMBER
+ 
+wö_öãrÁ˚
+;
+
+365 
+WT_öãrÁ˚
+ *
+wö√t
+ = 
+NULL
+;
+
+367 
+	`WPETH_PRINTF
+("E¡î %s.\r\n", 
+__FUNCTION__
+);
+
+369 
+devNum_i
+)
+
+371 
+WT_ETHERNETMGT_PORT_DEVICE_NTIO
+:
+
+372 
+WT_ETHERNETMGT_PORT_DEVICE_NTIO_B
+:
+
+373 
+WT_ETHERNETMGT_PORT_DEVICE_SUBTENDING
+:
+
+375 
+devi˚Idx
+ = (
+p‹t_devi˚_numbî
+)
+devNum_i
+ ;
+
+377 
+wö√t
+ = 
+	`WT_lxFwd_GëWö√t
+(
+	`WT_lxFwd_GëP‹tIdx
+(
+devi˚Idx
+));
+
+378 
+	`as£π_r
+(
+wö√t
+ !
+NULL
+);
+
+379 
+wö_numbî
+ = 
+wö√t
+->
+wö_öfo
+.win_number;
+
+380 
+wö_group
+ = 
+wö√t
+->
+wö_öfo
+.win_group;
+
+382 
+	`WPETH_ASSERT
+(((
+wö_numbî
+!=
+WINNET_NOT_USE
+)&&(
+wö_group
+!=
+GROUP_NOT_USE
+)),
+
+384 
+wö√t
+->
+p‹t_«me
+);
+
+386 
+	`WPETH_PRINTF
+("available_wnets[%d].port_name=%s win_number=%d,win_group=%d\r\n",
+
+387 
+	`WT_lxFwd_GëP‹tIdx
+(
+devi˚Idx
+), 
+wö√t
+->
+p‹t_«me
+,
+wö_numbî
+,
+wö_group
+);
+
+389 if(
+wö_group
+==
+G0
+)
+
+391 
+wö_öãrÁ˚
+ = 
+WINNET_INTERFACE_0
+;
+
+395 
+wö_öãrÁ˚
+ = 
+WINNET_INTERFACE_4
+;
+
+397 
+mac1Addr
+ = 
+	`WINNET_MAC1_OFFSET
+(
+wö_numbî
+, 
+wö_öãrÁ˚
+);
+
+401 
+	`îr_¥ötf
+(
+E_lxFwd_Eº_I¡î«lEº‹
+, 
+ERR_CLASS_RECOV
+,
+
+402 "WTETH", 
+__FILE__
+, 
+__LINE__
+,
+
+404 
+devNum_i
+);
+
+408 
+	`WT_lxFwd_Wp3RegRód
+(
+mac1Addr
+, &
+mac1
+);
+
+410 if(
+isE«bÀd_i
+ =
+TRUE
+)
+
+412 
+mac1
+ = mac1 | 
+	`WPI_WINNET_MAC1_RECEIVE_ENABLE_F
+(1);
+
+413 
+mac1
+ = mac1 | 
+	`WPI_WINNET_MAC1_TRANSMIT_ENABLE_F
+(1);
+
+418 
+mac1
+ = mac1 & (~
+	`WPI_WINNET_MAC1_RECEIVE_ENABLE_F
+(1));
+
+419 
+mac1
+ = mac1 & (~
+	`WPI_WINNET_MAC1_TRANSMIT_ENABLE_F
+(1));
+
+422 
+	`WT_lxFwd_Wp3RegWrôe
+(
+mac1Addr
+, 
+mac1
+);
+
+424 
+	`WPETH_PRINTF
+("Exô %s.\r\n", 
+__FUNCTION__
+);
+
+425 
+	}
+}
+
+427 
+	$WT_lxFwd_ModifyP‹tI¡îÁ˚Mode
+(
+u_öt16
+ 
+devNum_i
+, 
+WT_ETHERNETMGT_INTERFACE_MODE
+ 
+öãrÁ˚Mode_i
+)
+
+429 
+WP_°©us
+ 
+°©us
+;
+
+430 
+WP_ENET_INTERFACE_TYPE
+ 
+mode
+;
+
+431 
+WP_p‹t_íë
+* 
+íë_p‹t_∑øms
+;
+
+432 
+T_boﬁ
+ 
+isE√t
+;
+
+433 
+WP_h™dÀ
+ 
+p‹tH™dÀ
+;
+
+434 
+p‹t_devi˚_numbî
+ 
+devi˚Idx
+;
+
+435 
+p‹t_numbî
+ 
+p‹tIdx
+ ;
+
+436 
+u_öt32
+ 
+Êag
+ = 1;
+
+438 
+	`WPETH_PRINTF
+("E¡î %s, devNum_ò%d\r\n", 
+__FUNCTION__
+, 
+devNum_i
+);
+
+439 
+SgmiiAn_Sèã
+ = 0;
+
+440 
+devi˚Idx
+ = (
+p‹t_devi˚_numbî
+)
+devNum_i
+ ;
+
+441 
+p‹tIdx
+ = 
+	`WT_lxFwd_GëP‹tIdx
+(
+devi˚Idx
+);
+
+442 
+	`WT_lxFwd_GëP‹tE√t
+(
+p‹tIdx
+,&
+íë_p‹t_∑øms
+,&
+isE√t
+);
+
+444 
+	`WPETH_ASSERT
+((
+isE√t
+==
+TRUE
+),"WT_lxFwd_ModifyP‹tI¡îÁ˚Modêdevi˚Idx=%d i†nŸ WT_ENET\r\n",
+devi˚Idx
+);
+
+446 if((
+öãrÁ˚Mode_i
+<
+WT_ETHERNETMGT_INTERFACE_MODE_LAST
+)&&(öãrÁ˚Mode_i>=
+WT_ETHERNETMGT_MII
+))
+
+448 
+mode
+
+íë_öãrÁ˚
+[
+öãrÁ˚Mode_i
+];
+
+452 
+mode
+
+WP_ENET_INTERFACE_TYPE_LAST
+;
+
+455 
+	`WPETH_PRINTF
+("previous mode=%d\r\n current mode=%d\r\n",
+
+456 
+íë_p‹t_∑øms
+->
+öãrÁ˚_mode
+,
+
+457 
+mode
+);
+
+458 i‡(
+Êag
+)
+
+460 
+	`bﬂrd_£t_öå_h™dÀr
+(
+
+461 
+PIC_INTR53
+,
+
+462 ((*)(
+u_öt32
+ 
+dev_num
+))
+WPI_HwWö√tSgmiiAnPro˚ed
+,
+
+464 
+Êag
+ = 0;
+
+468 if(
+íë_p‹t_∑øms
+->
+öãrÁ˚_mode
+!
+mode
+)
+
+470 if(((
+devNum_i
+ =
+WT_ETHERNETMGT_PORT_DEVICE_NTIO
+)||
+
+471 (
+devNum_i
+ =
+WT_ETHERNETMGT_PORT_DEVICE_NTIO_B
+))
+
+472 && (
+mode
+ !
+WP_ENET_SGMII_AN
+))
+
+474 
+	`bﬂrd_mask_öå
+(
+PIC_INTR53
+);
+
+475 
+	`xtm_wka·î
+(5);
+
+478 
+	`WT_lxFwd_DißbÀDevi˚
+(
+devi˚Idx
+, 
+WT_ENET
+);
+
+479 
+	`xtm_wka·î
+(5);
+
+482 
+p‹tH™dÀ
+ = 
+	`WT_lxFwd_GëP‹tH™dÀ
+(
+p‹tIdx
+);
+
+483 
+°©us
+ = 
+	`WP_P‹tDißbÀ
+(
+p‹tH™dÀ
+, 
+WP_DIRECTION_DUPLEX
+);
+
+484 
+	`ãrmö©e_⁄_îr‹
+(
+°©us
+, "WP_P‹tDißbÀ()", 
+__LINE__
+);
+
+486 
+	`xtm_wka·î
+(5);
+
+488 
+íë_p‹t_∑øms
+->
+öãrÁ˚_mode
+ = 
+mode
+;
+
+489 
+°©us
+ = 
+	`WP_P‹tModify
+(
+p‹tH™dÀ
+,
+
+490 
+WP_PORT_MOD_ENET_INTERFACE_MODE
+,
+
+491 
+íë_p‹t_∑øms
+);
+
+492 
+	`ãrmö©e_⁄_îr‹
+(
+°©us
+, "WP_P‹tModify()", 
+__LINE__
+);
+
+494 
+	`xtm_wka·î
+(5);
+
+497 if((
+devNum_i
+ =
+WT_ETHERNETMGT_PORT_DEVICE_NTIO
+)&& (
+mode
+ !
+WP_ENET_SGMII_AN
+))
+
+498 
+	`WT_lxFwd_Mac1Rx
+(
+WT_ETHERNETMGT_PORT_DEVICE_NTIO
+, 
+TRUE
+);
+
+500 if((
+devNum_i
+ =
+WT_ETHERNETMGT_PORT_DEVICE_NTIO_B
+)&& (
+mode
+ !
+WP_ENET_SGMII_AN
+))
+
+501 
+	`WT_lxFwd_Mac1Rx
+(
+WT_ETHERNETMGT_PORT_DEVICE_NTIO_B
+, 
+TRUE
+);
+
+503 
+°©us
+ = 
+	`WP_P‹tE«bÀ
+(
+p‹tH™dÀ
+, 
+WP_DIRECTION_DUPLEX
+);
+
+505 
+	`ãrmö©e_⁄_îr‹
+(
+°©us
+, "WP_P‹tE«bÀ()", 
+__LINE__
+);
+
+508 
+	`xtm_wka·î
+(5);
+
+509 
+	`WT_lxFwd_E«bÀDevi˚
+(
+devi˚Idx
+, 
+WT_ENET
+);
+
+511 if(((
+devNum_i
+ =
+WT_ETHERNETMGT_PORT_DEVICE_NTIO
+)||
+
+512 (
+devNum_i
+ =
+WT_ETHERNETMGT_PORT_DEVICE_NTIO_B
+)Ë&& (
+mode
+ =
+WP_ENET_SGMII_AN
+))
+
+514 
+	`bﬂrd_unmask_öå
+(
+PIC_INTR53
+);
+
+515 
+	`xtm_wka·î
+(5);
+
+519 
+	`WPETH_PRINTF
+("Exô %s\r\n", 
+__FUNCTION__
+);
+
+520 
+	}
+}
+
+522 
+WT_ETHERNETMGT_INTERFACE_MODE
+ 
+	$WT_lxFwd_GëP‹tI¡îÁ˚Mode
+(
+u_öt16
+ 
+devNum_i
+)
+
+524 
+WT_ETHERNETMGT_INTERFACE_MODE
+ 
+mode
+;
+
+525 
+WP_p‹t_íë
+* 
+íë_p‹t_∑øms
+;
+
+526 
+T_boﬁ
+ 
+isE√t
+;
+
+527 
+p‹t_devi˚_numbî
+ 
+devi˚Idx
+;
+
+528 
+WP_U8
+ 
+íë_p‹t_öãrÁ˚
+;
+
+530 
+	`WPETH_PRINTF
+("E¡î %s, devNum_ò%d\r\n", 
+__FUNCTION__
+, 
+devNum_i
+);
+
+532 
+devi˚Idx
+ = (
+p‹t_devi˚_numbî
+)
+devNum_i
+ ;
+
+534 
+	`WT_lxFwd_GëP‹tE√t
+(
+	`WT_lxFwd_GëP‹tIdx
+(
+devi˚Idx
+),&
+íë_p‹t_∑øms
+,&
+isE√t
+);
+
+535 if(
+isE√t
+ =
+FALSE
+ )
+
+537  
+WT_ETHERNETMGT_INTERFACE_MODE_LAST
+;
+
+540 
+íë_p‹t_öãrÁ˚
+ = 
+íë_p‹t_∑øms
+->
+öãrÁ˚_mode
+;
+
+541 if((
+íë_p‹t_öãrÁ˚
+<
+WP_ENET_INTERFACE_TYPE_LAST
+)&&”√t_p‹t_öãrÁ˚>=
+WP_ENET_MII
+))
+
+543 
+mode
+
+ëhî√tmgt_öãrÁ˚
+[
+íë_p‹t_öãrÁ˚
+];
+
+547 
+mode
+
+WT_ETHERNETMGT_INTERFACE_MODE_LAST
+;
+
+550 
+	`WPETH_PRINTF
+("Exô %†mode=%d.\r\n", 
+__FUNCTION__
+,
+mode
+);
+
+551  
+mode
+;
+
+552 
+	}
+}
+
+554 
+T_lxFwd_Eº‹
+ 
+	$WT_lxFwd_GëDevi˚Cou¡î
+(
+p‹t_devi˚_numbî
+ 
+devi˚Idx
+,
+Wt_Ethî√tMgt_Cou¡î
+* 
+cou¡î_o
+)
+
+556 
+WP_°©us
+ 
+°©us
+;
+
+557 
+WP_°©s_íë
+ 
+devi˚Sètics
+;
+
+558 
+WP_h™dÀ
+ 
+íëDevH™dÀ
+;
+
+559 
+WT_Devi˚_Info
+* 
+p_devi˚_öfo
+ = 0;
+
+561 
+p_devi˚_öfo
+ = 
+	`WT_lxFwd_GëDevi˚Info
+(
+devi˚Idx
+);
+
+562 
+	`as£π_r
+(
+p_devi˚_öfo
+ !
+NULL
+);
+
+564 
+	`mem£t
+(&
+devi˚Sètics
+, 0, (deviceStatics));
+
+565 
+íëDevH™dÀ
+ = 
+	`WT_lxFwd_GëDevH™dÀ
+(
+devi˚Idx
+, 
+WT_ENET
+);
+
+566 i‡–
+íëDevH™dÀ
+ == 0 )
+
+568 
+	`îr_¥ötf
+(
+E_lxFwd_Eº_IndexNŸExi°
+, 
+ERR_CLASS_RECOV
+,
+
+569 "WTETH", 
+__FILE__
+, 
+__LINE__
+,
+
+571 
+p_devi˚_öfo
+->
+dev_«me
+, 
+íëDevH™dÀ
+);
+
+572  
+E_lxFwd_Eº_IndexNŸExi°
+;
+
+575 
+°©us
+ = 
+	`WP_Devi˚Sèti°ics
+(
+íëDevH™dÀ
+, &
+devi˚Sètics
+);
+
+576 i‡(
+	`WP_ERROR_P
+(
+°©us
+))
+
+578 
+	`îr_¥ötf
+(
+E_lxFwd_Eº_I¡î«lEº‹
+, 
+ERR_CLASS_RECOV
+,
+
+579 "WTETH", 
+__FILE__
+, 
+__LINE__
+,
+
+581 
+p_devi˚_öfo
+->
+dev_«me
+);
+
+582  
+E_lxFwd_Eº_I¡î«lEº‹
+;
+
+585 
+cou¡î_o
+->
+rx_byãs
+ = 
+devi˚Sètics
+.rx_bytes;
+
+586 
+cou¡î_o
+->
+rx_∑ckës
+ = 
+devi˚Sètics
+.rx_packets;
+
+587 
+cou¡î_o
+->
+rx_îr_fcs
+ = 
+devi˚Sètics
+.rx_err_fcs;
+
+588 
+cou¡î_o
+->
+rx_mu…iˇ°
+ = 
+devi˚Sètics
+.rx_multicast;
+
+589 
+cou¡î_o
+->
+rx_brﬂdˇ°
+ = 
+devi˚Sètics
+.rx_broadcast;
+
+590 
+cou¡î_o
+->
+rx_mac_c⁄åﬁ
+ = 
+devi˚Sètics
+.rx_mac_control;
+
+591 
+cou¡î_o
+->
+rx_mac_∑u£
+ = 
+devi˚Sètics
+.rx_mac_pause;
+
+592 
+cou¡î_o
+->
+rx_mac_unknown
+ = 
+devi˚Sètics
+.rx_mac_unknown;
+
+593 
+cou¡î_o
+->
+rx_îr_Æignmít
+ = 
+devi˚Sètics
+.rx_err_alignment;
+
+594 
+cou¡î_o
+->
+rx_îr_Àngth
+ = 
+devi˚Sètics
+.rx_err_length;
+
+595 
+cou¡î_o
+->
+rx_îr_code
+ = 
+devi˚Sètics
+.rx_err_code;
+
+596 
+cou¡î_o
+->
+rx_Ál£_ˇºõr
+ = 
+devi˚Sètics
+.rx_false_carrier;
+
+597 
+cou¡î_o
+->
+rx_undîsize
+ = 
+devi˚Sètics
+.rx_undersize;
+
+598 
+cou¡î_o
+->
+rx_ovîsize
+ = 
+devi˚Sètics
+.rx_oversize;
+
+599 
+cou¡î_o
+->
+rx_‰agmíts
+ = 
+devi˚Sètics
+.rx_fragments;
+
+600 
+cou¡î_o
+->
+rx_jabbî
+ = 
+devi˚Sètics
+.rx_jabber;
+
+601 
+cou¡î_o
+->
+rx_dr›≥d
+ = 
+devi˚Sètics
+.rx_dropped;
+
+602 
+cou¡î_o
+->
+rx_îr_ho°_fuŒ
+ = 
+devi˚Sètics
+.rx_err_host_full;
+
+603 
+cou¡î_o
+->
+rx_îr_fbp_undîrun
+ = 
+devi˚Sètics
+.rx_err_fbp_underrun;
+
+604 
+cou¡î_o
+->
+rx_îr_n⁄vÆid_mac
+ = 
+devi˚Sètics
+.rx_err_nonvalid_mac;
+
+605 
+cou¡î_o
+->
+rx_îr_mru
+ = 
+devi˚Sètics
+.rx_err_mru;
+
+606 
+cou¡î_o
+->
+rx_îr_sw_°©e_machöe
+ = 
+devi˚Sètics
+.rx_err_sw_state_machine;
+
+607 
+cou¡î_o
+->
+rx_îr_sdu
+ = 
+devi˚Sètics
+.rx_err_sdu;
+
+608 
+cou¡î_o
+->
+rx_îr_ovîrun
+ = 
+devi˚Sètics
+.rx_err_overrun;
+
+609 
+cou¡î_o
+->
+tx_byãs
+ = 
+devi˚Sètics
+.tx_bytes;
+
+610 
+cou¡î_o
+->
+tx_∑ckës
+ = 
+devi˚Sètics
+.tx_packets;
+
+611 
+cou¡î_o
+->
+tx_mu…iˇ°
+ = 
+devi˚Sètics
+.tx_multicast;
+
+612 
+cou¡î_o
+->
+tx_brﬂdˇ°
+ = 
+devi˚Sètics
+.tx_broadcast;
+
+613 
+cou¡î_o
+->
+tx_mac_∑u£
+ = 
+devi˚Sètics
+.tx_mac_pause;
+
+614 
+cou¡î_o
+->
+tx_de„r
+ = 
+devi˚Sètics
+.tx_defer;
+
+615 
+cou¡î_o
+->
+tx_ex˚ss_de„r
+ = 
+devi˚Sètics
+.tx_excess_defer;
+
+616 
+cou¡î_o
+->
+tx_sögÀ_cﬁlisi⁄
+ = 
+devi˚Sètics
+.tx_single_collision;
+
+617 
+cou¡î_o
+->
+tx_mu…i_cﬁlisi⁄
+ = 
+devi˚Sètics
+.tx_multi_collision;
+
+618 
+cou¡î_o
+->
+tx_œã_cﬁlisi⁄
+ = 
+devi˚Sètics
+.tx_late_collision;
+
+619 
+cou¡î_o
+->
+tx_ex˚ss_cﬁlisi⁄
+ = 
+devi˚Sètics
+.tx_excess_collision;
+
+620 
+cou¡î_o
+->
+tx_no_cﬁlisi⁄
+ = 
+devi˚Sètics
+.tx_no_collision;
+
+621 
+cou¡î_o
+->
+tx_mac_∑u£_h⁄‹ed
+ = 
+devi˚Sètics
+.tx_mac_pause_honored;
+
+622 
+cou¡î_o
+->
+tx_dr›≥d
+ = 
+devi˚Sètics
+.tx_dropped;
+
+623 
+cou¡î_o
+->
+tx_jabbî
+ = 
+devi˚Sètics
+.tx_jabber;
+
+624 
+cou¡î_o
+->
+tx_îr_fcs
+ = 
+devi˚Sètics
+.tx_err_fcs;
+
+625 
+cou¡î_o
+->
+tx_c⁄åﬁ
+ = 
+devi˚Sètics
+.tx_control;
+
+626 
+cou¡î_o
+->
+tx_ovîsize
+ = 
+devi˚Sètics
+.tx_oversize;
+
+627 
+cou¡î_o
+->
+tx_undîsize
+ = 
+devi˚Sètics
+.tx_undersize;
+
+628 
+cou¡î_o
+->
+tx_‰agmíts
+ = 
+devi˚Sètics
+.tx_fragments;
+
+629 
+cou¡î_o
+->
+tx_îr_undîrun
+ = 
+devi˚Sètics
+.tx_err_underrun ;
+
+630  
+E_lxFwd_Eº_NoEº‹
+;
+
+631 
+	}
+}
+
+633 
+T_lxFwd_Eº‹
+ 
+	$WT_lxFwd_GëNniCou¡î
+(
+WT_ETHERNETMGT_PORT_DEVICE_NUMBER
+ 
+devNum_i
+,
+
+634 
+Wt_Ethî√tMgt_Cou¡î
+* 
+cou¡î_o
+)
+
+636 
+p‹t_devi˚_numbî
+ 
+devi˚Idx
+;
+
+637 
+u_öt32
+ 
+ªt
+;
+
+639 
+	`WPETH_PRINTF
+("E¡î %s.\r\n", 
+__FUNCTION__
+);
+
+641 
+	`WPETH_ASSERT_RET
+(((
+devNum_i
+==
+WT_ETHERNETMGT_PORT_DEVICE_NTIO
+)||
+
+642 (
+devNum_i
+==
+WT_ETHERNETMGT_PORT_DEVICE_NTIO_B
+)||
+
+643 (
+devNum_i
+==
+WT_ETHERNETMGT_PORT_DEVICE_SUBTENDING
+)||
+
+644 (
+devNum_i
+==
+WT_ETHERNETMGT_PORT_DEVICE_GPON0
+)),
+
+646 
+devNum_i
+,
+E_lxFwd_Eº_IndexNŸExi°
+);
+
+648 
+devi˚Idx
+ = (
+p‹t_devi˚_numbî
+)
+devNum_i
+;
+
+650 
+	`WPETH_PRINTF
+("devi˚Idx = %d \r\n", 
+devi˚Idx
+);
+
+652 
+ªt
+=
+	`WT_lxFwd_GëDevi˚Cou¡î
+(
+devi˚Idx
+,
+cou¡î_o
+);
+
+654 
+	`WPETH_PRINTF
+("Exô %s,Ñë=%d \r\n", 
+__FUNCTION__
+,
+ªt
+);
+
+656  
+ªt
+;
+
+657 
+	}
+}
+
+659 
+T_lxFwd_Eº‹
+ 
+	$WT_lxFwd_GëUniCou¡î
+(
+u_öt16
+ 
+¶Ÿ
+, u_öt16 
+p‹t
+, 
+Wt_Ethî√tMgt_Cou¡î
+* 
+cou¡î_o
+)
+
+661 
+p‹t_devi˚_numbî
+ 
+devi˚Idx
+;
+
+662 
+u_öt32
+ 
+ªt
+;
+
+664 
+	`WPETH_PRINTF
+("E¡î %s. slŸ=0x%x,Ö‹t=0x%x \r\n", 
+__FUNCTION__
+,
+¶Ÿ
+,
+p‹t
+);
+
+666 
+devi˚Idx
+ = 
+	`WT_lxFwd_GëDevi˚IndexF‹Lt
+(
+¶Ÿ
+, 
+p‹t
+);
+
+668 
+	`WPETH_PRINTF
+("devi˚Idx = %d \r\n", 
+devi˚Idx
+);
+
+670 
+ªt
+=
+	`WT_lxFwd_GëDevi˚Cou¡î
+(
+devi˚Idx
+,
+cou¡î_o
+);
+
+672 
+	`WPETH_PRINTF
+("Exô %s,Ñë=%d \r\n", 
+__FUNCTION__
+,
+ªt
+);
+
+674  
+ªt
+;
+
+676 
+	}
+}
+
+678 
+WT_ETHERNETMGT_LINK_STATUS
+ 
+	$WT_lxFwd_GëSÂLökSètus
+(
+u_öt8
+ 
+SÂNo
+)
+
+680 i‡–
+SÂNo
+==0 )
+
+682  
+	`WT_lxFwd_GëLökSètus
+(
+WT_ETHERNETMGT_PORT_DEVICE_NTIO
+);
+
+684 i‡–
+SÂNo
+==1 )
+
+686  
+	`WT_lxFwd_GëLökSètus
+(
+WT_ETHERNETMGT_PORT_DEVICE_NTIO_B
+);
+
+690 
+	`îr_¥ötf
+(
+E_lxFwd_Eº_NŸVÆidI≈ut
+, 
+ERR_CLASS_RECOV
+,
+
+691 "WTETH", 
+__FILE__
+, 
+__LINE__
+,
+
+692 "SÂNo=%dÉº‹\r\n",
+SÂNo
+);
+
+693  
+WT_ETHERNETMGT_LINK_DOWN
+;
+
+695 
+	}
+}
+
+	@WP_LxFwd_Eth_Init_Dbg.c
+
+37 #ifde‡
+__˝lu•lus
+
+
+41 
+	~<ty≥s/basic_ty≥s.h
+>
+
+42 
+	~<≠i/wp_wddi.h
+>
+
+43 
+	~<îr‹/îr‹.h
+>
+
+44 
+	~<debug/åa˚.h
+>
+
+45 
+	~<debug/di•©ch.h
+>
+
+46 
+	~<x≠i/x≠i.h
+>
+
+47 
+	~<°dlib.h
+>
+
+48 
+	~<as£π/AßmAs£π.h
+>
+
+50 
+	~<WP_LxFwd_ôfwøp_ETH/WP_LxFwd_ETH.h
+>
+
+51 
+	~<ö˛ude/WP_LxFwd_Eth_I¡î«l.h
+>
+
+52 
+	~<WP_LxFwd_ôfwøp_RM/WP_LxFwd_Rm.h
+>
+
+53 
+	~<EthLöe_hww/EthHwwI¡îÁ˚.h
+>
+
+54 
+	~<GíLxFwdWøpItf/lxFwd_¥Ÿe˘i⁄.h
+>
+
+56 
+pmc_maö
+ ();
+
+57 
+WPE_CLI_öput
+ (
+I≈utBuf
+[256]);
+
+58 #ifde‡
+__˝lu•lus
+
+
+80 
+u_öt32
+ 
+	gwp_ëh_åa˚_g
+ ;
+
+104 
+T_boﬁ
+ 
+	$isVÆid_devi˚
+(
+p‹t_devi˚_numbî
+ 
+devi˚Idx
+)
+
+106 if(
+devi˚Idx
+ >
+WT_MAX_NUM_OF_ENET_DEVS
+)
+
+108  
+FALSE
+;
+
+111 if((
+	`WT_lxFwd_GëP‹tIdx
+(
+devi˚Idx
+)Ë>
+WT_MAX_NUM_OF_ENET_PORTS
+)
+
+113  
+FALSE
+;
+
+116  
+TRUE
+;
+
+117 
+	}
+}
+
+119 
+u_öt32
+ 
+	$WT_lxFwd_Eth_Debug_E«bÀ
+–
+T_boﬁ
+ 
+íabÀ
+ )
+
+121 
+g_ëh_dbg_Êag
+ = 
+íabÀ
+ ;
+
+123 
+	}
+}
+
+125 
+	$WT_lxFwd_Eth_debugHñpSëFlowC⁄åﬁ
+()
+
+127 
+	`dbg_¥ötf
+(" set flowcontrol <GE1|subtending> <disabled|enabled>\r\n");
+
+128 
+	}
+}
+
+130 
+	$WT_lxFwd_Eth_debugHñpSëI¡îÁ˚Mode
+()
+
+132 
+	`dbg_¥ötf
+(" set interfacemode <interface> <mode>\r\n");
+
+133 
+	`dbg_¥ötf
+(" <interface: host|lt1a|lt1b|lt2a|lt2b|lt3a|lt3b|lt4a|lt4b|dsp|GE1|GE2|GPON1|GPON2|subtending>\r\n");
+
+134 
+	`dbg_¥ötf
+(" <mode : mii|rmii|gmii|tbi|smii|sssmii|rgmii10100|rgmii1000|rtbi|tbian|\r\n"
+
+136 
+	}
+}
+
+138 
+	$WT_lxFwd_Eth_debugHñpSë
+()
+
+140 
+	`WT_lxFwd_Eth_debugHñpSëFlowC⁄åﬁ
+();
+
+141 
+	`WT_lxFwd_Eth_debugHñpSëI¡îÁ˚Mode
+();
+
+142 
+	}
+}
+
+144 
+	$WT_lxFwd_Eth_debugHñpShowFlowC⁄åﬁ
+()
+
+146 
+	`dbg_¥ötf
+(" show flowcontrol <GE1|subtending>\r\n");
+
+147 
+	}
+}
+
+149 
+	$WT_lxFwd_Eth_debugHñpShowI¡îÁ˚Mode
+()
+
+151 
+	`dbg_¥ötf
+(" show interfacemode <interface>\r\n");
+
+152 
+	`dbg_¥ötf
+(" <interface: host|lt1a|lt1b|lt2a|lt2b|lt3a|lt3b|lt4a|lt4b|dsp|GE1|GE2|GPON1|GPON2|subtending>\r\n");
+
+153 
+	}
+}
+
+155 
+	$WT_lxFwd_Eth_debugHñpShowLökSètus
+()
+
+157 
+	`dbg_¥ötf
+(" showÜinkstatus <interface>\r\n");
+
+158 
+	`dbg_¥ötf
+(" <interface:Üt1a|lt1b|lt2a|lt2b|lt3a|lt3b|lt4a|lt4b|dsp|GE1|GE2|GPON1|GPON2|subtending>\r\n");
+
+159 
+	}
+}
+
+161 
+	$WT_lxFwd_Eth_debugHñpShow
+()
+
+163 
+	`WT_lxFwd_Eth_debugHñpShowFlowC⁄åﬁ
+();
+
+164 
+	`WT_lxFwd_Eth_debugHñpShowI¡îÁ˚Mode
+();
+
+165 
+	`WT_lxFwd_Eth_debugHñpShowLökSètus
+();
+
+166 
+	}
+}
+
+168 
+	$WT_lxFwd_Eth_debugHñpWp3RegCmd
+()
+
+170 
+	`dbg_¥ötf
+(" wp3ÑegÑead cmd :wp3r <addr> \r\n");
+
+171 
+	`dbg_¥ötf
+(" wp3Ñeg write cmd:wp3w <addr> <data>\r\n");
+
+172 
+	}
+}
+
+174 
+	$WT_lxFwd_Eth_Debug_Hñp
+()
+
+176 
+	`dbg_¥ötf
+("WP3_Hww ETH Help Menu\n\r");
+
+177 
+	`dbg_¥ötf
+("pmc_main\n\r");
+
+178 
+	`WT_lxFwd_Eth_debugHñpSë
+();
+
+179 
+	`WT_lxFwd_Eth_debugHñpShow
+();
+
+180 
+	`WT_lxFwd_Eth_debugHñpWp3RegCmd
+();
+
+181 
+	`dbg_¥ötf
+("\r\n");
+
+183 
+	}
+}
+
+185 
+	$WT_lxFwd_Eth_debugHñpEº‹Prom±
+(
+WT_LXFWD_ETH_DEBUG_HELP_TYPE
+ 
+ty≥_i
+)
+
+187 
+	`dbg_¥ötf
+("No such command!\r\n");
+
+188 
+	`dbg_¥ötf
+("Supported Command(s):\r\n");
+
+189 
+ty≥_i
+)
+
+191 
+WT_LXFWD_ETH_DEBUG_HELP_TYPE_ALL
+:
+
+192 
+	`WT_lxFwd_Eth_Debug_Hñp
+();
+
+194 
+WT_LXFWD_ETH_DEBUG_HELP_TYPE_SET
+:
+
+195 
+	`WT_lxFwd_Eth_debugHñpSë
+();
+
+197 
+WT_LXFWD_ETH_DEBUG_HELP_TYPE_SET_FLOWCONTROL
+:
+
+198 
+	`WT_lxFwd_Eth_debugHñpSëFlowC⁄åﬁ
+();
+
+200 
+WT_LXFWD_ETH_DEBUG_HELP_TYPE_SET_INTERFACEMODE
+:
+
+201 
+	`WT_lxFwd_Eth_debugHñpSëI¡îÁ˚Mode
+();
+
+203 
+WT_LXFWD_ETH_DEBUG_HELP_TYPE_SHOW
+:
+
+204 
+	`WT_lxFwd_Eth_debugHñpShow
+();
+
+206 
+WT_LXFWD_ETH_DEBUG_HELP_TYPE_SHOW_FLOWCONTROL
+:
+
+207 
+	`WT_lxFwd_Eth_debugHñpShowFlowC⁄åﬁ
+();
+
+209 
+WT_LXFWD_ETH_DEBUG_HELP_TYPE_SHOW_INTERFACEMODE
+:
+
+210 
+	`WT_lxFwd_Eth_debugHñpShowI¡îÁ˚Mode
+();
+
+212 
+WT_LXFWD_ETH_DEBUG_HELP_TYPE_SHOW_LINKSTATUS
+:
+
+213 
+	`WT_lxFwd_Eth_debugHñpShowLökSètus
+();
+
+218 
+	}
+}
+
+220 
+	$WT_lxFwd_Eth_debugPrötResu…
+(
+u_öt32
+ 
+rv
+)
+
+222 if(
+rv
+ == 0)
+
+223 
+	`dbg_¥ötf
+("Success.\r\n");
+
+225 
+	`dbg_¥ötf
+("Faû,Ñv=%d.\r\n", 
+rv
+);
+
+226 
+	}
+}
+
+228 
+	$WT_lxFwd_Eth_debugSëFlowC⁄åﬁ
+(*
+°r
+, *
+ödex
+)
+
+230 
+ãmp°r
+[32] = {0};
+
+231 
+WT_ETHERNETMGT_PORT_DEVICE_NUMBER
+ 
+ty≥
+;
+
+232 
+WT_ETHERNETMGT_FLOW_CONTROL
+ 
+isE«bÀ
+;
+
+234 if(
+	`dbg_sˇn°r
+(
+°r
+,
+ödex
+,
+ãmp°r
+) != 0)
+
+235 
+WT_LXFWD_ETH_DEBUG_HELP_ERROR_PROMPT_SET_FLOWCONTROL
+;
+
+236 if(
+	`°rcmp
+(
+ãmp°r
+,"GE1") == 0)
+
+237 
+ty≥
+ = 
+WT_ETHERNETMGT_PORT_DEVICE_NTIO
+;
+
+238 if(
+	`°rcmp
+(
+ãmp°r
+,"subtending") == 0)
+
+239 
+ty≥
+ = 
+WT_ETHERNETMGT_PORT_DEVICE_SUBTENDING
+;
+
+241 
+WT_LXFWD_ETH_DEBUG_HELP_ERROR_PROMPT_SET_FLOWCONTROL
+;
+
+243 if(!
+	`isVÆid_devi˚
+((
+p‹t_devi˚_numbî
+)
+ty≥
+))
+
+245 
+	`dbg_¥ötf
+("thîêi†nÿ%†u£d\r\n",
+ãmp°r
+);
+
+249 if(
+	`dbg_sˇn°r
+(
+°r
+,
+ödex
+,
+ãmp°r
+) != 0)
+
+250 
+WT_LXFWD_ETH_DEBUG_HELP_ERROR_PROMPT_SET_FLOWCONTROL
+;
+
+251 if(
+	`°rcmp
+(
+ãmp°r
+,"disabled") == 0)
+
+252 
+isE«bÀ
+ = 
+WT_ETHERNETMGT_FLOW_DISABLE
+;
+
+253 if(
+	`°rcmp
+(
+ãmp°r
+,"enabled") == 0)
+
+254 
+isE«bÀ
+ = 
+WT_ETHERNETMGT_FLOW_ENABLE
+;
+
+256 
+WT_LXFWD_ETH_DEBUG_HELP_ERROR_PROMPT_SET_FLOWCONTROL
+;
+
+258 
+	`WT_lxFwd_SëNniFlowC⁄åﬁ
+(
+ty≥
+, 
+isE«bÀ
+);
+
+260 
+	`WT_lxFwd_Eth_debugPrötResu…
+(0);
+
+264 
+WT_LXFWD_ETH_DEBUG_HELP_ERROR_PROMPT_SET_FLOWCONTROL
+:
+
+265 
+	`WT_lxFwd_Eth_debugHñpEº‹Prom±
+(
+WT_LXFWD_ETH_DEBUG_HELP_TYPE_SET_FLOWCONTROL
+);
+
+266 
+	}
+}
+
+268 
+	$WT_lxFwd_Eth_debugSëI¡îÁ˚Mode
+(*
+°r
+, *
+ödex
+)
+
+270 
+ãmp°r
+[32] = {0};
+
+271 
+WP_U16
+ 
+p‹t_sys_idx
+;
+
+272 
+WT_ETHERNETMGT_INTERFACE_MODE
+ 
+mode
+;
+
+274 if(
+	`dbg_sˇn°r
+(
+°r
+, 
+ödex
+, 
+ãmp°r
+) != 0)
+
+275 
+WT_LXFWD_ETH_DEBUG_HELP_ERROR_PROMPT_SET_INTERFACEMODE
+;
+
+276 if(
+	`°rcmp
+(
+ãmp°r
+, "host") == 0)
+
+277 
+p‹t_sys_idx
+ = 
+WT_ETHERNETMGT_PORT_DEVICE_HOST
+;
+
+278 if(
+	`°rcmp
+(
+ãmp°r
+, "lt1a") == 0)
+
+279 
+p‹t_sys_idx
+ = 
+WT_ETHERNETMGT_LT_PORT_DEVICE1
+;
+
+280 if(
+	`°rcmp
+(
+ãmp°r
+, "lt1b") == 0)
+
+281 
+p‹t_sys_idx
+ = 
+WT_ETHERNETMGT_LT_PORT_DEVICE2
+;
+
+282 if(
+	`°rcmp
+(
+ãmp°r
+, "lt2a") == 0)
+
+283 
+p‹t_sys_idx
+ = 
+WT_ETHERNETMGT_LT_PORT_DEVICE3
+;
+
+284 if(
+	`°rcmp
+(
+ãmp°r
+, "lt2b") == 0)
+
+285 
+p‹t_sys_idx
+ = 
+WT_ETHERNETMGT_LT_PORT_DEVICE4
+;
+
+286 if(
+	`°rcmp
+(
+ãmp°r
+, "lt3a") == 0)
+
+287 
+p‹t_sys_idx
+ = 
+WT_ETHERNETMGT_LT_PORT_DEVICE5
+;
+
+288 if(
+	`°rcmp
+(
+ãmp°r
+, "lt3b") == 0)
+
+289 
+p‹t_sys_idx
+ = 
+WT_ETHERNETMGT_LT_PORT_DEVICE6
+;
+
+290 if(
+	`°rcmp
+(
+ãmp°r
+, "lt4a") == 0)
+
+291 
+p‹t_sys_idx
+ = 
+WT_ETHERNETMGT_LT_PORT_DEVICE7
+;
+
+292 if(
+	`°rcmp
+(
+ãmp°r
+, "lt4b") == 0)
+
+293 
+p‹t_sys_idx
+ = 
+WT_ETHERNETMGT_LT_PORT_DEVICE8
+;
+
+294 if(
+	`°rcmp
+(
+ãmp°r
+, "dsp") == 0)
+
+295 
+p‹t_sys_idx
+ = 
+WT_ETHERNETMGT_PORT_DEVICE_DSP
+;
+
+296 if(
+	`°rcmp
+(
+ãmp°r
+, "GE1") == 0)
+
+297 
+p‹t_sys_idx
+ = 
+WT_ETHERNETMGT_PORT_DEVICE_NTIO
+;
+
+298 if(
+	`°rcmp
+(
+ãmp°r
+, "GE2") == 0)
+
+299 
+p‹t_sys_idx
+ = 
+WT_ETHERNETMGT_PORT_DEVICE_NTIO_B
+;
+
+300 if(
+	`°rcmp
+(
+ãmp°r
+, "subtending") == 0)
+
+301 
+p‹t_sys_idx
+ = 
+WT_ETHERNETMGT_PORT_DEVICE_SUBTENDING
+;
+
+302 if(
+	`°rcmp
+(
+ãmp°r
+, "GPON1") == 0)
+
+303 
+p‹t_sys_idx
+ = 
+WT_ETHERNETMGT_PORT_DEVICE_GPON0
+;
+
+304 if(
+	`°rcmp
+(
+ãmp°r
+, "GPON2") == 0)
+
+305 
+p‹t_sys_idx
+ = 
+WT_ETHERNETMGT_PORT_DEVICE_GPON1
+;
+
+307 
+WT_LXFWD_ETH_DEBUG_HELP_ERROR_PROMPT_SET_INTERFACEMODE
+;
+
+309 if(!
+	`isVÆid_devi˚
+((
+p‹t_devi˚_numbî
+)
+p‹t_sys_idx
+))
+
+311 
+	`dbg_¥ötf
+("thîêi†nÿ%†u£d\r\n",
+ãmp°r
+);
+
+315 if(
+	`dbg_sˇn°r
+(
+°r
+, 
+ödex
+, 
+ãmp°r
+) != 0)
+
+316 
+WT_LXFWD_ETH_DEBUG_HELP_ERROR_PROMPT_SET_INTERFACEMODE
+;
+
+317 if(
+	`°rcmp
+(
+ãmp°r
+,"mii") == 0)
+
+318 
+mode
+ = 
+WT_ETHERNETMGT_MII
+;
+
+319 if(
+	`°rcmp
+(
+ãmp°r
+,"rmii") == 0)
+
+320 
+mode
+ = 
+WT_ETHERNETMGT_RMII
+;
+
+321 if(
+	`°rcmp
+(
+ãmp°r
+,"gmii") == 0)
+
+322 
+mode
+ = 
+WT_ETHERNETMGT_GMII
+;
+
+323 if(
+	`°rcmp
+(
+ãmp°r
+,"tbi") == 0)
+
+324 
+mode
+ = 
+WT_ETHERNETMGT_TBI
+;
+
+325 if(
+	`°rcmp
+(
+ãmp°r
+,"smii") == 0)
+
+326 
+mode
+ = 
+WT_ETHERNETMGT_SMII
+;
+
+327 if(
+	`°rcmp
+(
+ãmp°r
+,"sssmii") == 0)
+
+328 
+mode
+ = 
+WT_ETHERNETMGT_SS_SMII
+;
+
+329 if(
+	`°rcmp
+(
+ãmp°r
+,"rgmii10100") == 0)
+
+330 
+mode
+ = 
+WT_ETHERNETMGT_RGMII_10_100
+;
+
+331 if(
+	`°rcmp
+(
+ãmp°r
+,"rgmii1000") == 0)
+
+332 
+mode
+ = 
+WT_ETHERNETMGT_RGMII_1000
+;
+
+333 if(
+	`°rcmp
+(
+ãmp°r
+,"rtbi") == 0)
+
+334 
+mode
+ = 
+WT_ETHERNETMGT_RTBI
+;
+
+335 if(
+	`°rcmp
+(
+ãmp°r
+,"tbian") == 0)
+
+336 
+mode
+ = 
+WT_ETHERNETMGT_TBI_AN
+;
+
+337 if(
+	`°rcmp
+(
+ãmp°r
+,"sgmii10") == 0)
+
+338 
+mode
+ = 
+WT_ETHERNETMGT_SGMII_10
+;
+
+339 if(
+	`°rcmp
+(
+ãmp°r
+,"sgmii100") == 0)
+
+340 
+mode
+ = 
+WT_ETHERNETMGT_SGMII_100
+;
+
+341 if(
+	`°rcmp
+(
+ãmp°r
+,"sgmii1000") == 0)
+
+342 
+mode
+ = 
+WT_ETHERNETMGT_SGMII_1000
+;
+
+343 if(
+	`°rcmp
+(
+ãmp°r
+,"sgmii2500") == 0)
+
+344 
+mode
+ = 
+WT_ETHERNETMGT_SGMII_2500
+;
+
+345 if(
+	`°rcmp
+(
+ãmp°r
+,"sgmiian") == 0)
+
+346 
+mode
+ = 
+WT_ETHERNETMGT_SGMII_AN
+;
+
+347 if(
+	`°rcmp
+(
+ãmp°r
+,"1000basex") == 0)
+
+348 
+mode
+ = 
+WT_ETHERNETMGT_1000_BASE_X
+;
+
+349 if(
+	`°rcmp
+(
+ãmp°r
+,"1000basexan") == 0)
+
+350 
+mode
+ = 
+WT_ETHERNETMGT_1000_BASE_X_AN
+;
+
+351 if(
+	`°rcmp
+(
+ãmp°r
+,"xaui") == 0)
+
+352 
+mode
+ = 
+WT_ETHERNETMGT_XAUI
+;
+
+354 
+WT_LXFWD_ETH_DEBUG_HELP_ERROR_PROMPT_SET_INTERFACEMODE
+;
+
+356 
+	`WT_lxFwd_ModifyP‹tI¡îÁ˚Mode
+(
+p‹t_sys_idx
+, 
+mode
+);
+
+358 
+	`WT_lxFwd_Eth_debugPrötResu…
+(0);
+
+362 
+WT_LXFWD_ETH_DEBUG_HELP_ERROR_PROMPT_SET_INTERFACEMODE
+:
+
+363 
+	`WT_lxFwd_Eth_debugHñpEº‹Prom±
+(
+WT_LXFWD_ETH_DEBUG_HELP_TYPE_SET_INTERFACEMODE
+);
+
+364 
+	}
+}
+
+366 
+	$WT_lxFwd_Eth_debugShowFlowC⁄åﬁ
+(*
+°r
+, *
+ödex
+)
+
+368 
+ãmp°r
+[32] = {0};
+
+369 
+WT_ETHERNETMGT_PORT_DEVICE_NUMBER
+ 
+ty≥
+;
+
+370 
+WT_ETHERNETMGT_FLOW_CONTROL
+ 
+isE«bÀ
+;
+
+372 if(
+	`dbg_sˇn°r
+(
+°r
+,
+ödex
+,
+ãmp°r
+) != 0)
+
+373 
+WT_LXFWD_ETH_DEBUG_HELP_ERROR_PROMPT_SHOW_FLOWCONTROL
+;
+
+374 if(
+	`°rcmp
+(
+ãmp°r
+,"GE1") == 0)
+
+375 
+ty≥
+ = 
+WT_ETHERNETMGT_PORT_DEVICE_NTIO
+;
+
+376 if(
+	`°rcmp
+(
+ãmp°r
+,"subtending") == 0)
+
+377 
+ty≥
+ = 
+WT_ETHERNETMGT_PORT_DEVICE_SUBTENDING
+;
+
+379 
+WT_LXFWD_ETH_DEBUG_HELP_ERROR_PROMPT_SHOW_FLOWCONTROL
+;
+
+381 if(!
+	`isVÆid_devi˚
+((
+p‹t_devi˚_numbî
+)
+ty≥
+))
+
+383 
+	`dbg_¥ötf
+("thîêi†nÿ%†u£d\r\n",
+ãmp°r
+);
+
+387 
+	`WT_lxFwd_GëNniFlowC⁄åﬁ
+(
+ty≥
+, &
+isE«bÀ
+);
+
+389 
+	`dbg_¥ötf
+("%s's flow control status is %s.\r\n",
+
+390 
+ty≥
+ =
+WT_ETHERNETMGT_PORT_DEVICE_NTIO
+ ? "GE1" : "Subtending",
+
+391 
+isE«bÀ
+ =
+WT_ETHERNETMGT_FLOW_DISABLE
+ ? "disabled" : "enabled");
+
+395 
+WT_LXFWD_ETH_DEBUG_HELP_ERROR_PROMPT_SHOW_FLOWCONTROL
+:
+
+396 
+	`WT_lxFwd_Eth_debugHñpEº‹Prom±
+(
+WT_LXFWD_ETH_DEBUG_HELP_TYPE_SHOW_FLOWCONTROL
+);
+
+397 
+	}
+}
+
+399 
+	$WT_lxFwd_Eth_debugShowI¡îÁ˚Mode
+(*
+°r
+, *
+ödex
+)
+
+401 
+ãmp°r
+[32] = {0};
+
+402 
+WP_U16
+ 
+p‹t_sys_idx
+;
+
+403 
+WT_ETHERNETMGT_INTERFACE_MODE
+ 
+mode
+;
+
+404 
+u_öt8
+ 
+ty≥Såög
+[16] = {0};
+
+406 if(
+	`dbg_sˇn°r
+(
+°r
+,
+ödex
+,
+ãmp°r
+) != 0)
+
+407 
+WT_LXFWD_ETH_DEBUG_HELP_ERROR_PROMPT_SHOW_INTERFACEMODE
+;
+
+408 if(
+	`°rcmp
+(
+ãmp°r
+, "host") == 0)
+
+409 
+p‹t_sys_idx
+ = 
+WT_ETHERNETMGT_PORT_DEVICE_HOST
+;
+
+410 if(
+	`°rcmp
+(
+ãmp°r
+, "lt1a") == 0)
+
+411 
+p‹t_sys_idx
+ = 
+WT_ETHERNETMGT_LT_PORT_DEVICE1
+;
+
+412 if(
+	`°rcmp
+(
+ãmp°r
+, "lt1b") == 0)
+
+413 
+p‹t_sys_idx
+ = 
+WT_ETHERNETMGT_LT_PORT_DEVICE2
+;
+
+414 if(
+	`°rcmp
+(
+ãmp°r
+, "lt2a") == 0)
+
+415 
+p‹t_sys_idx
+ = 
+WT_ETHERNETMGT_LT_PORT_DEVICE3
+;
+
+416 if(
+	`°rcmp
+(
+ãmp°r
+, "lt2b") == 0)
+
+417 
+p‹t_sys_idx
+ = 
+WT_ETHERNETMGT_LT_PORT_DEVICE4
+;
+
+418 if(
+	`°rcmp
+(
+ãmp°r
+, "lt3a") == 0)
+
+419 
+p‹t_sys_idx
+ = 
+WT_ETHERNETMGT_LT_PORT_DEVICE5
+;
+
+420 if(
+	`°rcmp
+(
+ãmp°r
+, "lt3b") == 0)
+
+421 
+p‹t_sys_idx
+ = 
+WT_ETHERNETMGT_LT_PORT_DEVICE6
+;
+
+422 if(
+	`°rcmp
+(
+ãmp°r
+, "lt4a") == 0)
+
+423 
+p‹t_sys_idx
+ = 
+WT_ETHERNETMGT_LT_PORT_DEVICE7
+;
+
+424 if(
+	`°rcmp
+(
+ãmp°r
+, "lt4b") == 0)
+
+425 
+p‹t_sys_idx
+ = 
+WT_ETHERNETMGT_LT_PORT_DEVICE8
+;
+
+426 if(
+	`°rcmp
+(
+ãmp°r
+, "dsp") == 0)
+
+427 
+p‹t_sys_idx
+ = 
+WT_ETHERNETMGT_PORT_DEVICE_DSP
+;
+
+428 if(
+	`°rcmp
+(
+ãmp°r
+, "GE1") == 0)
+
+429 
+p‹t_sys_idx
+ = 
+WT_ETHERNETMGT_PORT_DEVICE_NTIO
+;
+
+430 if(
+	`°rcmp
+(
+ãmp°r
+, "GE2") == 0)
+
+431 
+p‹t_sys_idx
+ = 
+WT_ETHERNETMGT_PORT_DEVICE_NTIO_B
+;
+
+432 if(
+	`°rcmp
+(
+ãmp°r
+, "subtending") == 0)
+
+433 
+p‹t_sys_idx
+ = 
+WT_ETHERNETMGT_PORT_DEVICE_SUBTENDING
+;
+
+434 if(
+	`°rcmp
+(
+ãmp°r
+, "GPON1") == 0)
+
+435 
+p‹t_sys_idx
+ = 
+WT_ETHERNETMGT_PORT_DEVICE_GPON0
+;
+
+436 if(
+	`°rcmp
+(
+ãmp°r
+, "GPON2") == 0)
+
+437 
+p‹t_sys_idx
+ = 
+WT_ETHERNETMGT_PORT_DEVICE_GPON1
+;
+
+439 
+WT_LXFWD_ETH_DEBUG_HELP_ERROR_PROMPT_SHOW_INTERFACEMODE
+;
+
+441 if(!
+	`isVÆid_devi˚
+((
+p‹t_devi˚_numbî
+)
+p‹t_sys_idx
+))
+
+443 
+	`dbg_¥ötf
+("thîêi†nÿ%†u£d\r\n",
+ãmp°r
+);
+
+447 
+mode
+ = 
+	`WT_lxFwd_GëP‹tI¡îÁ˚Mode
+(
+p‹t_sys_idx
+);
+
+449 
+mode
+)
+
+451 
+WT_ETHERNETMGT_MII
+:
+
+452 
+	`°r˝y
+(
+ty≥Såög
+, "MII");
+
+454 
+WT_ETHERNETMGT_RMII
+:
+
+455 
+	`°r˝y
+(
+ty≥Såög
+, "RMII");
+
+457 
+WT_ETHERNETMGT_GMII
+:
+
+458 
+	`°r˝y
+(
+ty≥Såög
+, "GMII");
+
+460 
+WT_ETHERNETMGT_TBI
+:
+
+461 
+	`°r˝y
+(
+ty≥Såög
+, "TBI");
+
+463 
+WT_ETHERNETMGT_SMII
+:
+
+464 
+	`°r˝y
+(
+ty≥Såög
+, "SMII");
+
+466 
+WT_ETHERNETMGT_SS_SMII
+:
+
+467 
+	`°r˝y
+(
+ty≥Såög
+, "SS_SMII");
+
+469 
+WT_ETHERNETMGT_RGMII_10_100
+:
+
+470 
+	`°r˝y
+(
+ty≥Såög
+, "RGMII_10_100");
+
+472 
+WT_ETHERNETMGT_RGMII_1000
+:
+
+473 
+	`°r˝y
+(
+ty≥Såög
+, "RGMII_1000");
+
+475 
+WT_ETHERNETMGT_RTBI
+:
+
+476 
+	`°r˝y
+(
+ty≥Såög
+, "RTBI");
+
+478 
+WT_ETHERNETMGT_TBI_AN
+:
+
+479 
+	`°r˝y
+(
+ty≥Såög
+, "TBI_AN");
+
+481 
+WT_ETHERNETMGT_SGMII_10
+:
+
+482 
+	`°r˝y
+(
+ty≥Såög
+, "SGMII_10");
+
+484 
+WT_ETHERNETMGT_SGMII_100
+:
+
+485 
+	`°r˝y
+(
+ty≥Såög
+, "SGMII_100");
+
+487 
+WT_ETHERNETMGT_SGMII_1000
+:
+
+488 
+	`°r˝y
+(
+ty≥Såög
+, "SGMII_1000");
+
+490 
+WT_ETHERNETMGT_SGMII_2500
+:
+
+491 
+	`°r˝y
+(
+ty≥Såög
+, "SGMII_2500");
+
+493 
+WT_ETHERNETMGT_SGMII_AN
+:
+
+494 
+	`°r˝y
+(
+ty≥Såög
+, "SGMII_AN");
+
+496 
+WT_ETHERNETMGT_1000_BASE_X
+:
+
+497 
+	`°r˝y
+(
+ty≥Såög
+, "1000_BASE_X");
+
+499 
+WT_ETHERNETMGT_1000_BASE_X_AN
+:
+
+500 
+	`°r˝y
+(
+ty≥Såög
+, "1000_BASE_X_AN");
+
+502 
+WT_ETHERNETMGT_XAUI
+:
+
+503 
+	`°r˝y
+(
+ty≥Såög
+, "XAUI");
+
+506 
+	`°r˝y
+(
+ty≥Såög
+, "unknown");
+
+509 
+	`dbg_¥ötf
+("%s'†öãrÁ˚ modêi†%s.\r\n", 
+ãmp°r
+, 
+ty≥Såög
+);
+
+513 
+WT_LXFWD_ETH_DEBUG_HELP_ERROR_PROMPT_SHOW_INTERFACEMODE
+:
+
+514 
+	`WT_lxFwd_Eth_debugHñpEº‹Prom±
+(
+WT_LXFWD_ETH_DEBUG_HELP_TYPE_SHOW_INTERFACEMODE
+);
+
+515 
+	}
+}
+
+517 
+	$WT_lxFwd_Eth_debugShowLökSètus
+(*
+°r
+, *
+ödex
+)
+
+519 
+ãmp°r
+[32] = {0};
+
+520 
+WT_ETHERNETMGT_PORT_DEVICE_NUMBER
+ 
+p‹t_sys_idx
+;
+
+521 
+öt32
+ 
+°©us
+, 
+rv
+;
+
+522 
+T_GeP‹tLogiˇlID
+ 
+logiˇlId
+;
+
+524 if(
+	`dbg_sˇn°r
+(
+°r
+,
+ödex
+,
+ãmp°r
+) != 0)
+
+525 
+WT_LXFWD_ETH_DEBUG_HELP_ERROR_PROMPT_SHOW_LINKSTATUS
+;
+
+526 if(
+	`°rcmp
+(
+ãmp°r
+, "lt1a") == 0)
+
+527 
+p‹t_sys_idx
+ = 
+WT_ETHERNETMGT_LT_PORT_DEVICE1
+;
+
+528 if(
+	`°rcmp
+(
+ãmp°r
+, "lt1b") == 0)
+
+529 
+p‹t_sys_idx
+ = 
+WT_ETHERNETMGT_LT_PORT_DEVICE2
+;
+
+530 if(
+	`°rcmp
+(
+ãmp°r
+, "lt2a") == 0)
+
+531 
+p‹t_sys_idx
+ = 
+WT_ETHERNETMGT_LT_PORT_DEVICE3
+;
+
+532 if(
+	`°rcmp
+(
+ãmp°r
+, "lt2b") == 0)
+
+533 
+p‹t_sys_idx
+ = 
+WT_ETHERNETMGT_LT_PORT_DEVICE4
+;
+
+534 if(
+	`°rcmp
+(
+ãmp°r
+, "lt3a") == 0)
+
+535 
+p‹t_sys_idx
+ = 
+WT_ETHERNETMGT_LT_PORT_DEVICE5
+;
+
+536 if(
+	`°rcmp
+(
+ãmp°r
+, "lt3b") == 0)
+
+537 
+p‹t_sys_idx
+ = 
+WT_ETHERNETMGT_LT_PORT_DEVICE6
+;
+
+538 if(
+	`°rcmp
+(
+ãmp°r
+, "lt4a") == 0)
+
+539 
+p‹t_sys_idx
+ = 
+WT_ETHERNETMGT_LT_PORT_DEVICE7
+;
+
+540 if(
+	`°rcmp
+(
+ãmp°r
+, "lt4b") == 0)
+
+541 
+p‹t_sys_idx
+ = 
+WT_ETHERNETMGT_LT_PORT_DEVICE8
+;
+
+542 if(
+	`°rcmp
+(
+ãmp°r
+, "dsp") == 0)
+
+543 
+p‹t_sys_idx
+ = 
+WT_ETHERNETMGT_PORT_DEVICE_DSP
+;
+
+544 if(
+	`°rcmp
+(
+ãmp°r
+, "GE1") == 0)
+
+545 
+p‹t_sys_idx
+ = 
+WT_ETHERNETMGT_PORT_DEVICE_NTIO
+;
+
+546 if(
+	`°rcmp
+(
+ãmp°r
+, "GE2") == 0)
+
+547 
+p‹t_sys_idx
+ = 
+WT_ETHERNETMGT_PORT_DEVICE_NTIO_B
+;
+
+548 if(
+	`°rcmp
+(
+ãmp°r
+, "GPON1") == 0)
+
+549 
+p‹t_sys_idx
+ = 
+WT_ETHERNETMGT_PORT_DEVICE_GPON0
+;
+
+550 if(
+	`°rcmp
+(
+ãmp°r
+, "GPON2") == 0)
+
+551 
+p‹t_sys_idx
+ = 
+WT_ETHERNETMGT_PORT_DEVICE_GPON1
+;
+
+552 if(
+	`°rcmp
+(
+ãmp°r
+, "subtending") == 0)
+
+553 
+p‹t_sys_idx
+ = 
+WT_ETHERNETMGT_PORT_DEVICE_SUBTENDING
+;
+
+555 
+WT_LXFWD_ETH_DEBUG_HELP_ERROR_PROMPT_SHOW_LINKSTATUS
+;
+
+557 if(!
+	`isVÆid_devi˚
+((
+p‹t_devi˚_numbî
+)
+p‹t_sys_idx
+))
+
+559 
+	`dbg_¥ötf
+("thîêi†nÿ%†u£d\r\n",
+ãmp°r
+);
+
+563 
+p‹t_sys_idx
+)
+
+565 
+WT_ETHERNETMGT_PORT_DEVICE_NTIO
+:
+
+567 
+logiˇlId
+ = 
+GEP‹t1
+;
+
+568 
+rv
+ = 
+	`ëhHww_gëNniLökSèã
+(
+logiˇlId
+, &
+°©us
+);
+
+569 if(
+rv
+ =
+ETH_HWW_OK
+)
+
+570 
+	`dbg_¥ötf
+("%s'sÜink status is %s.\r\n",
+
+571 
+ãmp°r
+, 
+°©us
+ =
+ETH_HWW_LINK_UP
+ ? "up" : "down");
+
+573 
+	`dbg_¥ötf
+("Get %s'sÜink statusÑeturn %d.\r\n",
+
+574 
+ãmp°r
+, 
+rv
+);
+
+578 
+WT_ETHERNETMGT_PORT_DEVICE_NTIO_B
+:
+
+580 
+logiˇlId
+ = 
+GEP‹t2
+;
+
+581 
+rv
+ = 
+	`ëhHww_gëNniLökSèã
+(
+logiˇlId
+, &
+°©us
+);
+
+582 if(
+rv
+ =
+ETH_HWW_OK
+)
+
+583 
+	`dbg_¥ötf
+("%s'sÜink status is %s.\r\n",
+
+584 
+ãmp°r
+, 
+°©us
+ =
+ETH_HWW_LINK_UP
+ ? "up" : "down");
+
+586 
+	`dbg_¥ötf
+("Get %s'sÜink statusÑeturn %d.\r\n",
+
+587 
+ãmp°r
+, 
+rv
+);
+
+591 
+WT_ETHERNETMGT_PORT_DEVICE_SUBTENDING
+:
+
+593 
+logiˇlId
+ = 
+SubãndögP‹t
+;
+
+594 
+rv
+ = 
+	`ëhHww_gëNniLökSèã
+(
+logiˇlId
+, &
+°©us
+);
+
+595 if(
+rv
+ =
+ETH_HWW_OK
+)
+
+596 
+	`dbg_¥ötf
+("%s'sÜink status is %s.\r\n",
+
+597 
+ãmp°r
+, 
+°©us
+ =
+ETH_HWW_LINK_UP
+ ? "up" : "down");
+
+599 
+	`dbg_¥ötf
+("Get %s'sÜink statusÑeturn %d.\r\n",
+
+600 
+ãmp°r
+, 
+rv
+);
+
+605 
+°©us
+ = 
+	`WT_lxFwd_GëLökSètus
+(
+p‹t_sys_idx
+);
+
+606 
+	`dbg_¥ötf
+("%s'sÜink status is %s.\r\n",
+
+607 
+ãmp°r
+, 
+°©us
+ =
+WT_ETHERNETMGT_LINK_UP
+? "up" : "down");
+
+612 
+WT_LXFWD_ETH_DEBUG_HELP_ERROR_PROMPT_SHOW_LINKSTATUS
+:
+
+613 
+	`WT_lxFwd_Eth_debugHñpEº‹Prom±
+(
+WT_LXFWD_ETH_DEBUG_HELP_TYPE_SHOW_LINKSTATUS
+);
+
+614 
+	}
+}
+
+616 
+	$wp3_ªg_ªad_cmd
+(*
+°r
+, *
+idx
+)
+
+618 
+addr
+ = 0;
+
+619 
+u_öt32
+ 
+d©a
+ = 0;
+
+620 
+rv
+ = 0;
+
+622 
+rv
+ = 
+	`dbg_sˇnhex
+(
+°r
+, 
+idx
+, &
+addr
+);
+
+623 i‡(
+rv
+ != 0)
+
+625 
+	`WT_lxFwd_Eth_debugHñpWp3RegCmd
+();
+
+629 
+	`WT_lxFwd_Wp3RegRód
+((
+u_öt32
+)
+addr
+, &
+d©a
+);
+
+631 
+	`dbg_¥ötf
+("wp3_ªg_ªad_cmd:addr:0x%x,d©a:0x%x.\r\n", 
+addr
+, 
+d©a
+);
+
+634 
+	}
+}
+
+636 
+	$wp3_ªg_wrôe_cmd
+(*
+°r
+, *
+idx
+)
+
+638 
+addr
+ = 0;
+
+639 
+d©a
+ = 0;
+
+640 
+rv
+ = 0;
+
+642 
+rv
+ = 
+	`dbg_sˇnhex
+(
+°r
+, 
+idx
+, &
+addr
+);
+
+643 i‡–
+rv
+ != 0)
+
+645 
+	`WT_lxFwd_Eth_debugHñpWp3RegCmd
+();
+
+649 
+rv
+ = 
+	`dbg_sˇnhex
+(
+°r
+, 
+idx
+, &
+d©a
+);
+
+650 i‡–
+rv
+ !=0)
+
+652 
+	`WT_lxFwd_Eth_debugHñpWp3RegCmd
+();
+
+656 
+	`WT_lxFwd_Wp3RegWrôe
+((
+u_öt32
+)
+addr
+, (u_öt32)
+d©a
+);
+
+658 
+	`dbg_¥ötf
+("wp3_ªg_wrôe_cmd:addr:0x%x,d©a:0x%x.\r\n", 
+addr
+, 
+d©a
+);
+
+661 
+	}
+}
+
+663 
+u_öt32
+ 
+	$WT_lxFwd_Eth_Debug_Cmd
+(*
+°r
+, *
+ödex
+, *
+cmd
+)
+
+665 
+ãmp°r
+[32] = {0};
+
+673 
+	`WT_lxFwd_Eth_Debug_E«bÀ
+(
+TRUE
+);
+
+677 i‡(
+	`°rcmp
+(
+cmd
+, "pmc_main") == 0)
+
+679 
+	`pmc_maö
+();
+
+682 i‡(
+	`°rcmp
+(
+cmd
+, "pmc_show") == 0)
+
+684 if(
+	`dbg_sˇn°r
+(
+°r
+, 
+ödex
+, 
+ãmp°r
+) == 0)
+
+686 
+	`WPE_CLI_öput
+(
+ãmp°r
+);
+
+690 i‡(
+	`°rcmp
+(
+cmd
+, "set") == 0)
+
+692 if(
+	`dbg_sˇn°r
+(
+°r
+, 
+ödex
+, 
+ãmp°r
+) != 0)
+
+693 
+WT_LXFWD_ETH_DEBUG_HELP_ERROR_PROMPT_SET
+;
+
+695 if(
+	`°rcmp
+(
+ãmp°r
+, "flowcontrol") == 0)
+
+697 
+	`WT_lxFwd_Eth_debugSëFlowC⁄åﬁ
+(
+°r
+,
+ödex
+);
+
+700 if(
+	`°rcmp
+(
+ãmp°r
+, "interfacemode") == 0)
+
+702 
+	`WT_lxFwd_Eth_debugSëI¡îÁ˚Mode
+(
+°r
+,
+ödex
+);
+
+706 
+WT_LXFWD_ETH_DEBUG_HELP_ERROR_PROMPT_SET
+;
+
+708 
+WT_LXFWD_ETH_DEBUG_HELP_ERROR_PROMPT_SET
+:
+
+709 
+	`WT_lxFwd_Eth_debugHñpEº‹Prom±
+(
+WT_LXFWD_ETH_DEBUG_HELP_TYPE_SET
+);
+
+712 i‡(
+	`°rcmp
+(
+cmd
+ ,"show") == 0)
+
+714 if(
+	`dbg_sˇn°r
+(
+°r
+, 
+ödex
+, 
+ãmp°r
+) != 0)
+
+715 
+WT_LXFWD_ETH_DEBUG_HELP_ERROR_PROMPT_GET
+;
+
+717 if(
+	`°rcmp
+(
+ãmp°r
+, "flowcontrol") == 0)
+
+719 
+	`WT_lxFwd_Eth_debugShowFlowC⁄åﬁ
+(
+°r
+,
+ödex
+);
+
+722 if(
+	`°rcmp
+(
+ãmp°r
+, "interfacemode") == 0)
+
+724 
+	`WT_lxFwd_Eth_debugShowI¡îÁ˚Mode
+(
+°r
+,
+ödex
+);
+
+727 if(
+	`°rcmp
+(
+ãmp°r
+, "linkstatus") == 0)
+
+729 
+	`WT_lxFwd_Eth_debugShowLökSètus
+(
+°r
+,
+ödex
+);
+
+733 
+WT_LXFWD_ETH_DEBUG_HELP_ERROR_PROMPT_GET
+;
+
+735 
+WT_LXFWD_ETH_DEBUG_HELP_ERROR_PROMPT_GET
+:
+
+736 
+	`WT_lxFwd_Eth_debugHñpEº‹Prom±
+(
+WT_LXFWD_ETH_DEBUG_HELP_TYPE_SHOW
+);
+
+739 i‡(
+	`°rcmp
+(
+cmd
+ ,"wp3r") == 0)
+
+741 
+	`wp3_ªg_ªad_cmd
+(
+°r
+, 
+ödex
+);
+
+744 i‡(
+	`°rcmp
+(
+cmd
+ ,"wp3w") == 0)
+
+746 
+	`wp3_ªg_wrôe_cmd
+(
+°r
+, 
+ödex
+);
+
+753 
+	`WT_lxFwd_Eth_Debug_E«bÀ
+(
+FALSE
+);
+
+755 
+	}
+}
+
+757 
+	$WT_lxFwd_Eth_Inô
+()
+
+759 
+	`as£π_r
+(
+	`dbg_lök
+("wãth", 
+WT_lxFwd_Eth_Debug_Hñp
+, 
+WT_lxFwd_Eth_Debug_Cmd
+) \
+
+760 =
+ERR_NO_ERROR
+) ;
+
+762 
+	`as£π_r
+(
+	`åc_ªgi°î
+("WTETH",100,&
+wp_ëh_åa˚_g
+Ë=
+ERR_NO_ERROR
+);
+
+765 
+	}
+}
+
+	@def.c
+
+2 
+	tu_öt32
+;
+
+4 
+bﬂrd_dißbÀ_öås
+();
+
+5 
+WPI_SimuœãI¡îru±s
+();
+
+6 
+bﬂrd_íabÀ_öås
+();
+
+8 
+WT_lxFwd_SimuœãI¡îru±s_ISR
+(
+u_öt32
+ 
+dev_num
+);
+
+10 
+	$WT_lxFwd_SimuœãI¡îru±s_ISR
+(
+u_öt32
+ 
+dev_num
+)
+
+12 
+u_öt32
+ 
+iii
+ = 0;
+
+13 
+iii
+ = 
+dev_num
+;
+
+15 
+	`bﬂrd_dißbÀ_öås
+();
+
+16 
+	`WPI_SimuœãI¡îru±s
+();
+
+17 
+	`bﬂrd_íabÀ_öås
+();
+
+18 
+	}
+}
+
+	@
+1
+.
+0
+5
+91
+AlexR_3.0_Statistics.c
+EnetDemo.c
+WP_LxFwd_Eth_EthernetMgt.c
+WP_LxFwd_Eth_Init_Dbg.c
+def.c

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/288/trunk/ericsson/gbe_term_from_tyson/gbe_term
+END
+make.list
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/288/trunk/ericsson/gbe_term_from_tyson/gbe_term/make.list
+END
+wt_util.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/288/trunk/ericsson/gbe_term_from_tyson/gbe_term/wt_util.c
+END
+tags
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/288/trunk/ericsson/gbe_term_from_tyson/gbe_term/tags
+END
+gbe_term.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/288/trunk/ericsson/gbe_term_from_tyson/gbe_term/gbe_term.c
+END

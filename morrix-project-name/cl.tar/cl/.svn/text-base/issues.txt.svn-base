@@ -1,0 +1,60 @@
+[1] typedef can ONLY define one of struct_or_union and function. eg:
+	typedef struct m {
+	   int i;
+	}m;
+    or 
+        typedef (*func)(int i);
+    which means typedef can not define struct_or_union and function 
+    at the SAME time.
+
+[2] in typedef struct_or_union, there maybe a function declaration. eg
+   typedef struct m {
+      int (func)(int i);
+   }
+   This is legal. i have to clear the function declaration first 
+   and then clear the struct typedef.
+
+[3] i'm using function's parameter list as end of function declaration.
+   //OUTOF-FUNC//
+
+[4] typedef:datatype
+   typedef unsigned int uint;
+
+[5] typedef: simple structure, without function pointer
+   typedef struct employees {
+      int id;
+      char name[64];
+      int sex;
+   }employees;
+
+
+[6] typedef: function pointer
+   typedef int (*func)(int i, float f);
+   There is something wrong here. EOT was added at the end of this 
+   analyse.
+   condition: in_typedef=1, td_func=1, struct_or_union=0
+
+[7] typedef: normal function (not pointer)
+   typedef int (func)(int i, float f);
+
+
+[8] typedef: function pointer inside structure typedef
+   typedef struct employees {
+      int i;
+      int (*func)(int i, float f);
+   }employees;
+   
+[9] enum unrecognized.
+   typedef enum {TCL_INT, TCL_DOUBLE, TCL_EITHER} Tcl_ValueType;
+   the above grammar keyword 'enum' was not recognized.
+   fix: set flag when found 'enum'
+
+[10] struct inside struct error
+   typedef struct m {
+   	int i;
+	int (myfunc)(struct mystruct myvar, int i); <=== this error
+   };
+   this is because we don't differentiate the 'typedef struct' 
+   and the inside 'int (myfunc)(struct mystruct myvar)'. 
+   should i setup level in analyze 'struct'?
+

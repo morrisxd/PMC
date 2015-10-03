@@ -1,0 +1,342 @@
+[1]
+wget -E -k -p -w5 -np http://www.ibm.com/index.html
+wget -r -l2 -c -t20 -A*.iso -R*.gif http://www.ibm.com/
+
+[2]
+curl http://www.ibm.com/index[0-9].html 
+
+curl http://mediastore.magnumphotos.com/CoreXDoc/MAG/Media/TR3/7/6/9/2/PAR[0-411850].jpg
+     http://mediastore.magnumphotos.com/CoreXDoc/MAG/Media/TR3/d/b/4/9/PAR411848.jpg
+     http://mediastore.magnumphotos.com/CoreXDoc/MAG/Media/TR3/[0-9a-f]/[0-9a-f]/[0-9a-f]/[0-9a-f]/PAR[0-411848].jpg  
+
+
+
+[3]
+sudo dpkg -i package_file.deb
+http://outlook.pmc-sierra.bc.ca
+
+[4]
+07:13:48 <18> more transfer.sh 
+lftp -f ./s.script
+
+ 07:13:56 <19> more s.script 
+#!/bin/bash
+open sftp://216.241.237.121
+user dengmorr hello
+mput ./bin/*.exe
+quit
+
+[5]
+scp dengmorr@216.241.237.121:.ssh/* .
+
+[6]
+cat .ssh/id_rsa.pub | ssh dengmorr@216.241.237.121 "cat - >> .ssh/authorized_keys"
+
+
+
+[7]
+file022
+file033
+file111
+file112
+file113
+file114
+file123
+file1110
+file1120
+
+wydeng@cvs3 ~/sort]$ ls | sort -k1.5,1.8 -n
+=from keyword 1, the 5th character, to the keyword 1, the 8th character
+
+
+[8]
+ssh-copy-id user@host
+ssh -N -L2001:localhost:80 somemachine
+
+dd if=/dev/dsp | ssh -c arcfour -C username@host dd of=/dev/dsp
+ssh user@host cat /path/to/remotefile | diff /path/to/localfile 
+
+sshfs name@server:/path/to/folder /path/to/mount/point
+ssh -t reachable_host ssh unreachable_host
+
+sh root@host1 "cd /somedir/tocopy/ && tar -cf  ." | ssh root@host2 "cd /samedir/tocopyto/ && tar -xf -"
+
+
+ssh -fX <user>@<host> <program>
+
+ssh -MNf <user>@<host>
+
+Host host
+ControlPath ~/.ssh/master-%r@%h:%p
+ControlMaster no
+
+ssh -t remote_host screen r
+
+
+knock <host> 3000 4000 5000 && ssh -p <port> user@host && knock <host> 5000 4000 3000
+
+
+[options]
+logfile = /var/log/knockd.log
+[openSSH]
+sequence = 3000,4000,5000
+seq_timeout = 5
+command = /sbin/iptables -A INPUT -i eth0 -s %IP% -p tcp dport 22 -j ACCEPT
+tcpflags = syn
+[closeSSH]
+sequence = 5000,4000,3000
+seq_timeout = 5
+command = /sbin/iptables -D INPUT -i eth0 -s %IP% -p tcp dport 22 -j ACCEPT
+tcpflags = syn
+
+
+
+ssh-keygen -R <the_offending_host>
+
+ssh host -l user $(<cmd.txt)
+
+ssh host -l user "`cat cmd.txt`"
+
+mysqldump -add-drop-table -extended-insert -force -log-error=error.log -uUSER -pPASS OLD_DB_NAME | ssh -C user@newhost "mysql -uUSER -pPASS NEW_DB_NAME"
+
+sed -i 8d ~/.ssh/known_hosts
+
+
+cat ~/.ssh/id_rsa.pub | ssh user@machine "mkdir ~/.ssh; cat >> ~/.ssh/authorized_keys"
+
+
+yes | pv | ssh $host "cat > /dev/null"
+
+
+apt-get install pv
+
+
+yum install pv
+
+ssh -t user@some.domain.com /usr/bin/screen -xRR
+
+rsync -partial -progress -rsh=ssh $file_source $user@$host:$destination_file
+
+rsync -partial -progress -rsh=ssh $file_source $user@$host:$destination_file local -> remote
+
+rsync -partial -progress -rsh=ssh $user@$host:$remote_file $destination_file remote -> local
+
+ssh root@server.com 'tshark -f "port !22? -w -' | wireshark -k -i -
+
+ssh root@example.com tcpdump -w - 'port !22' | wireshark -k -i -
+
+autossh -M50000 -t server.example.com 'screen -raAd mysession
+
+ssh -4 -C -c blowfish-cbc
+ /backup | cstream -t 777k | ssh host 'tar -xj -C /backup'
+
+http://www.cons.org/cracauer/cstream.html#usage????,??:
+echo w00t, i'm 733+ | cstream -b1 -t2
+
+
+ssh-keygen; ssh-copy-id user@host; ssh user@host
+
+
+ssh user@host cat /path/to/some/file | xclip
+
+
+
+A
+
+[9] unix signal function prototype
+void (*signal(int signo, void (*func)(int)))(int);
+void (*signal())(int);
+
+
+
+[34] vncserver
+$vncserver
+input password 2 times, and then in the windows client, input 'ourss:1'
+and input password, and then it should be OK.
+
+[10]
+formal-name of eclipse in ubunutu: [eclipse-platform]
+
+[11]
+"Every command in the pipe was executed in a stand-alone sub-shell insted of current shell"
+
+error code
++++++++++++++++++++++
+n=0
+cat $FILE |
+   while read LINE
+   do
+      echo "$n) $LINE"
+      n = 'expr $n + 1'
+   done
+echo "There were $n lines in $FILE."
+
+correct code
++++++++++++++++++++++
+n=0
+{
+   while read LINE
+   do
+      echo "$n) $LINE"
+      n = 'expr $n + 1'
+   done
+} < $FILE
+echo "There were $n lines in $FILE."
+# '{' means "in the current shell" while "(" means in the sub-shell
+
+[12]
+patterm { action }
+awk '/widget/ {print $1}' inventory
+
+
+[13] 
+screen -x -r sharing -p one
+
+[14]
+mkdir -p /tmp/a/b/c
+
+[15]
+tar xvf -C /tmp/a/b/c newarc.tar.gz
+
+[16]
+cd /tmp/a/b/c && tar xvf ~/archive.tar
+
+[17]
+cd /tmp/a/b/c || mkdir -p /tmp/a/b/c
+
+[18]
+VAR="tmp/*"
+echo $VAR
+echo $VAR{a}
+
+[19]
+cd /tmp/a/b/c || \
+mkdir -p /tmp/a/b/c/ && \
+tar xvf -C /tmp/a/b/c ~/newarc.tar.gz
+
+[20]
+xargs, put multiple line into one blank-seperated line
+
+[21]
+grep -u
+grep -c
+
+[22]
+curl -o s.tar http://www.im.com/t.tar
+
+[23]
+basename /etc/rc.d/rc.local
+dirname /etc/rc.d/rc.local
+
+[24]
+MYDIR=$(dirname /usr/local/share/doc/foo/foo.txt)
+
+
+[25]
+$ MYVAR=foodforthought.jpg
+$ echo ${MYVAR##*fo}
+rthought.jpg
+$ echo ${MYVAR#*fo}
+odforthought.jpg
+
+[26]
+
+$ MYFOO="chickensoup.tar.gz"
+$ echo ${MYFOO%%.*}
+chickensoup
+$ echo ${MYFOO%.*}
+chickensoup.tar
+
+[27]
+$ EXCLAIM=cowabunga
+$ echo ${EXCLAIM:0:3}
+cow
+$ echo ${EXCLAIM:3:7}
+abunga
+
+[28]
+#!/bin/bash
+if [ "${1##*.}" = "tar" ]
+then 
+    echo This appears to be a tarball.
+else
+    echo At first glance, this does not appear to be a tarball.
+fi
+
+[29]
+bash online manual reference
+http://www.gnu.org/software/bash/manual/bash.html
+
+[30]
+type perl
+
+[31]
+TZ="Japan" date
+
+[32]
+$ ps > state.`date '+%F'`
+$ w >> state.`date '+%F'`
+
+
+{ ps; w } > state.`date '+%F'`
+
+[33]
+export LESS="-Nmsx4"
+
+[34]
+[ian@echidna lpi103-4]$ xargs<text1 echo "args >"
+args > 1 apple 2 pear 3 banana
+[ian@echidna lpi103-4]$ xargs --max-args 3 <text1 echo "args >"
+args > 1 apple 2
+args > pear 3 banana
+[ian@echidna lpi103-4]$ xargs -n 1 <text1 echo "args >"
+args > 1
+args > apple
+args > 2
+args > pear
+args > 3
+args > banana
+
+
+[35]
+umount idle NFS mount will improve yum installation procedure.
+
+[36]
+rsync -avrt rsync://mirror.stanford.edu/yum/pub/centos/4.2/updates/i386/RPMS/ --exclude=debug/ /var/www/html/yum/updates
+
+[37]
+http://www.centos.org/modules/tinycontent/index.php?id=30
+https://launchpad.net/ubuntu/+cdmirrors
+http://mirrors.fedoraproject.org/publiclist
+please google "fedora mirrors" or sth like this and you can find rsync server as you want.
+
+
+
+[38]
+rsync -av versions dengmorr@216.241.237.121:dps/
+
+
+[39]
+server side: nc -kl 3333 > /dev/null
+client side: time nc -v -v -n ran1sw01 3333 < atm_ima_ufe.exe
+client side: time yes | nc -v -n ran1sw01 3333
+
+[40]
+pop -v <stream/snapshot name> -L <path to location outside of AccuRev> .
+
+Example from the manual:
+
+Using versions from stream QA, copy the subdirectory tree starting at the directory src to C:\httpd\test_site:
+> accurev pop -R -v QA -L C:\httpd\test_site \.\src
+
+/Tomas
+
+[41]  nice google
+http://www.google.ca/
+
+[42] port forward
+ssh -C -g -D 2000 ran1sw08
+
+[43] last command parameter
+echo !$
+

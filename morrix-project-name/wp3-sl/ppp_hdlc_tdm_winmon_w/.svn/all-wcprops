@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/714/trunk/wp3-sl/ppp_hdlc_tdm_winmon_w
+END
+e
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/714/trunk/wp3-sl/ppp_hdlc_tdm_winmon_w/e
+END
+mk
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/714/trunk/wp3-sl/ppp_hdlc_tdm_winmon_w/mk
+END
+ppp_hdlc_tdm_util.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/714/trunk/wp3-sl/ppp_hdlc_tdm_winmon_w/ppp_hdlc_tdm_util.c
+END
+readme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/714/trunk/wp3-sl/ppp_hdlc_tdm_winmon_w/readme.txt
+END
+ppp_hdlc_tdm_stats.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/714/trunk/wp3-sl/ppp_hdlc_tdm_winmon_w/ppp_hdlc_tdm_stats.c
+END
+makefile
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/714/trunk/wp3-sl/ppp_hdlc_tdm_winmon_w/makefile
+END
+tags
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/714/trunk/wp3-sl/ppp_hdlc_tdm_winmon_w/tags
+END
+ppp_hdlc_tdm.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/714/trunk/wp3-sl/ppp_hdlc_tdm_winmon_w/ppp_hdlc_tdm.c
+END
+PPP_HDLC_TDM.doc
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/714/trunk/wp3-sl/ppp_hdlc_tdm_winmon_w/PPP_HDLC_TDM.doc
+END
+ppp_hdlc_tdm.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/714/trunk/wp3-sl/ppp_hdlc_tdm_winmon_w/ppp_hdlc_tdm.h
+END

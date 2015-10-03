@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/328/trunk/wintegra/branch/atm_ima_ufe_431_wireline_linux
+END
+makefile
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/328/trunk/wintegra/branch/atm_ima_ufe_431_wireline_linux/makefile
+END
+ufe_utility.c
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/200/trunk/wintegra/branch/atm_ima_ufe_431_wireline_linux/ufe_utility.c
+END
+e
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/200/trunk/wintegra/branch/atm_ima_ufe_431_wireline_linux/e
+END
+atm_ima_ufe_util.c
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/200/trunk/wintegra/branch/atm_ima_ufe_431_wireline_linux/atm_ima_ufe_util.c
+END
+atm_ima_ufe.c
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/200/trunk/wintegra/branch/atm_ima_ufe_431_wireline_linux/atm_ima_ufe.c
+END
+ufe_utility.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/200/trunk/wintegra/branch/atm_ima_ufe_431_wireline_linux/ufe_utility.h
+END
+wti_flexmux_util.c
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/325/trunk/wintegra/branch/atm_ima_ufe_431_wireline_linux/wti_flexmux_util.c
+END
+atm_ima_ufe.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/200/trunk/wintegra/branch/atm_ima_ufe_431_wireline_linux/atm_ima_ufe.h
+END
+make.log
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/328/trunk/wintegra/branch/atm_ima_ufe_431_wireline_linux/make.log
+END
+wti_flexmux_util.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/325/trunk/wintegra/branch/atm_ima_ufe_431_wireline_linux/wti_flexmux_util.h
+END
+tags
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/328/trunk/wintegra/branch/atm_ima_ufe_431_wireline_linux/tags
+END
+atm_ima_ufe_stats.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/200/trunk/wintegra/branch/atm_ima_ufe_431_wireline_linux/atm_ima_ufe_stats.c
+END
+flexmux_util.c
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/200/trunk/wintegra/branch/atm_ima_ufe_431_wireline_linux/flexmux_util.c
+END
+wti_ufe_utility.c
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/325/trunk/wintegra/branch/atm_ima_ufe_431_wireline_linux/wti_ufe_utility.c
+END
+mk
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/200/trunk/wintegra/branch/atm_ima_ufe_431_wireline_linux/mk
+END
+wti_flexmux_alarms_and_pm.c
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/325/trunk/wintegra/branch/atm_ima_ufe_431_wireline_linux/wti_flexmux_alarms_and_pm.c
+END
+ATM_IMA_UFE.doc
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/200/trunk/wintegra/branch/atm_ima_ufe_431_wireline_linux/ATM_IMA_UFE.doc
+END
+wti_ufe_utility.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/325/trunk/wintegra/branch/atm_ima_ufe_431_wireline_linux/wti_ufe_utility.h
+END
+readme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/200/trunk/wintegra/branch/atm_ima_ufe_431_wireline_linux/readme.txt
+END
+building.txt
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/200/trunk/wintegra/branch/atm_ima_ufe_431_wireline_linux/building.txt
+END
+flexmux_util.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/200/trunk/wintegra/branch/atm_ima_ufe_431_wireline_linux/flexmux_util.h
+END

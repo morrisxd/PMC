@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/321/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/examples/linx-2.4.1/scripts
+END
+make_distribution
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/321/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/examples/linx-2.4.1/scripts/make_distribution
+END
+make_linx_doc
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/321/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/examples/linx-2.4.1/scripts/make_linx_doc
+END

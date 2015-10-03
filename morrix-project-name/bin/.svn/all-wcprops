@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 27
+/svn/!svn/ver/674/trunk/bin
+END
+svncommit
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/674/trunk/bin/svncommit
+END
+svnupdate
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/674/trunk/bin/svnupdate
+END

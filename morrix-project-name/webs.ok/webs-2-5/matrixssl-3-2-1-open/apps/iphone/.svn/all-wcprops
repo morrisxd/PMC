@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/matrixssl-3-2-1-open/apps/iphone
+END
+MainWindow.xib
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/matrixssl-3-2-1-open/apps/iphone/MainWindow.xib
+END
+main.m
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/matrixssl-3-2-1-open/apps/iphone/main.m
+END
+IphoneClientViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/matrixssl-3-2-1-open/apps/iphone/IphoneClientViewController.xib
+END
+iphoneClient-Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/matrixssl-3-2-1-open/apps/iphone/iphoneClient-Info.plist
+END
+iphoneClient_Prefix.pch
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/matrixssl-3-2-1-open/apps/iphone/iphoneClient_Prefix.pch
+END

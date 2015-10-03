@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/316/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/wddi/board/wds_sl_winpath3
+END
+wpx_board_data.c
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/316/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/wddi/board/wds_sl_winpath3/wpx_board_data.c
+END
+wpx_pinmux.c
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/316/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/wddi/board/wds_sl_winpath3/wpx_pinmux.c
+END
+wpx_board_data.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/316/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/wddi/board/wds_sl_winpath3/wpx_board_data.h
+END
+wpx_serdes.c
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/316/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/wddi/board/wds_sl_winpath3/wpx_serdes.c
+END
+wpx_pinmux.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/316/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/wddi/board/wds_sl_winpath3/wpx_pinmux.h
+END
+wpx_serdes.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/316/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/wddi/board/wds_sl_winpath3/wpx_serdes.h
+END
+wpx_ufe3_data.c
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/316/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/wddi/board/wds_sl_winpath3/wpx_ufe3_data.c
+END
+wpx_phy_data.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/316/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/wddi/board/wds_sl_winpath3/wpx_phy_data.h
+END
+wpx_ufe3_data.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/316/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/wddi/board/wds_sl_winpath3/wpx_ufe3_data.h
+END
+serdes_config_mm.c
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/316/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/wddi/board/wds_sl_winpath3/serdes_config_mm.c
+END
+wpi_platform.c
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/316/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/wddi/board/wds_sl_winpath3/wpi_platform.c
+END
+wpx_heap_config.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/316/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/wddi/board/wds_sl_winpath3/wpx_heap_config.h
+END
+wpx_enet_phy.c
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/316/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/wddi/board/wds_sl_winpath3/wpx_enet_phy.c
+END
+wpx_app_data.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/316/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/wddi/board/wds_sl_winpath3/wpx_app_data.h
+END
+wpx_board_functions.c
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/316/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/wddi/board/wds_sl_winpath3/wpx_board_functions.c
+END

@@ -1,0 +1,197 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/321/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/examples/linx-2.4.1/linxcfg
+END
+ethcm_utils.c
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/321/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/examples/linx-2.4.1/linxcfg/ethcm_utils.c
+END
+rlnh_utils.c
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/321/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/examples/linx-2.4.1/linxcfg/rlnh_utils.c
+END
+ethcm_utils.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/321/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/examples/linx-2.4.1/linxcfg/ethcm_utils.h
+END
+mklink.c
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/321/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/examples/linx-2.4.1/linxcfg/mklink.c
+END
+libcfg.c
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/321/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/examples/linx-2.4.1/linxcfg/libcfg.c
+END
+shmcm_utils.c
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/321/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/examples/linx-2.4.1/linxcfg/shmcm_utils.c
+END
+rmriocon.c
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/321/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/examples/linx-2.4.1/linxcfg/rmriocon.c
+END
+rlnh_utils.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/321/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/examples/linx-2.4.1/linxcfg/rlnh_utils.h
+END
+linx_cfg_eth.c
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/321/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/examples/linx-2.4.1/linxcfg/linx_cfg_eth.c
+END
+shmcm_utils.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/321/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/examples/linx-2.4.1/linxcfg/shmcm_utils.h
+END
+linx_cfg.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/321/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/examples/linx-2.4.1/linxcfg/linx_cfg.h
+END
+db_utils.c
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/321/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/examples/linx-2.4.1/linxcfg/db_utils.c
+END
+config.c
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/321/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/examples/linx-2.4.1/linxcfg/config.c
+END
+mkethcon.c
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/321/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/examples/linx-2.4.1/linxcfg/mkethcon.c
+END
+db_utils.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/321/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/examples/linx-2.4.1/linxcfg/db_utils.h
+END
+config.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/321/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/examples/linx-2.4.1/linxcfg/config.h
+END
+linx_cfg_cm.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/321/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/examples/linx-2.4.1/linxcfg/linx_cfg_cm.h
+END
+mkriocon.c
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/321/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/examples/linx-2.4.1/linxcfg/mkriocon.c
+END
+rmtcpcon.c
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/321/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/examples/linx-2.4.1/linxcfg/rmtcpcon.c
+END
+rmshmcon.c
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/321/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/examples/linx-2.4.1/linxcfg/rmshmcon.c
+END
+tcpcm_utils.c
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/321/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/examples/linx-2.4.1/linxcfg/tcpcm_utils.c
+END
+riocm_utils.c
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/321/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/examples/linx-2.4.1/linxcfg/riocm_utils.c
+END
+linxcfg.c
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/321/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/examples/linx-2.4.1/linxcfg/linxcfg.c
+END
+tcpcm_utils.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/321/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/examples/linx-2.4.1/linxcfg/tcpcm_utils.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/321/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/examples/linx-2.4.1/linxcfg/Makefile
+END
+rmlink.c
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/321/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/examples/linx-2.4.1/linxcfg/rmlink.c
+END
+riocm_utils.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/321/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/examples/linx-2.4.1/linxcfg/riocm_utils.h
+END
+linx_cfg_tcp.c
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/321/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/examples/linx-2.4.1/linxcfg/linx_cfg_tcp.c
+END
+linx_cfg_rio.c
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/321/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/examples/linx-2.4.1/linxcfg/linx_cfg_rio.c
+END
+mktcpcon.c
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/321/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/examples/linx-2.4.1/linxcfg/mktcpcon.c
+END
+rmethcon.c
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/321/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/examples/linx-2.4.1/linxcfg/rmethcon.c
+END
+mkshmcon.c
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/321/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/examples/linx-2.4.1/linxcfg/mkshmcon.c
+END

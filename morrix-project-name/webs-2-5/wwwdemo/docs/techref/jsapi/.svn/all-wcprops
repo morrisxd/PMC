@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/30/trunk/webs-2-5/wwwdemo/docs/techref/jsapi
+END
+ejSetGlobalFunction.htm
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/30/trunk/webs-2-5/wwwdemo/docs/techref/jsapi/ejSetGlobalFunction.htm
+END
+ejSetVar.htm
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/30/trunk/webs-2-5/wwwdemo/docs/techref/jsapi/ejSetVar.htm
+END
+ejClose.htm
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/30/trunk/webs-2-5/wwwdemo/docs/techref/jsapi/ejClose.htm
+END
+ejEval.htm
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/30/trunk/webs-2-5/wwwdemo/docs/techref/jsapi/ejEval.htm
+END
+ejOpenEngine.htm
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/30/trunk/webs-2-5/wwwdemo/docs/techref/jsapi/ejOpenEngine.htm
+END
+ejGetVar.htm
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/30/trunk/webs-2-5/wwwdemo/docs/techref/jsapi/ejGetVar.htm
+END
+ejSetResult.htm
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/30/trunk/webs-2-5/wwwdemo/docs/techref/jsapi/ejSetResult.htm
+END
+ejCloseEngine.htm
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/30/trunk/webs-2-5/wwwdemo/docs/techref/jsapi/ejCloseEngine.htm
+END
+ejArgs.htm
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/30/trunk/webs-2-5/wwwdemo/docs/techref/jsapi/ejArgs.htm
+END
+ejOpen.htm
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/30/trunk/webs-2-5/wwwdemo/docs/techref/jsapi/ejOpen.htm
+END

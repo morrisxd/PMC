@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/648/trunk/wintegra/boardbringup1206/tdi_aal0
+END
+make.list
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/648/trunk/wintegra/boardbringup1206/tdi_aal0/make.list
+END
+wt_util.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/648/trunk/wintegra/boardbringup1206/tdi_aal0/wt_util.c
+END
+stats.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/648/trunk/wintegra/boardbringup1206/tdi_aal0/stats.c
+END
+wt_new_automation.c
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/648/trunk/wintegra/boardbringup1206/tdi_aal0/wt_new_automation.c
+END
+tdi_aal0_comet.c
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/648/trunk/wintegra/boardbringup1206/tdi_aal0/tdi_aal0_comet.c
+END
+wt_debug_menu.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/648/trunk/wintegra/boardbringup1206/tdi_aal0/wt_debug_menu.c
+END

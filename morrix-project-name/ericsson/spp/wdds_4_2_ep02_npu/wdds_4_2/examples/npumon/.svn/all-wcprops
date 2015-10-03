@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/315/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/examples/npumon
+END
+npumon.c
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/315/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/examples/npumon/npumon.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/189/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/examples/npumon/Makefile
+END
+npumon.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/189/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/examples/npumon/npumon.h
+END
+spp_npu_link.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/315/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/examples/npumon/spp_npu_link.h
+END
+spp_wddi_common.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/315/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/examples/npumon/spp_wddi_common.h
+END

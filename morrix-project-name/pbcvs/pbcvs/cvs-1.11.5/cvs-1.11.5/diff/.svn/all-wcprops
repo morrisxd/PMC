@@ -1,0 +1,149 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/7/trunk/pbcvs/pbcvs/cvs-1.11.5/cvs-1.11.5/diff
+END
+ChangeLog
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/7/trunk/pbcvs/pbcvs/cvs-1.11.5/cvs-1.11.5/diff/ChangeLog
+END
+io.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/7/trunk/pbcvs/pbcvs/cvs-1.11.5/cvs-1.11.5/diff/io.c
+END
+diff.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/7/trunk/pbcvs/pbcvs/cvs-1.11.5/cvs-1.11.5/diff/diff.c
+END
+cmpbuf.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/7/trunk/pbcvs/pbcvs/cvs-1.11.5/cvs-1.11.5/diff/cmpbuf.c
+END
+diff.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/7/trunk/pbcvs/pbcvs/cvs-1.11.5/cvs-1.11.5/diff/diff.h
+END
+util.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/7/trunk/pbcvs/pbcvs/cvs-1.11.5/cvs-1.11.5/diff/util.c
+END
+ifdef.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/7/trunk/pbcvs/pbcvs/cvs-1.11.5/cvs-1.11.5/diff/ifdef.c
+END
+dir.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/7/trunk/pbcvs/pbcvs/cvs-1.11.5/cvs-1.11.5/diff/dir.c
+END
+cmpbuf.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/7/trunk/pbcvs/pbcvs/cvs-1.11.5/cvs-1.11.5/diff/cmpbuf.h
+END
+build_diff.com
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/7/trunk/pbcvs/pbcvs/cvs-1.11.5/cvs-1.11.5/diff/build_diff.com
+END
+context.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/7/trunk/pbcvs/pbcvs/cvs-1.11.5/cvs-1.11.5/diff/context.c
+END
+side.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/7/trunk/pbcvs/pbcvs/cvs-1.11.5/cvs-1.11.5/diff/side.c
+END
+version.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/7/trunk/pbcvs/pbcvs/cvs-1.11.5/cvs-1.11.5/diff/version.c
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/7/trunk/pbcvs/pbcvs/cvs-1.11.5/cvs-1.11.5/diff/Makefile.am
+END
+normal.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/7/trunk/pbcvs/pbcvs/cvs-1.11.5/cvs-1.11.5/diff/normal.c
+END
+ed.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/7/trunk/pbcvs/pbcvs/cvs-1.11.5/cvs-1.11.5/diff/ed.c
+END
+system.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/7/trunk/pbcvs/pbcvs/cvs-1.11.5/cvs-1.11.5/diff/system.h
+END
+diff3.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/7/trunk/pbcvs/pbcvs/cvs-1.11.5/cvs-1.11.5/diff/diff3.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/7/trunk/pbcvs/pbcvs/cvs-1.11.5/cvs-1.11.5/diff/Makefile
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/7/trunk/pbcvs/pbcvs/cvs-1.11.5/cvs-1.11.5/diff/Makefile.in
+END
+diagmeet.note
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/7/trunk/pbcvs/pbcvs/cvs-1.11.5/cvs-1.11.5/diff/diagmeet.note
+END
+diffrun.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/7/trunk/pbcvs/pbcvs/cvs-1.11.5/cvs-1.11.5/diff/diffrun.h
+END
+libdiff.dsp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/7/trunk/pbcvs/pbcvs/cvs-1.11.5/cvs-1.11.5/diff/libdiff.dsp
+END
+analyze.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/7/trunk/pbcvs/pbcvs/cvs-1.11.5/cvs-1.11.5/diff/analyze.c
+END

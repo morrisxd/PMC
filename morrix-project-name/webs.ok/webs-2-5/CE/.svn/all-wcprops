@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/CE
+END
+webs.dsp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/CE/webs.dsp
+END
+main.c
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/CE/main.c
+END
+wincompat.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/CE/wincompat.h
+END
+webs.vcp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/CE/webs.vcp
+END
+certSrv.pem
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/CE/certSrv.pem
+END
+webs.dsw
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/CE/webs.dsw
+END
+webs.vcw
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/CE/webs.vcw
+END
+wincompat.c
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/CE/wincompat.c
+END
+privkeySrv.pem
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/CE/privkeySrv.pem
+END
+build.bat
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/CE/build.bat
+END

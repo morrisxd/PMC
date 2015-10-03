@@ -1,0 +1,40 @@
+switch (state) {
+	case 1:
+		switch (event) {
+			case MAMA_CALL_U_BACK:
+				state = 7;
+				break;
+			case MAMA_BIT_U:
+				state =9;
+				break;
+			default:
+				state = 107;
+				say_yes ();
+				break;
+		}
+		break;
+	case 2:
+		switch (event) {
+			case PAPA_COME_BACK:
+				state = 99;
+				break;
+			case PAPA_GO_OUT:
+				state = 78;
+				break;
+			case PAPA_AWAKE:
+				state = 399;
+				break;
+			default:
+				state = 694;
+				break;
+		}
+	case 3:
+		switch (event) {
+			case GETTING_COLDER:
+				state = 899;
+				break;
+			case GETTING_WARMMER:
+				state = 1024;
+				break;
+		}
+}

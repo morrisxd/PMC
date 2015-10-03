@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/266/trunk/wintegra/branch/atm_ima_ufe_winmon_w
+END
+makefile
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/265/trunk/wintegra/branch/atm_ima_ufe_winmon_w/makefile
+END
+ufe_utility.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/265/trunk/wintegra/branch/atm_ima_ufe_winmon_w/ufe_utility.c
+END
+e
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/265/trunk/wintegra/branch/atm_ima_ufe_winmon_w/e
+END
+atm_ima_ufe_util.c
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/265/trunk/wintegra/branch/atm_ima_ufe_winmon_w/atm_ima_ufe_util.c
+END
+atm_ima_ufe_stats.c
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/265/trunk/wintegra/branch/atm_ima_ufe_winmon_w/atm_ima_ufe_stats.c
+END
+flexmux_util.c
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/265/trunk/wintegra/branch/atm_ima_ufe_winmon_w/flexmux_util.c
+END
+atm_ima_ufe.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/265/trunk/wintegra/branch/atm_ima_ufe_winmon_w/atm_ima_ufe.c
+END
+mk
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/265/trunk/wintegra/branch/atm_ima_ufe_winmon_w/mk
+END
+ufe_utility.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/265/trunk/wintegra/branch/atm_ima_ufe_winmon_w/ufe_utility.h
+END
+building.txt
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/265/trunk/wintegra/branch/atm_ima_ufe_winmon_w/building.txt
+END
+readme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/265/trunk/wintegra/branch/atm_ima_ufe_winmon_w/readme.txt
+END
+flexmux_util.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/265/trunk/wintegra/branch/atm_ima_ufe_winmon_w/flexmux_util.h
+END
+atm_ima_ufe.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/265/trunk/wintegra/branch/atm_ima_ufe_winmon_w/atm_ima_ufe.h
+END

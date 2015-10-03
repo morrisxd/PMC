@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 23
+/svn/!svn/ver/736/trunk
+END
+state_machine_algorithm.txt
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/683/trunk/state_machine_algorithm.txt
+END
+yacc.list
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/372/trunk/yacc.list
+END
+dummy.txt
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/10/trunk/dummy.txt
+END
+shsvr.size
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/487/trunk/shsvr.size
+END
+checkout-hosts
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/481/trunk/checkout-hosts
+END

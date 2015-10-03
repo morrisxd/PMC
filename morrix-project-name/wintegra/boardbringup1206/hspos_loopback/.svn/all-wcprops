@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/648/trunk/wintegra/boardbringup1206/hspos_loopback
+END
+wt_new_automation.c
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/648/trunk/wintegra/boardbringup1206/hspos_loopback/wt_new_automation.c
+END
+wt_debug_menu.c
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/648/trunk/wintegra/boardbringup1206/hspos_loopback/wt_debug_menu.c
+END
+hspos_loopback.c
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/648/trunk/wintegra/boardbringup1206/hspos_loopback/hspos_loopback.c
+END
+make.list
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/648/trunk/wintegra/boardbringup1206/hspos_loopback/make.list
+END
+wt_util.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/648/trunk/wintegra/boardbringup1206/hspos_loopback/wt_util.c
+END

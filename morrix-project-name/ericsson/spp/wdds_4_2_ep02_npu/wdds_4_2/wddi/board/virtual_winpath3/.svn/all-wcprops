@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/316/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/wddi/board/virtual_winpath3
+END
+wpx_ufe2_data.c
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/316/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/wddi/board/virtual_winpath3/wpx_ufe2_data.c
+END
+wpx_ufe3_data.c
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/316/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/wddi/board/virtual_winpath3/wpx_ufe3_data.c
+END
+wpx_enet_phy.c
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/316/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/wddi/board/virtual_winpath3/wpx_enet_phy.c
+END
+wpx_ufe2plus_data.c
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/316/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/wddi/board/virtual_winpath3/wpx_ufe2plus_data.c
+END
+wpx_app_data.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/316/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/wddi/board/virtual_winpath3/wpx_app_data.h
+END
+wpx_phy_data.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/316/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/wddi/board/virtual_winpath3/wpx_phy_data.h
+END
+wpx_board_functions.c
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/316/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/wddi/board/virtual_winpath3/wpx_board_functions.c
+END
+wpx_ufe2_data.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/316/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/wddi/board/virtual_winpath3/wpx_ufe2_data.h
+END
+wpx_ufe3_data.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/316/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/wddi/board/virtual_winpath3/wpx_ufe3_data.h
+END
+wpx_board_data.c
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/316/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/wddi/board/virtual_winpath3/wpx_board_data.c
+END
+wpx_ufe2plus_data.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/316/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/wddi/board/virtual_winpath3/wpx_ufe2plus_data.h
+END
+wpi_platform.c
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/316/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/wddi/board/virtual_winpath3/wpi_platform.c
+END
+wpx_board_data.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/316/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/wddi/board/virtual_winpath3/wpx_board_data.h
+END
+wpx_heap_config.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/316/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/wddi/board/virtual_winpath3/wpx_heap_config.h
+END

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/9/trunk/pbcvs/pbcvs_original/pbcvs/cvs-1.11.5/cvs-1.11.5/tools
+END
+ChangeLog
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/8/trunk/pbcvs/pbcvs_original/pbcvs/cvs-1.11.5/cvs-1.11.5/tools/ChangeLog
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/8/trunk/pbcvs/pbcvs_original/pbcvs/cvs-1.11.5/cvs-1.11.5/tools/Makefile.am
+END
+.cvsignore
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/8/trunk/pbcvs/pbcvs_original/pbcvs/cvs-1.11.5/cvs-1.11.5/tools/.cvsignore
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/8/trunk/pbcvs/pbcvs_original/pbcvs/cvs-1.11.5/cvs-1.11.5/tools/README
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/8/trunk/pbcvs/pbcvs_original/pbcvs/cvs-1.11.5/cvs-1.11.5/tools/Makefile
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/8/trunk/pbcvs/pbcvs_original/pbcvs/cvs-1.11.5/cvs-1.11.5/tools/Makefile.in
+END

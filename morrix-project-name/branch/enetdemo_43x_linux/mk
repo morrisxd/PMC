@@ -1,0 +1,3 @@
+ctags -R
+make TEST=EnetDemo &&  rsync -avz --progress bin/EnetDemo /tftpboot/enetdemo_43x_linux_ingress.exe &&  echo rsync bin/EnetDemo /tftpboot/enetdemo_43x_linux_ingress.exe
+

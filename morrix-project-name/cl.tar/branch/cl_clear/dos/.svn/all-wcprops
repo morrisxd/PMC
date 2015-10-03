@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/656/trunk/cl.tar/branch/cl_clear/dos
+END
+makefile.unx
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/656/trunk/cl.tar/branch/cl_clear/dos/makefile.unx
+END
+dos2unix.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/656/trunk/cl.tar/branch/cl_clear/dos/dos2unix.c
+END
+unix2dos.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/656/trunk/cl.tar/branch/cl_clear/dos/unix2dos.c
+END
+makefile
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/656/trunk/cl.tar/branch/cl_clear/dos/makefile
+END
+dos2unix.tar.gz
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/656/trunk/cl.tar/branch/cl_clear/dos/dos2unix.tar.gz
+END
+ux2dos
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/656/trunk/cl.tar/branch/cl_clear/dos/ux2dos
+END
+dos2ux
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/656/trunk/cl.tar/branch/cl_clear/dos/dos2ux
+END

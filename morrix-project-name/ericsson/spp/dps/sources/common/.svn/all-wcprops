@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/714/trunk/ericsson/spp/dps/sources/common
+END
+millisecond_timer.dpl
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/238/trunk/ericsson/spp/dps/sources/common/millisecond_timer.dpl
+END
+tgu_sgmii_an.dpl
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/238/trunk/ericsson/spp/dps/sources/common/tgu_sgmii_an.dpl
+END
+tgu_an_restart.h.old
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/591/trunk/ericsson/spp/dps/sources/common/tgu_an_restart.h.old
+END
+token_thread.dpl
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/238/trunk/ericsson/spp/dps/sources/common/token_thread.dpl
+END
+cfu_idle.dpl
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/238/trunk/ericsson/spp/dps/sources/common/cfu_idle.dpl
+END
+sw_time_stamp.dpl
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/238/trunk/ericsson/spp/dps/sources/common/sw_time_stamp.dpl
+END
+tgu_sgmii_an.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/238/trunk/ericsson/spp/dps/sources/common/tgu_sgmii_an.h
+END
+tgu_an_restart.dpl
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/714/trunk/ericsson/spp/dps/sources/common/tgu_an_restart.dpl
+END
+general_function.dpl
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/238/trunk/ericsson/spp/dps/sources/common/general_function.dpl
+END
+iw_buff_chain.dpl
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/238/trunk/ericsson/spp/dps/sources/common/iw_buff_chain.dpl
+END
+dps_features.dpl
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/238/trunk/ericsson/spp/dps/sources/common/dps_features.dpl
+END
+tgu_an_restart.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/262/trunk/ericsson/spp/dps/sources/common/tgu_an_restart.h
+END
+trs_propagated_params.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/238/trunk/ericsson/spp/dps/sources/common/trs_propagated_params.h
+END
+tgu_an_restart.dpl.old
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/591/trunk/ericsson/spp/dps/sources/common/tgu_an_restart.dpl.old
+END
+makefile
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/238/trunk/ericsson/spp/dps/sources/common/makefile
+END

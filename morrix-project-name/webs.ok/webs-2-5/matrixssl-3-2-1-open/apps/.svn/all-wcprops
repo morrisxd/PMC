@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/matrixssl-3-2-1-open/apps
+END
+client.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/matrixssl-3-2-1-open/apps/client.c
+END
+matrixsslclient.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/matrixssl-3-2-1-open/apps/matrixsslclient.vcxproj
+END
+http.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/matrixssl-3-2-1-open/apps/http.c
+END
+app.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/matrixssl-3-2-1-open/apps/app.h
+END
+server.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/matrixssl-3-2-1-open/apps/server.c
+END
+matrixsslserver.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/matrixssl-3-2-1-open/apps/matrixsslserver.vcxproj
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/matrixssl-3-2-1-open/apps/Makefile
+END

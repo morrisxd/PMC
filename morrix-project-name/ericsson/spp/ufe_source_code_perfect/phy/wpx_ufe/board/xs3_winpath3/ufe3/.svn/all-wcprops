@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/252/trunk/ericsson/spp/ufe_source_code_perfect/phy/wpx_ufe/board/xs3_winpath3/ufe3
+END
+wufei_board_support.h
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/252/trunk/ericsson/spp/ufe_source_code_perfect/phy/wpx_ufe/board/xs3_winpath3/ufe3/wufei_board_support.h
+END
+wufei_board_support_int.h
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/252/trunk/ericsson/spp/ufe_source_code_perfect/phy/wpx_ufe/board/xs3_winpath3/ufe3/wufei_board_support_int.h
+END
+wufei_board_support.c
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/252/trunk/ericsson/spp/ufe_source_code_perfect/phy/wpx_ufe/board/xs3_winpath3/ufe3/wufei_board_support.c
+END

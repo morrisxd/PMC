@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/697/trunk/ericsson/official_release/spp_npu
+END
+np_app.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/697/trunk/ericsson/official_release/spp_npu/np_app.c
+END
+wti_flexmux_util.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/697/trunk/ericsson/official_release/spp_npu/wti_flexmux_util.h
+END
+tags
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/697/trunk/ericsson/official_release/spp_npu/tags
+END
+xml_operation.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/697/trunk/ericsson/official_release/spp_npu/xml_operation.c
+END
+spp_wddi_common.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/697/trunk/ericsson/official_release/spp_npu/spp_wddi_common.h
+END
+wddi_log.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/697/trunk/ericsson/official_release/spp_npu/wddi_log.c
+END
+xs_ioctl.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/697/trunk/ericsson/official_release/spp_npu/xs_ioctl.h
+END
+np_common.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/697/trunk/ericsson/official_release/spp_npu/np_common.h
+END
+np_stats.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/697/trunk/ericsson/official_release/spp_npu/np_stats.c
+END
+wddi_log.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/697/trunk/ericsson/official_release/spp_npu/wddi_log.h
+END
+spp_wddi_server.c
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/697/trunk/ericsson/official_release/spp_npu/spp_wddi_server.c
+END
+np_stats.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/697/trunk/ericsson/official_release/spp_npu/np_stats.h
+END
+cscope.out
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/697/trunk/ericsson/official_release/spp_npu/cscope.out
+END
+np_ufe_fr.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/697/trunk/ericsson/official_release/spp_npu/np_ufe_fr.c
+END
+spp_wddi_server.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/697/trunk/ericsson/official_release/spp_npu/spp_wddi_server.h
+END
+tun_dev.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/697/trunk/ericsson/official_release/spp_npu/tun_dev.c
+END
+make.list
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/697/trunk/ericsson/official_release/spp_npu/make.list
+END
+npu_main.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/697/trunk/ericsson/official_release/spp_npu/npu_main.c
+END
+spp_npu_link.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/697/trunk/ericsson/official_release/spp_npu/spp_npu_link.h
+END
+wti_flexmux_util.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/697/trunk/ericsson/official_release/spp_npu/wti_flexmux_util.c
+END
+tun_dev.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/697/trunk/ericsson/official_release/spp_npu/tun_dev.h
+END

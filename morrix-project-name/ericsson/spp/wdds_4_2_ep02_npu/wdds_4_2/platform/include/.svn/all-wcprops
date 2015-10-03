@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/320/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/platform/include
+END
+wpl_os_enet.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/320/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/platform/include/wpl_os_enet.h
+END
+wpl_interrupts_interface.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/320/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/platform/include/wpl_interrupts_interface.h
+END
+wpl_wmm.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/320/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/platform/include/wpl_wmm.h
+END
+wpl_platform.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/320/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/platform/include/wpl_platform.h
+END
+wpl_winipc_interface.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/320/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/platform/include/wpl_winipc_interface.h
+END

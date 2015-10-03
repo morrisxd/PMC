@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/wwwdemo/docs/techref/basicapi
+END
+symOpen.htm
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/wwwdemo/docs/techref/basicapi/symOpen.htm
+END
+symDelete.htm
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/wwwdemo/docs/techref/basicapi/symDelete.htm
+END
+balloc.htm
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/wwwdemo/docs/techref/basicapi/balloc.htm
+END
+symClose.htm
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/wwwdemo/docs/techref/basicapi/symClose.htm
+END
+value_t.htm
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/wwwdemo/docs/techref/basicapi/value_t.htm
+END
+ringqPutStr.htm
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/wwwdemo/docs/techref/basicapi/ringqPutStr.htm
+END
+ringqPutBlk.htm
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/wwwdemo/docs/techref/basicapi/ringqPutBlk.htm
+END
+symLookup.htm
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/wwwdemo/docs/techref/basicapi/symLookup.htm
+END
+ringqOpen.htm
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/wwwdemo/docs/techref/basicapi/ringqOpen.htm
+END
+bopen.htm
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/wwwdemo/docs/techref/basicapi/bopen.htm
+END
+symEnter.htm
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/wwwdemo/docs/techref/basicapi/symEnter.htm
+END
+symNext.htm
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/wwwdemo/docs/techref/basicapi/symNext.htm
+END
+bclose.htm
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/wwwdemo/docs/techref/basicapi/bclose.htm
+END
+valueFree.htm
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/wwwdemo/docs/techref/basicapi/valueFree.htm
+END
+symFirst.htm
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/wwwdemo/docs/techref/basicapi/symFirst.htm
+END
+bfreeSafe.htm
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/wwwdemo/docs/techref/basicapi/bfreeSafe.htm
+END
+brealloc.htm
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/wwwdemo/docs/techref/basicapi/brealloc.htm
+END
+bfree.htm
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/wwwdemo/docs/techref/basicapi/bfree.htm
+END

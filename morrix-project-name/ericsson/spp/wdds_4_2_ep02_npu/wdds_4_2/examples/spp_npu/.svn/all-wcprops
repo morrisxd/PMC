@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/592/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/examples/spp_npu
+END
+xml_operation.c
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/348/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/examples/spp_npu/xml_operation.c
+END
+spp_wddi_common.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/348/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/examples/spp_npu/spp_wddi_common.h
+END
+wddi_log.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/315/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/examples/spp_npu/wddi_log.c
+END
+xs_ioctl.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/189/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/examples/spp_npu/xs_ioctl.h
+END
+readme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/592/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/examples/spp_npu/readme.txt
+END
+np_common.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/315/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/examples/spp_npu/np_common.h
+END
+np_stats.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/348/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/examples/spp_npu/np_stats.c
+END
+wddi_log.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/315/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/examples/spp_npu/wddi_log.h
+END
+spp_wddi_server.c
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/315/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/examples/spp_npu/spp_wddi_server.c
+END
+np_stats.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/348/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/examples/spp_npu/np_stats.h
+END
+np_ufe_fr.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/592/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/examples/spp_npu/np_ufe_fr.c
+END
+spp_wddi_server.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/348/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/examples/spp_npu/spp_wddi_server.h
+END
+tun_dev.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/315/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/examples/spp_npu/tun_dev.c
+END
+make.list
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/348/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/examples/spp_npu/make.list
+END
+npu_main.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/315/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/examples/spp_npu/npu_main.c
+END
+spp_npu_link.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/348/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/examples/spp_npu/spp_npu_link.h
+END
+wti_flexmux_util.c
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/315/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/examples/spp_npu/wti_flexmux_util.c
+END
+tun_dev.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/189/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/examples/spp_npu/tun_dev.h
+END
+tun_dev.c.chris
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/189/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/examples/spp_npu/tun_dev.c.chris
+END
+np_app.c
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/315/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/examples/spp_npu/np_app.c
+END
+wti_flexmux_util.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/315/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/examples/spp_npu/wti_flexmux_util.h
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/9/trunk/pbcvs/pbcvs_original/pbcvs/cvs-1.11.5/cvs-1.11.5/zlib/contrib/iostream
+END
+zfstream.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/8/trunk/pbcvs/pbcvs_original/pbcvs/cvs-1.11.5/cvs-1.11.5/zlib/contrib/iostream/zfstream.h
+END
+zfstream.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/8/trunk/pbcvs/pbcvs_original/pbcvs/cvs-1.11.5/cvs-1.11.5/zlib/contrib/iostream/zfstream.cpp
+END
+test.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/8/trunk/pbcvs/pbcvs_original/pbcvs/cvs-1.11.5/cvs-1.11.5/zlib/contrib/iostream/test.cpp
+END

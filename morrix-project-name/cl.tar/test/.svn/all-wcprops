@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/373/trunk/cl.tar/test
+END
+hello
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/373/trunk/cl.tar/test/hello
+END
+hello.c
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/373/trunk/cl.tar/test/hello.c
+END

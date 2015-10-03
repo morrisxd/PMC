@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/12/trunk/Heart/MASM6/MASM/SAMPLES/TSR
+END
+TSR.INC
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/12/trunk/Heart/MASM6/MASM/SAMPLES/TSR/TSR.INC
+END
+SNAP.ASM
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/12/trunk/Heart/MASM6/MASM/SAMPLES/TSR/SNAP.ASM
+END
+ALARM.MAK
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/12/trunk/Heart/MASM6/MASM/SAMPLES/TSR/ALARM.MAK
+END
+INSTALL.ASM
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/12/trunk/Heart/MASM6/MASM/SAMPLES/TSR/INSTALL.ASM
+END
+BELL.MAK
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/12/trunk/Heart/MASM6/MASM/SAMPLES/TSR/BELL.MAK
+END
+SNAP.MAK
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/12/trunk/Heart/MASM6/MASM/SAMPLES/TSR/SNAP.MAK
+END
+ALARM.ASM
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/12/trunk/Heart/MASM6/MASM/SAMPLES/TSR/ALARM.ASM
+END
+TSR.H
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/12/trunk/Heart/MASM6/MASM/SAMPLES/TSR/TSR.H
+END
+HANDLERS.ASM
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/12/trunk/Heart/MASM6/MASM/SAMPLES/TSR/HANDLERS.ASM
+END
+BELL.C
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/12/trunk/Heart/MASM6/MASM/SAMPLES/TSR/BELL.C
+END

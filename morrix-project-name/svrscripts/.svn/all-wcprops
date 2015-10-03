@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/736/trunk/svrscripts
+END
+proxy.sh
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/678/trunk/svrscripts/proxy.sh
+END
+c.sh
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/512/trunk/svrscripts/c.sh
+END
+t.sh
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/498/trunk/svrscripts/t.sh
+END
+make.winmon.backhaul
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/491/trunk/svrscripts/make.winmon.backhaul
+END
+s2.sh
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/509/trunk/svrscripts/s2.sh
+END
+u.sh
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/543/trunk/svrscripts/u.sh
+END
+rrr.sh
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/497/trunk/svrscripts/rrr.sh
+END
+make.winmon.both
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/736/trunk/svrscripts/make.winmon.both
+END
+make.linux.winarrow
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/734/trunk/svrscripts/make.linux.winarrow
+END
+make.linux.backhaul
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/736/trunk/svrscripts/make.linux.backhaul
+END
+sync_with_Israel_server.sh
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/735/trunk/svrscripts/sync_with_Israel_server.sh
+END
+make.linux.ufe.old
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/543/trunk/svrscripts/make.linux.ufe.old
+END
+make.linux.ufe
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/497/trunk/svrscripts/make.linux.ufe
+END

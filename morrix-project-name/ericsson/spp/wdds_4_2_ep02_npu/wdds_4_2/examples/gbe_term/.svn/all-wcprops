@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/321/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/examples/gbe_term
+END
+gbe_term.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/321/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/examples/gbe_term/gbe_term.c
+END
+make.list
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/321/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/examples/gbe_term/make.list
+END
+wt_util.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/321/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/examples/gbe_term/wt_util.c
+END

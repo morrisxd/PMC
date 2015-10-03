@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/30/trunk/webs-2-5/wwwdemo/docs/techref/dbapi
+END
+dbRegisterDBSchema.htm
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/30/trunk/webs-2-5/wwwdemo/docs/techref/dbapi/dbRegisterDBSchema.htm
+END
+dbZero.htm
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/30/trunk/webs-2-5/wwwdemo/docs/techref/dbapi/dbZero.htm
+END
+dbLoad.htm
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/30/trunk/webs-2-5/wwwdemo/docs/techref/dbapi/dbLoad.htm
+END
+dbAddRow.htm
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/30/trunk/webs-2-5/wwwdemo/docs/techref/dbapi/dbAddRow.htm
+END
+dbWriteStr.htm
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/30/trunk/webs-2-5/wwwdemo/docs/techref/dbapi/dbWriteStr.htm
+END
+dbReadInt.htm
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/30/trunk/webs-2-5/wwwdemo/docs/techref/dbapi/dbReadInt.htm
+END
+dbGetTableName.htm
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/30/trunk/webs-2-5/wwwdemo/docs/techref/dbapi/dbGetTableName.htm
+END
+dbDeleteRow.htm
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/30/trunk/webs-2-5/wwwdemo/docs/techref/dbapi/dbDeleteRow.htm
+END
+dbGetTableNrow.htm
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/30/trunk/webs-2-5/wwwdemo/docs/techref/dbapi/dbGetTableNrow.htm
+END
+dbSave.htm
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/30/trunk/webs-2-5/wwwdemo/docs/techref/dbapi/dbSave.htm
+END
+dbSearchStr.htm
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/30/trunk/webs-2-5/wwwdemo/docs/techref/dbapi/dbSearchStr.htm
+END
+dbOpen.htm
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/30/trunk/webs-2-5/wwwdemo/docs/techref/dbapi/dbOpen.htm
+END
+dbGetTableId.htm
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/30/trunk/webs-2-5/wwwdemo/docs/techref/dbapi/dbGetTableId.htm
+END
+dbReadStr.htm
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/30/trunk/webs-2-5/wwwdemo/docs/techref/dbapi/dbReadStr.htm
+END
+dbWriteInt.htm
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/30/trunk/webs-2-5/wwwdemo/docs/techref/dbapi/dbWriteInt.htm
+END
+dbClose.htm
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/30/trunk/webs-2-5/wwwdemo/docs/techref/dbapi/dbClose.htm
+END
+dbSetTableNrow.htm
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/30/trunk/webs-2-5/wwwdemo/docs/techref/dbapi/dbSetTableNrow.htm
+END

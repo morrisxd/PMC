@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/matrixssl-3-2-1-open/crypto/digest
+END
+digest.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/matrixssl-3-2-1-open/crypto/digest/digest.h
+END
+md5.c
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/matrixssl-3-2-1-open/crypto/digest/md5.c
+END
+hmac.c
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/matrixssl-3-2-1-open/crypto/digest/hmac.c
+END
+sha1.c
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/matrixssl-3-2-1-open/crypto/digest/sha1.c
+END

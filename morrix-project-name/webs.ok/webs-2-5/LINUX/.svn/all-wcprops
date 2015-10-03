@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/LINUX
+END
+certSrv.pem
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/LINUX/certSrv.pem
+END
+Makefile.bak
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/LINUX/Makefile.bak
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/LINUX/Makefile
+END
+webs
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/LINUX/webs
+END
+main.c.bak
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/LINUX/main.c.bak
+END
+privkeySrv.pem
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/LINUX/privkeySrv.pem
+END
+main.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/LINUX/main.c
+END

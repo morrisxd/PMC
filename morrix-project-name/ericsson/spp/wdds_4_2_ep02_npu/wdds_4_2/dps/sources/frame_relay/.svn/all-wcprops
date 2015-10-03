@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/189/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/dps/sources/frame_relay
+END
+fr_rx.dpl
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/189/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/dps/sources/frame_relay/fr_rx.dpl
+END
+fr_rx_func.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/189/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/dps/sources/frame_relay/fr_rx_func.h
+END
+frame_relay.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/189/trunk/ericsson/spp/wdds_4_2_ep02_npu/wdds_4_2/dps/sources/frame_relay/frame_relay.h
+END

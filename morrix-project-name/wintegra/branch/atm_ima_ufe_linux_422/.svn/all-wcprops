@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/729/trunk/wintegra/branch/atm_ima_ufe_linux_422
+END
+wyd_util.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/396/trunk/wintegra/branch/atm_ima_ufe_linux_422/wyd_util.c
+END
+ufe_utility.c
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/396/trunk/wintegra/branch/atm_ima_ufe_linux_422/ufe_utility.c
+END
+atm_ima_ufe_util.c
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/396/trunk/wintegra/branch/atm_ima_ufe_linux_422/atm_ima_ufe_util.c
+END
+e
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/729/trunk/wintegra/branch/atm_ima_ufe_linux_422/e
+END
+atm_ima_ufe.c
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/396/trunk/wintegra/branch/atm_ima_ufe_linux_422/atm_ima_ufe.c
+END
+ufe_utility.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/396/trunk/wintegra/branch/atm_ima_ufe_linux_422/ufe_utility.h
+END
+atm_ima_ufe.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/339/trunk/wintegra/branch/atm_ima_ufe_linux_422/atm_ima_ufe.h
+END
+atm_ima_ufe_stats.c
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/396/trunk/wintegra/branch/atm_ima_ufe_linux_422/atm_ima_ufe_stats.c
+END
+flexmux_util.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/396/trunk/wintegra/branch/atm_ima_ufe_linux_422/flexmux_util.c
+END
+mk
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/729/trunk/wintegra/branch/atm_ima_ufe_linux_422/mk
+END
+ATM_IMA_UFE.doc
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/335/trunk/wintegra/branch/atm_ima_ufe_linux_422/ATM_IMA_UFE.doc
+END
+flexmux_util.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/396/trunk/wintegra/branch/atm_ima_ufe_linux_422/flexmux_util.h
+END
+readme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/335/trunk/wintegra/branch/atm_ima_ufe_linux_422/readme.txt
+END
+t.sh
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/345/trunk/wintegra/branch/atm_ima_ufe_linux_422/t.sh
+END
+makefile
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/336/trunk/wintegra/branch/atm_ima_ufe_linux_422/makefile
+END

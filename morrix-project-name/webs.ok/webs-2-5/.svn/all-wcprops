@@ -1,0 +1,269 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5
+END
+wsIntrn.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/wsIntrn.h
+END
+websda.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/websda.h
+END
+value.c
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/value.c
+END
+handler.c
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/handler.c
+END
+emfdb.c
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/emfdb.c
+END
+ejIntrn.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/ejIntrn.h
+END
+ringq.c
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/ringq.c
+END
+emfdb.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/emfdb.h
+END
+asp.c
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/asp.c
+END
+default.c
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/default.c
+END
+mime.c
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/mime.c
+END
+h.c
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/h.c
+END
+md5c.c
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/md5c.c
+END
+sockGen.c
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/sockGen.c
+END
+ejparse.c
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/ejparse.c
+END
+readme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/readme.txt
+END
+misc.c
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/misc.c
+END
+uemf.c
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/uemf.c
+END
+rom.c
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/rom.c
+END
+sock.c
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/sock.c
+END
+uemf.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/uemf.h
+END
+form.c
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/form.c
+END
+ej.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/ej.h
+END
+security.c
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/security.c
+END
+ejlex.c
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/ejlex.c
+END
+sym.c
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/sym.c
+END
+page.c
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/page.c
+END
+websuemf.c
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/websuemf.c
+END
+umui.c
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/umui.c
+END
+um.c
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/um.c
+END
+websSSL.c
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/websSSL.c
+END
+um.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/um.h
+END
+websSSL.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/websSSL.h
+END
+md5.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/md5.h
+END
+webrom.c
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/webrom.c
+END
+balloc.c
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/balloc.c
+END
+matrixSSLSocket.c
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/matrixSSLSocket.c
+END
+webs.c
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/webs.c
+END
+mime64.c
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/mime64.c
+END
+url.c
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/url.c
+END
+cgi.c
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/cgi.c
+END
+matrixSSLSocket.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/matrixSSLSocket.h
+END
+webs.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/webs.h
+END
+websda.c
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/61/trunk/webs.ok/webs-2-5/websda.c
+END
