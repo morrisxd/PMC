@@ -18,7 +18,7 @@ Jutta Degener, 1995
    - something wrong if typedef (func)(para list)
      if only i see (func_name), i take 'func_name' as function type definitioin. because i think it must be "typedef (*fname)(int i, float f); but it was a mistake. i should fix it.
  */
-
+// add another line of comments
 %{
 #include "globals.h"
 #include "symtab.h"
