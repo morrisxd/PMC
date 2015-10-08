@@ -186,7 +186,8 @@ typedef
 
 
  #line 169 "/usr/share/bison++/bison.h"
-#define	DIGIT	258
+#define	NUMBER	258
+#define	UMINUS	259
 
 
 #line 169 "/usr/share/bison++/bison.h"
@@ -235,7 +236,8 @@ public:
   /* static const int token ... */
   
  #line 212 "/usr/share/bison++/bison.h"
-static const int DIGIT;
+static const int NUMBER;
+static const int UMINUS;
 
 
 #line 212 "/usr/share/bison++/bison.h"
@@ -244,7 +246,8 @@ static const int DIGIT;
   enum YY_parse_ENUM_TOKEN { YY_parse_NULL_TOKEN=0
   
  #line 215 "/usr/share/bison++/bison.h"
-	,DIGIT=258
+	,NUMBER=258
+	,UMINUS=259
 
 
 #line 215 "/usr/share/bison++/bison.h"

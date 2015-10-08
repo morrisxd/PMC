@@ -9,6 +9,9 @@
 # Standard YACC will do. And make program will execute mv -f y.tab.c 
 # filename.c
 # YACC   = bison
+# YACC=byacc
+YACC=bison -y
+LEX=flex
 YFLAGS = -d -v
 OBJS = cl-standard.o c-standard.o # symtab.o
 cl:	$(OBJS)

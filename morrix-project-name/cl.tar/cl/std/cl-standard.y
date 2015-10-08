@@ -274,6 +274,9 @@ declarator
 	| direct_declarator
 	;
 
+/*
+ * typedef struct age{ int i; } age;
+ */
 direct_declarator
 	: IDENTIFIER
 	| '(' declarator ')'
