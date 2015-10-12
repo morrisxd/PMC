@@ -7,7 +7,8 @@ Jutta Degener, 1995
 
 
 
-
+newline     \n
+preprocess  #.*\n
 D			[0-9]
 L			[a-zA-Z_]
 H			[a-fA-F0-9]
@@ -18,6 +19,9 @@ IS			(u|U|l|L)*
 %{
 #include <stdio.h>
 #include "y.tab.h"
+#include "symtab.h"
+
+int lineno = 1;
 extern char id[128];
 extern int dump;
 extern int i_typedef;
@@ -33,6 +37,7 @@ int set_strc_union()
 %}
 
 %%
+{newline}       { printf("lineno(%d)", lineno); lineno++; count(); }
 "/*"			{ comment(); }
 "stdio.h"       { count(); return (FILENAME); }
 "#include"      { header(); }
@@ -140,13 +145,6 @@ yywrap()
 	return(1);
 }
 
-incl()
-{
-    char c;
-
-    while ((c = input()) != '\n')
-        putchar (c);
-}
 
 header()
 {
@@ -154,7 +152,11 @@ header()
     printf ("%s", yytext);
     while ((c = input()) != '\n' && c != 0)
         putchar(c);
-    if (c = '\n'); putchar (c);
+    if (c == '\n') {
+        putchar (c);
+        lineno ++;
+        printf ("linenoh(%d)", lineno);
+    }
 }
 
 
@@ -162,19 +164,23 @@ comment()
 {
 	char c, c1;
 
-    puts(yytext);
+    printf("%s", yytext);
 loop:
 	while ((c = input()) != '*' && c != 0)
+    {
 		putchar(c);
+        if (c == '\n') {
+            lineno++;
+            printf ("linenoc(%d)", lineno); 
+        }
+    }
+    if (c == '*') putchar (c);
 
 	if ((c1 = input()) != '/' && c != 0)
 	{
 		unput(c1);
 		goto loop;
 	}
-    if (c == '*' && c1 == '/') {
-        putchar (c); 
-    }
 
 	if (c != 0)
 		putchar(c1);
@@ -213,7 +219,15 @@ int check_type()
 /*
 *	it actually will only return IDENTIFIER
 */
+    BucketList p;
+
     sprintf (id, "%s", yytext);
+
+    if (p = st_lookup_typedef(id))
+    {
+        return (TYPE_NAME);
+    }
+
     if (dump) {
         // printf ("[%s]", yytext);
         dump = 0;

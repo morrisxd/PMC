@@ -4,6 +4,12 @@
 this is a comment sample
 */
 
+struct student_info {
+    char name[128];
+    int age;
+    int score;
+    struct student_info *p;
+};
 
 typedef struct student {
     int age;
@@ -18,6 +24,8 @@ int main (int argc, char ** argv)
     int ii = 0;
     const int iii;
     int kk;
+    myint iiii;
+    student sss;
 
 	struct clock {
 		int i;

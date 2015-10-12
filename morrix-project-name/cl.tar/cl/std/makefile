@@ -13,7 +13,7 @@
 YACC=bison -y
 LEX=flex
 YFLAGS = -d -v
-OBJS = cl-standard.o c-standard.o # symtab.o
+OBJS = cl-standard.o c-standard.o symtab.o
 cl:	$(OBJS)
 	cc $(OBJS) -ll -o cl
 clean:

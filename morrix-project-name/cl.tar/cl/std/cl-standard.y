@@ -7,6 +7,8 @@ Jutta Degener, 1995
 %{
 #define YYDEBUG 1
 extern int yydebug;
+extern int lineno;
+extern int column;
 
 char id[128];
 int i_typedef = 0;
@@ -197,6 +199,7 @@ declaration
 	| declaration_specifiers init_declarator_list ';' { \
         if (i_typedef) {
             printf ("[[%s]]", id); i_typedef=0;
+            st_insert_typedef (id, lineno, column);
         }
     }
 	;
@@ -474,11 +477,14 @@ yyerror(s)
 char *s;
 {
 	fflush(stdout);
-	printf("\n%*s\n%*s\n", column, "^", column, s);
+	printf("\nline(%d)%*s\n%*s\n", lineno, column, "^", column, s);
 }
 
 main ()
 {
     yydebug = 0;
     yyparse();
+    print_st();
+    release_table();
+    release_typedef_table();
 }
