@@ -38,7 +38,8 @@ int settypedef(void)
 
 %%
 "/*"			{ comment(); }
-
+"stdio.h"       { count(); return (FILENAME); }
+"#include"      { header(); }
 "auto"			{ count(); return(AUTO); }
 "break"			{ count(); return(BREAK); }
 "case"			{ count(); return(CASE); }
@@ -63,10 +64,10 @@ int settypedef(void)
 "signed"		{ count(); return(SIGNED); }
 "sizeof"		{ count(); return(SIZEOF); }
 "static"		{ count(); return(STATIC); }
-"struct"		{ count(); set_strc_union(); return(STRUCT); }
+"struct"		{ count(); return(STRUCT); }
 "switch"		{ count(); return(SWITCH); }
 "typedef"		{ count(); settypedef(); return(TYPEDEF); }
-"union"			{ count(); set_strc_union(); return(UNION); }
+"union"			{ count(); return(UNION); }
 "unsigned"		{ count(); return(UNSIGNED); }
 "void"			{ count(); return(VOID); }
 "volatile"		{ count(); return(VOLATILE); }
@@ -132,6 +133,7 @@ L?\"(\\.|[^\\"])*\"	{ count(); return(STRING_LITERAL); }
 "|"			{ count(); return('|'); }
 "?"			{ count(); return('?'); }
 
+
 [ \t\v\n\f]		{ count(); }
 .			{ /* ignore bad characters */ }
 
@@ -142,11 +144,29 @@ yywrap()
 	return(1);
 }
 
+incl()
+{
+    char c;
+
+    while ((c = input()) != '\n')
+        putchar (c);
+}
+
+header()
+{
+    char c;
+    printf ("%s", yytext);
+    while ((c = input()) != '\n' && c != 0)
+        putchar(c);
+    if (c = '\n'); putchar (c);
+}
+
 
 comment()
 {
 	char c, c1;
 
+    puts(yytext);
 loop:
 	while ((c = input()) != '*' && c != 0)
 		putchar(c);
@@ -156,6 +176,9 @@ loop:
 		unput(c1);
 		goto loop;
 	}
+    if (c == '*' && c1 == '/') {
+        putchar (c); 
+    }
 
 	if (c != 0)
 		putchar(c1);
@@ -179,7 +202,7 @@ void count()
 	ECHO;
 }
 
-
+extern char id[128];
 int check_type()
 {
 /*
@@ -195,13 +218,15 @@ int check_type()
 *	it actually will only return IDENTIFIER
 */
 
+    memset(id, 0, 128);
+    sprintf(id, "%s", &yytext[0]);
 	if (i_typedef)
 	{
 		i_typedef = 0;
-		printf ("[TTT]");
-		return TYPE_NAME;
+		// printf ("[TTT]");
+		// return TYPE_NAME;
 	}
-
+    printf ("<s(%d)>", i_struct_or_union);
 	return(IDENTIFIER);
 }
 

@@ -27,18 +27,33 @@ expr    : expr '+' expr     { $$ = $1 + $3; printf ("%g\n", $$);}
         ;
 %%
 
-yylex () {
-    int c;
-    while ((c = getchar ()) == ' ');
-    if ((c == '.') || (isdigit(c))) {
-        ungetc(c, stdin);
-        scanf("%lf", &yylval);
-        return NUMBER;
+yylex ()
+{
+  int c;
+
+  /* skip white space  */
+  while ((c = getchar ()) == ' ' || c == '\t')  
+    ;
+  /* process numbers   */
+  if (c == '.' || isdigit (c))                
+    {
+      ungetc (c, stdin);
+      scanf ("%lf", &yylval);
+      return NUMBER;
     }
-    return c;
+  /* return end-of-file  */
+  if (c == EOF)                            
+    return 0;
+  /* return single chars */
+  return c;                                
 }
+
+main()
+{
+    yyparse();
+}
+
 
 yyerror () {
     ;
 }
-

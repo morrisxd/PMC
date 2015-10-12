@@ -186,64 +186,67 @@ typedef
 
 
  #line 169 "/usr/share/bison++/bison.h"
-#define	IDENTIFIER	258
-#define	CONSTANT	259
-#define	STRING_LITERAL	260
-#define	SIZEOF	261
-#define	PTR_OP	262
-#define	INC_OP	263
-#define	DEC_OP	264
-#define	LEFT_OP	265
-#define	RIGHT_OP	266
-#define	LE_OP	267
-#define	GE_OP	268
-#define	EQ_OP	269
-#define	NE_OP	270
-#define	AND_OP	271
-#define	OR_OP	272
-#define	MUL_ASSIGN	273
-#define	DIV_ASSIGN	274
-#define	MOD_ASSIGN	275
-#define	ADD_ASSIGN	276
-#define	SUB_ASSIGN	277
-#define	LEFT_ASSIGN	278
-#define	RIGHT_ASSIGN	279
-#define	AND_ASSIGN	280
-#define	XOR_ASSIGN	281
-#define	OR_ASSIGN	282
-#define	TYPE_NAME	283
-#define	TYPEDEF	284
-#define	EXTERN	285
-#define	STATIC	286
-#define	AUTO	287
-#define	REGISTER	288
-#define	CHAR	289
-#define	SHORT	290
-#define	INT	291
-#define	LONG	292
-#define	SIGNED	293
-#define	UNSIGNED	294
-#define	FLOAT	295
-#define	DOUBLE	296
-#define	CONST	297
-#define	VOLATILE	298
-#define	VOID	299
-#define	STRUCT	300
-#define	UNION	301
-#define	ENUM	302
-#define	ELLIPSIS	303
-#define	CASE	304
-#define	DEFAULT	305
-#define	IF	306
-#define	ELSE	307
-#define	SWITCH	308
-#define	WHILE	309
-#define	DO	310
-#define	FOR	311
-#define	GOTO	312
-#define	CONTINUE	313
-#define	BREAK	314
-#define	RETURN	315
+#define	INCLUDE_FLAG	258
+#define	LINE	259
+#define	FILENAME	260
+#define	IDENTIFIER	261
+#define	CONSTANT	262
+#define	STRING_LITERAL	263
+#define	SIZEOF	264
+#define	PTR_OP	265
+#define	INC_OP	266
+#define	DEC_OP	267
+#define	LEFT_OP	268
+#define	RIGHT_OP	269
+#define	LE_OP	270
+#define	GE_OP	271
+#define	EQ_OP	272
+#define	NE_OP	273
+#define	AND_OP	274
+#define	OR_OP	275
+#define	MUL_ASSIGN	276
+#define	DIV_ASSIGN	277
+#define	MOD_ASSIGN	278
+#define	ADD_ASSIGN	279
+#define	SUB_ASSIGN	280
+#define	LEFT_ASSIGN	281
+#define	RIGHT_ASSIGN	282
+#define	AND_ASSIGN	283
+#define	XOR_ASSIGN	284
+#define	OR_ASSIGN	285
+#define	TYPE_NAME	286
+#define	TYPEDEF	287
+#define	EXTERN	288
+#define	STATIC	289
+#define	AUTO	290
+#define	REGISTER	291
+#define	CHAR	292
+#define	SHORT	293
+#define	INT	294
+#define	LONG	295
+#define	SIGNED	296
+#define	UNSIGNED	297
+#define	FLOAT	298
+#define	DOUBLE	299
+#define	CONST	300
+#define	VOLATILE	301
+#define	VOID	302
+#define	STRUCT	303
+#define	UNION	304
+#define	ENUM	305
+#define	ELLIPSIS	306
+#define	CASE	307
+#define	DEFAULT	308
+#define	IF	309
+#define	ELSE	310
+#define	SWITCH	311
+#define	WHILE	312
+#define	DO	313
+#define	FOR	314
+#define	GOTO	315
+#define	CONTINUE	316
+#define	BREAK	317
+#define	RETURN	318
 
 
 #line 169 "/usr/share/bison++/bison.h"
@@ -292,6 +295,9 @@ public:
   /* static const int token ... */
   
  #line 212 "/usr/share/bison++/bison.h"
+static const int INCLUDE_FLAG;
+static const int LINE;
+static const int FILENAME;
 static const int IDENTIFIER;
 static const int CONSTANT;
 static const int STRING_LITERAL;
@@ -358,64 +364,67 @@ static const int RETURN;
   enum YY_parse_ENUM_TOKEN { YY_parse_NULL_TOKEN=0
   
  #line 215 "/usr/share/bison++/bison.h"
-	,IDENTIFIER=258
-	,CONSTANT=259
-	,STRING_LITERAL=260
-	,SIZEOF=261
-	,PTR_OP=262
-	,INC_OP=263
-	,DEC_OP=264
-	,LEFT_OP=265
-	,RIGHT_OP=266
-	,LE_OP=267
-	,GE_OP=268
-	,EQ_OP=269
-	,NE_OP=270
-	,AND_OP=271
-	,OR_OP=272
-	,MUL_ASSIGN=273
-	,DIV_ASSIGN=274
-	,MOD_ASSIGN=275
-	,ADD_ASSIGN=276
-	,SUB_ASSIGN=277
-	,LEFT_ASSIGN=278
-	,RIGHT_ASSIGN=279
-	,AND_ASSIGN=280
-	,XOR_ASSIGN=281
-	,OR_ASSIGN=282
-	,TYPE_NAME=283
-	,TYPEDEF=284
-	,EXTERN=285
-	,STATIC=286
-	,AUTO=287
-	,REGISTER=288
-	,CHAR=289
-	,SHORT=290
-	,INT=291
-	,LONG=292
-	,SIGNED=293
-	,UNSIGNED=294
-	,FLOAT=295
-	,DOUBLE=296
-	,CONST=297
-	,VOLATILE=298
-	,VOID=299
-	,STRUCT=300
-	,UNION=301
-	,ENUM=302
-	,ELLIPSIS=303
-	,CASE=304
-	,DEFAULT=305
-	,IF=306
-	,ELSE=307
-	,SWITCH=308
-	,WHILE=309
-	,DO=310
-	,FOR=311
-	,GOTO=312
-	,CONTINUE=313
-	,BREAK=314
-	,RETURN=315
+	,INCLUDE_FLAG=258
+	,LINE=259
+	,FILENAME=260
+	,IDENTIFIER=261
+	,CONSTANT=262
+	,STRING_LITERAL=263
+	,SIZEOF=264
+	,PTR_OP=265
+	,INC_OP=266
+	,DEC_OP=267
+	,LEFT_OP=268
+	,RIGHT_OP=269
+	,LE_OP=270
+	,GE_OP=271
+	,EQ_OP=272
+	,NE_OP=273
+	,AND_OP=274
+	,OR_OP=275
+	,MUL_ASSIGN=276
+	,DIV_ASSIGN=277
+	,MOD_ASSIGN=278
+	,ADD_ASSIGN=279
+	,SUB_ASSIGN=280
+	,LEFT_ASSIGN=281
+	,RIGHT_ASSIGN=282
+	,AND_ASSIGN=283
+	,XOR_ASSIGN=284
+	,OR_ASSIGN=285
+	,TYPE_NAME=286
+	,TYPEDEF=287
+	,EXTERN=288
+	,STATIC=289
+	,AUTO=290
+	,REGISTER=291
+	,CHAR=292
+	,SHORT=293
+	,INT=294
+	,LONG=295
+	,SIGNED=296
+	,UNSIGNED=297
+	,FLOAT=298
+	,DOUBLE=299
+	,CONST=300
+	,VOLATILE=301
+	,VOID=302
+	,STRUCT=303
+	,UNION=304
+	,ENUM=305
+	,ELLIPSIS=306
+	,CASE=307
+	,DEFAULT=308
+	,IF=309
+	,ELSE=310
+	,SWITCH=311
+	,WHILE=312
+	,DO=313
+	,FOR=314
+	,GOTO=315
+	,CONTINUE=316
+	,BREAK=317
+	,RETURN=318
 
 
 #line 215 "/usr/share/bison++/bison.h"

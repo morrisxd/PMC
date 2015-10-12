@@ -5,12 +5,23 @@ Jutta Degener, 1995
 */
 
 %{
-
+char id[128];
+extern char yytext[];
 int i_typedef = 0;
 int i_struct_or_union = 0;
 
+void set_in_stru ()
+{
+    i_struct_or_union = 1;
+}
+void clr_in_stru ()
+{
+    i_struct_or_union = 0;
+}
+
 %}
 
+%token INCLUDE_FLAG LINE FILENAME
 %token IDENTIFIER CONSTANT STRING_LITERAL SIZEOF
 %token PTR_OP INC_OP DEC_OP LEFT_OP RIGHT_OP LE_OP GE_OP EQ_OP NE_OP
 %token AND_OP OR_OP MUL_ASSIGN DIV_ASSIGN MOD_ASSIGN ADD_ASSIGN
@@ -32,6 +43,13 @@ primary_expression
 	| STRING_LITERAL
 	| '(' expression ')'
 	;
+
+preprocessor_include_header_file
+    : INCLUDE_FLAG
+    ;
+
+
+
 
 postfix_expression
 	: primary_expression
@@ -183,8 +201,8 @@ init_declarator_list
 	;
 
 init_declarator
-	: declarator
-	| declarator '=' initializer
+	: declarator {printf ("(D1)"); }
+	| declarator {printf ("(D2)"); } '=' initializer
 	;
 
 storage_class_specifier
@@ -211,14 +229,14 @@ type_specifier
 	;
 
 struct_or_union_specifier
-	: struct_or_union IDENTIFIER '{' struct_declaration_list '}'
-	| struct_or_union '{' struct_declaration_list '}'
-	| struct_or_union IDENTIFIER
+	: struct_or_union  IDENTIFIER '{' struct_declaration_list '}' { clr_in_stru(); }
+	| struct_or_union '{' struct_declaration_list '}' { clr_in_stru(); }
+	| struct_or_union IDENTIFIER { clr_in_stru(); }
 	;
 
 struct_or_union
-	: STRUCT
-	| UNION
+	: STRUCT { set_in_stru(); }
+	| UNION { set_in_stru(); }
 	;
 
 struct_declaration_list
@@ -416,6 +434,8 @@ jump_statement
 translation_unit
 	: external_declaration
 	| translation_unit external_declaration
+    | preprocessor_include_header_file
+    | translation_unit preprocessor_include_header_file
 	;
 
 external_declaration
@@ -443,3 +463,7 @@ char *s;
 	printf("\n%*s\n%*s\n", column, "^", column, s);
 }
 
+main ()
+{
+    yyparse();
+}

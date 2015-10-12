@@ -8,8 +8,8 @@
 # We cannot use 'bison' because bison would not generate y.tab.c file. 
 # Standard YACC will do. And make program will execute mv -f y.tab.c 
 # filename.c
-# YACC   = bison
-YFLAGS = -d -v
+YACC   = bison
+YFLAGS = -d -v -y
 OBJS = expr.o
 expr:	$(OBJS)
 	cc $(OBJS) -ll -o expr

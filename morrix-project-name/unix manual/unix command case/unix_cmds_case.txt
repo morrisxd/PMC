@@ -340,3 +340,6 @@ ssh -C -g -D 2000 ran1sw08
 [43] last command parameter
 echo !$
 
+[44] 
+$sudo cp MONACO_Linux.ttf /usr/share/fonts/truetype/  
+$sudo fc-cache -f -v  
