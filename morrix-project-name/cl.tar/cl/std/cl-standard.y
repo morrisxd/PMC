@@ -5,18 +5,29 @@ Jutta Degener, 1995
 */
 
 %{
+#define YYDEBUG 1
+extern int yydebug;
+
 char id[128];
-extern char yytext[];
 int i_typedef = 0;
 int i_struct_or_union = 0;
+int dump = 0;
+
+int settypedef(void)
+{
+	i_typedef = 1;
+	return i_typedef;
+}
 
 void set_in_stru ()
 {
+    yydebug = 1;
     i_struct_or_union = 1;
 }
 void clr_in_stru ()
 {
     i_struct_or_union = 0;
+    yydebug = 0;
 }
 
 %}
@@ -183,7 +194,11 @@ constant_expression
 
 declaration
 	: declaration_specifiers ';'
-	| declaration_specifiers init_declarator_list ';'
+	| declaration_specifiers init_declarator_list ';' { \
+        if (i_typedef) {
+            printf ("[[%s]]", id); i_typedef=0;
+        }
+    }
 	;
 
 declaration_specifiers
@@ -201,12 +216,12 @@ init_declarator_list
 	;
 
 init_declarator
-	: declarator {printf ("(D1)"); }
-	| declarator {printf ("(D2)"); } '=' initializer
+	: declarator { printf ("(D1:%s:%d)", id,i_typedef); }
+	| declarator { printf ("(D2)"); } '=' initializer
 	;
 
 storage_class_specifier
-	: TYPEDEF
+	: TYPEDEF { settypedef(); }
 	| EXTERN
 	| STATIC
 	| AUTO
@@ -453,7 +468,6 @@ function_definition
 %%
 #include <stdio.h>
 
-extern char yytext[];
 extern int column;
 
 yyerror(s)
@@ -465,5 +479,6 @@ char *s;
 
 main ()
 {
+    yydebug = 0;
     yyparse();
 }

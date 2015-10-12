@@ -18,7 +18,8 @@ IS			(u|U|l|L)*
 %{
 #include <stdio.h>
 #include "y.tab.h"
-
+extern char id[128];
+extern int dump;
 extern int i_typedef;
 extern int i_struct_or_union;
 void count();
@@ -28,11 +29,6 @@ int set_strc_union()
 	return i_struct_or_union; 
 }
 
-int settypedef(void)
-{
-	i_typedef = 1;
-	return i_typedef;
-}
 
 %}
 
@@ -66,7 +62,7 @@ int settypedef(void)
 "static"		{ count(); return(STATIC); }
 "struct"		{ count(); return(STRUCT); }
 "switch"		{ count(); return(SWITCH); }
-"typedef"		{ count(); settypedef(); return(TYPEDEF); }
+"typedef"		{ count(); return(TYPEDEF); }
 "union"			{ count(); return(UNION); }
 "unsigned"		{ count(); return(UNSIGNED); }
 "void"			{ count(); return(VOID); }
@@ -217,15 +213,12 @@ int check_type()
 /*
 *	it actually will only return IDENTIFIER
 */
+    sprintf (id, "%s", yytext);
+    if (dump) {
+        // printf ("[%s]", yytext);
+        dump = 0;
+    }
 
-    memset(id, 0, 128);
-    sprintf(id, "%s", &yytext[0]);
-	if (i_typedef)
-	{
-		i_typedef = 0;
-		// printf ("[TTT]");
-		// return TYPE_NAME;
-	}
     printf ("<s(%d)>", i_struct_or_union);
 	return(IDENTIFIER);
 }
