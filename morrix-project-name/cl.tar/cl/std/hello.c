@@ -51,3 +51,7 @@ int main (int argc, char ** argv)
 }
 
 typedef int (myfunc)(int i, char c);
+typedef struct tcl_event tcl_event;
+struct tcl_event {
+    int a;
+};

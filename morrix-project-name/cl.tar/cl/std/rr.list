@@ -19,7 +19,7 @@ struct student_info<s(1)> {
     char name<s(1)>[128];
     int age<s(1)>;
     int score<s(1)>;
-    struct student_info<s(1)> *p<s(0)>;
+    struct student_info<s(2)> *p<s(1)>;
 };
 
 typedef struct student<s(1)> {
@@ -50,4 +50,8 @@ int main<s(0)> (int argc<s(0)>, char ** argv<s(0)>)
 	return 0;
 }
 
-typedef int (myfunc<s(0)>)#(int i<s(0)>, char c<s(0)>);(D1:c:0)
+typedef int (myfunc<s(0)>)TYPENAME:FUNC:(myfunc)(int i<s(0)>, char c<s(0)>);(D1:c:0)
+typedef struct tcl_event<s(1)> tcl_event<s(1)>;(D1:tcl_event:1)[[TYPENAME:tcl_event]]
+struct tcl_event
+               ^
+     parse error at line(55):column(16):symbol(tcl_event)

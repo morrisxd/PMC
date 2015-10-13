@@ -8213,11 +8213,11 @@ typedef struct
     union
     {
          
-        SDH_VC4_MAPPING_T vc4<s(1)>;
+        SDH_VC4_MAPPING_T vc4<s(2)>;
  
          
-        SDH_VC3H_MAPPING_T vc3h<s(1)>[3];
-    } hovc<s(0)>;
+        SDH_VC3H_MAPPING_T vc3h<s(2)>[3];
+    } hovc<s(1)>;
 } SDH_AUG1_MAPPING_T<s(0)>;(D1:SDH_AUG1_MAPPING_T:1)[[TYPENAME:SDH_AUG1_MAPPING_T]]
 
 typedef struct
@@ -9043,7 +9043,7 @@ extern STATUS 	classShow<s(0)> (CLASS_ID classId<s(0)>, int level<s(0)>);(D1:lev
 
 typedef struct obj_core<s(1)>		 
     {
-    struct obj_class<s(1)> *pObjClass<s(0)>;	 
+    struct obj_class<s(2)> *pObjClass<s(1)>;	 
     } OBJ_CORE<s(0)>;(D1:OBJ_CORE:1)[[TYPENAME:OBJ_CORE]]
 
 
@@ -9117,18 +9117,18 @@ extern void 	objCoreTerminate<s(0)> (OBJ_CORE *pObjCore<s(0)>);(D1:pObjCore:0)
 typedef struct obj_class<s(1)>	 
     {
     OBJ_CORE		objCore<s(1)>;	 
-    struct mem_part<s(1)>	*objPartId<s(0)>;	 
-    unsigned		objSize<s(0)>;	 
-    unsigned		objAllocCnt<s(0)>;	 
-    unsigned		objFreeCnt<s(0)>;	 
-    unsigned		objInitCnt<s(0)>;	 
-    unsigned		objTerminateCnt<s(0)>; 
-    int			coreOffset<s(0)>;	 
-    FUNCPTR		createRtn<s(0)>;	 
-    FUNCPTR		initRtn<s(0)>;	 
-    FUNCPTR		destroyRtn<s(0)>;	 
-    FUNCPTR		showRtn<s(0)>;	 
-    FUNCPTR		instRtn<s(0)>;	 
+    struct mem_part<s(2)>	*objPartId<s(1)>;	 
+    unsigned		objSize<s(1)>;	 
+    unsigned		objAllocCnt<s(1)>;	 
+    unsigned		objFreeCnt<s(1)>;	 
+    unsigned		objInitCnt<s(1)>;	 
+    unsigned		objTerminateCnt<s(1)>; 
+    int			coreOffset<s(1)>;	 
+    FUNCPTR		createRtn<s(1)>;	 
+    FUNCPTR		initRtn<s(1)>;	 
+    FUNCPTR		destroyRtn<s(1)>;	 
+    FUNCPTR		showRtn<s(1)>;	 
+    FUNCPTR		instRtn<s(1)>;	 
     } OBJ_CLASS<s(0)>;(D1:OBJ_CLASS:1)[[TYPENAME:OBJ_CLASS]]
 
 
@@ -9418,17 +9418,17 @@ typedef	struct __sFILE<s(1)>
     int			_w<s(1)>;		 
     short		_flags<s(1)>;		 
     short		_file<s(1)>;		 
-    struct __sbuf<s(1)>	_bf<s(1)>;		 
-    int			_lbfsize<s(0)>;	 
-    struct __sbuf<s(1)>	_ub<s(1)>;		 
-    uchar_t *		_up<s(0)>;		 
-    int			_ur<s(0)>;		 
-    uchar_t		_ubuf<s(0)>[3];	 
-    uchar_t		_nbuf<s(0)>[1];	 
-    struct __sbuf<s(1)>	_lb<s(1)>;		 
-    int			_blksize<s(0)>;	 
-    int			_offset<s(0)>;	 
-    int			taskId<s(0)>;		 
+    struct __sbuf<s(2)>	_bf<s(2)>;		 
+    int			_lbfsize<s(1)>;	 
+    struct __sbuf<s(2)>	_ub<s(2)>;		 
+    uchar_t *		_up<s(1)>;		 
+    int			_ur<s(1)>;		 
+    uchar_t		_ubuf<s(1)>[3];	 
+    uchar_t		_nbuf<s(1)>[1];	 
+    struct __sbuf<s(2)>	_lb<s(2)>;		 
+    int			_blksize<s(1)>;	 
+    int			_offset<s(1)>;	 
+    int			taskId<s(1)>;		 
     } FILE<s(0)>;(D1:FILE:1)[[TYPENAME:FILE]]
 
  
@@ -9805,7 +9805,7 @@ extern FILE **	__stderr<s(0)>(void);(D1:__stderr:0)
 typedef struct Tcl_Interp<s(1)> {
     char *result<s(1)>;		 
 
-    void (*freeProc<s(1)>)TYPENAME:FUNC:(freeProc)  (char *blockPtr<s(1)>)  ;
+    void (*freeProc<s(1)>)  (char *blockPtr<s(1)>)  ;
 				 
 
 
@@ -9816,7 +9816,7 @@ typedef struct Tcl_Interp<s(1)> {
     int errorLine<s(1)>;               
 
 
-} Tcl_Interp<s(0)>;(D1:Tcl_Interp:0)
+} Tcl_Interp<s(0)>;(D1:Tcl_Interp:1)[[TYPENAME:Tcl_Interp]]
 
 typedef struct Tcl_AsyncHandler_<s(1)> *Tcl_AsyncHandler<s(0)>;(D1:Tcl_AsyncHandler:1)[[TYPENAME:Tcl_AsyncHandler]]
 typedef struct Tcl_Channel_<s(1)> *Tcl_Channel<s(0)>;(D1:Tcl_Channel:1)[[TYPENAME:Tcl_Channel]]
@@ -9881,6 +9881,510 @@ struct Tcl_Obj<s(1)>;
 
 
 
-typedef int (Tcl_AppInitProc<s(0)>)TYPENAME:FUNC:(Tcl_AppInitProc)  (Tcl_Interp<s(0)> *
-                                           ^
-                                 parse error at line(9884):column(44):symbol(Tcl_Interp)
+typedef int (Tcl_AppInitProc<s(0)>)TYPENAME:FUNC:(Tcl_AppInitProc)  (Tcl_Interp *interp<s(0)>)  ;(D1:interp:0)
+typedef int (Tcl_AsyncProc<s(0)>)TYPENAME:FUNC:(Tcl_AsyncProc)  (ClientData clientData<s(0)>,
+	Tcl_Interp *interp<s(0)>, int code<s(0)>)  ;(D1:code:0)
+typedef void (Tcl_ChannelProc<s(0)>)TYPENAME:FUNC:(Tcl_ChannelProc)  (ClientData clientData<s(0)>, int mask<s(0)>)  ;(D1:mask:0)
+typedef void (Tcl_CloseProc<s(0)>)TYPENAME:FUNC:(Tcl_CloseProc)  (ClientData data<s(0)>)  ;(D1:data:0)
+typedef void (Tcl_CmdDeleteProc<s(0)>)TYPENAME:FUNC:(Tcl_CmdDeleteProc)  (ClientData clientData<s(0)>)  ;(D1:clientData:0)
+typedef int (Tcl_CmdProc<s(0)>)TYPENAME:FUNC:(Tcl_CmdProc)  (ClientData clientData<s(0)>,
+	Tcl_Interp *interp<s(0)>, int argc<s(0)>, char *argv<s(0)>[])  ;(D1:argv:0)
+typedef void (Tcl_CmdTraceProc<s(0)>)TYPENAME:FUNC:(Tcl_CmdTraceProc)  (ClientData clientData<s(0)>,
+	Tcl_Interp *interp<s(0)>, int level<s(0)>, char *command<s(0)>, Tcl_CmdProc *proc<s(0)>,
+	ClientData cmdClientData<s(0)>, int argc<s(0)>, char *argv<s(0)>[])  ;(D1:argv:0)
+typedef void (Tcl_DupInternalRepProc<s(0)>)TYPENAME:FUNC:(Tcl_DupInternalRepProc)  (struct Tcl_Obj<s(1)> *srcPtr<s(0)>, 
+        struct Tcl_Obj<s(1)> *dupPtr<s(0)>)  ;(D1:dupPtr:0)
+typedef int (Tcl_EventProc<s(0)>)TYPENAME:FUNC:(Tcl_EventProc)  (Tcl_Event *evPtr<s(0)>, int flags<s(0)>)  ;(D1:flags:0)
+typedef void (Tcl_EventCheckProc<s(0)>)TYPENAME:FUNC:(Tcl_EventCheckProc)  (ClientData clientData<s(0)>,
+	int flags<s(0)>)  ;(D1:flags:0)
+typedef int (Tcl_EventDeleteProc<s(0)>)TYPENAME:FUNC:(Tcl_EventDeleteProc)  (Tcl_Event *evPtr<s(0)>,
+        ClientData clientData<s(0)>)  ;(D1:clientData:0)
+typedef void (Tcl_EventSetupProc<s(0)>)TYPENAME:FUNC:(Tcl_EventSetupProc)  (ClientData clientData<s(0)>,
+	int flags<s(0)>)  ;(D1:flags:0)
+typedef void (Tcl_ExitProc<s(0)>)TYPENAME:FUNC:(Tcl_ExitProc)  (ClientData clientData<s(0)>)  ;(D1:clientData:0)
+typedef void (Tcl_FileProc<s(0)>)TYPENAME:FUNC:(Tcl_FileProc)  (ClientData clientData<s(0)>, int mask<s(0)>)  ;(D1:mask:0)
+typedef void (Tcl_FileFreeProc<s(0)>)TYPENAME:FUNC:(Tcl_FileFreeProc)  (ClientData clientData<s(0)>)  ;(D1:clientData:0)
+typedef void (Tcl_FreeInternalRepProc<s(0)>)TYPENAME:FUNC:(Tcl_FreeInternalRepProc)  (struct Tcl_Obj<s(1)> *objPtr<s(0)>)  ;(D1:objPtr:0)
+typedef void (Tcl_FreeProc<s(0)>)TYPENAME:FUNC:(Tcl_FreeProc)  (char *blockPtr<s(0)>)  ;(D1:blockPtr:0)
+typedef void (Tcl_IdleProc<s(0)>)TYPENAME:FUNC:(Tcl_IdleProc)  (ClientData clientData<s(0)>)  ;(D1:clientData:0)
+typedef void (Tcl_InterpDeleteProc<s(0)>)TYPENAME:FUNC:(Tcl_InterpDeleteProc)  (ClientData clientData<s(0)>,
+	Tcl_Interp *interp<s(0)>)  ;(D1:interp:0)
+typedef int (Tcl_MathProc<s(0)>)TYPENAME:FUNC:(Tcl_MathProc)  (ClientData clientData<s(0)>,
+	Tcl_Interp *interp<s(0)>, Tcl_Value *args<s(0)>, Tcl_Value *resultPtr<s(0)>)  ;(D1:resultPtr:0)
+typedef void (Tcl_NamespaceDeleteProc<s(0)>)TYPENAME:FUNC:(Tcl_NamespaceDeleteProc)  (ClientData clientData<s(0)>)  ;(D1:clientData:0)
+typedef int (Tcl_ObjCmdProc<s(0)>)TYPENAME:FUNC:(Tcl_ObjCmdProc)  (ClientData clientData<s(0)>,
+	Tcl_Interp *interp<s(0)>, int objc<s(0)>, struct Tcl_Obj<s(1)> * const  objv<s(0)>[])  ;(D1:objv:0)
+typedef int (Tcl_PackageInitProc<s(0)>)TYPENAME:FUNC:(Tcl_PackageInitProc)  (Tcl_Interp *interp<s(0)>)  ;(D1:interp:0)
+typedef void (Tcl_TcpAcceptProc<s(0)>)TYPENAME:FUNC:(Tcl_TcpAcceptProc)  (ClientData callbackData<s(0)>,
+        Tcl_Channel chan<s(0)>, char *address<s(0)>, int port<s(0)>)  ;(D1:port:0)
+typedef void (Tcl_TimerProc<s(0)>)TYPENAME:FUNC:(Tcl_TimerProc)  (ClientData clientData<s(0)>)  ;(D1:clientData:0)
+typedef int (Tcl_SetFromAnyProc<s(0)>)TYPENAME:FUNC:(Tcl_SetFromAnyProc)  (Tcl_Interp *interp<s(0)>,
+	struct Tcl_Obj<s(1)> *objPtr<s(0)>)  ;(D1:objPtr:0)
+typedef void (Tcl_UpdateStringProc<s(0)>)TYPENAME:FUNC:(Tcl_UpdateStringProc)  (struct Tcl_Obj<s(1)> *objPtr<s(0)>)  ;(D1:objPtr:0)
+typedef char *(Tcl_VarTraceProc<s(0)>)TYPENAME:FUNC:(Tcl_VarTraceProc)  (ClientData clientData<s(0)>,
+	Tcl_Interp *interp<s(0)>, char *part1<s(0)>, char *part2<s(0)>, int flags<s(0)>)  ;(D1:flags:0)
+
+ 
+
+
+
+
+
+typedef struct Tcl_ObjType<s(1)> {
+    char *name<s(1)>;			 
+    Tcl_FreeInternalRepProc *freeIntRepProc<s(1)>;
+				 
+
+
+    Tcl_DupInternalRepProc *dupIntRepProc<s(1)>;
+    				 
+
+    Tcl_UpdateStringProc *updateStringProc<s(1)>;
+    				 
+
+    Tcl_SetFromAnyProc *setFromAnyProc<s(1)>;
+    				 
+
+
+
+} Tcl_ObjType<s(0)>;(D1:Tcl_ObjType:1)[[TYPENAME:Tcl_ObjType]]
+
+ 
+
+
+
+
+
+typedef struct Tcl_Obj<s(1)> {
+    int refCount<s(1)>;		 
+    char *bytes<s(1)>;		 
+
+
+
+
+
+
+
+
+
+
+    int length<s(1)>;			 
+
+    Tcl_ObjType *typePtr<s(1)>;	 
+
+
+
+    union {			 
+	long longValue<s(2)>;		 
+	double doubleValue<s(2)>;	 
+	void  *otherValuePtr<s(2)>;	 
+	struct {		 
+	    void  *ptr1<s(3)>;
+	    void  *ptr2<s(3)>;
+	} twoPtrValue<s(2)>;
+    } internalRep<s(1)>;
+} Tcl_Obj<s(0)>;(D1:Tcl_Obj:1)[[TYPENAME:Tcl_Obj]]
+
+ 
+
+
+
+
+
+
+
+
+
+
+extern  void		Tcl_IncrRefCount<s(0)>  (Tcl_Obj *objPtr<s(0)>)  ;(D1:objPtr:0)
+extern  void		Tcl_DecrRefCount<s(0)>  (Tcl_Obj *objPtr<s(0)>)  ;(D1:objPtr:0)
+extern  int		Tcl_IsShared<s(0)>  (Tcl_Obj *objPtr<s(0)>)  ;(D1:objPtr:0)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+extern  Tcl_Obj *	Tcl_NewBooleanObj<s(0)>  (int boolValue<s(0)>)  ;(D1:boolValue:0)
+extern  Tcl_Obj *	Tcl_NewDoubleObj<s(0)>  (double doubleValue<s(0)>)  ;(D1:doubleValue:0)
+extern  Tcl_Obj *	Tcl_NewIntObj<s(0)>  (int intValue<s(0)>)  ;(D1:intValue:0)
+extern  Tcl_Obj *	Tcl_NewListObj<s(0)>  (int objc<s(0)>,
+			    Tcl_Obj * const  objv<s(0)>[])  ;(D1:objv:0)
+extern  Tcl_Obj *	Tcl_NewLongObj<s(0)>  (long longValue<s(0)>)  ;(D1:longValue:0)
+extern  Tcl_Obj *	Tcl_NewObj<s(0)>  (void)  ;(D1:Tcl_NewObj:0)
+extern  Tcl_Obj *	Tcl_NewStringObj<s(0)>  (char *bytes<s(0)>,
+			    int length<s(0)>)  ;(D1:length:0)
+
+
+
+ 
+
+
+
+
+
+typedef struct Tcl_Namespace<s(1)> {
+    char *name<s(1)>;                  
+
+
+
+    char *fullName<s(1)>;              
+
+    ClientData clientData<s(1)>;       
+
+    Tcl_NamespaceDeleteProc* deleteProc<s(1)>;
+                                 
+
+    struct Tcl_Namespace<s(2)>* parentPtr<s(1)>;
+                                 
+
+
+} Tcl_Namespace<s(0)>;(D1:Tcl_Namespace:1)[[TYPENAME:Tcl_Namespace]]
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+typedef struct Tcl_CallFrame<s(1)> {
+    Tcl_Namespace *nsPtr<s(1)>;
+    int dummy1<s(1)>;
+    int dummy2<s(1)>;
+    char *dummy3<s(1)>;
+    char *dummy4<s(1)>;
+    char *dummy5<s(1)>;
+    int dummy6<s(1)>;
+    char *dummy7<s(1)>;
+    char *dummy8<s(1)>;
+    int dummy9<s(1)>;
+    char* dummy10<s(1)>;
+} Tcl_CallFrame<s(0)>;(D1:Tcl_CallFrame:1)[[TYPENAME:Tcl_CallFrame]]
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+typedef struct Tcl_CmdInfo<s(1)> {
+    int isNativeObjectProc<s(1)>;	  
+
+
+
+    Tcl_ObjCmdProc *objProc<s(1)>;	  
+    ClientData objClientData<s(1)>;	  
+    Tcl_CmdProc *proc<s(1)>;		  
+    ClientData clientData<s(1)>;	  
+    Tcl_CmdDeleteProc *deleteProc<s(1)>;
+                                  
+
+    ClientData deleteData<s(1)>;	  
+
+    Tcl_Namespace *namespacePtr<s(1)>;  
+
+
+
+
+} Tcl_CmdInfo<s(0)>;(D1:Tcl_CmdInfo:1)[[TYPENAME:Tcl_CmdInfo]]
+
+ 
+
+
+
+
+
+
+typedef struct Tcl_DString<s(1)> {
+    char *string<s(1)>;		 
+
+    int length<s(1)>;			 
+
+    int spaceAvl<s(1)>;		 
+
+    char staticSpace<s(1)>[200 ];
+				 
+
+} Tcl_DString<s(0)>;(D1:Tcl_DString:1)[[TYPENAME:Tcl_DString]]
+
+
+
+
+
+ 
+
+
+
+
+ 
+
+
+
+ 
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+extern  char *		Tcl_Alloc<s(0)>  (unsigned int size<s(0)>)  ;(D1:size:0)
+extern  void		Tcl_Free<s(0)>  (char *ptr<s(0)>)  ;(D1:ptr:0)
+extern  char *		Tcl_Realloc<s(0)>  (char *ptr<s(0)>,
+			    unsigned int size<s(0)>)  ;(D1:size:0)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+typedef struct Tcl_HashEntry<s(1)> {
+    struct Tcl_HashEntry<s(2)> *nextPtr<s(1)>;	 
+
+
+    struct Tcl_HashTable<s(2)> *tablePtr<s(1)>;	 
+    struct Tcl_HashEntry<s(2)> **bucketPtr<s(1)>;	 
+
+
+    ClientData clientData<s(1)>;		 
+
+    union {				 
+	char *oneWordValue<s(2)>;		 
+	int words<s(2)>[1];			 
+
+
+
+	char string<s(2)>[4];			 
+
+
+    } key<s(1)>;				 
+} Tcl_HashEntry<s(0)>;(D1:Tcl_HashEntry:1)[[TYPENAME:Tcl_HashEntry]]
+
+ 
+
+
+
+
+
+
+typedef struct Tcl_HashTable<s(1)> {
+    Tcl_HashEntry **buckets<s(1)>;		 
+
+
+    Tcl_HashEntry *staticBuckets<s(1)>[4 ];
+					 
+
+    int numBuckets<s(1)>;			 
+
+    int numEntries<s(1)>;			 
+
+    int rebuildSize<s(1)>;			 
+
+    int downShift<s(1)>;			 
+
+
+    int mask<s(1)>;				 
+
+    int keyType<s(1)>;			 
+
+
+
+
+
+    Tcl_HashEntry *(*findProc<s(1)>)  (struct Tcl_HashTable<s(2)> *tablePtr<s(1)>, 
+	    const  char *key<s(1)>)  ;
+    Tcl_HashEntry *(*createProc<s(1)>)  (struct Tcl_HashTable<s(2)> *tablePtr<s(1)>,
+	    const  char *key<s(1)>, int *newPtr<s(1)>)  ;
+} Tcl_HashTable<s(0)>;(D1:Tcl_HashTable:1)[[TYPENAME:Tcl_HashTable]]
+
+ 
+
+
+
+
+typedef struct Tcl_HashSearch<s(1)> {
+    Tcl_HashTable *tablePtr<s(1)>;		 
+    int nextIndex<s(1)>;			 
+
+    Tcl_HashEntry *nextEntryPtr<s(1)>;	 
+
+} Tcl_HashSearch<s(0)>;(D1:Tcl_HashSearch:1)[[TYPENAME:Tcl_HashSearch]]
+
+ 
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+struct Tcl_Event
+               ^
+     parse error at line(10388):column(16):symbol(Tcl_Event)
