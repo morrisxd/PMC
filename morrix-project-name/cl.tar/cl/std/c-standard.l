@@ -7,8 +7,8 @@ Jutta Degener, 1995
 
 
 
-newline     \n
 preprocess  #.*\n
+newline     \n
 D			[0-9]
 L			[a-zA-Z_]
 H			[a-fA-F0-9]
@@ -37,10 +37,13 @@ int set_strc_union()
 %}
 
 %%
-{newline}       { printf("lineno(%d)", lineno); lineno++; count(); }
+{newline}       { lineno++; count(); }
 "/*"			{ comment(); }
 "stdio.h"       { count(); return (FILENAME); }
 "#include"      { header(); }
+"__inline"       { count(); return(INLINE); }
+"inline"        { count(); /*return(INLINE);*/ }
+"__attribute__ ((packed))" {count();} 
 "auto"			{ count(); return(AUTO); }
 "break"			{ count(); return(BREAK); }
 "case"			{ count(); return(CASE); }
@@ -155,7 +158,7 @@ header()
     if (c == '\n') {
         putchar (c);
         lineno ++;
-        printf ("linenoh(%d)", lineno);
+        // printf ("linenoh(%d)", lineno);
     }
 }
 
@@ -171,7 +174,7 @@ loop:
 		putchar(c);
         if (c == '\n') {
             lineno++;
-            printf ("linenoc(%d)", lineno); 
+            // printf ("linenoc(%d)", lineno); 
         }
     }
     if (c == '*') putchar (c);

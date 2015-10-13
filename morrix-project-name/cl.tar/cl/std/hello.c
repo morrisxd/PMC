@@ -4,6 +4,17 @@
 this is a comment sample
 */
 
+
+typedef enum {
+    hello1,
+    word1,
+} LED_ST1;
+
+
+static __inline const char *CTD_StrError(int code)
+{
+    int i;
+}
 struct student_info {
     char name[128];
     int age;
@@ -33,7 +44,10 @@ int main (int argc, char ** argv)
 	}clock;
     int age = 0;
 
-	printf ("Hello world\n");
+	printf ("Hello world\n(%*s)\n", 60, "fuck");
+	printf ("(%*s)\n", 60, "fiiiiiiiiiiiiiiiiuck");
 
 	return 0;
 }
+
+typedef int (myfunc)(int i, char c);

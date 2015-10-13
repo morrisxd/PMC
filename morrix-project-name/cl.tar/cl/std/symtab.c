@@ -261,14 +261,14 @@ void
 printTypedefTab(FILE * listing)
 {
 	int             i;
-	fprintf(listing, "Typedef  Name  Location  Domain         Line Numbers\n");
-	fprintf(listing, "-------------- --------  -------------- ------------\n");
+	fprintf(listing, "Typedef  Name                  Location  Domain         Line Numbers\n");
+	fprintf(listing, "------------------------------ --------  -------------- ------------\n");
 	for (i = 0; i < SIZE; ++i) {
 		if (typedefNameTable[i] != NULL) {
 			BucketList      l = typedefNameTable[i];
 			while (l != NULL) {
 				LineList        t = l->lines;
-				fprintf(listing, "%+14s ", l->name);
+				fprintf(listing, "%+29s ", l->name);
 				fprintf(listing, "%+8d  ", l->memloc);
 				fprintf(listing, "%+14s ", l->func);
 				while (t != NULL) {

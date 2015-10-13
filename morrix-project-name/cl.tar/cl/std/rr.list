@@ -1,39 +1,53 @@
 #include <stdio.h>
-linenoh(2)#include <string.h>
-linenoh(3)/*
-linenoc(4)this is a comment sample
-linenoc(5)*/lineno(5)
-lineno(6)
-struct student_info<s(1)> {lineno(7)
-    char name<s(1)>[128];lineno(8)
-    int age<s(1)>;lineno(9)
-    int score<s(1)>;lineno(10)
-    struct student_info<s(1)> *p<s(0)>;lineno(11)
-};lineno(12)
-lineno(13)
-typedef struct student<s(1)> {lineno(14)
-    int age<s(1)>;lineno(15)
-    char name<s(1)>[16];lineno(16)
-} student<s(0)>;(D1:student:1)[[student]]lineno(17)
-lineno(18)
-typedef int myint<s(0)>;(D1:myint:1)[[myint]]lineno(19)
-lineno(20)
-int main<s(0)> (int argc<s(0)>, char ** argv<s(0)>)lineno(21)
-{lineno(22)
-    struct clock<s(1)>;lineno(23)
-    int ii<s(0)> =(D2) 0;lineno(24)
-    const int iii<s(0)>;(D1:iii:0)lineno(25)
-    int kk<s(0)>;(D1:kk:0)lineno(26)
-    myint iiii<s(0)>;(D1:iiii:0)lineno(27)
-    student sss<s(0)>;(D1:sss:0)lineno(28)
-lineno(29)
-	struct clock<s(1)> {lineno(30)
-		int i<s(1)>;lineno(31)
-        char c<s(1)>;lineno(32)
-	}clock<s(0)>;(D1:clock:0)lineno(33)
-    int age<s(0)> =(D2) 0;lineno(34)
-lineno(35)
-	printf<s(0)> ("Hello world\n");lineno(36)
-lineno(37)
-	return 0;lineno(38)
-}lineno(39)
+#include <string.h>
+/*
+this is a comment sample
+*/
+
+
+typedef enum {
+    hello1<s(0)>,
+    word1<s(0)>,
+} LED_ST1<s(0)>;(D1:LED_ST1:1)[[TYPENAME:LED_ST1]]
+
+
+static __inline const char *CTD_StrError<s(0)>(int code<s(0)>)
+{
+    int i<s(0)>;(D1:i:0)
+}
+struct student_info<s(1)> {
+    char name<s(1)>[128];
+    int age<s(1)>;
+    int score<s(1)>;
+    struct student_info<s(1)> *p<s(0)>;
+};
+
+typedef struct student<s(1)> {
+    int age<s(1)>;
+    char name<s(1)>[16];
+} student<s(0)>;(D1:student:1)[[TYPENAME:student]]
+
+typedef int myint<s(0)>;(D1:myint:1)[[TYPENAME:myint]]
+
+int main<s(0)> (int argc<s(0)>, char ** argv<s(0)>)
+{
+    struct clock<s(1)>;
+    int ii<s(0)> =(D2) 0;
+    const int iii<s(0)>;(D1:iii:0)
+    int kk<s(0)>;(D1:kk:0)
+    myint iiii<s(0)>;(D1:iiii:0)
+    student sss<s(0)>;(D1:sss:0)
+
+	struct clock<s(1)> {
+		int i<s(1)>;
+        char c<s(1)>;
+	}clock<s(0)>;(D1:clock:0)
+    int age<s(0)> =(D2) 0;
+
+	printf<s(0)> ("Hello world\n(%*s)\n", 60, "fuck");
+	printf<s(0)> ("(%*s)\n", 60, "fiiiiiiiiiiiiiiiiuck");
+
+	return 0;
+}
+
+typedef int (myfunc<s(0)>)#(int i<s(0)>, char c<s(0)>);(D1:c:0)

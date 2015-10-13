@@ -23,7 +23,7 @@ int settypedef(void)
 
 void set_in_stru ()
 {
-    yydebug = 1;
+    yydebug = 0;
     i_struct_or_union = 1;
 }
 void clr_in_stru ()
@@ -34,7 +34,7 @@ void clr_in_stru ()
 
 %}
 
-%token INCLUDE_FLAG LINE FILENAME
+%token INCLUDE_FLAG LINE FILENAME INLINE
 %token IDENTIFIER CONSTANT STRING_LITERAL SIZEOF
 %token PTR_OP INC_OP DEC_OP LEFT_OP RIGHT_OP LE_OP GE_OP EQ_OP NE_OP
 %token AND_OP OR_OP MUL_ASSIGN DIV_ASSIGN MOD_ASSIGN ADD_ASSIGN
@@ -198,7 +198,7 @@ declaration
 	: declaration_specifiers ';'
 	| declaration_specifiers init_declarator_list ';' { \
         if (i_typedef) {
-            printf ("[[%s]]", id); i_typedef=0;
+            printf ("[[TYPENAME:%s]]", id); i_typedef=0;
             st_insert_typedef (id, lineno, column);
         }
     }
@@ -229,6 +229,7 @@ storage_class_specifier
 	| STATIC
 	| AUTO
 	| REGISTER
+    | INLINE
 	;
 
 type_specifier
@@ -286,7 +287,9 @@ struct_declarator
 
 enum_specifier
 	: ENUM '{' enumerator_list '}'
+	| ENUM '{' enumerator_list ',' '}'
 	| ENUM IDENTIFIER '{' enumerator_list '}'
+	| ENUM IDENTIFIER '{' enumerator_list ',' '}'
 	| ENUM IDENTIFIER
 	;
 
@@ -294,6 +297,7 @@ enumerator_list
 	: enumerator
 	| enumerator_list ',' enumerator
 	;
+
 
 enumerator
 	: IDENTIFIER
@@ -315,7 +319,13 @@ declarator
  */
 direct_declarator
 	: IDENTIFIER
-	| '(' declarator ')'
+	| '(' declarator ')' { \
+        if (i_typedef) {
+            printf("TYPENAME:FUNC:(%s)", id); 
+            i_typedef=0;
+            st_insert_typedef (id, lineno, column);
+        }
+    }
 	| direct_declarator '[' constant_expression ']'
 	| direct_declarator '[' ']'
 	| direct_declarator '(' parameter_type_list ')'
@@ -477,7 +487,7 @@ yyerror(s)
 char *s;
 {
 	fflush(stdout);
-	printf("\nline(%d)%*s\n%*s\n", lineno, column, "^", column, s);
+	printf("\n%*s\n%*s at line(%d):column(%d):symbol(%s)\n", column, "^", column, s, lineno, column, id);
 }
 
 main ()
