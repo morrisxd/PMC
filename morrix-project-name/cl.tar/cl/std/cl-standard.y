@@ -1,4 +1,5 @@
 /*
+.
 ANSI C Yacc grammar
 In 1985, Jeff Lee published his Yacc grammar (which is accompanied by a matching Lex specification) for the April 30, 1985 draft version of the ANSI C standard.  Tom Stockfisch reposted it to net.sources in 1987; that original, as mentioned in the answer to question 17.25 of the comp.lang.c FAQ, can be ftp'ed from ftp.uu.net, file usenet/net.sources/ansi.c.grammar.Z. 
 Jutta Degener, 1995 
@@ -24,11 +25,11 @@ int settypedef(void)
 void set_in_stru ()
 {
     yydebug = 0;
-    i_struct_or_union = 1;
+    i_struct_or_union += 1;
 }
 void clr_in_stru ()
 {
-    i_struct_or_union = 0;
+    i_struct_or_union -= 1;
     yydebug = 0;
 }
 
@@ -320,7 +321,7 @@ declarator
 direct_declarator
 	: IDENTIFIER
 	| '(' declarator ')' { \
-        if (i_typedef) {
+        if (i_typedef && !i_struct_or_union) {
             printf("TYPENAME:FUNC:(%s)", id); 
             i_typedef=0;
             st_insert_typedef (id, lineno, column);
