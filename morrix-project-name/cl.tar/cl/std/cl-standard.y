@@ -13,7 +13,9 @@ extern int column;
 
 char id[128];
 int i_typedef = 0;
+int i_inside_su = 0;
 int i_struct_or_union = 0;
+int close_to_struct_or_union = 0;
 int dump = 0;
 
 int settypedef(void)
@@ -25,11 +27,17 @@ int settypedef(void)
 void set_in_stru ()
 {
     yydebug = 0;
-    i_struct_or_union += 1;
+    i_struct_or_union ++;
+    close_to_struct_or_union = 1;
 }
+void clr_close_to_struct_or_union()
+{
+    close_to_struct_or_union = 0;
+}
+
 void clr_in_stru ()
 {
-    i_struct_or_union -= 1;
+    i_struct_or_union --;
     yydebug = 0;
 }
 
@@ -249,9 +257,9 @@ type_specifier
 	;
 
 struct_or_union_specifier
-	: struct_or_union  IDENTIFIER '{' struct_declaration_list '}' { clr_in_stru(); }
-	| struct_or_union '{' struct_declaration_list '}' { clr_in_stru(); }
-	| struct_or_union IDENTIFIER { clr_in_stru(); }
+	: struct_or_union  IDENTIFIER {clr_close_to_struct_or_union(); } '{' {i_inside_su=1; } struct_declaration_list '}' { clr_in_stru(); i_inside_su = 0; }
+	| struct_or_union '{' { clr_close_to_struct_or_union(); i_inside_su=1;} struct_declaration_list '}' { clr_in_stru(); i_inside_su=0;}
+	| struct_or_union IDENTIFIER { clr_close_to_struct_or_union(); clr_in_stru(); }
 	;
 
 struct_or_union
@@ -489,6 +497,7 @@ char *s;
 {
 	fflush(stdout);
 	printf("\n%*s\n%*s at line(%d):column(%d):symbol(%s)\n", column, "^", column, s, lineno, column, id);
+    printf("i_typedef(%d)i_struct_or_union(%d)i_inside_su(%d)dump(%d)yylval(%d)close(%d)\n", i_typedef, i_struct_or_union, i_inside_su, dump, yylval, close_to_struct_or_union);
 }
 
 main ()

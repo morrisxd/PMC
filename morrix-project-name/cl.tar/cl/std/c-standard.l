@@ -22,8 +22,10 @@ IS			(u|U|l|L)*
 #include "symtab.h"
 
 int lineno = 1;
+extern int close_to_struct_or_union;
 extern char id[128];
 extern int dump;
+extern int i_inside_su;
 extern int i_typedef;
 extern int i_struct_or_union;
 void count();
@@ -225,10 +227,25 @@ int check_type()
     BucketList p;
 
     sprintf (id, "%s", yytext);
+    printf ("<s(%d)(%d)(%d)>", i_struct_or_union, i_inside_su, close_to_struct_or_union);
 
     if (p = st_lookup_typedef(id))
     {
-        return (TYPE_NAME);
+        if (close_to_struct_or_union) {
+            return IDENTIFIER;
+        }
+
+#if 0
+        if (i_struct_or_union && (!i_inside_su)) {
+#else
+        if (close_to_struct_or_union) {
+#endif
+            printf("[I]");
+            return IDENTIFIER;
+        } else {
+            printf("[T]");
+            return (TYPE_NAME);
+        }
     }
 
     if (dump) {
@@ -236,7 +253,7 @@ int check_type()
         dump = 0;
     }
 
-    printf ("<s(%d)>", i_struct_or_union);
+    printf("[&]");
 	return(IDENTIFIER);
 }
 

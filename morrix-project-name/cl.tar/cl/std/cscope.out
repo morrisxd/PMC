@@ -1,4 +1,4 @@
-cscope 15 $HOME/morrix-project-name/cl.tar/cl/std -q 0000000480 0000063777
+cscope 15 $HOME/morrix-project-name/cl.tar/cl/std -q 0000000503 0000065847
 	@c-standard.l
 
 1 
@@ -144,16 +144,22 @@ Deg’”
 , 1995
 
 10 
+´•roûss
+ #.*\
+n
+
+
+11 
 Ãwlše
  \
 n
 
 
-11 
+12 
 D
  [0-9]
 
-12 
+13 
 L
  [
 a
@@ -163,7 +169,7 @@ zA
 Z_
 ]
 
-13 
+14 
 H
  [
 a
@@ -173,7 +179,7 @@ fA
 F0
 -9]
 
-14 
+15 
 E
  [
 Ee
@@ -181,7 +187,7 @@ Ee
 D
 }+
 
-15 
+16 
 FS
  (
 f
@@ -193,7 +199,7 @@ l
 L
 )
 
-16 
+17 
 IS
  (
 u
@@ -205,273 +211,299 @@ l
 L
 )*
 
-19 
+20 
 	~<¡dio.h
 >
 
-20 
+21 
 	~"y.b.h
 "
 
-21 
-	glš’o
- = 0;
+22 
+	~"symb.h
+"
 
-22 
+24 
+	glš’o
+ = 1;
+
+25 
+şo£_to_¡ruù_Ü_uniÚ
+;
+
+26 
 id
 [128];
 
-23 
+27 
 dump
 ;
 
-24 
+28 
+i_šside_su
+;
+
+29 
 i_ty³def
 ;
 
-25 
+30 
 i_¡ruù_Ü_uniÚ
 ;
 
-26 
+31 
 couÁ
 ();
 
-27 
+32 
 	$£t_¡rc_uniÚ
 ()
 
-29 
+34 
 i_¡ruù_Ü_uniÚ
  = 1;
 
-30  
+35  
 i_¡ruù_Ü_uniÚ
 ;
 
-31 
+36 
 	}
 }
 
-36 %% /* 
+41 %% /* 
 	$yyËx
  */
 
-37 {
+42 {
 Ãwlše
 } { 
 lš’o
- ++; 
+++; 
 	`couÁ
 (); }
 
-38 "/*" { 
+43 "/*" { 
 	`comm’t
 (); }
 
-39 "¡dio.h" { 
+44 "¡dio.h" { 
 	`couÁ
 ();  (
 FILENAME
 ); }
 
-40 "#šşude" { 
+45 "#šşude" { 
 	`h—d”
 (); }
 
-41 "auto" { 
+46 "__šlše" { 
+	`couÁ
+(); (
+INLINE
+); }
+
+47 "šlše" { 
+	`couÁ
+(); }
+
+48 "__©Œibu‹__ (Õacked))" {
+	`couÁ
+();}
+
+49 "auto" { 
 	`couÁ
 (); (
 AUTO
 ); }
 
-42 "b»ak" { 
+50 "b»ak" { 
 	`couÁ
 (); (
 BREAK
 ); }
 
-43 "ÿ£" { 
+51 "ÿ£" { 
 	`couÁ
 (); (
 CASE
 ); }
 
-44 "ch¬" { 
+52 "ch¬" { 
 	`couÁ
 (); (
 CHAR
 ); }
 
-45 "cÚ¡" { 
+53 "cÚ¡" { 
 	`couÁ
 (); (
 CONST
 ); }
 
-46 "cÚtšue" { 
+54 "cÚtšue" { 
 	`couÁ
 (); (
 CONTINUE
 ); }
 
-47 "deçuÉ" { 
+55 "deçuÉ" { 
 	`couÁ
 (); (
 DEFAULT
 ); }
 
-48 "do" { 
+56 "do" { 
 	`couÁ
 (); (
 DO
 ); }
 
-49 "doubË" { 
+57 "doubË" { 
 	`couÁ
 (); (
 DOUBLE
 ); }
 
-50 "–£" { 
+58 "–£" { 
 	`couÁ
 (); (
 ELSE
 ); }
 
-51 "’um" { 
+59 "’um" { 
 	`couÁ
 (); (
 ENUM
 ); }
 
-52 "ex‹º" { 
+60 "ex‹º" { 
 	`couÁ
 (); (
 EXTERN
 ); }
 
-53 "æßt" { 
+61 "æßt" { 
 	`couÁ
 (); (
 FLOAT
 ); }
 
-54 "fÜ" { 
+62 "fÜ" { 
 	`couÁ
 (); (
 FOR
 ); }
 
-55 "gÙo" { 
+63 "gÙo" { 
 	`couÁ
 (); (
 GOTO
 ); }
 
-56 "if" { 
+64 "if" { 
 	`couÁ
 (); (
 IF
 ); }
 
-57 "št" { 
+65 "št" { 
 	`couÁ
 (); (
 INT
 ); }
 
-58 "lÚg" { 
+66 "lÚg" { 
 	`couÁ
 (); (
 LONG
 ); }
 
-59 "»gi¡”" { 
+67 "»gi¡”" { 
 	`couÁ
 (); (
 REGISTER
 ); }
 
-60 "»tuº" { 
+68 "»tuº" { 
 	`couÁ
 (); (
 RETURN
 ); }
 
-61 "shÜt" { 
+69 "shÜt" { 
 	`couÁ
 (); (
 SHORT
 ); }
 
-62 "sigÃd" { 
+70 "sigÃd" { 
 	`couÁ
 (); (
 SIGNED
 ); }
 
-63 "sizeof" { 
+71 "sizeof" { 
 	`couÁ
 (); (
 SIZEOF
 ); }
 
-64 "¡©ic" { 
+72 "¡©ic" { 
 	`couÁ
 (); (
 STATIC
 ); }
 
-65 "¡ruù" { 
+73 "¡ruù" { 
 	`couÁ
 (); (
 STRUCT
 ); }
 
-66 "sw™ch" { 
+74 "sw™ch" { 
 	`couÁ
 (); (
 SWITCH
 ); }
 
-67 "ty³def" { 
+75 "ty³def" { 
 	`couÁ
 (); (
 TYPEDEF
 ); }
 
-68 "uniÚ" { 
+76 "uniÚ" { 
 	`couÁ
 (); (
 UNION
 ); }
 
-69 "unsigÃd" { 
+77 "unsigÃd" { 
 	`couÁ
 (); (
 UNSIGNED
 ); }
 
-70 "void" { 
+78 "void" { 
 	`couÁ
 (); (
 VOID
 ); }
 
-71 "vŞ©e" { 
+79 "vŞ©e" { 
 	`couÁ
 (); (
 VOLATILE
 ); }
 
-72 "whe" { 
+80 "whe" { 
 	`couÁ
 (); (
 WHILE
 ); }
 
-74 {
+82 {
 L
 }({L}|{
 D
@@ -481,7 +513,7 @@ D
 	`check_ty³
 ()); }
 
-76 0[
+84 0[
 xX
 ]{
 H
@@ -493,7 +525,7 @@ IS
 CONSTANT
 ); }
 
-77 0{
+85 0{
 D
 }+{
 IS
@@ -503,7 +535,7 @@ IS
 CONSTANT
 ); }
 
-78 {
+86 {
 D
 }+{
 IS
@@ -513,11 +545,11 @@ IS
 CONSTANT
 ); }
 
-79 
+87 
 L
 ?'(\\.|[^\\'])+' { count();„eturn(CONSTANT); }
 
-81 {
+89 {
 D
 }+{
 E
@@ -529,7 +561,7 @@ FS
 CONSTANT
 ); }
 
-82 {
+90 {
 D
 }*"."{D}+({
 E
@@ -541,7 +573,7 @@ FS
 CONSTANT
 ); }
 
-83 {
+91 {
 D
 }+"."{D}*({
 E
@@ -553,239 +585,239 @@ FS
 CONSTANT
 ); }
 
-85 
+93 
 L
 ?\"(\\.|[^\\"])*\" { count();„eturn(STRING_LITERAL); }
 
-87 "..." { 
+95 "..." { 
 	`couÁ
 (); (
 ELLIPSIS
 ); }
 
-88 ">>=" { 
+96 ">>=" { 
 	`couÁ
 (); (
 RIGHT_ASSIGN
 ); }
 
-89 "<<=" { 
+97 "<<=" { 
 	`couÁ
 (); (
 LEFT_ASSIGN
 ); }
 
-90 "+=" { 
+98 "+=" { 
 	`couÁ
 (); (
 ADD_ASSIGN
 ); }
 
-91 "-=" { 
+99 "-=" { 
 	`couÁ
 (); (
 SUB_ASSIGN
 ); }
 
-92 "*=" { 
+100 "*=" { 
 	`couÁ
 (); (
 MUL_ASSIGN
 ); }
 
-93 "/=" { 
+101 "/=" { 
 	`couÁ
 (); (
 DIV_ASSIGN
 ); }
 
-94 "%=" { 
+102 "%=" { 
 	`couÁ
 (); (
 MOD_ASSIGN
 ); }
 
-95 "&=" { 
+103 "&=" { 
 	`couÁ
 (); (
 AND_ASSIGN
 ); }
 
-96 "^=" { 
+104 "^=" { 
 	`couÁ
 (); (
 XOR_ASSIGN
 ); }
 
-97 "|=" { 
+105 "|=" { 
 	`couÁ
 (); (
 OR_ASSIGN
 ); }
 
-98 ">>" { 
+106 ">>" { 
 	`couÁ
 (); (
 RIGHT_OP
 ); }
 
-99 "<<" { 
+107 "<<" { 
 	`couÁ
 (); (
 LEFT_OP
 ); }
 
-100 "++" { 
+108 "++" { 
 	`couÁ
 (); (
 INC_OP
 ); }
 
-101 "--" { 
+109 "--" { 
 	`couÁ
 (); (
 DEC_OP
 ); }
 
-102 "->" { 
+110 "->" { 
 	`couÁ
 (); (
 PTR_OP
 ); }
 
-103 "&&" { 
+111 "&&" { 
 	`couÁ
 (); (
 AND_OP
 ); }
 
-104 "||" { 
+112 "||" { 
 	`couÁ
 (); (
 OR_OP
 ); }
 
-105 "<=" { 
+113 "<=" { 
 	`couÁ
 (); (
 LE_OP
 ); }
 
-106 ">=" { 
+114 ">=" { 
 	`couÁ
 (); (
 GE_OP
 ); }
 
-107 "==" { 
+115 "==" { 
 	`couÁ
 (); (
 EQ_OP
 ); }
 
-108 "!=" { 
+116 "!=" { 
 	`couÁ
 (); (
 NE_OP
 ); }
 
-109 ";" { 
+117 ";" { 
 	`couÁ
 (); (';'); }
 
-110 ("{"|"<%"è{ 
+118 ("{"|"<%"è{ 
 	`couÁ
 (); ('{'); }
 
-111 ("}"|"%>"è{ 
+119 ("}"|"%>"è{ 
 	`couÁ
 (); ('}'); }
 
-112 "," { 
+120 "," { 
 	`couÁ
 (); (','); }
 
-113 ":" { 
+121 ":" { 
 	`couÁ
 (); (':'); }
 
-114 "=" { 
+122 "=" { 
 	`couÁ
 (); ('='); }
 
-115 "(" { 
+123 "(" { 
 	`couÁ
 (); ('('); }
 
-116 ")" { 
+124 ")" { 
 	`couÁ
 (); (')'); }
 
-117 ("["|"<:"è{ 
+125 ("["|"<:"è{ 
 	`couÁ
 (); ('['); }
 
-118 ("]"|":>"è{ 
+126 ("]"|":>"è{ 
 	`couÁ
 (); (']'); }
 
-119 "." { 
+127 "." { 
 	`couÁ
 (); ('.'); }
 
-120 "&" { 
+128 "&" { 
 	`couÁ
 (); ('&'); }
 
-121 "!" { 
+129 "!" { 
 	`couÁ
 (); ('!'); }
 
-122 "~" { 
+130 "~" { 
 	`couÁ
 (); ('~'); }
 
-123 "-" { 
+131 "-" { 
 	`couÁ
 (); ('-'); }
 
-124 "+" { 
+132 "+" { 
 	`couÁ
 (); ('+'); }
 
-125 "*" { 
+133 "*" { 
 	`couÁ
 (); ('*'); }
 
-126 "/" { 
+134 "/" { 
 	`couÁ
 (); ('/'); }
 
-127 "%" { 
+135 "%" { 
 	`couÁ
 (); ('%'); }
 
-128 "<" { 
+136 "<" { 
 	`couÁ
 (); ('<'); }
 
-129 ">" { 
+137 ">" { 
 	`couÁ
 (); ('>'); }
 
-130 "^" { 
+138 "^" { 
 	`couÁ
 (); ('^'); }
 
-131 "|" { 
+139 "|" { 
 	`couÁ
 (); ('|'); }
 
-132 "?" { 
+140 "?" { 
 	`couÁ
 (); ('?'); }
 
-135 [ \
+143 [ \
 t
 \
 v
@@ -797,111 +829,109 @@ f
 	`couÁ
 (); }
 
-138 
+146 
 	}
 %%
 
-140 
+148 
 	$yyw¿p
 ()
-
-143 
-	}
-}
-
-145 
-	$šş
-()
-
-147 
-c
-;
-
-149 (
-c
- = 
-	`šput
-()) != '\n')
-
-150 
-	`putch¬
- (
-c
-);
 
 151 
 	}
 }
 
-153 
+154 
 	$h—d”
 ()
 
-155 
+156 
 c
 ;
 
-156 
+157 
 	`´štf
  ("%s", 
 yy‹xt
 );
 
-157 (
+158 (
 c
  = 
 	`šput
 ()) != '\n' && c != 0)
 
-158 
+159 
 	`putch¬
 (
 c
 );
 
-159 ià(
+160 ià(
 c
- = '\n'); 
-	`putch¬
- (c);
+ == '\n') {
 
-160 
+161 
+	`putch¬
+ (
+c
+);
+
+162 
+lš’o
+ ++;
+
+165 
 	}
 }
 
-163 
+168 
 	$comm’t
 ()
 
-165 
+170 
 c
 , 
 c1
 ;
 
-167 
-	`puts
-(
+172 
+	`´štf
+("%s", 
 yy‹xt
 );
 
-168 
+173 
 loİ
 :
 
-169 (
+174 (
 c
  = 
 	`šput
 ()) != '*' && c != 0)
 
-170 
+176 
 	`putch¬
 (
 c
 );
 
-172 ià((
+177 ià(
+c
+ == '\n') {
+
+178 
+lš’o
+++;
+
+182 ià(
+c
+ =ğ'*'è
+	`putch¬
+ (c);
+
+184 ià((
 c1
  = 
 	`šput
@@ -909,101 +939,95 @@ c1
 c
  != 0)
 
-174 
+186 
 	`uÅut
 (
 c1
 );
 
-175 
+187 
 loİ
 ;
 
-177 ià(
-c
- =ğ'*' && 
-c1
- == '/') {
-
-178 
-	`putch¬
- (
-c
-);
-
-181 ià(
+190 ià(
 c
  != 0)
 
-182 
+191 
 	`putch¬
 (
 c1
 );
 
-183 
+192 
 	}
 }
 
-186 
+195 
 	gcŞumn
  = 0;
 
-188 
+197 
 	$couÁ
 ()
 
-190 
+199 
 i
 ;
 
-192 
+201 
 i
  = 0; 
 yy‹xt
 [i] != '\0'; i++)
 
-193 ià(
+202 ià(
 yy‹xt
 [
 i
 ] == '\n')
 
-194 
+203 
 cŞumn
  = 0;
 
-195 ià(
+204 ià(
 yy‹xt
 [
 i
 ] == '\t')
 
-196 
+205 
 cŞumn
  += 8 - (column % 8);
 
-198 
+207 
 cŞumn
 ++;
 
-200 
+209 
 ECHO
 ;
 
-201 
+210 
 	}
 }
 
-203 
+212 
 id
 [128];
 
-204 
+213 
 	$check_ty³
 ()
 
-218 
+227 
+Buck‘Li¡
+ 
+p
+;
+
+229 
 	`¥rštf
  (
 id
@@ -1011,25 +1035,71 @@ id
 yy‹xt
 );
 
-219 ià(
+230 
+	`´štf
+ ("<s(%d)(%d)(%d)>", 
+i_¡ruù_Ü_uniÚ
+, 
+i_šside_su
+, 
+şo£_to_¡ruù_Ü_uniÚ
+);
+
+232 ià(
+p
+ = 
+	`¡_lookup_ty³def
+(
+id
+))
+
+234 ià(
+şo£_to_¡ruù_Ü_uniÚ
+) {
+
+235  
+IDENTIFIER
+;
+
+238 ià(
+i_¡ruù_Ü_uniÚ
+ && (!
+i_šside_su
+)) {
+
+239 
+	`´štf
+("[I]");
+
+240  
+IDENTIFIER
+;
+
+242 
+	`´štf
+("[T]");
+
+243  (
+TYPE_NAME
+);
+
+247 ià(
 dump
 ) {
 
-221 
+249 
 dump
  = 0;
 
-224 
+252 
 	`´štf
- ("<s(%d)>", 
-i_¡ruù_Ü_uniÚ
-);
+("[&]");
 
-225 (
+253 (
 IDENTIFIER
 );
 
-226 
+254 
 	}
 }
 
@@ -6965,89 +7035,113 @@ YY_·r£_DEBUG
 
 	@cl-standard.y
 
-8 
+9 
 	#YYDEBUG
  1
 
 	)
 
-9 
-yydebug
-;
-
 10 
-lš’o
+yydebug
 ;
 
 11 
+lš’o
+;
+
+12 
 cŞumn
 ;
 
-13 
+14 
 	gid
 [128];
 
-14 
+15 
 	gi_ty³def
  = 0;
 
-15 
+16 
+	gi_šside_su
+ = 0;
+
+17 
 	gi_¡ruù_Ü_uniÚ
  = 0;
 
-16 
+18 
+	gşo£_to_¡ruù_Ü_uniÚ
+ = 0;
+
+19 
 	gdump
  = 0;
 
-18 
+21 
 	$£‰y³def
 ()
 
-20 
+23 
 i_ty³def
  = 1;
 
-21  
+24  
 i_ty³def
 ;
 
-22 
+25 
 	}
 }
 
-24 
+27 
 	$£t_š_¡ru
  ()
 
-26 
+29 
 yydebug
- = 1;
+ = 0;
 
-27 
+30 
 i_¡ruù_Ü_uniÚ
+ ++;
+
+31 
+şo£_to_¡ruù_Ü_uniÚ
  = 1;
 
-28 
+32 
 	}
 }
 
-29 
+33 
+	$şr_şo£_to_¡ruù_Ü_uniÚ
+()
+
+35 
+şo£_to_¡ruù_Ü_uniÚ
+ = 0;
+
+36 
+	}
+}
+
+38 
 	$şr_š_¡ru
  ()
 
-31 
+40 
 i_¡ruù_Ü_uniÚ
- = 0;
+ --;
 
-32 
+41 
 yydebug
  = 0;
 
-33 
+42 
 	}
 }
 
-37 %
+46 %
 tok’
  
 INCLUDE_FLAG
@@ -7055,9 +7149,11 @@ INCLUDE_FLAG
 LINE
  
 FILENAME
+ 
+INLINE
 
 
-38 %
+47 %
 tok’
  
 IDENTIFIER
@@ -7069,7 +7165,7 @@ STRING_LITERAL
 SIZEOF
 
 
-39 %
+48 %
 tok’
  
 PTR_OP
@@ -7091,7 +7187,7 @@ EQ_OP
 NE_OP
 
 
-40 %
+49 %
 tok’
  
 AND_OP
@@ -7107,7 +7203,7 @@ MOD_ASSIGN
 ADD_ASSIGN
 
 
-41 %
+50 %
 tok’
  
 SUB_ASSIGN
@@ -7119,7 +7215,7 @@ RIGHT_ASSIGN
 AND_ASSIGN
 
 
-42 %
+51 %
 tok’
  
 XOR_ASSIGN
@@ -7129,7 +7225,7 @@ OR_ASSIGN
 TYPE_NAME
 
 
-44 %
+53 %
 tok’
  
 TYPEDEF
@@ -7143,7 +7239,7 @@ AUTO
 REGISTER
 
 
-45 %
+54 %
 tok’
  
 CHAR
@@ -7169,7 +7265,7 @@ VOLATILE
 VOID
 
 
-46 %
+55 %
 tok’
  
 STRUCT
@@ -7181,7 +7277,7 @@ ENUM
 ELLIPSIS
 
 
-48 %
+57 %
 tok’
  
 CASE
@@ -7209,77 +7305,77 @@ BREAK
 RETURN
 
 
-50 %
+59 %
 ¡¬t
  
 Œª¦©iÚ_un™
 
 
-51 %% /* 
+60 %% /* 
 	$yy·r£
  */ 
 	`yyËx
 ()
 
-53 
+62 
 ´im¬y_ex´essiÚ
 
 
-54 : 
+63 : 
 IDENTIFIER
 
 
-55 | 
+64 | 
 CONSTANT
 
 
-56 | 
+65 | 
 STRING_LITERAL
 
 
-57 | '(' 
+66 | '(' 
 ex´essiÚ
  ')'
 
-60 
+69 
 ´•roûssÜ_šşude_h—d”_fe
 
 
-61 : 
+70 : 
 INCLUDE_FLAG
 
 
-67 
+76 
 po¡fix_ex´essiÚ
 
 
-68 : 
+77 : 
 ´im¬y_ex´essiÚ
 
 
-69 | 
+78 | 
 po¡fix_ex´essiÚ
  '[' 
 ex´essiÚ
  ']'
 
-70 | 
+79 | 
 po¡fix_ex´essiÚ
  '(' ')'
 
-71 | 
+80 | 
 po¡fix_ex´essiÚ
  '(' 
 ¬gum’t_ex´essiÚ_li¡
  ')'
 
-72 | 
+81 | 
 po¡fix_ex´essiÚ
  '.' 
 IDENTIFIER
 
 
-73 | 
+82 | 
 po¡fix_ex´essiÚ
  
 PTR_OP
@@ -7287,143 +7383,143 @@ PTR_OP
 IDENTIFIER
 
 
-74 | 
+83 | 
 po¡fix_ex´essiÚ
  
 INC_OP
 
 
-75 | 
+84 | 
 po¡fix_ex´essiÚ
  
 DEC_OP
 
 
-78 
+87 
 ¬gum’t_ex´essiÚ_li¡
 
 
-79 : 
+88 : 
 assignm’t_ex´essiÚ
 
 
-80 | 
+89 | 
 ¬gum’t_ex´essiÚ_li¡
  ',' 
 assignm’t_ex´essiÚ
 
 
-83 
+92 
 uÇry_ex´essiÚ
 
 
-84 : 
+93 : 
 po¡fix_ex´essiÚ
 
 
-85 | 
+94 | 
 INC_OP
  
 uÇry_ex´essiÚ
 
 
-86 | 
+95 | 
 DEC_OP
  
 uÇry_ex´essiÚ
 
 
-87 | 
+96 | 
 uÇry_İ”©Ü
  
 ÿ¡_ex´essiÚ
 
 
-88 | 
+97 | 
 SIZEOF
  
 uÇry_ex´essiÚ
 
 
-89 | 
+98 | 
 SIZEOF
  '(' 
 ty³_Çme
  ')'
 
-92 
+101 
 uÇry_İ”©Ü
 
 
-101 
+110 
 ÿ¡_ex´essiÚ
 
 
-102 : 
+111 : 
 uÇry_ex´essiÚ
 
 
-103 | '(' 
+112 | '(' 
 ty³_Çme
  ')' 
 ÿ¡_ex´essiÚ
 
 
-106 
+115 
 muÉliÿtive_ex´essiÚ
 
 
-107 : 
+116 : 
 ÿ¡_ex´essiÚ
 
 
-108 | 
+117 | 
 muÉliÿtive_ex´essiÚ
  '*' 
 ÿ¡_ex´essiÚ
 
 
-109 | 
+118 | 
 muÉliÿtive_ex´essiÚ
  '/' 
 ÿ¡_ex´essiÚ
 
 
-110 | 
+119 | 
 muÉliÿtive_ex´essiÚ
  '%' 
 ÿ¡_ex´essiÚ
 
 
-113 
+122 
 add™ive_ex´essiÚ
 
 
-114 : 
+123 : 
 muÉliÿtive_ex´essiÚ
 
 
-115 | 
+124 | 
 add™ive_ex´essiÚ
  '+' 
 muÉliÿtive_ex´essiÚ
 
 
-116 | 
+125 | 
 add™ive_ex´essiÚ
  '-' 
 muÉliÿtive_ex´essiÚ
 
 
-119 
+128 
 shiá_ex´essiÚ
 
 
-120 : 
+129 : 
 add™ive_ex´essiÚ
 
 
-121 | 
+130 | 
 shiá_ex´essiÚ
  
 LEFT_OP
@@ -7431,7 +7527,7 @@ LEFT_OP
 add™ive_ex´essiÚ
 
 
-122 | 
+131 | 
 shiá_ex´essiÚ
  
 RIGHT_OP
@@ -7439,27 +7535,27 @@ RIGHT_OP
 add™ive_ex´essiÚ
 
 
-125 
+134 
 »ÏtiÚ®_ex´essiÚ
 
 
-126 : 
+135 : 
 shiá_ex´essiÚ
 
 
-127 | 
+136 | 
 »ÏtiÚ®_ex´essiÚ
  '<' 
 shiá_ex´essiÚ
 
 
-128 | 
+137 | 
 »ÏtiÚ®_ex´essiÚ
  '>' 
 shiá_ex´essiÚ
 
 
-129 | 
+138 | 
 »ÏtiÚ®_ex´essiÚ
  
 LE_OP
@@ -7467,7 +7563,7 @@ LE_OP
 shiá_ex´essiÚ
 
 
-130 | 
+139 | 
 »ÏtiÚ®_ex´essiÚ
  
 GE_OP
@@ -7475,15 +7571,15 @@ GE_OP
 shiá_ex´essiÚ
 
 
-133 
+142 
 equ®™y_ex´essiÚ
 
 
-134 : 
+143 : 
 »ÏtiÚ®_ex´essiÚ
 
 
-135 | 
+144 | 
 equ®™y_ex´essiÚ
  
 EQ_OP
@@ -7491,7 +7587,7 @@ EQ_OP
 »ÏtiÚ®_ex´essiÚ
 
 
-136 | 
+145 | 
 equ®™y_ex´essiÚ
  
 NE_OP
@@ -7499,57 +7595,57 @@ NE_OP
 »ÏtiÚ®_ex´essiÚ
 
 
-139 
+148 
 ªd_ex´essiÚ
 
 
-140 : 
+149 : 
 equ®™y_ex´essiÚ
 
 
-141 | 
+150 | 
 ªd_ex´essiÚ
  '&' 
 equ®™y_ex´essiÚ
 
 
-144 
+153 
 exşusive_Ü_ex´essiÚ
 
 
-145 : 
+154 : 
 ªd_ex´essiÚ
 
 
-146 | 
+155 | 
 exşusive_Ü_ex´essiÚ
  '^' 
 ªd_ex´essiÚ
 
 
-149 
+158 
 šşusive_Ü_ex´essiÚ
 
 
-150 : 
+159 : 
 exşusive_Ü_ex´essiÚ
 
 
-151 | 
+160 | 
 šşusive_Ü_ex´essiÚ
  '|' 
 exşusive_Ü_ex´essiÚ
 
 
-154 
+163 
 logiÿl_ªd_ex´essiÚ
 
 
-155 : 
+164 : 
 šşusive_Ü_ex´essiÚ
 
 
-156 | 
+165 | 
 logiÿl_ªd_ex´essiÚ
  
 AND_OP
@@ -7557,15 +7653,15 @@ AND_OP
 šşusive_Ü_ex´essiÚ
 
 
-159 
+168 
 logiÿl_Ü_ex´essiÚ
 
 
-160 : 
+169 : 
 logiÿl_ªd_ex´essiÚ
 
 
-161 | 
+170 | 
 logiÿl_Ü_ex´essiÚ
  
 OR_OP
@@ -7573,15 +7669,15 @@ OR_OP
 logiÿl_ªd_ex´essiÚ
 
 
-164 
+173 
 cÚd™iÚ®_ex´essiÚ
 
 
-165 : 
+174 : 
 logiÿl_Ü_ex´essiÚ
 
 
-166 | 
+175 | 
 logiÿl_Ü_ex´essiÚ
  '?' 
 ex´essiÚ
@@ -7589,15 +7685,15 @@ ex´essiÚ
 cÚd™iÚ®_ex´essiÚ
 
 
-169 
+178 
 assignm’t_ex´essiÚ
 
 
-170 : 
+179 : 
 cÚd™iÚ®_ex´essiÚ
 
 
-171 | 
+180 | 
 uÇry_ex´essiÚ
  
 assignm’t_İ”©Ü
@@ -7605,99 +7701,99 @@ assignm’t_İ”©Ü
 assignm’t_ex´essiÚ
 
 
-174 
+183 
 assignm’t_İ”©Ü
 
 
-176 | 
+185 | 
 MUL_ASSIGN
 
 
-177 | 
+186 | 
 DIV_ASSIGN
 
 
-178 | 
+187 | 
 MOD_ASSIGN
 
 
-179 | 
+188 | 
 ADD_ASSIGN
 
 
-180 | 
+189 | 
 SUB_ASSIGN
 
 
-181 | 
+190 | 
 LEFT_ASSIGN
 
 
-182 | 
+191 | 
 RIGHT_ASSIGN
 
 
-183 | 
+192 | 
 AND_ASSIGN
 
 
-184 | 
+193 | 
 XOR_ASSIGN
 
 
-185 | 
+194 | 
 OR_ASSIGN
 
 
-188 
+197 
 ex´essiÚ
 
 
-189 : 
+198 : 
 assignm’t_ex´essiÚ
 
 
-190 | 
+199 | 
 ex´essiÚ
  ',' 
 assignm’t_ex´essiÚ
 
 
-193 
+202 
 cÚ¡ªt_ex´essiÚ
 
 
-194 : 
+203 : 
 cÚd™iÚ®_ex´essiÚ
 
 
-197 
+206 
 deş¬©iÚ
 
 
-198 : 
+207 : 
 deş¬©iÚ_¥ecif›rs
  ';'
 
-199 | 
+208 | 
 deş¬©iÚ_¥ecif›rs
  
 š™_deş¬©Ü_li¡
  ';' { \
 
-200 ià(
+209 ià(
 i_ty³def
 ) {
 
-201 
+210 
 	`´štf
- ("[[%s]]", 
+ ("[[TYPENAME:%s]]", 
 id
 ); 
 i_ty³def
 =0;
 
-202 
+211 
 	`¡_š£¹_ty³def
  (
 id
@@ -7707,59 +7803,59 @@ lš’o
 cŞumn
 );
 
-207 
-deş¬©iÚ_¥ecif›rs
-
-
-208 : 
-¡Üage_şass_¥ecif›r
-
-
-209 | 
-¡Üage_şass_¥ecif›r
- 
-deş¬©iÚ_¥ecif›rs
-
-
-210 | 
-ty³_¥ecif›r
-
-
-211 | 
-ty³_¥ecif›r
- 
-deş¬©iÚ_¥ecif›rs
-
-
-212 | 
-ty³_qu®if›r
-
-
-213 | 
-ty³_qu®if›r
- 
-deş¬©iÚ_¥ecif›rs
-
-
 216 
-š™_deş¬©Ü_li¡
+deş¬©iÚ_¥ecif›rs
 
 
 217 : 
-š™_deş¬©Ü
+¡Üage_şass_¥ecif›r
 
 
 218 | 
+¡Üage_şass_¥ecif›r
+ 
+deş¬©iÚ_¥ecif›rs
+
+
+219 | 
+ty³_¥ecif›r
+
+
+220 | 
+ty³_¥ecif›r
+ 
+deş¬©iÚ_¥ecif›rs
+
+
+221 | 
+ty³_qu®if›r
+
+
+222 | 
+ty³_qu®if›r
+ 
+deş¬©iÚ_¥ecif›rs
+
+
+225 
+š™_deş¬©Ü_li¡
+
+
+226 : 
+š™_deş¬©Ü
+
+
+227 | 
 š™_deş¬©Ü_li¡
  ',' 
 š™_deş¬©Ü
 
 
-221 
+230 
 š™_deş¬©Ü
 
 
-222 : 
+231 : 
 deş¬©Ü
  { 
 	`´štf
@@ -7769,7 +7865,7 @@ id
 i_ty³def
 ); }
 
-223 | 
+232 | 
 deş¬©Ü
  { 
 	`´štf
@@ -7777,221 +7873,241 @@ deş¬©Ü
 š™Ÿliz”
 
 
-226 
+235 
 ¡Üage_şass_¥ecif›r
 
 
-227 : 
+236 : 
 TYPEDEF
  { 
 	`£‰y³def
 (); }
 
-228 | 
+237 | 
 EXTERN
 
 
-229 | 
+238 | 
 STATIC
 
 
-230 | 
+239 | 
 AUTO
 
 
-231 | 
+240 | 
 REGISTER
 
 
-234 
+241 | 
+INLINE
+
+
+244 
 ty³_¥ecif›r
 
 
-235 : 
+245 : 
 VOID
 
 
-236 | 
+246 | 
 CHAR
 
 
-237 | 
+247 | 
 SHORT
 
 
-238 | 
+248 | 
 INT
 
 
-239 | 
+249 | 
 LONG
 
 
-240 | 
+250 | 
 FLOAT
 
 
-241 | 
+251 | 
 DOUBLE
 
 
-242 | 
+252 | 
 SIGNED
 
 
-243 | 
+253 | 
 UNSIGNED
 
 
-244 | 
+254 | 
 ¡ruù_Ü_uniÚ_¥ecif›r
 
 
-245 | 
+255 | 
 ’um_¥ecif›r
 
 
-246 | 
+256 | 
 TYPE_NAME
 
 
-249 
+259 
 ¡ruù_Ü_uniÚ_¥ecif›r
 
 
-250 : 
+260 : 
 ¡ruù_Ü_uniÚ
  
 IDENTIFIER
- '{' 
+ {
+	`şr_şo£_to_¡ruù_Ü_uniÚ
+(); } '{' {
+i_šside_su
+=1; } 
 ¡ruù_deş¬©iÚ_li¡
  '}' { 
 	`şr_š_¡ru
-(); }
+(); i_inside_su = 0; }
 
-251 | 
+261 | 
 ¡ruù_Ü_uniÚ
- '{' 
+ '{' { 
+	`şr_şo£_to_¡ruù_Ü_uniÚ
+(); 
+i_šside_su
+=1;} 
 ¡ruù_deş¬©iÚ_li¡
  '}' { 
 	`şr_š_¡ru
-(); }
+(); i_inside_su=0;}
 
-252 | 
+262 | 
 ¡ruù_Ü_uniÚ
  
 IDENTIFIER
  { 
+	`şr_şo£_to_¡ruù_Ü_uniÚ
+(); 
 	`şr_š_¡ru
 (); }
 
-255 
+265 
 ¡ruù_Ü_uniÚ
 
 
-256 : 
+266 : 
 STRUCT
  { 
 	`£t_š_¡ru
 (); }
 
-257 | 
+267 | 
 UNION
  { 
 	`£t_š_¡ru
 (); }
 
-260 
+270 
 ¡ruù_deş¬©iÚ_li¡
 
 
-261 : 
+271 : 
 ¡ruù_deş¬©iÚ
 
 
-262 | 
+272 | 
 ¡ruù_deş¬©iÚ_li¡
  
 ¡ruù_deş¬©iÚ
 
 
-265 
+275 
 ¡ruù_deş¬©iÚ
 
 
-266 : 
+276 : 
 ¥ecif›r_qu®if›r_li¡
  
 ¡ruù_deş¬©Ü_li¡
  ';'
 
-269 
+279 
 ¥ecif›r_qu®if›r_li¡
 
 
-270 : 
+280 : 
 ty³_¥ecif›r
  
 ¥ecif›r_qu®if›r_li¡
 
 
-271 | 
+281 | 
 ty³_¥ecif›r
 
 
-272 | 
+282 | 
 ty³_qu®if›r
  
 ¥ecif›r_qu®if›r_li¡
 
 
-273 | 
+283 | 
 ty³_qu®if›r
 
 
-276 
+286 
 ¡ruù_deş¬©Ü_li¡
 
 
-277 : 
+287 : 
 ¡ruù_deş¬©Ü
 
 
-278 | 
+288 | 
 ¡ruù_deş¬©Ü_li¡
  ',' 
 ¡ruù_deş¬©Ü
 
 
-281 
+291 
 ¡ruù_deş¬©Ü
 
 
-282 : 
+292 : 
 deş¬©Ü
 
 
-283 | ':' 
+293 | ':' 
 cÚ¡ªt_ex´essiÚ
 
 
-284 | 
+294 | 
 deş¬©Ü
  ':' 
 cÚ¡ªt_ex´essiÚ
 
 
-287 
+297 
 ’um_¥ecif›r
 
 
-288 : 
+298 : 
 ENUM
  '{' 
 ’um”©Ü_li¡
  '}'
 
-289 | 
+299 | 
+ENUM
+ '{' 
+’um”©Ü_li¡
+ ',' '}'
+
+300 | 
 ENUM
  
 IDENTIFIER
@@ -7999,335 +8115,369 @@ IDENTIFIER
 ’um”©Ü_li¡
  '}'
 
-290 | 
+301 | 
+ENUM
+ 
+IDENTIFIER
+ '{' 
+’um”©Ü_li¡
+ ',' '}'
+
+302 | 
 ENUM
  
 IDENTIFIER
 
 
-293 
+305 
 ’um”©Ü_li¡
 
 
-294 : 
+306 : 
 ’um”©Ü
 
 
-295 | 
+307 | 
 ’um”©Ü_li¡
  ',' 
 ’um”©Ü
 
 
-298 
+311 
 ’um”©Ü
 
 
-299 : 
+312 : 
 IDENTIFIER
 
 
-300 | 
+313 | 
 IDENTIFIER
  '=' 
 cÚ¡ªt_ex´essiÚ
 
 
-303 
+316 
 ty³_qu®if›r
 
 
-304 : 
+317 : 
 CONST
 
 
-305 | 
+318 | 
 VOLATILE
 
 
-308 
+321 
 deş¬©Ü
 
 
-309 : 
+322 : 
 poš‹r
  
 dœeù_deş¬©Ü
 
 
-310 | 
+323 | 
 dœeù_deş¬©Ü
 
 
-316 
+329 
 dœeù_deş¬©Ü
 
 
-317 : 
+330 : 
 IDENTIFIER
 
 
-318 | '(' 
+331 | '(' 
 deş¬©Ü
- ')'
+ ')' { \
 
-319 | 
+332 ià(
+i_ty³def
+ && !
+i_¡ruù_Ü_uniÚ
+) {
+
+333 
+	`´štf
+("TYPENAME:FUNC:(%s)", 
+id
+);
+
+334 
+i_ty³def
+=0;
+
+335 
+	`¡_š£¹_ty³def
+ (
+id
+, 
+lš’o
+, 
+cŞumn
+);
+
+338 | 
 dœeù_deş¬©Ü
  '[' 
 cÚ¡ªt_ex´essiÚ
  ']'
 
-320 | 
+339 | 
 dœeù_deş¬©Ü
  '[' ']'
 
-321 | 
+340 | 
 dœeù_deş¬©Ü
  '(' 
 ·¿m‘”_ty³_li¡
  ')'
 
-322 | 
+341 | 
 dœeù_deş¬©Ü
  '(' 
 id’tif›r_li¡
  ')'
 
-323 | 
+342 | 
 dœeù_deş¬©Ü
  '(' ')'
 
-326 
+345 
 poš‹r
 
 
-328 | '*' 
+347 | '*' 
 ty³_qu®if›r_li¡
 
 
-329 | '*' 
+348 | '*' 
 poš‹r
 
 
-330 | '*' 
+349 | '*' 
 ty³_qu®if›r_li¡
  
 poš‹r
 
 
-333 
+352 
 ty³_qu®if›r_li¡
 
 
-334 : 
+353 : 
 ty³_qu®if›r
 
 
-335 | 
+354 | 
 ty³_qu®if›r_li¡
  
 ty³_qu®if›r
 
 
-339 
+358 
 ·¿m‘”_ty³_li¡
 
 
-340 : 
+359 : 
 ·¿m‘”_li¡
 
 
-341 | 
+360 | 
 ·¿m‘”_li¡
  ',' 
 ELLIPSIS
 
 
-344 
+363 
 ·¿m‘”_li¡
 
 
-345 : 
+364 : 
 ·¿m‘”_deş¬©iÚ
 
 
-346 | 
+365 | 
 ·¿m‘”_li¡
  ',' 
 ·¿m‘”_deş¬©iÚ
 
 
-349 
+368 
 ·¿m‘”_deş¬©iÚ
 
 
-350 : 
+369 : 
 deş¬©iÚ_¥ecif›rs
  
 deş¬©Ü
 
 
-351 | 
+370 | 
 deş¬©iÚ_¥ecif›rs
  
 ab¡¿ù_deş¬©Ü
 
 
-352 | 
+371 | 
 deş¬©iÚ_¥ecif›rs
 
 
-355 
+374 
 id’tif›r_li¡
 
 
-356 : 
+375 : 
 IDENTIFIER
 
 
-357 | 
+376 | 
 id’tif›r_li¡
  ',' 
 IDENTIFIER
 
 
-360 
+379 
 ty³_Çme
 
 
-361 : 
+380 : 
 ¥ecif›r_qu®if›r_li¡
 
 
-362 | 
+381 | 
 ¥ecif›r_qu®if›r_li¡
  
 ab¡¿ù_deş¬©Ü
 
 
-365 
+384 
 ab¡¿ù_deş¬©Ü
 
 
-366 : 
+385 : 
 poš‹r
 
 
-367 | 
+386 | 
 dœeù_ab¡¿ù_deş¬©Ü
 
 
-368 | 
+387 | 
 poš‹r
  
 dœeù_ab¡¿ù_deş¬©Ü
 
 
-371 
+390 
 dœeù_ab¡¿ù_deş¬©Ü
 
 
-372 : '(' 
+391 : '(' 
 ab¡¿ù_deş¬©Ü
  ')'
 
-374 | '[' 
+393 | '[' 
 cÚ¡ªt_ex´essiÚ
  ']'
 
-375 | 
+394 | 
 dœeù_ab¡¿ù_deş¬©Ü
  '[' ']'
 
-376 | 
+395 | 
 dœeù_ab¡¿ù_deş¬©Ü
  '[' 
 cÚ¡ªt_ex´essiÚ
  ']'
 
-378 | '(' 
+397 | '(' 
 ·¿m‘”_ty³_li¡
  ')'
 
-379 | 
+398 | 
 dœeù_ab¡¿ù_deş¬©Ü
  '(' ')'
 
-380 | 
+399 | 
 dœeù_ab¡¿ù_deş¬©Ü
  '(' 
 ·¿m‘”_ty³_li¡
  ')'
 
-383 
+402 
 š™Ÿliz”
 
 
-384 : 
+403 : 
 assignm’t_ex´essiÚ
 
 
-385 | '{' 
+404 | '{' 
 š™Ÿliz”_li¡
  '}'
 
-386 | '{' 
+405 | '{' 
 š™Ÿliz”_li¡
  ',' '}'
 
-389 
+408 
 š™Ÿliz”_li¡
 
 
-390 : 
+409 : 
 š™Ÿliz”
 
 
-391 | 
+410 | 
 š™Ÿliz”_li¡
  ',' 
 š™Ÿliz”
 
 
-394 
+413 
 ¡©em’t
 
 
-395 : 
+414 : 
 Ïb–ed_¡©em’t
 
 
-396 | 
+415 | 
 compound_¡©em’t
 
 
-397 | 
+416 | 
 ex´essiÚ_¡©em’t
 
 
-398 | 
+417 | 
 £ËùiÚ_¡©em’t
 
 
-399 | 
+418 | 
 ™”©iÚ_¡©em’t
 
 
-400 | 
+419 | 
 jump_¡©em’t
 
 
-403 
+422 
 Ïb–ed_¡©em’t
 
 
-404 : 
+423 : 
 IDENTIFIER
  ':' 
 ¡©em’t
 
 
-405 | 
+424 | 
 CASE
  
 cÚ¡ªt_ex´essiÚ
@@ -8335,71 +8485,71 @@ cÚ¡ªt_ex´essiÚ
 ¡©em’t
 
 
-406 | 
+425 | 
 DEFAULT
  ':' 
 ¡©em’t
 
 
-409 
+428 
 compound_¡©em’t
 
 
-411 | '{' 
+430 | '{' 
 ¡©em’t_li¡
  '}'
 
-412 | '{' 
+431 | '{' 
 deş¬©iÚ_li¡
  '}'
 
-413 | '{' 
+432 | '{' 
 deş¬©iÚ_li¡
  
 ¡©em’t_li¡
  '}'
 
-416 
+435 
 deş¬©iÚ_li¡
 
 
-417 : 
+436 : 
 deş¬©iÚ
 
 
-418 | 
+437 | 
 deş¬©iÚ_li¡
  
 deş¬©iÚ
 
 
-421 
+440 
 ¡©em’t_li¡
 
 
-422 : 
+441 : 
 ¡©em’t
 
 
-423 | 
+442 | 
 ¡©em’t_li¡
  
 ¡©em’t
 
 
-426 
+445 
 ex´essiÚ_¡©em’t
 
 
-428 | 
+447 | 
 ex´essiÚ
  ';'
 
-431 
+450 
 £ËùiÚ_¡©em’t
 
 
-432 : 
+451 : 
 IF
  '(' 
 ex´essiÚ
@@ -8407,7 +8557,7 @@ ex´essiÚ
 ¡©em’t
 
 
-433 | 
+452 | 
 IF
  '(' 
 ex´essiÚ
@@ -8417,7 +8567,7 @@ ex´essiÚ
 ELSE
  statement
 
-434 | 
+453 | 
 SWITCH
  '(' 
 ex´essiÚ
@@ -8425,11 +8575,11 @@ ex´essiÚ
 ¡©em’t
 
 
-437 
+456 
 ™”©iÚ_¡©em’t
 
 
-438 : 
+457 : 
 WHILE
  '(' 
 ex´essiÚ
@@ -8437,7 +8587,7 @@ ex´essiÚ
 ¡©em’t
 
 
-439 | 
+458 | 
 DO
  
 ¡©em’t
@@ -8447,7 +8597,7 @@ WHILE
 ex´essiÚ
  ')' ';'
 
-440 | 
+459 | 
 FOR
  '(' 
 ex´essiÚ_¡©em’t
@@ -8455,7 +8605,7 @@ ex´essiÚ_¡©em’t
 ¡©em’t
 
 
-441 | 
+460 | 
 FOR
  '(' 
 ex´essiÚ_¡©em’t
@@ -8465,75 +8615,75 @@ ex´essiÚ
 ¡©em’t
 
 
-444 
+463 
 jump_¡©em’t
 
 
-445 : 
+464 : 
 GOTO
  
 IDENTIFIER
  ';'
 
-446 | 
+465 | 
 CONTINUE
  ';'
 
-447 | 
+466 | 
 BREAK
  ';'
 
-448 | 
+467 | 
 RETURN
  ';'
 
-449 | 
+468 | 
 RETURN
  
 ex´essiÚ
  ';'
 
-452 
+471 
 Œª¦©iÚ_un™
 
 
-453 : 
+472 : 
 ex‹º®_deş¬©iÚ
 
 
-454 | 
+473 | 
 Œª¦©iÚ_un™
  
 ex‹º®_deş¬©iÚ
 
 
-455 | 
+474 | 
 ´•roûssÜ_šşude_h—d”_fe
 
 
-456 | 
+475 | 
 Œª¦©iÚ_un™
  
 ´•roûssÜ_šşude_h—d”_fe
 
 
-459 
+478 
 ex‹º®_deş¬©iÚ
 
 
-460 : 
+479 : 
 funùiÚ_defš™iÚ
 
 
-461 | 
+480 | 
 deş¬©iÚ
 
 
-464 
+483 
 funùiÚ_defš™iÚ
 
 
-465 : 
+484 : 
 deş¬©iÚ_¥ecif›rs
  
 deş¬©Ü
@@ -8543,7 +8693,7 @@ deş¬©iÚ_li¡
 compound_¡©em’t
 
 
-466 | 
+485 | 
 deş¬©iÚ_¥ecif›rs
  
 deş¬©Ü
@@ -8551,7 +8701,7 @@ deş¬©Ü
 compound_¡©em’t
 
 
-467 | 
+486 | 
 deş¬©Ü
  
 deş¬©iÚ_li¡
@@ -8559,65 +8709,97 @@ deş¬©iÚ_li¡
 compound_¡©em’t
 
 
-468 | 
+487 | 
 deş¬©Ü
  
 compound_¡©em’t
 
 
-471 
+490 
 	}
 %%
 
-472 
+491 
 	~<¡dio.h
 >
 
-474 
+493 
 cŞumn
 ;
 
-476 
+495 
 	$yy”rÜ
 (
 s
 )
 
-477 *
+496 *
 s
 ;
 
-479 
+498 
 	`fæush
 (
 ¡dout
 );
 
-480 
+499 
 	`´štf
-("\n%*s\n%*s\n", 
+("\n%*s\n%* ©†še(%d):cŞumn(%d):symbŞ(%s)\n", 
 cŞumn
 , "^", cŞumn, 
 s
+, 
+lš’o
+, cŞumn, 
+id
 );
 
-481 
+500 
+	`´štf
+("i_ty³def(%d)i_¡ruù_Ü_uniÚ(%d)i_šside_su(%d)dump(%d)yylv®(%d)şo£(%d)\n", 
+i_ty³def
+, 
+i_¡ruù_Ü_uniÚ
+, 
+i_šside_su
+, 
+dump
+, 
+yylv®
+, 
+şo£_to_¡ruù_Ü_uniÚ
+);
+
+501 
 	}
 }
 
-483 
+503 
 	$maš
  ()
 
-485 
+505 
 yydebug
  = 0;
 
-486 
+506 
 	`yy·r£
 ();
 
-487 
+507 
+	`´št_¡
+();
+
+508 
+	`»Ëa£_bË
+();
+
+509 
+	`»Ëa£_ty³def_bË
+();
+
+510 
 	}
 }
 
@@ -8631,27 +8813,77 @@ yydebug
 	~<¡ršg.h
 >
 
-8 
-	s¡ud’t
+9 
+	mh–lo1
+,
+
+10 
+	mwÜd1
+,
+
+11 } 
+	tLED_ST1
+;
+
+14 
+__šlše
+ cÚ¡ *
+	$CTD_SŒE¼Ü
+(
+code
+)
+
+16 
+i
+;
+
+17 
+	}
+}
+
+18 
+	s¡ud’t_šfo
  {
 
-9 
+19 
+	mÇme
+[128];
+
+20 
 	mage
 ;
 
-10 
+21 
+	mscÜe
+;
+
+22 
+¡ud’t_šfo
+ *
+	mp
+;
+
+25 
+	s¡ud’t
+ {
+
+26 
+	mage
+;
+
+27 
 	mÇme
 [16];
 
-11 } 
+28 } 
 	t¡ud’t
 ;
 
-13 
+30 
 	tmyšt
 ;
 
-15 
+32 
 	$maš
  (
 ¬gc
@@ -8659,49 +8891,147 @@ yydebug
 ¬gv
 )
 
-17 
+34 
 şock
 ;
 
-18 
+35 
 ii
  = 0;
 
-19 cÚ¡ 
+36 cÚ¡ 
 iii
 ;
 
-20 
+37 
 kk
 ;
 
-22 
+38 
+myšt
+ 
+iiii
+;
+
+39 
+¡ud’t
+ 
+sss
+;
+
+41 
 	sşock
  {
 
-23 
+42 
 i
 ;
 
-24 
+43 
 c
 ;
 
-25 }
+44 }
 şock
 ;
 
-26 
+45 
 age
  = 0;
 
-28 
+47 
 	`´štf
- ("Hello world\n");
+ ("Hello world\n(%*s)\n", 60, "fuck");
 
-31 
+48 
+	`´štf
+ ("(%*s)\n", 60, "fiiiiiiiiiiiiiiiiuck");
+
+51 
 	}
 }
+
+53 (
+	tmyfunc
+)(
+	ti
+, 
+	tc
+);
+
+54 
+tş_ev’t
+ 
+	ttş_ev’t
+;
+
+55 
+	stş_ev’t
+ {
+
+56 
+a
+;
+
+57 }
+	tkkk
+;
+
+59 
+	$f
+()
+
+61 
+kkk
+ 
+mykkk
+;
+
+62 
+	`´štf
+ ("sigh");
+
+64 
+	}
+}
+
+66 
+mys
+ 
+	tmys
+;
+
+67 
+	smys
+ {
+
+68 
+mys
+ *
+	mpNext
+;
+
+69 
+	smyss
+ {
+
+70 
+	mn
+;
+
+71 
+	mcc
+;
+
+72 }
+	mdddddddd
+;
+
+73 
+kkk
+ 
+	mn
+;
 
 	@symtab.c
 
@@ -9641,7 +9971,7 @@ li¡šg
 	`årštf
 (
 li¡šg
-, "-------------- -------- -------------- ------------\n");
+, "------------------------------ -------- -------------- ------------\n");
 
 266 
 i
@@ -9687,7 +10017,7 @@ lšes
 	`årštf
 (
 li¡šg
-, "%+14 ", 
+, "%+29 ", 
 l
 ->
 Çme
@@ -10636,358 +10966,364 @@ YY_·r£_LVAL
 	)
 
 192 
-	#IDENTIFIER
+	#INLINE
  261
 
 	)
 
 193 
-	#CONSTANT
+	#IDENTIFIER
  262
 
 	)
 
 194 
-	#STRING_LITERAL
+	#CONSTANT
  263
 
 	)
 
 195 
-	#SIZEOF
+	#STRING_LITERAL
  264
 
 	)
 
 196 
-	#PTR_OP
+	#SIZEOF
  265
 
 	)
 
 197 
-	#INC_OP
+	#PTR_OP
  266
 
 	)
 
 198 
-	#DEC_OP
+	#INC_OP
  267
 
 	)
 
 199 
-	#LEFT_OP
+	#DEC_OP
  268
 
 	)
 
 200 
-	#RIGHT_OP
+	#LEFT_OP
  269
 
 	)
 
 201 
-	#LE_OP
+	#RIGHT_OP
  270
 
 	)
 
 202 
-	#GE_OP
+	#LE_OP
  271
 
 	)
 
 203 
-	#EQ_OP
+	#GE_OP
  272
 
 	)
 
 204 
-	#NE_OP
+	#EQ_OP
  273
 
 	)
 
 205 
-	#AND_OP
+	#NE_OP
  274
 
 	)
 
 206 
-	#OR_OP
+	#AND_OP
  275
 
 	)
 
 207 
-	#MUL_ASSIGN
+	#OR_OP
  276
 
 	)
 
 208 
-	#DIV_ASSIGN
+	#MUL_ASSIGN
  277
 
 	)
 
 209 
-	#MOD_ASSIGN
+	#DIV_ASSIGN
  278
 
 	)
 
 210 
-	#ADD_ASSIGN
+	#MOD_ASSIGN
  279
 
 	)
 
 211 
-	#SUB_ASSIGN
+	#ADD_ASSIGN
  280
 
 	)
 
 212 
-	#LEFT_ASSIGN
+	#SUB_ASSIGN
  281
 
 	)
 
 213 
-	#RIGHT_ASSIGN
+	#LEFT_ASSIGN
  282
 
 	)
 
 214 
-	#AND_ASSIGN
+	#RIGHT_ASSIGN
  283
 
 	)
 
 215 
-	#XOR_ASSIGN
+	#AND_ASSIGN
  284
 
 	)
 
 216 
-	#OR_ASSIGN
+	#XOR_ASSIGN
  285
 
 	)
 
 217 
-	#TYPE_NAME
+	#OR_ASSIGN
  286
 
 	)
 
 218 
-	#TYPEDEF
+	#TYPE_NAME
  287
 
 	)
 
 219 
-	#EXTERN
+	#TYPEDEF
  288
 
 	)
 
 220 
-	#STATIC
+	#EXTERN
  289
 
 	)
 
 221 
-	#AUTO
+	#STATIC
  290
 
 	)
 
 222 
-	#REGISTER
+	#AUTO
  291
 
 	)
 
 223 
-	#CHAR
+	#REGISTER
  292
 
 	)
 
 224 
-	#SHORT
+	#CHAR
  293
 
 	)
 
 225 
-	#INT
+	#SHORT
  294
 
 	)
 
 226 
-	#LONG
+	#INT
  295
 
 	)
 
 227 
-	#SIGNED
+	#LONG
  296
 
 	)
 
 228 
-	#UNSIGNED
+	#SIGNED
  297
 
 	)
 
 229 
-	#FLOAT
+	#UNSIGNED
  298
 
 	)
 
 230 
-	#DOUBLE
+	#FLOAT
  299
 
 	)
 
 231 
-	#CONST
+	#DOUBLE
  300
 
 	)
 
 232 
-	#VOLATILE
+	#CONST
  301
 
 	)
 
 233 
-	#VOID
+	#VOLATILE
  302
 
 	)
 
 234 
-	#STRUCT
+	#VOID
  303
 
 	)
 
 235 
-	#UNION
+	#STRUCT
  304
 
 	)
 
 236 
-	#ENUM
+	#UNION
  305
 
 	)
 
 237 
-	#ELLIPSIS
+	#ENUM
  306
 
 	)
 
 238 
-	#CASE
+	#ELLIPSIS
  307
 
 	)
 
 239 
-	#DEFAULT
+	#CASE
  308
 
 	)
 
 240 
-	#IF
+	#DEFAULT
  309
 
 	)
 
 241 
-	#ELSE
+	#IF
  310
 
 	)
 
 242 
-	#SWITCH
+	#ELSE
  311
 
 	)
 
 243 
-	#WHILE
+	#SWITCH
  312
 
 	)
 
 244 
-	#DO
+	#WHILE
  313
 
 	)
 
 245 
-	#FOR
+	#DO
  314
 
 	)
 
 246 
-	#GOTO
+	#FOR
  315
 
 	)
 
 247 
-	#CONTINUE
+	#GOTO
  316
 
 	)
 
 248 
-	#BREAK
+	#CONTINUE
  317
 
 	)
 
 249 
-	#RETURN
+	#BREAK
  318
 
 	)
 
-256 #iâdeà
+250 
+	#RETURN
+ 319
+
+	)
+
+257 #iâdeà
 YY_·r£_CLASS
 
 
-257 
+258 
 	#YY_·r£_CLASS
  
 ·r£
@@ -10995,75 +11331,75 @@ YY_·r£_CLASS
 
 	)
 
-260 #iâdeà
+261 #iâdeà
 YY_·r£_INHERIT
 
 
-261 
+262 
 	#YY_·r£_INHERIT
 
 
 	)
 
-264 #iâdeà
+265 #iâdeà
 YY_·r£_MEMBERS
 
 
-265 
+266 
 	#YY_·r£_MEMBERS
 
 
 	)
 
-268 #iâdeà
+269 #iâdeà
 YY_·r£_LEX_BODY
 
 
-269 
+270 
 	#YY_·r£_LEX_BODY
 
 
 	)
 
-272 #iâdeà
+273 #iâdeà
 YY_·r£_ERROR_BODY
 
 
-273 
+274 
 	#YY_·r£_ERROR_BODY
 
 
 	)
 
-276 #iâdeà
+277 #iâdeà
 YY_·r£_CONSTRUCTOR_PARAM
 
 
-277 
+278 
 	#YY_·r£_CONSTRUCTOR_PARAM
 
 
 	)
 
-280 #iâdeà
+281 #iâdeà
 YY_·r£_USE_CONST_TOKEN
 
 
-281 
+282 
 	#YY_·r£_USE_CONST_TOKEN
  0
 
 	)
 
-285 #ià
+286 #ià
 YY_·r£_USE_CONST_TOKEN
  != 0
 
-286 #iâdeà
+287 #iâdeà
 YY_·r£_ENUM_TOKEN
 
 
-287 
+288 
 	#YY_·r£_ENUM_TOKEN
  
 yy_·r£_’um_tok’
@@ -11071,525 +11407,533 @@ yy_·r£_’um_tok’
 
 	)
 
-291 şas 
+292 şas 
 	cYY_·r£_CLASS
  
 	mYY_·r£_INHERIT
 
 
-293 
+294 
 	mpublic
 :
 
-294 #ià
+295 #ià
 YY_·r£_USE_CONST_TOKEN
  != 0
 
-298 cÚ¡ 
+299 cÚ¡ 
 INCLUDE_FLAG
 ;
 
-299 cÚ¡ 
+300 cÚ¡ 
 	mLINE
 ;
 
-300 cÚ¡ 
+301 cÚ¡ 
 	mFILENAME
 ;
 
-301 cÚ¡ 
-	mIDENTIFIER
-;
-
 302 cÚ¡ 
-	mCONSTANT
+	mINLINE
 ;
 
 303 cÚ¡ 
-	mSTRING_LITERAL
+	mIDENTIFIER
 ;
 
 304 cÚ¡ 
-	mSIZEOF
+	mCONSTANT
 ;
 
 305 cÚ¡ 
-	mPTR_OP
+	mSTRING_LITERAL
 ;
 
 306 cÚ¡ 
-	mINC_OP
+	mSIZEOF
 ;
 
 307 cÚ¡ 
-	mDEC_OP
+	mPTR_OP
 ;
 
 308 cÚ¡ 
-	mLEFT_OP
+	mINC_OP
 ;
 
 309 cÚ¡ 
-	mRIGHT_OP
+	mDEC_OP
 ;
 
 310 cÚ¡ 
-	mLE_OP
+	mLEFT_OP
 ;
 
 311 cÚ¡ 
-	mGE_OP
+	mRIGHT_OP
 ;
 
 312 cÚ¡ 
-	mEQ_OP
+	mLE_OP
 ;
 
 313 cÚ¡ 
-	mNE_OP
+	mGE_OP
 ;
 
 314 cÚ¡ 
-	mAND_OP
+	mEQ_OP
 ;
 
 315 cÚ¡ 
-	mOR_OP
+	mNE_OP
 ;
 
 316 cÚ¡ 
-	mMUL_ASSIGN
+	mAND_OP
 ;
 
 317 cÚ¡ 
-	mDIV_ASSIGN
+	mOR_OP
 ;
 
 318 cÚ¡ 
-	mMOD_ASSIGN
+	mMUL_ASSIGN
 ;
 
 319 cÚ¡ 
-	mADD_ASSIGN
+	mDIV_ASSIGN
 ;
 
 320 cÚ¡ 
-	mSUB_ASSIGN
+	mMOD_ASSIGN
 ;
 
 321 cÚ¡ 
-	mLEFT_ASSIGN
+	mADD_ASSIGN
 ;
 
 322 cÚ¡ 
-	mRIGHT_ASSIGN
+	mSUB_ASSIGN
 ;
 
 323 cÚ¡ 
-	mAND_ASSIGN
+	mLEFT_ASSIGN
 ;
 
 324 cÚ¡ 
-	mXOR_ASSIGN
+	mRIGHT_ASSIGN
 ;
 
 325 cÚ¡ 
-	mOR_ASSIGN
+	mAND_ASSIGN
 ;
 
 326 cÚ¡ 
-	mTYPE_NAME
+	mXOR_ASSIGN
 ;
 
 327 cÚ¡ 
-	mTYPEDEF
+	mOR_ASSIGN
 ;
 
 328 cÚ¡ 
-	mEXTERN
+	mTYPE_NAME
 ;
 
 329 cÚ¡ 
-	mSTATIC
+	mTYPEDEF
 ;
 
 330 cÚ¡ 
-	mAUTO
+	mEXTERN
 ;
 
 331 cÚ¡ 
-	mREGISTER
+	mSTATIC
 ;
 
 332 cÚ¡ 
-	mCHAR
+	mAUTO
 ;
 
 333 cÚ¡ 
-	mSHORT
+	mREGISTER
 ;
 
 334 cÚ¡ 
-	mINT
+	mCHAR
 ;
 
 335 cÚ¡ 
-	mLONG
+	mSHORT
 ;
 
 336 cÚ¡ 
-	mSIGNED
+	mINT
 ;
 
 337 cÚ¡ 
-	mUNSIGNED
+	mLONG
 ;
 
 338 cÚ¡ 
-	mFLOAT
+	mSIGNED
 ;
 
 339 cÚ¡ 
-	mDOUBLE
+	mUNSIGNED
 ;
 
 340 cÚ¡ 
-	mCONST
+	mFLOAT
 ;
 
 341 cÚ¡ 
-	mVOLATILE
+	mDOUBLE
 ;
 
 342 cÚ¡ 
-	mVOID
+	mCONST
 ;
 
 343 cÚ¡ 
-	mSTRUCT
+	mVOLATILE
 ;
 
 344 cÚ¡ 
-	mUNION
+	mVOID
 ;
 
 345 cÚ¡ 
-	mENUM
+	mSTRUCT
 ;
 
 346 cÚ¡ 
-	mELLIPSIS
+	mUNION
 ;
 
 347 cÚ¡ 
-	mCASE
+	mENUM
 ;
 
 348 cÚ¡ 
-	mDEFAULT
+	mELLIPSIS
 ;
 
 349 cÚ¡ 
-	mIF
+	mCASE
 ;
 
 350 cÚ¡ 
-	mELSE
+	mDEFAULT
 ;
 
 351 cÚ¡ 
-	mSWITCH
+	mIF
 ;
 
 352 cÚ¡ 
-	mWHILE
+	mELSE
 ;
 
 353 cÚ¡ 
-	mDO
+	mSWITCH
 ;
 
 354 cÚ¡ 
-	mFOR
+	mWHILE
 ;
 
 355 cÚ¡ 
-	mGOTO
+	mDO
 ;
 
 356 cÚ¡ 
-	mCONTINUE
+	mFOR
 ;
 
 357 cÚ¡ 
-	mBREAK
+	mGOTO
 ;
 
 358 cÚ¡ 
+	mCONTINUE
+;
+
+359 cÚ¡ 
+	mBREAK
+;
+
+360 cÚ¡ 
 	mRETURN
 ;
 
-364 
+366 
 	eYY_·r£_ENUM_TOKEN
  { 
 	mYY_·r£_NULL_TOKEN
 =0
 
-367 ,
+369 ,
 	mINCLUDE_FLAG
 =258
 
-368 ,
+370 ,
 	mLINE
 =259
 
-369 ,
+371 ,
 	mFILENAME
 =260
 
-370 ,
-	mIDENTIFIER
+372 ,
+	mINLINE
 =261
 
-371 ,
-	mCONSTANT
+373 ,
+	mIDENTIFIER
 =262
 
-372 ,
-	mSTRING_LITERAL
+374 ,
+	mCONSTANT
 =263
 
-373 ,
-	mSIZEOF
+375 ,
+	mSTRING_LITERAL
 =264
 
-374 ,
-	mPTR_OP
+376 ,
+	mSIZEOF
 =265
 
-375 ,
-	mINC_OP
+377 ,
+	mPTR_OP
 =266
 
-376 ,
-	mDEC_OP
+378 ,
+	mINC_OP
 =267
 
-377 ,
-	mLEFT_OP
+379 ,
+	mDEC_OP
 =268
 
-378 ,
-	mRIGHT_OP
+380 ,
+	mLEFT_OP
 =269
 
-379 ,
-	mLE_OP
+381 ,
+	mRIGHT_OP
 =270
 
-380 ,
-	mGE_OP
+382 ,
+	mLE_OP
 =271
 
-381 ,
-	mEQ_OP
+383 ,
+	mGE_OP
 =272
 
-382 ,
-	mNE_OP
+384 ,
+	mEQ_OP
 =273
 
-383 ,
-	mAND_OP
+385 ,
+	mNE_OP
 =274
 
-384 ,
-	mOR_OP
+386 ,
+	mAND_OP
 =275
 
-385 ,
-	mMUL_ASSIGN
+387 ,
+	mOR_OP
 =276
 
-386 ,
-	mDIV_ASSIGN
+388 ,
+	mMUL_ASSIGN
 =277
 
-387 ,
-	mMOD_ASSIGN
+389 ,
+	mDIV_ASSIGN
 =278
 
-388 ,
-	mADD_ASSIGN
+390 ,
+	mMOD_ASSIGN
 =279
 
-389 ,
-	mSUB_ASSIGN
+391 ,
+	mADD_ASSIGN
 =280
 
-390 ,
-	mLEFT_ASSIGN
+392 ,
+	mSUB_ASSIGN
 =281
 
-391 ,
-	mRIGHT_ASSIGN
+393 ,
+	mLEFT_ASSIGN
 =282
 
-392 ,
-	mAND_ASSIGN
+394 ,
+	mRIGHT_ASSIGN
 =283
 
-393 ,
-	mXOR_ASSIGN
+395 ,
+	mAND_ASSIGN
 =284
 
-394 ,
-	mOR_ASSIGN
+396 ,
+	mXOR_ASSIGN
 =285
 
-395 ,
-	mTYPE_NAME
+397 ,
+	mOR_ASSIGN
 =286
 
-396 ,
-	mTYPEDEF
+398 ,
+	mTYPE_NAME
 =287
 
-397 ,
-	mEXTERN
+399 ,
+	mTYPEDEF
 =288
 
-398 ,
-	mSTATIC
+400 ,
+	mEXTERN
 =289
 
-399 ,
-	mAUTO
+401 ,
+	mSTATIC
 =290
 
-400 ,
-	mREGISTER
+402 ,
+	mAUTO
 =291
 
-401 ,
-	mCHAR
+403 ,
+	mREGISTER
 =292
 
-402 ,
-	mSHORT
+404 ,
+	mCHAR
 =293
 
-403 ,
-	mINT
+405 ,
+	mSHORT
 =294
 
-404 ,
-	mLONG
+406 ,
+	mINT
 =295
 
-405 ,
-	mSIGNED
+407 ,
+	mLONG
 =296
 
-406 ,
-	mUNSIGNED
+408 ,
+	mSIGNED
 =297
 
-407 ,
-	mFLOAT
+409 ,
+	mUNSIGNED
 =298
 
-408 ,
-	mDOUBLE
+410 ,
+	mFLOAT
 =299
 
-409 ,
-	mCONST
+411 ,
+	mDOUBLE
 =300
 
-410 ,
-	mVOLATILE
+412 ,
+	mCONST
 =301
 
-411 ,
-	mVOID
+413 ,
+	mVOLATILE
 =302
 
-412 ,
-	mSTRUCT
+414 ,
+	mVOID
 =303
 
-413 ,
-	mUNION
+415 ,
+	mSTRUCT
 =304
 
-414 ,
-	mENUM
+416 ,
+	mUNION
 =305
 
-415 ,
-	mELLIPSIS
+417 ,
+	mENUM
 =306
 
-416 ,
-	mCASE
+418 ,
+	mELLIPSIS
 =307
 
-417 ,
-	mDEFAULT
+419 ,
+	mCASE
 =308
 
-418 ,
-	mIF
+420 ,
+	mDEFAULT
 =309
 
-419 ,
-	mELSE
+421 ,
+	mIF
 =310
 
-420 ,
-	mSWITCH
+422 ,
+	mELSE
 =311
 
-421 ,
-	mWHILE
+423 ,
+	mSWITCH
 =312
 
-422 ,
-	mDO
+424 ,
+	mWHILE
 =313
 
-423 ,
-	mFOR
+425 ,
+	mDO
 =314
 
-424 ,
-	mGOTO
+426 ,
+	mFOR
 =315
 
-425 ,
-	mCONTINUE
+427 ,
+	mGOTO
 =316
 
-426 ,
-	mBREAK
+428 ,
+	mCONTINUE
 =317
 
-427 ,
-	mRETURN
+429 ,
+	mBREAK
 =318
 
-434 
+430 ,
+	mRETURN
+=319
+
+437 
 	gpublic
 :
 
-435 
+438 
 YY_·r£_PARSE
 (
 YY_·r£_PARSE_PARAM
 );
 
-436 
+439 
 vœtu®
  
 	$YY_·r£_ERROR
@@ -11599,15 +11943,15 @@ msg
 YY_·r£_ERROR_BODY
 ;
 
-437 #ifdeà
+440 #ifdeà
 YY_·r£_PURE
 
 
-438 #ifdeà
+441 #ifdeà
 YY_·r£_LSP_NEEDED
 
 
-439 
+442 
 vœtu®
  
 	$YY_·r£_LEX
@@ -11623,7 +11967,7 @@ YY_·r£_LLOC
 YY_·r£_LEX_BODY
 ;
 
-441 
+444 
 vœtu®
  
 	$YY_·r£_LEX
@@ -11635,7 +11979,7 @@ YY_·r£_LVAL
 YY_·r£_LEX_BODY
 ;
 
-444 
+447 
 vœtu®
  
 	$YY_·r£_LEX
@@ -11643,73 +11987,73 @@ vœtu®
 YY_·r£_LEX_BODY
 ;
 
-445 
+448 
 YY_·r£_STYPE
  
 YY_·r£_LVAL
 ;
 
-446 #ifdeà
+449 #ifdeà
 YY_·r£_LSP_NEEDED
 
 
-447 
+450 
 YY_·r£_LTYPE
  
 YY_·r£_LLOC
 ;
 
-449 
+452 
 YY_·r£_NERRS
 ;
 
-450 
+453 
 YY_·r£_CHAR
 ;
 
-452 #ià
+455 #ià
 YY_·r£_DEBUG
  != 0
-
-453 
-public
-:
-
-454 
-YY_·r£_DEBUG_FLAG
-;
 
 456 
 public
 :
 
-457 
+457 
+YY_·r£_DEBUG_FLAG
+;
+
+459 
+public
+:
+
+460 
 	`YY_·r£_CLASS
 (
 YY_·r£_CONSTRUCTOR_PARAM
 );
 
-458 
+461 
 public
 :
 
-459 
+462 
 YY_·r£_MEMBERS
 
 
-460 
+463 
 	}
 };
 
-465 #ià
+468 #ià
 YY_·r£_COMPATIBILITY
  != 0
 
-472 #iâdeà
+475 #iâdeà
 YYLTYPE
 
 
-473 
+476 
 	#YYLTYPE
  
 YY_·r£_LTYPE
@@ -11717,15 +12061,15 @@ YY_·r£_LTYPE
 
 	)
 
-475 #iâdeà
+478 #iâdeà
 YYDEBUG
 
 
-476 #ifdeà
+479 #ifdeà
 YY_·r£_DEBUG
 
 
-477 
+480 
 	#YYDEBUG
  
 YY_·r£_DEBUG

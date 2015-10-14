@@ -52,6 +52,23 @@ int main (int argc, char ** argv)
 
 typedef int (myfunc)(int i, char c);
 typedef struct tcl_event tcl_event;
-struct tcl_event {
+typedef struct tcl_event {
     int a;
+}kkk;
+
+int f(void)
+{
+    kkk mykkk;
+    printf ("sigh");
+    return 0;
+}
+
+typedef struct mys mys;
+struct mys {
+    struct mys *pNext;
+    struct myss {
+        int n;
+        char cc;
+    }dddddddd;
+    kkk n;
 };
