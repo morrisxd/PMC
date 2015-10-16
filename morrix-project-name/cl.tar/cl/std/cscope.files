@@ -1,0 +1,9 @@
+./y.tab.h
+./hello.c
+./symtab.c
+./cl-standard.tab.h
+./cl-standard.y
+./test.c
+./symtab.h
+./cl-standard.tab.c
+./c-standard.l

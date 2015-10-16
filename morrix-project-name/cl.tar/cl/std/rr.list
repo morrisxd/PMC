@@ -1,0 +1,74 @@
+#include <stdio.h>
+#include <string.h>
+/*
+this is a comment sample
+*/
+
+
+typedef enum {
+    hello1<s(0)(0)(0)>[&],
+    word1<s(0)(0)(0)>[&],
+} LED_ST1<s(0)(0)(0)>[&];(D1:LED_ST1:1)[[TYPENAME:LED_ST1]]
+
+
+static __inline const char *CTD_StrError<s(0)(0)(0)>[&](int code<s(0)(0)(0)>[&])
+{
+    int i<s(0)(0)(0)>[&];(D1:i:0)
+}
+struct student_info<s(1)(0)(1)>[&] {
+    char name<s(1)(1)(0)>[&][128];
+    int age<s(1)(1)(0)>[&];
+    int score<s(1)(1)(0)>[&];
+    struct student_info<s(2)(1)(1)>[&] *p<s(1)(1)(0)>[&];
+};
+
+typedef struct student<s(1)(0)(1)>[&] {
+    int age<s(1)(1)(0)>[&];
+    char name<s(1)(1)(0)>[&][16];
+} student<s(0)(0)(0)>[&];(D1:student:1)[[TYPENAME:student]]
+
+typedef int myint<s(0)(0)(0)>[&];(D1:myint:1)[[TYPENAME:myint]]
+
+int main<s(0)(0)(0)>[&] (int argc<s(0)(0)(0)>[&], char ** argv<s(0)(0)(0)>[&])
+{
+    struct clock<s(1)(0)(1)>[&];
+    int ii<s(0)(0)(0)>[&] =(D2) 0;
+    const int iii<s(0)(0)(0)>[&];(D1:iii:0)
+    int kk<s(0)(0)(0)>[&];(D1:kk:0)
+    myint<s(0)(0)(0)>[T] iiii<s(0)(0)(0)>[&];(D1:iiii:0)
+    student<s(0)(0)(0)>[T] sss<s(0)(0)(0)>[&];(D1:sss:0)
+
+	struct clock<s(1)(0)(1)>[&] {
+		int i<s(1)(1)(0)>[&];
+        char c<s(1)(1)(0)>[&];
+	}clock<s(0)(0)(0)>[&];(D1:clock:0)
+    int age<s(0)(0)(0)>[&] =(D2) 0;
+
+	printf<s(0)(0)(0)>[&] ("Hello world\n(%*s)\n", 60, "fuck");
+	printf<s(0)(0)(0)>[&] ("(%*s)\n", 60, "fiiiiiiiiiiiiiiiiuck");
+
+	return 0;
+}
+
+typedef int (myfunc<s(0)(0)(0)>[&])TYPENAME:FUNC:(myfunc)(int i<s(0)(0)(0)>[&], char c<s(0)(0)(0)>[&]);(D1:c:0)
+typedef struct tcl_event<s(1)(0)(1)>[&] tcl_event<s(1)(0)(1)>[&];(D1:tcl_event:1)[[TYPENAME:tcl_event]]
+typedef struct tcl_event<s(1)(0)(1)> {
+    int a<s(1)(1)(0)>[&];
+}kkk<s(0)(0)(0)>[&];(D1:kkk:1)[[TYPENAME:kkk]]
+
+int f<s(0)(0)(0)>[&](void)
+{
+    kkk<s(0)(0)(0)>[T] mykkk<s(0)(0)(0)>[&];(D1:mykkk:0)
+    printf<s(0)(0)(0)>[&] ("sigh");
+    return 0;
+}
+
+typedef struct mys<s(1)(0)(1)>[&] mys<s(1)(0)(1)>[&];(D1:mys:1)[[TYPENAME:mys]]
+struct mys<s(1)(0)(1)> {
+    struct mys<s(2)(1)(1)> *pNext<s(1)(1)(0)>[&];
+    struct myss<s(2)(1)(1)>[&] {
+        int n<s(2)(1)(0)>[&];
+        char cc<s(2)(1)(0)>[&];
+    }dddddddd<s(1)(0)(0)>[&];
+    kkk<s(1)(0)(0)>[T] n<s(1)(0)(0)>[&];
+};
