@@ -1,20 +1,3 @@
-<<<<<<< HEAD
-#include <stdio.h>
-
-int main (int argc, char ** argv)
-{
-	struct clock {
-		int i;
-		struct finger {
-			char name[128];
-		} myfinger;
-	};
-
-	printf ("Hello world\n");
-
-	return 0;
-}
-=======
 #include <stdio.h>
 #include <string.h>
 /*
@@ -89,4 +72,3 @@ struct mys {
     }dddddddd;
     kkk n;
 };
->>>>>>> 26367c5e5efc49e0321b0abfa018e3da71d41acf
