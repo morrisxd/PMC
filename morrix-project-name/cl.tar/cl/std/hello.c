@@ -54,11 +54,17 @@ typedef int (myfunc)(int i, char c);
 typedef struct tcl_event tcl_event;
 typedef struct tcl_event {
     int a;
+    struct tcl_event * pNext;
 }kkk;
 
 int f(void)
 {
     kkk mykkk;
+    kkk * p = &mykkk;
+
+    p->pNext = &mykkk;
+    *((void *)p->pNext) ++ = (void *)0;
+
     printf ("sigh");
     return 0;
 }
@@ -72,3 +78,5 @@ struct mys {
     }dddddddd;
     kkk n;
 };
+
+

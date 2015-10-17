@@ -1,0 +1,20 @@
+
+Sat Oct 17 17:32:17 CST 2015
+==========================================
+Errors Compiling GCC 3.2.2 on Fedora Core4
+
+From: Andy Herzig <andy at digiplumb dot com>
+To: gcc-help at gcc dot gnu dot org
+Date: Wed, 04 Jan 2006 19:52:40 -0500
+Subject: Errors Compiling GCC 3.2.2 on Fedora Core4
+Edit the file include/obstack.h in the gcc-3.2.2 source package. Go to line 423 and change it from:
+*((void **)__o->next_free)++ = ((void *)datum); \
+to:
+*((void **)__o->next_free) = ((void *)datum); \
+and add the line
+__o->next_free += sizeof(void *); \
+immediately beneath.
+
+Don't forget the "\" at the ends of the lines after the ";". They are part of the code. I did this on FC4 after having the exact same problems. Everything compiled and installed fine after that. This patch comes from Adrian Reber (https://www.redhat.com/archives/fedora-extras-list/2005-March/msg01037.html)
+
+Andy H.
