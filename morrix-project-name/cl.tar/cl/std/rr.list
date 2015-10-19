@@ -54,11 +54,17 @@ typedef int (myfunc<s(0)(0)(0)>[&])TYPENAME:FUNC:(myfunc)(int i<s(0)(0)(0)>[&], 
 typedef struct tcl_event<s(1)(0)(1)>[&] tcl_event<s(1)(0)(1)>[&];(D1:tcl_event:1)[[TYPENAME:tcl_event]]
 typedef struct tcl_event<s(1)(0)(1)> {
     int a<s(1)(1)(0)>[&];
+    struct tcl_event<s(2)(1)(1)> * pNext<s(1)(1)(0)>[&];
 }kkk<s(0)(0)(0)>[&];(D1:kkk:1)[[TYPENAME:kkk]]
 
 int f<s(0)(0)(0)>[&](void)
 {
     kkk<s(0)(0)(0)>[T] mykkk<s(0)(0)(0)>[&];(D1:mykkk:0)
+    kkk<s(0)(0)(0)>[T] * p<s(0)(0)(0)>[&] =(D2) &mykkk<s(0)(0)(0)>[&];
+
+    p<s(0)(0)(0)>[&]->pNext<s(0)(0)(0)>[&] = &mykkk<s(0)(0)(0)>[&];
+    *((void *)p<s(0)(0)(0)>[&]->pNext<s(0)(0)(0)>[&]) ++ = (void *)0;
+
     printf<s(0)(0)(0)>[&] ("sigh");
     return 0;
 }
@@ -72,3 +78,5 @@ struct mys<s(1)(0)(1)> {
     }dddddddd<s(1)(0)(0)>[&];
     kkk<s(1)(0)(0)>[T] n<s(1)(0)(0)>[&];
 };
+
+
