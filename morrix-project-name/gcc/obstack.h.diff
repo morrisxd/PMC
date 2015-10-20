@@ -1,0 +1,5 @@
+426,427c426
+<    *((void **)__o->next_free) = ((void *)datum);			\
+<    __o->next_free += sizeof(void *);                        \
+---
+>    *((void **)__o->next_free)++ = ((void *)datum);			\
