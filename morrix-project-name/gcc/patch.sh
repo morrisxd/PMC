@@ -1,4 +1,5 @@
 sudo apt-get update
+sudo apt-get install -y autoconf
 sudo apt-get install -y libc6_dev
 sudo apt-get install -y g++-multilib
 sudo apt-get install -y libc6-dev-i386
