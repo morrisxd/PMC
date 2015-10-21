@@ -1,4 +1,10 @@
 sudo apt-get update
+sudo apt-get install -y git
+# git clone git://git.sv.gnu.org/libredwg.git
+sudo apt-get install -y libxml2-dev
+sudo apt-get install -y libxml2
+sudo apt-get install -y automake
+sudo apt-get install -y libtool
 sudo apt-get install -y autoconf
 sudo apt-get install -y libc6_dev
 sudo apt-get install -y g++-multilib
