@@ -1,6 +1,0 @@
-ctags -R
-make TEST=enet_oam 2>&1 | tee make.log
-copy_to_tftpboot.sh
-cd bin
-# up enet_oam.exe bin
-

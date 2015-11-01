@@ -1,6 +1,0 @@
-ctags -R
-make TEST=mlppp_ppp_tdm.c 2>&1 | tee make.log
-cd bin
-up mlppp_ppp_tdm.exe bin
-
-

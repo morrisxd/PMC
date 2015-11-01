@@ -1,2 +1,0 @@
-make TEST=provider_bridge
-cd bin; mv provider_bridge pb; ftp 10.188.116.32

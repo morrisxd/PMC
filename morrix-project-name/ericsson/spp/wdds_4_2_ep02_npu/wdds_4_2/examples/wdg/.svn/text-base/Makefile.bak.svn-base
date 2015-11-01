@@ -1,7 +1,0 @@
-all: wdg
-wdg: wdg.c
-	gcc -g -Wall  -o ../bin/wdg wdg.c
-
-clean:
-	rm -f wdg
-	rm -f *~

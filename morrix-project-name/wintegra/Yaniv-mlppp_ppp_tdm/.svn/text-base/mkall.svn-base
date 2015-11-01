@@ -1,7 +1,0 @@
-#!/bin/sh
-cd ../../../dps/sources/build
-./mk
-cd ../../..
-./mk
-cd myapp/refapp/ppp_hdlc_tdm
-# ./mks
