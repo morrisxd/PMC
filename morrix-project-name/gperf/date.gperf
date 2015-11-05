@@ -1,0 +1,38 @@
+%{
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+
+typedef (*FUNCPTR)();
+void show_msg()
+{
+	printf ("Hello World\n");
+}
+%}
+struct oam {
+	char *name;
+	int date;
+	FUNCPTR ptr;
+};
+%%
+"Jan", 		31, (void *)0
+"Feb", 		31, (void *)0
+"March", 	31, (void *)0
+"April", 	31, show_msg
+"May", 		31, (void *)0
+"Jun", 		31, (void *)0
+"July", 	31, (void *)0
+"Aug", 		31, (void *)0
+"Sep", 		31, (void *)0
+"Oct", 		31, (void *)0
+%%
+int main()
+{
+	struct oam * mm = (void *)0;
+	char * mon = "April";
+	mm = in_word_set(mon, strlen(mon));
+	printf ("name(%s),day(%d)\n", mm->name, mm->date);
+	mm->ptr();
+
+	return 0;
+}
