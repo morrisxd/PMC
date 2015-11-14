@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 
 # Basic HTML Title Retriever - Chapter 7 - basictitle.py
-
+# http://bbs.fudan.sh.cn/bbs/doc?bid=523
 from HTMLParser import HTMLParser
-import sys
+import sys,urllib2
 
 class TitleParser(HTMLParser):
 	def __init__(self):
@@ -12,7 +12,7 @@ class TitleParser(HTMLParser):
 		HTMLParser.__init__(self)
 
 	def handle_starttag(self, tag, attrs):
-		if tag == 'title':
+ 		if tag == 'title':
 			self.readingtitle = 1
 
 	def handle_data(self, data):
@@ -29,8 +29,21 @@ class TitleParser(HTMLParser):
 	def gettitle(self):
 		return self.title
 
-fd = open(sys.argv[1])
+
+req = urllib2.Request(sys.argv[1])
+
+print "argv[1]=", sys.argv[1]
+
+fd = urllib2.urlopen(req)
+while 1:	# loop statement, end with ':'
+	data = fd.read(1024)
+	if not len(data):	# if statment, end with ':', same as loop
+		break;
+	sys.stdout.write(data)
+
+#fd = open(sys.argv[1])
 tp = TitleParser()
-tp.feed(fd.read())
+#tp.feed(fd.read())
+tp.feed(data)
 print "Title is:", tp.gettitle()
 
